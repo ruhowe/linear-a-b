@@ -557,3 +557,10 @@ numbers only" now point to it. Two guide sentences were tightened: the machine K
 method is tested on Linear B and still depends on the sign list being right, and the
 text floor is given per bar, with the easier bar already within Linear A's size.
 CITATION.cff now lists both licences.
+
+A third read found three residuals, all taken: the guard test now looks at values as
+well as key names (hyphenated runs of three or more signs, and label lists kept in
+reading order), LICENSE.md says the prose quotes published readings from the works it
+discusses, and kober-method.md's "nothing derived from the corpora" is scoped to the
+Kober line. The reviewer's closing advice was that the next pass should be a specialist
+on the Kober reference list, the one lever nothing in the repository can check.

@@ -49,9 +49,13 @@ some of them. Counted from the files:
 
 These are a few dozen items from corpora of 54,476 and 6,406 words, included for
 verification and criticism. They are the only word forms in the repository's data
-files; the prose documents quote some of the same readings when discussing them.
-`tests/test_word_forms.py` fails if a word-shaped field appears in any other results or
-spike file, or if these counts stop matching the files. If a rights holder objects, the
+files. The prose documents, including the Markdown write-ups under `results/` and
+`spikes/`, quote published readings from the works they discuss, under the quotation line
+above.
+`tests/test_word_forms.py` checks every JSON file under `results/` and `spikes/` outside
+the exception for the word fields the toponym files use, for any hyphenated run of three
+or more sign labels, and for any unsorted list of three or more labels, and fails if one
+appears or if these counts stop matching the files. If a rights holder objects, the
 forms will be replaced by index numbers.
 
 ## Sources, not included, and their terms

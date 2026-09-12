@@ -508,8 +508,9 @@ scripts/kober_list_tiebreak_table.py # Kober 0.7: reads results/kober-list-tiebr
                         # figures (A-122)
 ```
 
-Nothing derived from the corpora is written inside the repository. Word lists go to
-`~/.cache/linear-a-b/kober/`.
+Nothing derived from the corpora is written inside the repository by the Kober line.
+Word lists go to `~/.cache/linear-a-b/kober/`. The repository's one exception, the
+value-transfer test's readings, is in `LICENSE.md` and does not apply here.
 
 **SigLA (A-002, "Segmentation sensitivity on Linear A" in CHANGELOG).** `sigla` is a
 second Linear A edition with its own word division (`aegean.load("sigla")`), gated by

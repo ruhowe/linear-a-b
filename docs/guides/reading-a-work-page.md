@@ -18,12 +18,14 @@ quality. A careful peer-reviewed paper we only saw an abstract of gets a P.
 
 | Flag | Meaning |
 |---|---|
-| **Y** | We fetched and read the primary source |
+| **V** | We read the primary source in full |
+| **Y** | We fetched and read the primary source, at least the passages the page relies on |
 | **P** | We have only seen it restated in a review, an index record or a later paper |
 | **S** | We have only seen a search-result snippet |
 | **N** | Not checked |
 
-Twenty-three of fifty-six pages are currently P or S. Anything below Y should be
+On 2026-09-13, after a pass that re-checked every P and S page, 21 of 80 pages are P or S;
+the README's scope section carries the current count, checked by a test. Anything below Y should be
 re-verified before it appears in something published. To list them:
 
 ```bash

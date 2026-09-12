@@ -8,8 +8,8 @@ ref: 10.1073/pnas.2003794117
 scripts: [other]
 domains: [computational]
 standing: accepted
-verified: P
-verified_on: 2026-09-11
+verified: Y
+verified_on: 2026-09-13
 access: open
 tested_by: []
 ---
@@ -29,12 +29,19 @@ RNN restoration of Akkadian, compared against a simple 2-gram baseline.
 
 ## Our assessment
 
-Verification **P**. We have only seen this restated elsewhere, in a review, index record or
-later paper. Re-verify before citing it in print.
+Verification **Y**. We fetched and read the primary source.
 
 Reporting a non-neural baseline is standard in ancient-text restoration outside the Aegean.
 
 Graded in the prior-art ledger of [claims.md](../ai_context/claims.md).
+
+Checked 2026-09-13: read the full text at PubMed Central
+(https://pmc.ncbi.nlm.nih.gov/articles/PMC7502733/), PMC7502733, open access. Title,
+authors, journal, volume, issue and pages all confirmed against Crossref and the article
+itself. The claim that the RNN restoration is compared against a simple 2-gram baseline is
+confirmed: the paper reports LSTM test perplexity of 5.05 against 11.60 for the 2-gram
+baseline, and 85.4% versus 74.8% top-1 token completion accuracy, stating "the RNN greatly
+outperforms the n-gram baseline." Nothing on the page needed correction.
 
 ## Discussion
 

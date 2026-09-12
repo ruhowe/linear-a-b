@@ -564,3 +564,23 @@ reading order), LICENSE.md says the prose quotes published readings from the wor
 discusses, and kober-method.md's "nothing derived from the corpora" is scoped to the
 Kober line. The reviewer's closing advice was that the next pass should be a specialist
 on the Kober reference list, the one lever nothing in the repository can check.
+
+## 2026-09-13 · Phase 47 · Every P and S page re-checked
+
+The other session's closing review named one remaining risk, a wrong citation, and the
+29 pages below Y as where it would be. Four Sonnet agents checked them in parallel, one
+subject group each, against primary sources through open routes only, and the session
+reviewed every change. Eight pages rose to Y on a primary read (Steele and Meißner 2017,
+Salgarella and Judson 2024, Petrolito 2015, Revesz's 2017 paper, Rao 2009, Shannon 1949,
+Goldsmith 2001, Fetaya 2020); two snippets became pointers; the count is now 59 primary,
+16 pointer, 5 snippet. The errors found were real. The Steele and Meißner page had its
+conclusion backwards: the paper defends projecting Linear B values onto Linear A in
+principle and says it leaves the language unknown, so the survey's three attributions of
+the circularity argument to them now say that argument is this repository's. The Davis
+2026 page quoted a review of a different book, and the survey misquoted that review's
+wording. The Judson page carried review wording, a wrong sign list and two claims its
+underlying thesis contradicts; it now keeps the thesis and the unread book apart. The
+Owens page had merged two works. The review also caught two agent errors: a Petrolito
+author order "corrected" into a wrong one, restored from the ACL Anthology record, and a
+Monti claim marked unconfirmed that is in the article's own abstract. Facchetti 1999
+remains unread, the local PDF being his companion paper, so C-4a stays open.

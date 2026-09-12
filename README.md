@@ -115,8 +115,8 @@ This is not a comprehensive catalogue of Aegean-script scholarship, and it does 
 to be. It is a targeted one. The catalogue holds the works that bear on the two methods
 tested here, the published decipherment claims those methods can be pointed at, the
 computational literature on both scripts, and the editions and data sources everything
-rests on. At 2026-09-12: 80 works, of which 51 are verified from a primary text (flags Y
-and V), 19 are recorded from a reliable pointer but unread (P), and 10 rest on a search
+rests on. At 2026-09-12: 80 works, of which 59 are verified from a primary text (flags Y
+and V), 16 are recorded from a reliable pointer but unread (P), and 5 rest on a search
 snippet (S); 43 concern Linear A and 28 Linear B, some both, the rest analogues from other
 scripts and from computational linguistics. The verification flag on every page says
 which, and `tests/test_readme_counts.py` checks these figures against the pages.

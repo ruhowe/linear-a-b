@@ -9,7 +9,7 @@ scripts: [A]
 domains: [philology, computational]
 standing: untested
 verified: S
-verified_on: 2026-09-11
+verified_on: 2026-09-13
 access: paywalled
 tested_by: []
 ---
@@ -39,6 +39,21 @@ UNREAD. The title suggests statistical treatment of Linear A morphology, the sub
 repo's C-4a. Until it is read, C-4a may not be called new.
 
 Graded in the prior-art ledger of [claims.md](../ai_context/claims.md).
+
+Checked 2026-09-13: confirmed title, author, journal, volume, issue and pages exactly
+against the Crossref API record for the DOI (`10.1515/kadm.1999.38.1-2.1`): "STATISTICAL
+DATA AND MORPHEMATIC ELEMENTS IN LINEAR A", G. M. Facchetti, *Kadmos* 38(1-2), pp. 1-11,
+1999. No correction needed to the frontmatter. Tried to read the paper itself for the
+open item at claims.md C-4a: the De Gruyter page returns no abstract to an unauthenticated
+fetch, the paper is not on JSTOR (Kadmos is not a JSTOR title), and no open copy turned up
+on archive.org, Google Books, academia.edu or ResearchGate under Facchetti's name; only his
+companion paper in the same issue, "Non-onomastic elements in Linear A" (pp. 121-136,
+[facchetti1999b](facchetti1999b.md)), is available locally, in `private/facchetti1999/` and
+`~/.cache/linear-a-b/reference/facchetti-1999-non-onomastic.pdf`, and that PDF is confirmed
+by its own running heads (pp. 122-123 read directly) to be the companion, not this paper.
+Facchetti1999b's footnote 7 cites this paper exactly as "G. M. Facchetti, *Statistical data
+and morphematic elements in Linear A*, Kadmos 38, 1999, p. 1 ff.", confirming it exists and
+is distinct. C-4a stays open; the paper remains unread. Flag stays S.
 
 ## Discussion
 

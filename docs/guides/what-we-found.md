@@ -101,7 +101,8 @@ Everything below had some earlier version. What was added here is marked in each
   names from Knossos more often than any random version does, and concluded that at least
   some of the borrowed sounds are right. Reviewers at the time accepted this. Greek-looking
   words have also been picked out of Linear A by eye, in a body of work still being argued
-  over. Steele and Meißner warned that borrowed sounds make such findings circular.
+  over. Steele and Meißner (2017) argued that the borrowed sounds are legitimate in principle,
+  and that reading Linear A with them still leaves its language unknown.
 - **Added here:** a measurement. With the borrowed sounds, Linear A matches a Greek dictionary
   about as well as genuine Greek text does.
 - **What this means (and so what):** the borrowed sounds are Greek sounds, and Minoan and

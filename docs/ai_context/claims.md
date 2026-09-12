@@ -468,20 +468,20 @@ One row per (atom, work). Grades, relations and awareness from the tables above 
 | C-1a | hauer2016 | Shown elsewhere | is qualified by | known | Character n-grams identify the language of known texts at 97% over 380 languages | Y |
 | C-1a | luo2021 | Shown elsewhere | confirms | known | Iberian against Basque, "no strong evidence", at about Linear A's scale | Y |
 | C-1a | raghavendra2026 | Shown elsewhere | transfers | built on | Indus dictionary matching falls from in-sample to grouped held-out coverage | Y |
-| C-1a | ringe1992 | Shown elsewhere | transfers | independent | Probability of chance lexical matches between unrelated word lists | S |
+| C-1a | ringe1992 | Shown elsewhere | transfers | independent | Probability of chance lexical matches between unrelated word lists | P |
 | C-1a | adkins2026 | Stated | measures | known | "Statistical pattern matching can't manufacture meaning out of nothing. It needs an anchor" | Y |
 | C-1b | packard1974 | Precursor | complements | built on | Weights each class of evidence by how well it beats random values, and dismisses Pylos matches as "nearly worthless" (p. 91); we add wrong real languages | Y |
 | C-1c | packard1974 | Precursor | confirms | built on | Linear B values match Knossos names more than any random set: "at least some of the Linear B phonetic values are valid for Linear A" (p. 93) | Y |
 | C-1c | wyatt1976 | Stated | confirms | independent | Review of Packard: "significantly more matches if Linear B values are assigned than with any of the random decipherments. I find his results convincing" | Y |
 | C-1c | owens1999 | Precursor | measures | known | Reads apparently Greek or Indo-European words in Linear A under Linear B values, by eye | S |
-| C-1c | steele2017 | Stated | measures | known | Projecting Linear B values back onto Linear A makes a language claim circular | P |
+| C-1c | steele2017 | Stated | complements | known | Projecting Linear B values onto Linear A is legitimate in principle, and reading Linear A with them leaves its language unknown (pp. 93-110); the word circular is this repo's | Y |
 | C-2a | hauer2016 | Shown elsewhere | transfers | known | Hebrew tops their Voynich ranking; hedged as an artefact of anagramming's combinatorial power | Y |
 | C-2a | peronocacciafoco_programme | Stated | measures | known | Semitic has "very little in common" with the libation-table words | Y |
 | C-2a | gordon1966 | Stated | measures | built on | Reviewers: his matches are drawn across several Semitic languages, not one | S |
 | C-2a | packard1974 | Precursor | confirms | built on | "If vowels are ignored, the random decipherments produce hundreds of matches ... The Linear B values produce more but not by an impressive margin" (p. 90): the consonant-only channel inflates matches for wrong values | Y |
-| C-2b | kessler2001 | Shown elsewhere | transfers | independent | Word-list and procedure choices change significance in lexical comparison | S |
+| C-2b | kessler2001 | Shown elsewhere | transfers | independent | Word-list and procedure choices change significance in lexical comparison | P |
 | C-3a | kober1946 | Precursor | replicates | known | Three cases for two noun types from under 750 sign groups, seven stated assumptions, bar "two or more" (fn. 7); no count against chance | V |
-| C-3a | goldsmith2001 | Shown elsewhere | transfers | independent | Unsupervised stem and suffix induction by minimum description length | P |
+| C-3a | goldsmith2001 | Shown elsewhere | transfers | independent | Unsupervised stem and suffix induction by minimum description length | Y |
 | C-3a | snyder2010 | Shown elsewhere | transfers | known | Prefix-stem-suffix model recovers Ugaritic given Hebrew | Y |
 | C-3b | kober1948 | Precursor | replicates | built on | Tentative ten-sign grid without values, AJA 52:97–98 | P |
 | C-3b | ventris_chadwick1973 | Precursor | replicates | built on | Full grid by combinatory analysis, checked by reading place names | Y |
@@ -503,14 +503,14 @@ One row per (atom, work). Grades, relations and awareness from the tables above 
 | C-5a | knight_yamada1999 | Shown elsewhere | transfers | known | Kana decipherment accuracy against text size: 5 sentences 48.5%, 100 sentences 97.5% | Y |
 | C-5a | ravi_knight2008 | Shown elsewhere | transfers | independent | Cipher decipherment error against cipher length, 2 to 256 characters | Y |
 | C-5a | barber1974 | Shown elsewhere | measures | known | Unicity about 225 signs for a 100-sign syllabary treated as a substitution cipher (p. 204); "the practical minimum is much higher, and higher by an as yet undetermined amount" (p. 238); calls for "statistical analysis of different-sized language samples" (p. 237) | V |
-| C-5a | shannon1949 | Stated | measures | known | Unicity distance: the text length past which a cipher's solution is unique | S |
+| C-5a | shannon1949 | Stated | measures | known | Unicity distance: the text length past which a cipher's solution is unique | Y |
 | C-5a | taylor1976 | Stated | measures | independent | Review of Packard: "In view of the paucity of Linear A material an independent decipherment, such as was possible with Linear B, is unlikely" | Y |
 | C-5a | wyatt1976 | Stated | measures | independent | Classification needs "a large corpus", a condition that does not apply "with Linear A" | Y |
 | C-5a | braovic2024 | Stated | measures | known | Small dataset size is a challenge that "might be impossible" to overcome | Y |
 | C-5b | kober1946 | Precursor | is qualified by | known | "less than 750 in all" different sign groups; three cases set up; "there is not enough material to work with" (p. 276) | V |
 | C-6a | papavassileiou2023 | Precursor | extends | built on | Their Table 2: bidirectional 3-gram top-1 44.64% against their BRNN's 48.34% on series D | Y |
 | C-6a | assael2022 | Shown elsewhere | transfers | known | Ithaca reports Pythia and a human onomastics baseline | Y |
-| C-6a | fetaya2020 | Shown elsewhere | transfers | independent | Akkadian restoration RNN reported against a 2-gram baseline | P |
+| C-6a | fetaya2020 | Shown elsewhere | transfers | independent | Akkadian restoration RNN reported against a 2-gram baseline | Y |
 | C-6b | assael2022 | Shown elsewhere | transfers | known | Per-word accuracy plotted against training frequency, not a seen/unseen split | Y |
 | C-7a | adkins2026 | Stated | measures | known | Argues AI readings need an anchor; no count of secured values | Y |
 | C-7a | hn48600107 | Stated | measures | known | "Keep only W-J and assume *301 starts with N, then you get a claimed Semitic root" | Y |

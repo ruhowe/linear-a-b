@@ -9,7 +9,7 @@ scripts: [A]
 domains: [edition, resource]
 standing: accepted
 verified: P
-verified_on: 2026-09-10
+verified_on: 2026-09-13
 access: offline
 ---
 
@@ -31,6 +31,16 @@ Working transliterations and commentary that the whole field uses.
 Verification **P**. We have only seen this restated elsewhere, in a review, index record or later paper. Re-verify before citing it in print.
 
 Host server decommissioned 2024; now scattered PDFs, mirrored at lineara.xyz. A live example of the field's fragility.
+
+Checked 2026-09-13: confirmed the original host, `people.ku.edu/~jyounger`, is offline
+(DNS lookup fails, not just a dead page); the frontmatter's "offline" is accurate. Confirmed
+lineara.xyz is live and carries Younger's per-inscription commentary as a feature (press
+"y" on an inscription), and that Younger has said he moved to posting PDFs on academia.edu
+after KU eliminated the server in early 2024, matching the "→ Academia PDFs" in the venue
+line. Could not reach a specific academia.edu upload directly (403 to an unauthenticated
+fetch) to read the transliterations themselves, so the claim that "the whole field uses"
+these transliterations is not confirmed from the primary. Not confirmed from the primary,
+2026-09-13; it remains a plausible but unmeasured characterisation. Flag stays P.
 
 ## Discussion
 

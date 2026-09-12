@@ -10,7 +10,7 @@ Derived twice independently on 2026-09-10 — once from the restoration build (s
 
 - **A registry of calibration studies, not a framework.** Each entry takes one published claim, rebuilds the floor nobody built, runs it under matched controls, and reports what survives.
 - The scarce commodity in this field is a **calibrated result**, not a tool. Evidence: pyaegean ships 27 analysis modules, a TUI, an MCP server, a viz layer and a React web workbench, has a Zenodo DOI and a domain — and zero citations in the peer-reviewed literature this repo surveyed. Engineering completeness is not the binding constraint.
-- Everything here consumes corpus data and emits only aggregate metrics, so it never touches the NC/SA redistribution wall that blocks the field's most-wanted deliverable (Braović 2024 §9's unified dataset with candidate-language lexica).
+- Everything here consumes corpus data and emits aggregate metrics (the value-transfer test also stores the readings it tested, the one exception in LICENSE.md), so it stays clear of the NC/SA redistribution wall that blocks the field's most-wanted deliverable (Braović 2024 §9's unified dataset with candidate-language lexica).
 - Precedent, and near-proof of publishability: **SIGIL** (Raghavendra 2026, arXiv:2608.02999) is this exact thing for the Indus script — 54-method registry plus a synthetic non-language generator. Nothing equivalent exists for the Aegean scripts.
 
 ## Sequencing rule — read before writing any harness code

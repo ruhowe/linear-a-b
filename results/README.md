@@ -1,7 +1,10 @@
 # results/
 
-Aggregate numbers only, one JSON per run, each stamped with the protocol version that
-produced it. Nothing here is corpus text. The finding each file feeds is listed below;
+Aggregate numbers, one JSON per run, each stamped with the protocol version that
+produced it. One file set also holds word forms: the `toponym_test*` files, here and under
+`supplement-sensitivity/`, store the place-name readings tested, the personal names used
+as a control and the Linear A words that matched, so the test can be checked. That is the
+one exception in [LICENSE.md](../LICENSE.md); no other file holds corpus text. The finding each file feeds is listed below;
 the finding, not the file, is where a number is read.
 
 | file pattern | protocol | finding |
@@ -27,10 +30,9 @@ the finding, not the file, is where a number is read.
 | `kober-09/kober-damos-seed{0,1}.json` (full corpus), `-docsK-sN.json` (tablet-model subsamples at 988 word types, N the subsample seed 0-19, K from `kober-sweep/kober-sweep-tablet-size988-seedN.json`), `kober-09/kober-lineara-seed{0,1}.json` | Kober 0.9: medial channel (`medial` block, `--medial`), stage 1 unmerged | CHANGELOG "0.9" |
 | `kober-09-merged/` (same filenames as `kober-09/`) | Kober 0.9's identity sensitivity, `--merge-homophones`, same runs | CHANGELOG "0.9" |
 | `kober-sweep-09/kober-sweep-tablet-size{500,750,1250,1500,1750}-seedN.json` (N 0-19), `kober-sweep-09-summary.json`, `kober-sweep-09-summary.md` | Kober 0.9.1 stage 1, `--merge-homophones --reference-version 3`, tablet model only; the 988 and 3,768 cells are read from `kober-09-merged/` (not rerun) | CHANGELOG "Floor sweep under Kober 0.9.1, merged identities and reference list v3" |
-| `toponym_test.md`, `toponym_test-{gorila,sigla}-seed{0,1}.json` | Value transfer 1.0 (`scripts/toponym_test.py`). The one file set that stores word forms: 51 published place-name readings and 32 Knossos personal-name sign sequences, kept so the test can be checked (LICENSE.md, the one exception) | F-041 |
 | `kober-09/`, `kober-09-merged/`, `kober-context/` | Three different runs that share filenames because they cover the same corpus, seeds and subsamples: 0.9 unmerged, 0.9 with `--merge-homophones`, and 0.4's context channels. Contents differ; each is cited by its own finding or CHANGELOG entry, so none is a copy of another | see the rows above and FINDINGS |
 | `supplement-sensitivity/division/` (`toponym_test.md`, `toponym_test-gorila-seed{0,1}.json`, `kober-lineara-seed{0,1}.json`) | Supplement sensitivity 1.1, the four division variants appended | F-048 |
-| `toponym_test.md`, `toponym_test-{gorila,sigla}-seed{0,1}.json` | Value transfer 1.0 (`scripts/toponym_test.py`): four lexicons, two bandings, 400 draws, matched pairs as sign labels | F-041 |
+| `toponym_test.md`, `toponym_test-{gorila,sigla}-seed{0,1}.json` | Value transfer 1.0 (`scripts/toponym_test.py`): four lexicons, two bandings, 400 draws, matched pairs as sign labels. Holds word forms under the exception above; the supplement-sensitivity rows below reuse the same format | F-041 |
 | `supplement-sensitivity/toponym_test-gorila-seed{0,1}.json`, `supplement-sensitivity/toponym_test.md` (`--extra-word-types`, `--edition gorila`, `--results-dir`), `supplement-sensitivity/kober-lineara-seed{0,1}.json` (`--extra-word-types`, unmerged), `supplement-sensitivity/extension-check.md` | Supplement sensitivity 1.0: the four F-047 word types appended to the GORILA word-type set before Value transfer 1.0 and Kober 0.9.1 stage 1; no criterion, beside F-041's and `kober-09/kober-lineara-seed{0,1}.json`'s values | F-047 |
 
 Seeds: `seedN` is the null seed; `sN` after `sub` is the subsample seed. A file without

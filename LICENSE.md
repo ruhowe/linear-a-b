@@ -23,25 +23,36 @@ A Creative Commons licence conditions what copyright covers: copies of the licen
 material and adaptations that incorporate it. The files under `results/` and the spike
 results hold measurements about the corpora (counts, percentiles, z-scores, null
 distributions, and sign-label pairs such as JA/JO with the number of stems supporting
-them). Measurements are facts about a text and carry this repository's licence. The
-repository stores no corpus text: pyaegean fetches the corpora to `~/.cache/pyaegean/`,
+them). Measurements are facts about a text and carry this repository's licence. Apart
+from the exception below, the repository stores no corpus text: pyaegean fetches the corpora to `~/.cache/pyaegean/`,
 and every dataset built from them (sequences, samples, word lists) is written to
 `~/.cache/linear-a-b/`. This is the author's reading of the licences; no rights holder
 has been asked.
 
-**The one exception.** The value-transfer test (FINDINGS F-041) records the word forms it
-tested, so that the test can be checked by hand. They appear in the `toponym_test*` files
-under `results/` and `results/supplement-sensitivity/`, in the S-003 and S-003b spike
-folders, and in the lexicon inside `scripts/toponym_test.py`:
+**The one exception.** The value-transfer test (FINDINGS F-041) stores the word forms it
+tested and the words that matched, so that the test can be checked by hand. They are in
+the `toponym_test*` files under `results/` and `results/supplement-sensitivity/` and in
+the lexicon inside `scripts/toponym_test.py`; the S-003 and S-003b spike write-ups quote
+some of them. Counted from the files:
 
-- 51 place-name readings, 32 at Knossos and 19 at Pylos (for example `pa-i-to`,
-  `ko-no-so`), each cited to Ventris and Chadwick 1973 or Packard 1974;
+- 54 place-name readings from the Linear B tablets, 33 at Knossos and 21 at Pylos (for
+  example `pa-i-to`, `ko-no-so`), including three recorded as dropped from the test with
+  the reason, each cited to Ventris and Chadwick 1973 or Packard 1974;
 - 32 frequent Knossos personal names, stored as sign sequences with their DĀMOS
-  frequencies, used as a wrong-lexicon control.
+  frequencies, used as a wrong-lexicon control;
+- 10 Linear A sign sequences, the words on the Linear A side of each match as the GORILA
+  chain and SigLA transcribe them: seven that match Knossos place names (DA-TA-RA,
+  DA-TA-RE, PA-I-TO, SE-TO-I-JA, SU-KI-RI-TA, SU-KI-RI-TE-I-JA, and SigLA's SU-KI-RA-TA),
+  two that match the Pylos control (A-SI-JA-KA, SA-MA-RO), and one undivided sixteen-sign
+  group that matches a personal name. The identities pa-i-to, se-to-i-ja and su-ki-ri-ta
+  are the standard published readings (Packard 1974).
 
-These are standard published readings, a few dozen items from a corpus of 54,476 words,
-included for verification and criticism. They are the only word forms in the repository's
-data files. If a rights holder objects, they will be replaced by index numbers.
+These are a few dozen items from corpora of 54,476 and 6,406 words, included for
+verification and criticism. They are the only word forms in the repository's data
+files; the prose documents quote some of the same readings when discussing them.
+`tests/test_word_forms.py` fails if a word-shaped field appears in any other results or
+spike file, or if these counts stop matching the files. If a rights holder objects, the
+forms will be replaced by index numbers.
 
 ## Sources, not included, and their terms
 
@@ -55,8 +66,8 @@ data files. If a rights holder objects, they will be replaced by index numbers.
   repository states no licence; whether an open licence can attach to a transcription of
   the edition is an open question, recorded in
   [docs/ai_context/corpus-sources.md](docs/ai_context/corpus-sources.md). Accordingly
-  nothing from this chain is redistributed here beyond the published readings named in
-  the exception above, and no facsimile imagery is used.
+  nothing from this chain is redistributed here beyond the ten matched Linear A sign
+  sequences named in the exception above, and no facsimile imagery is used.
 - **SigLA**, The Signs of Linear A. CC BY-NC-SA 4.0. Salgarella, E. and Castellan, S.
   (2020), https://sigla.phis.me.
 - **Reference lexicons**, fetched by `scripts/fetch_reference.py` to

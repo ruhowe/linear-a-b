@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite it as below. It has not been peer reviewed."
 title: "linear-a-b: a statistical review of how the Aegean scripts are read"
-type: dataset
+type: software
 authors:
   - family-names: Howe
     given-names: Ru
@@ -9,7 +9,9 @@ authors:
 repository-code: "https://github.com/ruhowe/linear-a-b"
 url: "https://github.com/ruhowe/linear-a-b"
 date-released: 2026-09-12
-license: CC-BY-SA-4.0
+license:
+  - CC-BY-SA-4.0
+  - MIT
 abstract: >-
   Tests of the methods used to read Linear A and Linear B, run against controls, with
   Linear B as the control script where the answer is known: dictionary matching against

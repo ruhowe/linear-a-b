@@ -61,8 +61,9 @@ what was checked and how. It has not been reviewed by any specialists, and I hav
 requested a review. Read it on that basis.
 
 I have not knowingly included anything that breaches a licence or a copyright, and I have
-not knowingly misattributed anyone's work. No corpus data is redistributed here, only
-aggregate numbers. If you find something wrong on either count, please assume I made a
+not knowingly misattributed anyone's work. No corpus data is redistributed here beyond the few dozen published readings the
+place-name test stores so it can be checked, listed in [LICENSE.md](LICENSE.md);
+everything else is aggregate numbers. If you find something wrong on either count, please assume I made a
 mistake rather than that I acted in bad faith, and tell me so I can fix it:
 ru@stornaway.io.
 
@@ -201,10 +202,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to correct a page or add one.
 | `src/semitic_null/` | Etymological method, first instrument (protocol versions 0.1 to 0.2) |
 | `src/hypotheses/` | Etymological method: candidate languages as data; lexicon loaders; phonology maps |
 | `scripts/` | The frozen protocols, the findings query tool and the catalogue query tool |
-| `results/` | Aggregate numbers only, each stamped with its protocol version |
+| `results/` | Aggregate numbers, each stamped with its protocol version; the place-name test's files also hold the readings it tested (LICENSE.md) |
 | `tests/` | Checks pinning the pipeline to published corpus sizes |
 
-Nothing derived from the corpora is stored here. The source databases are licensed for
+Nothing derived from the corpora is stored here apart from the place-name test's published readings and the Linear A words that matched them, the one exception in [LICENSE.md](LICENSE.md). The source databases are licensed for
 non-commercial use, so anything built from them lives outside the repository in
 `~/.cache/linear-a-b/`. See [data/README.md](data/README.md).
 
@@ -214,7 +215,8 @@ Code is MIT; everything else, findings, documents, the HENGE files and the resul
 CC BY-SA 4.0: reuse it anywhere with credit and keep adaptations under the same terms.
 [LICENSE.md](LICENSE.md) gives the split by path, why results from NonCommercial sources
 are released under a licence that permits commercial reuse, the one exception (the
-published place-name readings the value-transfer test stores so it can be checked), the
+published place-name readings, and the Linear A words that matched them, which the
+value-transfer test stores so it can be checked), the
 unresolved licence of the Linear A transcription chain, and the citations for every source.
 The corpora themselves are not included.
 

@@ -542,3 +542,18 @@ consistent throughout. `.backups/` is gone, `requirements-lock.txt` freezes all 
 packages, and CITATION.cff exists. What the review called the biggest exposure stands:
 the Kober floor is only as good as the hand-built answer key, and that needs a
 specialist.
+
+## 2026-09-12 · Phase 46 · The second pass: the exception had to be counted
+
+The reviewer read the fixes and found the new exception wrong as written. LICENSE.md
+said the toponym files held only published place names and personal names, and that
+nothing from the Linear A transcription chain was stored; the same files also hold the
+Linear A words on the matching side of each pair, which are readings from that chain,
+and the place-name count had left out the dropped entries. The exception now counts
+from the files (54 place names, 32 personal names, 10 Linear A sequences), and a test
+fails if the counts drift or a word-shaped field appears in any other data file, so
+the boundary is checked by code. Seven sentences elsewhere that still said "aggregate
+numbers only" now point to it. Two guide sentences were tightened: the machine Kober
+method is tested on Linear B and still depends on the sign list being right, and the
+text floor is given per bar, with the easier bar already within Linear A's size.
+CITATION.cff now lists both licences.

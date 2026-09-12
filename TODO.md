@@ -306,7 +306,9 @@ narrowing to the strongest alternations recovers what pooling loses.
 - A new instrument or lexicon is not done until its assumptions are in ASSUMPTIONS.md.
 - Every "detects" or "recognises" claim quotes the best wrong real language under the
   same map on the same sample beside it.
-- Nothing derived from the corpora is committed. Aggregate numbers only.
+- Nothing derived from the corpora is committed. Aggregate numbers only, with one
+  exception: the place-name test's published readings and the Linear A words that matched
+  them, listed in LICENSE.md.
 - No external communication of any kind.
 - Two sessions write to this repo. This one owns FINDINGS.md, CHANGELOG.md,
   ASSUMPTIONS.md, TODO.md and the instrument pages in `docs/ai_context/`. The prior-art

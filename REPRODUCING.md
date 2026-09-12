@@ -60,8 +60,9 @@ version, seed and permutation count, all of which the entry states.
 
 ## What is not here, and why
 
-- No corpus text. DĀMOS is CC BY-NC-SA and the Linear A transcription chain's licence is
-  unresolved (`docs/ai_context/corpus-sources.md`). Only aggregate numbers are committed.
+- No corpus text beyond the place-name test's exception. DĀMOS is CC BY-NC-SA and the Linear A transcription chain's licence is
+  unresolved (`docs/ai_context/corpus-sources.md`). Only aggregate numbers are committed, apart from the place-name test's published
+  readings and the Linear A words that matched them (LICENSE.md, the one exception).
 - No copies of the literature. Every work page under `docs/works/` cites by page, and
   the `access` field says whether the source is open, paywalled or in print.
 - No model outputs from S-007, which contain word lists.

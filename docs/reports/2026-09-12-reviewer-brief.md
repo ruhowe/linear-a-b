@@ -79,5 +79,6 @@ honest summary is in `docs/guides/what-we-found.md`.
 .venv/bin/python -m pytest -q                            # the regression pins
 ```
 
-Results files under `results/` carry aggregate numbers only; the corpora are fetched by
+Results files under `results/` carry aggregate numbers, and the place-name test's files
+also the readings it tested (LICENSE.md, the one exception); the corpora are fetched by
 pyaegean under their own licences and never stored here.

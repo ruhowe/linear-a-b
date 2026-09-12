@@ -23,8 +23,9 @@ own; `scripts/fetch_reference.py` fetches the open reference data.
 
 Aggregate figures are safe to publish: corpus sizes, vocabulary counts, per-subseries
 document counts, accuracy tables. Token lists and reconstructed text are not. The one
-exception, the published place-name readings and name sign-sequences the value-transfer
-test stores so it can be checked, is set out in [LICENSE.md](../LICENSE.md).
+exception, the published place-name readings, name sign-sequences and matched Linear A
+words the value-transfer test stores so it can be checked, is set out in
+[LICENSE.md](../LICENSE.md).
 
 Cite DĀMOS as: Aurora, F. (2015), *Procedia — Social and Behavioral Sciences* 198,
 21–31. `Corpus.cite()` returns the current citation string.

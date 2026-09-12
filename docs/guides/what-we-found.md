@@ -137,12 +137,13 @@ Everything below had some earlier version. What was added here is marked in each
   Kober drew by hand. Cut down to Linear A's amount of text, it does what she did: its two
   best patterns are grammar every time, all three of its top three about two times in
   three, and nine in ten once the signs the standard handbook lists as spelling variants
-  are merged. Her condition that words listed together on a tablet share an ending turned out to be
+  are merged, a merge that relies on knowing Linear B. Her condition that words listed together on a tablet share an ending turned out to be
   true of the corpus, nearly twice chance, but too rare to help the machine; three ways of
   giving the machine tablet context were tried and moved the result by almost nothing.
 - **What this means (and so what):** Kober's method uses no sounds at all, only which signs
-  repeat and where. **So there is now a tested, automatic way to study Linear A, or any
-  undeciphered script, that can't be misled by wrong guesses about sounds.** One correction,
+  repeat and where. **So there is now an automatic way to study Linear A, or any
+  undeciphered script, that is tested on Linear B and uses no sound values at all. It still
+  depends on the list of signs being right, which on Linear A is the transcription's.** One correction,
   and an example of the division of labour: the list of "what counts as Greek grammar" that
   Claude Code built, and I accepted, was missing the pattern her own triplets are made of.
   Reading her paper exposed the gap; I directed the fix, it changed the small-corpus
@@ -221,9 +222,12 @@ Everything below had some earlier version. What was added here is marked in each
   Kober herself published from fewer words than Linear A has.
 - **What this means (and so what):** "there isn't enough Linear A" is usually said as a
   shrug. New inscriptions do still turn up; a Knossos ring with the longest Linear A text
-  yet was published in 2025. **So Linear A isn't necessarily undecipherable forever: somewhere
-  between a quarter more and double the vocabulary we have would reopen this route, which gives excavators and
-  funders something concrete to aim for, though at the rate finds arrive, about 11 signs a
+  yet was published in 2025. **So the amount of text is a measurable target. On the easier bar,
+  a few sure patterns, the machine needs about 750 different words to find Greek's grammar
+  reliably, fewer than Linear A's 988, so that bar is within reach now. On the full bar,
+  most of its top ten right, it needs about 1,250 with Linear B's list of spelling variants
+  and up to about 1,875 without it, between a quarter more and nearly double what Linear A
+  has. That gives excavators and funders something concrete to aim for, though at the rate finds arrive, about 11 signs a
   year since 1985, the instrument will move the number faster than the spade will.** One
   caution: merging spelling variants uses knowledge we only have because Linear B is read,
   so the lower number describes Greek with that help. The limit is on reliability, not on

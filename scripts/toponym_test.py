@@ -86,7 +86,8 @@ aggregate numbers (real, null mean/sd/p95/p99, real percentile) for every lexico
 and banding, plus the real-assignment matched pairs as sign labels and the set of sign
 labels the matches involve (A-139 defines this as the union of the signs at the matched
 positions, both sides, over every matched pair in either class). Toponym surface forms
-are published readings, not corpus text (corpus-sources.md Invariants). A markdown
+are published readings (corpus-sources.md Invariants); the Linear A side of each matched
+pair is a reading from the edition, stored under the one exception in LICENSE.md. A markdown
 summary, ``results/toponym_test.md``, with every table and the criterion evaluated cell
 by cell.
 

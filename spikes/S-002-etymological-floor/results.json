@@ -1,0 +1,1679 @@
+{
+  "protocol": {
+    "version": "1.0 (unchanged; imported from scripts/controlled_comparison.py)",
+    "map": "greek_syllabic",
+    "lexicons": {
+      "greek_archaic": "Greek, archaic",
+      "finnish": "Finnish",
+      "sumerian": "Sumerian (ePSD2)"
+    },
+    "n_words": 400,
+    "perms": 100,
+    "protocol_seed": 0,
+    "subsample_seeds": [
+      0,
+      19
+    ],
+    "tolerance": 0.02,
+    "lead_bar": 2.0,
+    "lead_bar_note": "BRIEF.md's 'two standard errors', read as two z units",
+    "pool_ceiling_note": "protocol 1.0's own word pool on the full, unsubsampled Linear B corpus is 2,548 word types, not 3,768 (kober.words' word-type count, used elsewhere in this repo for size-matching). Targets at or above 2,548 are unreachable by subsampling and collapse to the full-corpus run; see run.py's docstring."
+  },
+  "sizes": {
+    "988": {
+      "runs": [
+        {
+          "subsample_seed": 0,
+          "documents_k": 1627,
+          "pool_count": 988,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.6571491241621055,
+            "finnish": 2.8860425671569314,
+            "sumerian": 1.4561742339682142
+          },
+          "gap": {
+            "greek_archaic": 0.1839245021680822,
+            "finnish": 0.07886097903613132,
+            "sumerian": 0.014343064374926329
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.09900990099009901
+          }
+        },
+        {
+          "subsample_seed": 1,
+          "documents_k": 1617,
+          "pool_count": 988,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 1.9765927094690068,
+            "finnish": 1.193323416753784,
+            "sumerian": 0.6236756236085743
+          },
+          "gap": {
+            "greek_archaic": 0.10237010634609489,
+            "finnish": 0.023133519023267213,
+            "sumerian": 0.005386656747632501
+          },
+          "p": {
+            "greek_archaic": 0.019801980198019802,
+            "finnish": 0.15841584158415842,
+            "sumerian": 0.25742574257425743
+          }
+        },
+        {
+          "subsample_seed": 2,
+          "documents_k": 1534,
+          "pool_count": 988,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.4470615718628697,
+            "finnish": 1.3166930070690106,
+            "sumerian": 0.2894155005492419
+          },
+          "gap": {
+            "greek_archaic": 0.08269298884325615,
+            "finnish": 0.02475005637004357,
+            "sumerian": 0.002209538054607718
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.1188118811881188,
+            "sumerian": 0.36633663366336633
+          }
+        },
+        {
+          "subsample_seed": 3,
+          "documents_k": 1607,
+          "pool_count": 986,
+          "within_tolerance": true,
+          "relative_error": 0.0020242914979757085,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.5848764287137445,
+            "finnish": 2.263692888819564,
+            "sumerian": 2.0310522128195743
+          },
+          "gap": {
+            "greek_archaic": 0.13911900142539224,
+            "finnish": 0.06435031223705623,
+            "sumerian": 0.015441990212436585
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.019801980198019802,
+            "sumerian": 0.039603960396039604
+          }
+        },
+        {
+          "subsample_seed": 4,
+          "documents_k": 1638,
+          "pool_count": 986,
+          "within_tolerance": true,
+          "relative_error": 0.0020242914979757085,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.426431663882626,
+            "finnish": 1.8364157936504921,
+            "sumerian": 0.6660013265865398
+          },
+          "gap": {
+            "greek_archaic": 0.1195601277418954,
+            "finnish": 0.04048163218400591,
+            "sumerian": 0.0058339305025684185
+          },
+          "p": {
+            "greek_archaic": 0.019801980198019802,
+            "finnish": 0.04950495049504951,
+            "sumerian": 0.297029702970297
+          }
+        },
+        {
+          "subsample_seed": 5,
+          "documents_k": 1855,
+          "pool_count": 988,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.836354811796697,
+            "finnish": 2.72568354332162,
+            "sumerian": -0.21457519028772887
+          },
+          "gap": {
+            "greek_archaic": 0.14460786961667593,
+            "finnish": 0.06100944187515056,
+            "sumerian": -0.0024705644664109183
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.019801980198019802,
+            "sumerian": 0.5346534653465347
+          }
+        },
+        {
+          "subsample_seed": 6,
+          "documents_k": 1771,
+          "pool_count": 991,
+          "within_tolerance": true,
+          "relative_error": 0.003036437246963563,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.929812898957215,
+            "finnish": 1.1120078408287408,
+            "sumerian": 1.2802757153512425
+          },
+          "gap": {
+            "greek_archaic": 0.15629808739697726,
+            "finnish": 0.026461463338037783,
+            "sumerian": 0.011136931764598984
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.12871287128712872,
+            "sumerian": 0.10891089108910891
+          }
+        },
+        {
+          "subsample_seed": 7,
+          "documents_k": 1553,
+          "pool_count": 990,
+          "within_tolerance": true,
+          "relative_error": 0.0020242914979757085,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 3.052821974066993,
+            "finnish": 2.389430728668704,
+            "sumerian": 0.40357024159459237
+          },
+          "gap": {
+            "greek_archaic": 0.14000761480229262,
+            "finnish": 0.040250492458219544,
+            "sumerian": 0.0038544283202075758
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.37623762376237624
+          }
+        },
+        {
+          "subsample_seed": 8,
+          "documents_k": 1615,
+          "pool_count": 983,
+          "within_tolerance": true,
+          "relative_error": 0.005060728744939271,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.84938780205359,
+            "finnish": 1.6172832553102676,
+            "sumerian": 1.3495323775977264
+          },
+          "gap": {
+            "greek_archaic": 0.14267209054190855,
+            "finnish": 0.03568565551623615,
+            "sumerian": 0.014383469560489165
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.0594059405940594,
+            "sumerian": 0.1188118811881188
+          }
+        },
+        {
+          "subsample_seed": 9,
+          "documents_k": 1573,
+          "pool_count": 985,
+          "within_tolerance": true,
+          "relative_error": 0.003036437246963563,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 3.2749994655765393,
+            "finnish": 2.7556047810622846,
+            "sumerian": 1.2217832783594709
+          },
+          "gap": {
+            "greek_archaic": 0.131984917953599,
+            "finnish": 0.049703125636610834,
+            "sumerian": 0.01024100179925247
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.10891089108910891
+          }
+        },
+        {
+          "subsample_seed": 10,
+          "documents_k": 1718,
+          "pool_count": 985,
+          "within_tolerance": true,
+          "relative_error": 0.003036437246963563,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.6404145144256543,
+            "finnish": 1.9951093629871168,
+            "sumerian": 0.9808275133367139
+          },
+          "gap": {
+            "greek_archaic": 0.16476352739891764,
+            "finnish": 0.058877481112723395,
+            "sumerian": 0.011597411340997371
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.039603960396039604,
+            "sumerian": 0.1782178217821782
+          }
+        },
+        {
+          "subsample_seed": 11,
+          "documents_k": 1754,
+          "pool_count": 994,
+          "within_tolerance": true,
+          "relative_error": 0.006072874493927126,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.1106247849391284,
+            "finnish": 1.4865037392541343,
+            "sumerian": 0.39406478294007946
+          },
+          "gap": {
+            "greek_archaic": 0.0714648119215171,
+            "finnish": 0.03175377825234471,
+            "sumerian": 0.003555080757507212
+          },
+          "p": {
+            "greek_archaic": 0.019801980198019802,
+            "finnish": 0.0891089108910891,
+            "sumerian": 0.39603960396039606
+          }
+        },
+        {
+          "subsample_seed": 12,
+          "documents_k": 1963,
+          "pool_count": 989,
+          "within_tolerance": true,
+          "relative_error": 0.0010121457489878543,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 1.9395073713549027,
+            "finnish": 2.584409274909861,
+            "sumerian": 1.2809755092012314
+          },
+          "gap": {
+            "greek_archaic": 0.1311911621543922,
+            "finnish": 0.06409303550293899,
+            "sumerian": 0.012121846685419019
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.09900990099009901
+          }
+        },
+        {
+          "subsample_seed": 13,
+          "documents_k": 1623,
+          "pool_count": 990,
+          "within_tolerance": true,
+          "relative_error": 0.0020242914979757085,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.419243132974093,
+            "finnish": 1.0678127189647217,
+            "sumerian": 0.2549232003419506
+          },
+          "gap": {
+            "greek_archaic": 0.10236867655438964,
+            "finnish": 0.023193507824974757,
+            "sumerian": 0.002302703144392848
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.12871287128712872,
+            "sumerian": 0.37623762376237624
+          }
+        },
+        {
+          "subsample_seed": 14,
+          "documents_k": 1668,
+          "pool_count": 988,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 3.9371326409763485,
+            "finnish": 2.2825872766708923,
+            "sumerian": 1.4161801561986302
+          },
+          "gap": {
+            "greek_archaic": 0.19655346454587685,
+            "finnish": 0.059544549380437406,
+            "sumerian": 0.015341534751101116
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.019801980198019802,
+            "sumerian": 0.06930693069306931
+          }
+        },
+        {
+          "subsample_seed": 15,
+          "documents_k": 1664,
+          "pool_count": 989,
+          "within_tolerance": true,
+          "relative_error": 0.0010121457489878543,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.985855168303694,
+            "finnish": 1.6285924208669695,
+            "sumerian": 1.5975508848733346
+          },
+          "gap": {
+            "greek_archaic": 0.15094002917742966,
+            "finnish": 0.032637659967093446,
+            "sumerian": 0.012009325845260821
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.07920792079207921,
+            "sumerian": 0.07920792079207921
+          }
+        },
+        {
+          "subsample_seed": 16,
+          "documents_k": 1734,
+          "pool_count": 988,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 3.5526691242330015,
+            "finnish": 1.9103505547667656,
+            "sumerian": 2.189668525364116
+          },
+          "gap": {
+            "greek_archaic": 0.19560337444967346,
+            "finnish": 0.049306965201482034,
+            "sumerian": 0.021532126208085367
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.04950495049504951,
+            "sumerian": 0.019801980198019802
+          }
+        },
+        {
+          "subsample_seed": 17,
+          "documents_k": 1633,
+          "pool_count": 984,
+          "within_tolerance": true,
+          "relative_error": 0.004048582995951417,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.3481203130658796,
+            "finnish": 2.8790481631909217,
+            "sumerian": -0.6758070636650095
+          },
+          "gap": {
+            "greek_archaic": 0.10318473329816147,
+            "finnish": 0.05715226887106506,
+            "sumerian": -0.0060574700686184535
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.7821782178217822
+          }
+        },
+        {
+          "subsample_seed": 18,
+          "documents_k": 1634,
+          "pool_count": 987,
+          "within_tolerance": true,
+          "relative_error": 0.0010121457489878543,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 1.2125436401768415,
+            "finnish": 0.8823589082845824,
+            "sumerian": -0.6166672723009639
+          },
+          "gap": {
+            "greek_archaic": 0.07389487375251358,
+            "finnish": 0.02198414211817412,
+            "sumerian": -0.005924221009461134
+          },
+          "p": {
+            "greek_archaic": 0.07920792079207921,
+            "finnish": 0.1782178217821782,
+            "sumerian": 0.7623762376237624
+          }
+        },
+        {
+          "subsample_seed": 19,
+          "documents_k": 1504,
+          "pool_count": 988,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.910808876086858,
+            "finnish": 2.423286612628521,
+            "sumerian": 2.1713221304749837
+          },
+          "gap": {
+            "greek_archaic": 0.15242730841509022,
+            "finnish": 0.06915877141534166,
+            "sumerian": 0.01618786821888349
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        }
+      ],
+      "summary": {
+        "n_runs": 20,
+        "z_median": {
+          "greek_archaic": 2.64878181929388,
+          "finnish": 1.9527299588769411,
+          "sumerian": 1.1013053958480925
+        },
+        "z_range": {
+          "greek_archaic": [
+            1.2125436401768415,
+            3.9371326409763485
+          ],
+          "finnish": [
+            0.8823589082845824,
+            2.8860425671569314
+          ],
+          "sumerian": [
+            -0.6758070636650095,
+            2.189668525364116
+          ]
+        },
+        "gap_median": {
+          "greek_archaic": 0.13956330811384243,
+          "finnish": 0.04489429869274397,
+          "sumerian": 0.010688966781925727
+        },
+        "gap_range": {
+          "greek_archaic": [
+            0.0714648119215171,
+            0.19655346454587685
+          ],
+          "finnish": [
+            0.02198414211817412,
+            0.07886097903613132
+          ],
+          "sumerian": [
+            -0.0060574700686184535,
+            0.021532126208085367
+          ]
+        },
+        "lead_z_median": 0.6347130985617658,
+        "lead_z_range": [
+          -0.6449019035549584,
+          1.6545453643054562
+        ],
+        "lead_gap_median": 0.08277516465836837,
+        "lead_gap_range": [
+          0.03971103366917239,
+          0.14629640924819143
+        ],
+        "count_lead_ge_2": 0,
+        "pool_count_median": 988.0,
+        "pool_count_range": [
+          983,
+          994
+        ],
+        "any_reused_full_corpus": false,
+        "any_outside_tolerance": false
+      }
+    },
+    "1875": {
+      "runs": [
+        {
+          "subsample_seed": 0,
+          "documents_k": 3695,
+          "pool_count": 1871,
+          "within_tolerance": true,
+          "relative_error": 0.0021333333333333334,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 3.094801515381577,
+            "finnish": 2.4512192339380436,
+            "sumerian": 2.5295479764799813
+          },
+          "gap": {
+            "greek_archaic": 0.14310386590873736,
+            "finnish": 0.05244344299112813,
+            "sumerian": 0.01762825202746271
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.019801980198019802
+          }
+        },
+        {
+          "subsample_seed": 1,
+          "documents_k": 4074,
+          "pool_count": 1875,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 3.424887623527581,
+            "finnish": 2.5479325473172048,
+            "sumerian": 1.273113172083652
+          },
+          "gap": {
+            "greek_archaic": 0.14792647946575666,
+            "finnish": 0.05487250515765396,
+            "sumerian": 0.013306804665097843
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.09900990099009901
+          }
+        },
+        {
+          "subsample_seed": 2,
+          "documents_k": 3777,
+          "pool_count": 1875,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.821265122625402,
+            "finnish": 1.9411361998642602,
+            "sumerian": 1.2864433114731433
+          },
+          "gap": {
+            "greek_archaic": 0.15168418490964686,
+            "finnish": 0.047368616873134206,
+            "sumerian": 0.012177303763056507
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.0297029702970297,
+            "sumerian": 0.06930693069306931
+          }
+        },
+        {
+          "subsample_seed": 3,
+          "documents_k": 4067,
+          "pool_count": 1878,
+          "within_tolerance": true,
+          "relative_error": 0.0016,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 0.7892454406894487,
+            "finnish": 0.447376868479631,
+            "sumerian": -0.0729962002250587
+          },
+          "gap": {
+            "greek_archaic": 0.02564916574433318,
+            "finnish": 0.009429633915162605,
+            "sumerian": -0.0006285879309200493
+          },
+          "p": {
+            "greek_archaic": 0.18811881188118812,
+            "finnish": 0.33663366336633666,
+            "sumerian": 0.5247524752475248
+          }
+        },
+        {
+          "subsample_seed": 4,
+          "documents_k": 3589,
+          "pool_count": 1871,
+          "within_tolerance": true,
+          "relative_error": 0.0021333333333333334,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.832319265193639,
+            "finnish": 2.1739216647498485,
+            "sumerian": 0.12916953725212313
+          },
+          "gap": {
+            "greek_archaic": 0.17161395162458482,
+            "finnish": 0.051216075622816715,
+            "sumerian": 0.0010605328274338466
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.039603960396039604,
+            "sumerian": 0.45544554455445546
+          }
+        },
+        {
+          "subsample_seed": 5,
+          "documents_k": 3626,
+          "pool_count": 1878,
+          "within_tolerance": true,
+          "relative_error": 0.0016,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 1.6309401137444446,
+            "finnish": 1.961145949946128,
+            "sumerian": 0.010133359207415994
+          },
+          "gap": {
+            "greek_archaic": 0.10029886182532421,
+            "finnish": 0.0533384161313839,
+            "sumerian": 0.00011161129858902608
+          },
+          "p": {
+            "greek_archaic": 0.039603960396039604,
+            "finnish": 0.04950495049504951,
+            "sumerian": 0.504950495049505
+          }
+        },
+        {
+          "subsample_seed": 6,
+          "documents_k": 4029,
+          "pool_count": 1873,
+          "within_tolerance": true,
+          "relative_error": 0.0010666666666666667,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.34514627229839,
+            "finnish": 2.3123196911693893,
+            "sumerian": 1.1553252090149426
+          },
+          "gap": {
+            "greek_archaic": 0.132514735777711,
+            "finnish": 0.05380561852785748,
+            "sumerian": 0.010198129481764379
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.019801980198019802,
+            "sumerian": 0.13861386138613863
+          }
+        },
+        {
+          "subsample_seed": 7,
+          "documents_k": 3696,
+          "pool_count": 1875,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 1.9966897936558268,
+            "finnish": 1.2349411225134665,
+            "sumerian": 0.14853559964629648
+          },
+          "gap": {
+            "greek_archaic": 0.0767197429845008,
+            "finnish": 0.03037871376903989,
+            "sumerian": 0.001228426860339582
+          },
+          "p": {
+            "greek_archaic": 0.019801980198019802,
+            "finnish": 0.1188118811881188,
+            "sumerian": 0.42574257425742573
+          }
+        },
+        {
+          "subsample_seed": 8,
+          "documents_k": 3873,
+          "pool_count": 1875,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 1.4315558942286524,
+            "finnish": 0.8194854818240462,
+            "sumerian": -0.2810373012299194
+          },
+          "gap": {
+            "greek_archaic": 0.05527277646067685,
+            "finnish": 0.017366504232384283,
+            "sumerian": -0.0023294529006473996
+          },
+          "p": {
+            "greek_archaic": 0.06930693069306931,
+            "finnish": 0.22772277227722773,
+            "sumerian": 0.6435643564356436
+          }
+        },
+        {
+          "subsample_seed": 9,
+          "documents_k": 3759,
+          "pool_count": 1875,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.612336269023911,
+            "finnish": 1.7423168673615348,
+            "sumerian": 0.9114533222776046
+          },
+          "gap": {
+            "greek_archaic": 0.13834015689188728,
+            "finnish": 0.0409903641667303,
+            "sumerian": 0.00772705647378133
+          },
+          "p": {
+            "greek_archaic": 0.019801980198019802,
+            "finnish": 0.04950495049504951,
+            "sumerian": 0.18811881188118812
+          }
+        },
+        {
+          "subsample_seed": 10,
+          "documents_k": 3773,
+          "pool_count": 1877,
+          "within_tolerance": true,
+          "relative_error": 0.0010666666666666667,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.5423881278749993,
+            "finnish": 1.537633798691904,
+            "sumerian": 1.2572527008718917
+          },
+          "gap": {
+            "greek_archaic": 0.12694204587418367,
+            "finnish": 0.03725028077615533,
+            "sumerian": 0.009002880595762763
+          },
+          "p": {
+            "greek_archaic": 0.0297029702970297,
+            "finnish": 0.04950495049504951,
+            "sumerian": 0.1188118811881188
+          }
+        },
+        {
+          "subsample_seed": 11,
+          "documents_k": 3857,
+          "pool_count": 1875,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.186143243024483,
+            "finnish": 2.423423941709473,
+            "sumerian": 0.6524352348012533
+          },
+          "gap": {
+            "greek_archaic": 0.08619822484344053,
+            "finnish": 0.04725208079300458,
+            "sumerian": 0.0043202028694099
+          },
+          "p": {
+            "greek_archaic": 0.019801980198019802,
+            "finnish": 0.019801980198019802,
+            "sumerian": 0.26732673267326734
+          }
+        },
+        {
+          "subsample_seed": 12,
+          "documents_k": 3979,
+          "pool_count": 1875,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.5452958865534057,
+            "finnish": 1.240640918947326,
+            "sumerian": 0.3374775951132262
+          },
+          "gap": {
+            "greek_archaic": 0.12322937407816936,
+            "finnish": 0.02436650798096307,
+            "sumerian": 0.002442438878726916
+          },
+          "p": {
+            "greek_archaic": 0.019801980198019802,
+            "finnish": 0.1188118811881188,
+            "sumerian": 0.33663366336633666
+          }
+        },
+        {
+          "subsample_seed": 13,
+          "documents_k": 3808,
+          "pool_count": 1875,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 3.0273510262306336,
+            "finnish": 2.0349657060498627,
+            "sumerian": 0.8960078568592155
+          },
+          "gap": {
+            "greek_archaic": 0.12069043543841262,
+            "finnish": 0.04087003586675986,
+            "sumerian": 0.007485103928108194
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.039603960396039604,
+            "sumerian": 0.18811881188118812
+          }
+        },
+        {
+          "subsample_seed": 14,
+          "documents_k": 3810,
+          "pool_count": 1876,
+          "within_tolerance": true,
+          "relative_error": 0.0005333333333333334,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.5405861700400303,
+            "finnish": 1.6545410726445926,
+            "sumerian": 1.5140416714567135
+          },
+          "gap": {
+            "greek_archaic": 0.12048254428180649,
+            "finnish": 0.04657300166561884,
+            "sumerian": 0.0116020155992127
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.04950495049504951,
+            "sumerian": 0.0891089108910891
+          }
+        },
+        {
+          "subsample_seed": 15,
+          "documents_k": 3716,
+          "pool_count": 1875,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.478706407259701,
+            "finnish": 3.058140171476447,
+            "sumerian": 0.7201480708424388
+          },
+          "gap": {
+            "greek_archaic": 0.11264720708809395,
+            "finnish": 0.057840091937747085,
+            "sumerian": 0.005474291793652691
+          },
+          "p": {
+            "greek_archaic": 0.019801980198019802,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.21782178217821782
+          }
+        },
+        {
+          "subsample_seed": 16,
+          "documents_k": 3888,
+          "pool_count": 1875,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.140006657299274,
+            "finnish": 2.072609839709593,
+            "sumerian": 1.4146990580586305
+          },
+          "gap": {
+            "greek_archaic": 0.12040663203895785,
+            "finnish": 0.044982940198685206,
+            "sumerian": 0.014148279549809739
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.0297029702970297,
+            "sumerian": 0.0594059405940594
+          }
+        },
+        {
+          "subsample_seed": 17,
+          "documents_k": 3981,
+          "pool_count": 1879,
+          "within_tolerance": true,
+          "relative_error": 0.0021333333333333334,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.0257816792053864,
+            "finnish": 1.139491051369492,
+            "sumerian": -0.22954699776557702
+          },
+          "gap": {
+            "greek_archaic": 0.0784978775050511,
+            "finnish": 0.027379116503282952,
+            "sumerian": -0.002013218370173181
+          },
+          "p": {
+            "greek_archaic": 0.039603960396039604,
+            "finnish": 0.12871287128712872,
+            "sumerian": 0.6138613861386139
+          }
+        },
+        {
+          "subsample_seed": 18,
+          "documents_k": 3685,
+          "pool_count": 1875,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.7235006390260916,
+            "finnish": 2.8943209600610347,
+            "sumerian": 1.3438267819020768
+          },
+          "gap": {
+            "greek_archaic": 0.11949493582761384,
+            "finnish": 0.05099528616921167,
+            "sumerian": 0.00967789342634498
+          },
+          "p": {
+            "greek_archaic": 0.019801980198019802,
+            "finnish": 0.019801980198019802,
+            "sumerian": 0.09900990099009901
+          }
+        },
+        {
+          "subsample_seed": 19,
+          "documents_k": 3551,
+          "pool_count": 1875,
+          "within_tolerance": true,
+          "relative_error": 0.0,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 1.6262667963836066,
+            "finnish": 1.4663525992387767,
+            "sumerian": 0.778635233846044
+          },
+          "gap": {
+            "greek_archaic": 0.0699368951348831,
+            "finnish": 0.03539734333003819,
+            "sumerian": 0.005513093821674503
+          },
+          "p": {
+            "greek_archaic": 0.0594059405940594,
+            "finnish": 0.0891089108910891,
+            "sumerian": 0.24752475247524752
+          }
+        }
+      ],
+      "summary": {
+        "n_runs": 20,
+        "z_median": {
+          "greek_archaic": 2.509646288649866,
+          "finnish": 1.951141074905194,
+          "sumerian": 0.8373215453526297
+        },
+        "z_range": {
+          "greek_archaic": [
+            0.7892454406894487,
+            3.424887623527581
+          ],
+          "finnish": [
+            0.447376868479631,
+            3.058140171476447
+          ],
+          "sumerian": [
+            -0.2810373012299194,
+            2.5295479764799813
+          ]
+        },
+        "gap_median": {
+          "greek_archaic": 0.12044458816038217,
+          "finnish": 0.04577797093215202,
+          "sumerian": 0.006499098874891349
+        },
+        "gap_range": {
+          "greek_archaic": [
+            0.02564916574433318,
+            0.17161395162458482
+          ],
+          "finnish": [
+            0.009429633915162605,
+            0.057840091937747085
+          ],
+          "sumerian": [
+            -0.0023294529006473996,
+            0.01762825202746271
+          ]
+        },
+        "lead_z_median": 0.6352340064241984,
+        "lead_z_range": [
+          -0.5794337642167462,
+          1.3046549676060797
+        ],
+        "lead_gap_median": 0.07466661722823015,
+        "lead_gap_range": [
+          0.016219531829170575,
+          0.1203978760017681
+        ],
+        "count_lead_ge_2": 0,
+        "pool_count_median": 1875.0,
+        "pool_count_range": [
+          1871,
+          1879
+        ],
+        "any_reused_full_corpus": false,
+        "any_outside_tolerance": false
+      }
+    },
+    "2750": {
+      "runs": [
+        {
+          "subsample_seed": 0,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 1,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 2,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 3,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 4,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 5,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 6,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 7,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 8,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 9,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 10,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 11,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 12,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 13,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 14,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 15,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 16,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 17,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 18,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        },
+        {
+          "subsample_seed": 19,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": false,
+          "relative_error": 0.07345454545454545,
+          "reused_full_corpus_result": true,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        }
+      ],
+      "summary": {
+        "n_runs": 20,
+        "z_median": {
+          "greek_archaic": 2.7769040487421126,
+          "finnish": 2.2455569262238946,
+          "sumerian": 2.3103524990256314
+        },
+        "z_range": {
+          "greek_archaic": [
+            2.7769040487421126,
+            2.7769040487421126
+          ],
+          "finnish": [
+            2.2455569262238946,
+            2.2455569262238946
+          ],
+          "sumerian": [
+            2.3103524990256314,
+            2.3103524990256314
+          ]
+        },
+        "gap_median": {
+          "greek_archaic": 0.13580279894633795,
+          "finnish": 0.050726124107592696,
+          "sumerian": 0.01854300873729886
+        },
+        "gap_range": {
+          "greek_archaic": [
+            0.13580279894633795,
+            0.13580279894633795
+          ],
+          "finnish": [
+            0.050726124107592696,
+            0.050726124107592696
+          ],
+          "sumerian": [
+            0.01854300873729886,
+            0.01854300873729886
+          ]
+        },
+        "lead_z_median": 0.46655154971648116,
+        "lead_z_range": [
+          0.46655154971648116,
+          0.46655154971648116
+        ],
+        "lead_gap_median": 0.08507667483874526,
+        "lead_gap_range": [
+          0.08507667483874526,
+          0.08507667483874526
+        ],
+        "count_lead_ge_2": 0,
+        "pool_count_median": 2548.0,
+        "pool_count_range": [
+          2548,
+          2548
+        ],
+        "any_reused_full_corpus": true,
+        "any_outside_tolerance": true
+      }
+    },
+    "3768": {
+      "runs": [
+        {
+          "subsample_seed": null,
+          "documents_k": 5932,
+          "pool_count": 2548,
+          "within_tolerance": null,
+          "relative_error": null,
+          "reused_full_corpus_result": false,
+          "z": {
+            "greek_archaic": 2.7769040487421126,
+            "finnish": 2.2455569262238946,
+            "sumerian": 2.3103524990256314
+          },
+          "gap": {
+            "greek_archaic": 0.13580279894633795,
+            "finnish": 0.050726124107592696,
+            "sumerian": 0.01854300873729886
+          },
+          "p": {
+            "greek_archaic": 0.009900990099009901,
+            "finnish": 0.009900990099009901,
+            "sumerian": 0.0297029702970297
+          }
+        }
+      ],
+      "summary": {
+        "n_runs": 1,
+        "z_median": {
+          "greek_archaic": 2.7769040487421126,
+          "finnish": 2.2455569262238946,
+          "sumerian": 2.3103524990256314
+        },
+        "z_range": {
+          "greek_archaic": [
+            2.7769040487421126,
+            2.7769040487421126
+          ],
+          "finnish": [
+            2.2455569262238946,
+            2.2455569262238946
+          ],
+          "sumerian": [
+            2.3103524990256314,
+            2.3103524990256314
+          ]
+        },
+        "gap_median": {
+          "greek_archaic": 0.13580279894633795,
+          "finnish": 0.050726124107592696,
+          "sumerian": 0.01854300873729886
+        },
+        "gap_range": {
+          "greek_archaic": [
+            0.13580279894633795,
+            0.13580279894633795
+          ],
+          "finnish": [
+            0.050726124107592696,
+            0.050726124107592696
+          ],
+          "sumerian": [
+            0.01854300873729886,
+            0.01854300873729886
+          ]
+        },
+        "lead_z_median": 0.46655154971648116,
+        "lead_z_range": [
+          0.46655154971648116,
+          0.46655154971648116
+        ],
+        "lead_gap_median": 0.08507667483874526,
+        "lead_gap_range": [
+          0.08507667483874526,
+          0.08507667483874526
+        ],
+        "count_lead_ge_2": 0,
+        "pool_count_median": 2548,
+        "pool_count_range": [
+          2548,
+          2548
+        ],
+        "any_reused_full_corpus": false,
+        "any_outside_tolerance": false
+      }
+    }
+  }
+}

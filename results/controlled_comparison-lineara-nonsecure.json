@@ -1,0 +1,71 @@
+{
+  "protocol": {
+    "version": "1.0",
+    "expansion": "Mycenaean rules, max 1 omitted coda, finals ['s', 'n', 'r']",
+    "statistic": "log1p(mean lexicon count over candidates), averaged over words",
+    "null": "frequency_matched_permute, 4 bands",
+    "control": "synthetic lexicon with matched length profile and consonant unigrams, same map",
+    "criterion": "Linear B: real Greek >> synthetic Greek; Hebrew ~ synthetic Hebrew. Else uncalibrated.",
+    "secure_signs_only": false,
+    "non_secure_only": true,
+    "exclude_underdotted": false
+  },
+  "blocks": [
+    {
+      "corpus": "lineara",
+      "n_words": 400,
+      "n_pool": 448,
+      "secure_signs_only": false,
+      "non_secure_only": true,
+      "exclude_underdotted": false,
+      "perms": 100,
+      "seed": 0,
+      "rows": [
+        {
+          "label": "Greek, archaic (real)",
+          "n_words": 400,
+          "real": 1.7029322961986642,
+          "null_mean": 1.6288683710959955,
+          "null_sd": 0.02867399218935572,
+          "z": 2.582965239495409,
+          "se_z": 0.20822715274960635,
+          "p": 0.019801980198019802,
+          "perms": 100
+        },
+        {
+          "label": "Greek map, synthetic lexicon (control)",
+          "n_words": 400,
+          "real": 1.5069287523870833,
+          "null_mean": 1.5279460720053861,
+          "null_sd": 0.026183094858086692,
+          "z": -0.8027057050443196,
+          "se_z": 0.1149855740715047,
+          "p": 0.7425742574257426,
+          "perms": 100
+        },
+        {
+          "label": "Hebrew, Strong's (real)",
+          "n_words": 400,
+          "real": 0.07563413164022605,
+          "null_mean": 0.06923608886884752,
+          "null_sd": 0.0033198314408415448,
+          "z": 1.927219163198443,
+          "se_z": 0.16902919426831728,
+          "p": 0.039603960396039604,
+          "perms": 100
+        },
+        {
+          "label": "Hebrew map, synthetic lexicon (control)",
+          "n_words": 400,
+          "real": 0.07085386133633272,
+          "null_mean": 0.07052118790969854,
+          "null_sd": 0.0029103134716836603,
+          "z": 0.11430845160529095,
+          "se_z": 0.10032612875289267,
+          "p": 0.44554455445544555,
+          "perms": 100
+        }
+      ]
+    }
+  ]
+}

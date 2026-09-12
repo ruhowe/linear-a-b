@@ -1,0 +1,56 @@
+{
+  "protocol": {
+    "version": "1.1-laryngeal-stripped",
+    "change": "laryngeals removed from all lexicons and from vowel-sign options"
+  },
+  "corpus": "lineara",
+  "n_words": 400,
+  "perms": 100,
+  "seed": 0,
+  "rows": [
+    {
+      "label": "Arabic (frequency list) (real)",
+      "n_words": 400,
+      "real": 0.669520337628372,
+      "null_mean": 0.6593718853881184,
+      "null_sd": 0.01129888842946456,
+      "z": 0.8981814718861285,
+      "se_z": 0.11846370660332076,
+      "p": 0.18811881188118812,
+      "perms": 100
+    },
+    {
+      "label": "Arabic (frequency list) (synthetic)",
+      "n_words": 400,
+      "real": 0.6105462820137298,
+      "null_mean": 0.6178706329941113,
+      "null_sd": 0.01793362646758053,
+      "z": -0.4084143825356238,
+      "se_z": 0.10408655791844486,
+      "p": 0.693069306930693,
+      "perms": 100
+    },
+    {
+      "label": "Modern Hebrew (frequency list) (real)",
+      "n_words": 400,
+      "real": 0.4593288161597545,
+      "null_mean": 0.45522836519596493,
+      "null_sd": 0.009488269805828531,
+      "z": 0.4321600299846789,
+      "se_z": 0.10456486722404323,
+      "p": 0.31683168316831684,
+      "perms": 100
+    },
+    {
+      "label": "Modern Hebrew (frequency list) (synthetic)",
+      "n_words": 400,
+      "real": 0.4497619870904918,
+      "null_mean": 0.4532586358226498,
+      "null_sd": 0.008955483691114537,
+      "z": -0.39044778068517966,
+      "se_z": 0.10374125190689532,
+      "p": 0.6336633663366337,
+      "perms": 100
+    }
+  ]
+}

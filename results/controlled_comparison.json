@@ -1,0 +1,63 @@
+{
+  "protocol": {
+    "expansion": "Mycenaean rules, max 1 omitted coda, finals ['s', 'n', 'r']",
+    "statistic": "log1p(mean lexicon count over candidates), averaged over words",
+    "null": "frequency_matched_permute, 4 bands",
+    "control": "synthetic lexicon with matched length profile and consonant unigrams, same map",
+    "criterion": "Linear B: real Greek >> synthetic Greek; Hebrew ~ synthetic Hebrew. Else uncalibrated."
+  },
+  "blocks": [
+    {
+      "corpus": "damos",
+      "n_words": 400,
+      "perms": 100,
+      "seed": 0,
+      "rows": [
+        {
+          "label": "Greek, archaic (real)",
+          "n_words": 400,
+          "real": 1.1429195957626077,
+          "null_mean": 1.0071167968162698,
+          "null_sd": 0.04890439012750699,
+          "z": 2.7769040487421126,
+          "se_z": 0.22035421593335058,
+          "p": 0.009900990099009901,
+          "perms": 100
+        },
+        {
+          "label": "Greek map, synthetic lexicon (control)",
+          "n_words": 400,
+          "real": 0.922464078891711,
+          "null_mean": 0.8897535983730102,
+          "null_sd": 0.04478823581395177,
+          "z": 0.7303364359913315,
+          "se_z": 0.11254757460151064,
+          "p": 0.297029702970297,
+          "perms": 100
+        },
+        {
+          "label": "Hebrew, Strong's (real)",
+          "n_words": 400,
+          "real": 0.030063751522063645,
+          "null_mean": 0.029656634937082215,
+          "null_sd": 0.0013634565892745147,
+          "z": 0.29859152699394276,
+          "se_z": 0.10220462073684766,
+          "p": 0.42574257425742573,
+          "perms": 100
+        },
+        {
+          "label": "Hebrew map, synthetic lexicon (control)",
+          "n_words": 400,
+          "real": 0.024361472769719873,
+          "null_mean": 0.025830785875315704,
+          "null_sd": 0.0014608890027340159,
+          "z": -1.0057664222579876,
+          "se_z": 0.1227103519704355,
+          "p": 0.8316831683168316,
+          "perms": 100
+        }
+      ]
+    }
+  ]
+}

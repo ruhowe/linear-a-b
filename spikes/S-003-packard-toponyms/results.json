@@ -1,0 +1,137 @@
+{
+  "question": "Does Packard's Knossos toponym match count survive a 200-draw frequency-banded null, on GORILA and on SigLA?",
+  "protocol": {
+    "n_permutations": 200,
+    "seed": 0,
+    "null": "frequency_matched_permute, 4 bands (hypotheses.run)",
+    "phonology": "greek_syllabic (hypotheses.phonologies), built from the GORILA sign inventory and reused for SigLA (SigLA carries no sign_inventory)",
+    "match_definition": "3= : first two sign labels identical, third sign shares a Greek consonant. 4= : four sign labels identical, or first three identical and the fourth shares a consonant. Identical-label positions are fixed by the corpus and do not vary under the null; only the Linear A side's consonant set at the differing position does.",
+    "toponym_lexicon_size": 32,
+    "toponym_candidates": 33,
+    "toponym_dropped": 1,
+    "personal_name_control_size": 32
+  },
+  "packard_1974_table14": {
+    "note": "Table 14 p.98, Linear B values vs. mean of his 9 random decipherments; reproduced here for comparison, not recomputed",
+    "knossos_name_3_equal": {
+      "linear_b_values": 13,
+      "random_mean": 3.0
+    },
+    "knossos_name_4_equal": {
+      "linear_b_values": 2,
+      "random_mean": 0.0
+    }
+  },
+  "editions": [
+    {
+      "edition": "gorila",
+      "n_word_types_3plus": 607,
+      "sign_freq_bands": 4,
+      "rows": [
+        {
+          "edition": "gorila",
+          "lexicon": "toponyms",
+          "match_class": "3=",
+          "real": 5,
+          "null_mean": 3.17,
+          "null_sd": 1.5591985120567553,
+          "null_p95": 6.0,
+          "null_p99": 8.0,
+          "real_percentile": 87.25,
+          "n_permutations": 200
+        },
+        {
+          "edition": "gorila",
+          "lexicon": "toponyms",
+          "match_class": "4=",
+          "real": 3,
+          "null_mean": 2.35,
+          "null_sd": 0.47696960070847283,
+          "null_p95": 3.0,
+          "null_p99": 3.0,
+          "real_percentile": 82.5,
+          "n_permutations": 200
+        },
+        {
+          "edition": "gorila",
+          "lexicon": "personal_names_control",
+          "match_class": "3=",
+          "real": 1,
+          "null_mean": 0.515,
+          "null_sd": 0.49977494935220595,
+          "null_p95": 1.0,
+          "null_p99": 1.0,
+          "real_percentile": 74.25,
+          "n_permutations": 200
+        },
+        {
+          "edition": "gorila",
+          "lexicon": "personal_names_control",
+          "match_class": "4=",
+          "real": 0,
+          "null_mean": 0.0,
+          "null_sd": 0.0,
+          "null_p95": 0.0,
+          "null_p99": 0.0,
+          "real_percentile": 50.0,
+          "n_permutations": 200
+        }
+      ]
+    },
+    {
+      "edition": "sigla",
+      "n_word_types_3plus": 443,
+      "sign_freq_bands": 4,
+      "rows": [
+        {
+          "edition": "sigla",
+          "lexicon": "toponyms",
+          "match_class": "3=",
+          "real": 5,
+          "null_mean": 3.95,
+          "null_sd": 1.1478240283248997,
+          "null_p95": 6.0,
+          "null_p99": 7.0,
+          "real_percentile": 81.25,
+          "n_permutations": 200
+        },
+        {
+          "edition": "sigla",
+          "lexicon": "toponyms",
+          "match_class": "4=",
+          "real": 1,
+          "null_mean": 0.28,
+          "null_sd": 0.44899888641287294,
+          "null_p95": 1.0,
+          "null_p99": 1.0,
+          "real_percentile": 86.0,
+          "n_permutations": 200
+        },
+        {
+          "edition": "sigla",
+          "lexicon": "personal_names_control",
+          "match_class": "3=",
+          "real": 0,
+          "null_mean": 0.0,
+          "null_sd": 0.0,
+          "null_p95": 0.0,
+          "null_p99": 0.0,
+          "real_percentile": 50.0,
+          "n_permutations": 200
+        },
+        {
+          "edition": "sigla",
+          "lexicon": "personal_names_control",
+          "match_class": "4=",
+          "real": 0,
+          "null_mean": 0.0,
+          "null_sd": 0.0,
+          "null_p95": 0.0,
+          "null_p99": 0.0,
+          "real_percentile": 50.0,
+          "n_permutations": 200
+        }
+      ]
+    }
+  ]
+}

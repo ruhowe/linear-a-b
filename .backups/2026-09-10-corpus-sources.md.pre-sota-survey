@@ -1,0 +1,116 @@
+# Corpus Sources — Linear A and Linear B
+
+Files: `.venv/` (pyaegean 0.59.0), `~/.cache/pyaegean/` (fetched corpora, not in repo), `data/` (local exports)
+
+See also: nothing yet. Proposed siblings listed under Open questions.
+
+All rows verified live on 2026-09-10 unless marked otherwise. Re-verify before trusting a licence claim in anything published.
+
+## Source landscape
+
+| Source | Script | Holds | Licence / terms | Access route | Status |
+|---|---|---|---|---|---|
+| DĀMOS (damos.hf.uio.no) | B | All published Mycenaean docs; transliteration + epigraphic/morphological annotation | Content CC BY-NC-SA 4.0; software GPL-3.0 | `aegean.load("damos")` | **Canonical for B** |
+| GORILA (via pyaegean) | A | Standard corpus edition, bundled in the wheel | GORILA terms — pyaegean states data keeps original licence | `aegean.load("lineara")` | **Canonical for A** |
+| SigLA | A | Second Linear A edition, sign-level palaeographic focus | Unverified | `aegean.load("sigla")` | Cross-check against GORILA |
+| pyaegean (PyPI 0.59.0) | A, B, Cypriot, Cypro-Minoan | Toolkit + typed model + exports; cross-script phonetic comparison | Apache-2.0 (code only — data keeps its own licence) | `pip install "pyaegean[all]"` | **Primary access layer** |
+| j-luo93/NeuroDecipher | B | `linear_b-greek.cog` — 919 Linear B↔Greek pairs | Repo licence unverified | GitHub clone | Parallel data for ML |
+| Papavassiliou/Owens/Kosmopoulos, LREC 2020 | B | Mycenaean word+ideogram sequences | Unstated | No download link on ACL page | Not obtained |
+| LiBER (liber.cnr.it) | B | 5,638 docs ≈6,000 inscriptions; transcriptions, apparatus, photos, RTI refs, findspot map | Texts reusable per academic practice; **images personal/non-profit only, Greek Law 3028/2002** | Browse UI | No bulk export |
+| InsiderPhD/Linear-B-Dataset | B | Scraped CSVs from minoan.deaditerranean.com | **None stated** | GitHub | Unofficial; prototype only |
+| CaLiBRA (Cambridge) | B | B&W photographs, Pylos tablets (1969 Seraphis set) | Unverified | Search UI | Not verified |
+| Ashmolean / Evans Archive | B | Knossos tablets, RTI capture, small subset | Unverified | — | Not verified |
+
+## Corpus facts (measured via pyaegean, not cited)
+
+| Corpus | Script | Docs | Tokens | Words | Sign inventory |
+|---|---|---|---|---|---|
+| DĀMOS | B | 5,932 | 54,476 | 14,491 | 211 |
+| GORILA | A | 1,721 | 6,406 | 1,381 | 342 |
+| SigLA | A | 802 | 2,616 | 1,895 | — |
+
+- DĀMOS data version: `damos-corpus-v2@2026-06-11`.
+- **Linear A is ~6.4k tokens.** An order of magnitude smaller than Linear B, which is itself tiny. This is the single hardest constraint on the whole project and rules out most data-hungry methods outright.
+- SigLA and GORILA both report `script_id="lineara"` but are different editions with different document counts. They are not interchangeable — decide which is authoritative per task and record it.
+- Read `Corpus.provenance` for source/licence/citation/`data_version` rather than hardcoding any of them.
+
+## Cross-script relationship
+
+- Linear B was adapted from Linear A. Shared graphic inventory is the reason comparative work is possible at all, and the reason both scripts belong in one repo.
+- Naive overlap of sign **labels** between the two loaded inventories: **56 shared**, 155 B-only, 286 A-only.
+- **That 56 is a transliteration-label match, not a scholarly homomorphy judgement.** Linear A signs are conventionally transliterated using Linear B sound values for the signs judged graphically equivalent, so this measure partly reflects that convention rather than independent evidence. Do not quote it as "the sign correspondence figure". See Open questions.
+- `Sign` carries `label`, `glyph`, `codepoint`, `phonetic`, `script_id`, `attrs` — the join key for cross-script work.
+
+## Data model contract
+
+`Corpus` → `Document` → `Token` → `Sign` (pyaegean `aegean.core`), identical across scripts:
+
+| Object | Fields |
+|---|---|
+| `Document` | `id, script_id, tokens, lines, glyphs, transcription, translations, meta, source_text` |
+| `DocumentMeta` | `site, support, scribe, findspot, period, name, images, notes` |
+| `Token` | `text, kind, signs, glyphs, line_no, position, status, alt, annotations, alignment, form_state` |
+| `Sign` | `label, glyph, codepoint, phonetic, script_id, attrs` |
+
+- One model across both scripts is what makes comparative code cheap. Don't fork per-script structures.
+- `DocumentMeta.scribe` is DĀMOS-curated scribal hand (B), `findspot` the find context, `support` the object class.
+- `Token.status` / `Token.alt` carry reading confidence and alternative readings. **Filter on these before any training run** — damaged and conjectural readings are in the corpus by design.
+
+## Unicode mapping rules
+
+Block range ≠ assigned range. Verified against `unicodedata` 16.0.0:
+
+| Block | Script | Block range | Actually assigned | Count |
+|---|---|---|---|---|
+| Linear B Syllabary | B | U+10000–U+1007F | U+10000–U+1005D | 88 |
+| Linear B Ideograms | B | U+10080–U+100FF | U+10080–U+100FA | 123 |
+| Aegean Numbers | A + B | U+10100–U+1013F | U+10100–U+1013F | 57 |
+| Linear A | A | U+10600–U+1077F | INVESTIGATE — not yet verified locally | — |
+
+- **Aegean Numbers is shared by both scripts and is not optional.** It holds `AEGEAN WORD SEPARATOR LINE` (U+10100) plus numeric and metrological signs. Both corpora are administrative accounts; omitting this block loses the quantities, which is most of what the documents are *for*.
+- Transliteration → codepoint goes through `Sign.codepoint` / `Sign.phonetic`. Don't hand-roll a table.
+- B sign inventory is 211 vs. 268 assigned B codepoints — the inventory is what DĀMOS attests, not what Unicode encodes.
+- All blocks are astral-plane. Check any regex/tokeniser is not operating on UTF-16 surrogate halves.
+
+## Decisions
+
+| Decision | Date | Reason | Rejected alternative |
+|---|---|---|---|
+| One repo for both scripts | 2026-09-10 | Shared sign inventory, one toolkit, one data model; the comparative question is the research question | Separate repos — would duplicate the corpus/licence/Unicode layer and put the interesting work across a repo boundary |
+| DĀMOS canonical for B; GORILA canonical for A | 2026-09-10 | Both are the standard published editions and both load through one API | Hand-parsing EpiDoc XML, or scraping either site |
+| SigLA kept as cross-check, not primary | 2026-09-10 | Different doc count and edition basis from GORILA; useful for disagreement analysis | Merging A editions into one corpus, which would hide edition-level disagreement |
+| InsiderPhD CSV demoted to prototype-only | 2026-09-10 | No licence stated, 2 commits, scraped from a secondary site | Using it as the working corpus because it is fastest to `read_csv` |
+| Text-first, images deferred | 2026-09-10 | Every image archive is browse-only with restrictive terms | Starting with computer vision on tablet photos |
+| No `git init` for now | 2026-09-10 | Ru's call; repo is early and the material is unsettled | Version control — revisit before anything is published or shared, since there is currently no undo but `.backups/` |
+
+## Invariants
+
+- **DĀMOS is NonCommercial (CC BY-NC-SA 4.0).** Commercial use, or a derivative under a non-ShareAlike licence, breaks the terms. Consequence: unpublishable results and a licence conversation with UiO.
+- **Never commit fetched corpus data into this repo.** pyaegean fetches rather than bundles deliberately. Committing redistributes licensed content under this repo's terms.
+- **Cite DĀMOS.** Aurora, F. (2015), *Procedia — Social and Behavioral Sciences* 198, 21–31. Available from `Corpus.cite()`.
+- **LiBER images are personal/non-profit only** under Greek Law 3028/2002 — heritage law, not merely licensing.
+- **Never treat Linear A transliterations as evidence about the Minoan language.** They are Linear B sound values applied by convention to graphically similar signs. Using them as input and then concluding something about Minoan phonology is circular. Consequence: the single most common way Linear A work is dismissed by reviewers.
+- Any train/test split must be grouped by document, and probably by scribal hand and findspot. Consequence of a random token-level split: leakage across joins of the same tablet and a meaningless accuracy figure.
+
+## Gotchas
+
+- pyaegean under `[all]` installs ~90 transitive deps including cloud SDKs. Use a narrower extra if footprint matters.
+- Installs and runs clean on Python 3.14.7 — no wheel gap.
+- **`.venv` hardcodes the absolute project path in 33 files under `.venv/bin/`** plus `pyvenv.cfg`. Renaming or moving the repo folder breaks pip and console scripts. Delete and recreate the venv after any move.
+- Corpus name is `lineara`, not `linear_a`. The KeyError does suggest the right name.
+- The DĀMOS `/statistics/` URL 404s. Get counts from the loaded corpus.
+- Search engines still index pyaegean at 0.15.1; current is 0.59.0 (2026-08-12). Check PyPI, not search results.
+- Fetched corpora live outside the repo at `~/.cache/pyaegean/`. A clean clone has no data until something calls `aegean.load()`.
+- Word boundaries follow each edition's conventions (DĀMOS: comma/slash dividers), not whitespace.
+
+## Open questions
+
+- ~~Whether to `git init`~~ — **decided 2026-09-10: not for now.** Moved to the Decisions table.
+- INVESTIGATE: the real Linear A↔B sign correspondence set, from the palaeographic literature rather than label matching. Needed before any transfer or cross-script model. The 56-label figure above is a placeholder.
+- INVESTIGATE: Linear A Unicode block U+10600–U+1077F — assigned range and count, verified locally the way the B blocks were.
+- INVESTIGATE: GORILA licence terms in specific. pyaegean states data keeps its original licence but the terms themselves are unread.
+- INVESTIGATE: how GORILA and SigLA disagree — document overlap, sign readings. Disagreement between editions is itself a signal worth measuring.
+- INVESTIGATE: licence on `j-luo93/NeuroDecipher` before redistributing the 919 pairs; and whether they can be regenerated from DĀMOS rather than inherited with unknown provenance.
+- INVESTIGATE: whether the LREC 2020 sequence dataset is obtainable from the authors.
+- INVESTIGATE: `DocumentMeta.images` contents — whether it cross-references LiBER/CaLiBRA identifiers. If so, it is the bridge from text to image work.
+- INVESTIGATE: current state of the art. Known starting points: Luo/Cao/Barzilay ACL 2019 (67.3% cognate accuracy, B↔Greek), scribal-hand representation learning (arXiv 2108.04199), 2025 *Frontiers in AI* combinatorial optimisation (10.3389/frai.2025.1581129). Linear A state of the art not yet surveyed at all.

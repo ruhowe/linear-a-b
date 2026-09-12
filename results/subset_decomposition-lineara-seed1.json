@@ -1,0 +1,145 @@
+{
+  "protocol": {
+    "version": "1.0",
+    "variant": "subset decomposition, one null"
+  },
+  "seed": 1,
+  "perms": 100,
+  "n_full": 400,
+  "n_secure": 102,
+  "n_non_secure": 298,
+  "rows": [
+    {
+      "lexicon": "Hebrew",
+      "map": "semitic",
+      "subset": "full",
+      "n_words": 400,
+      "real": 0.0878020323813239,
+      "null_mean": 0.08379156179626265,
+      "null_sd": 0.0024079226940986326,
+      "gap": 0.0040104705850612515,
+      "z": 1.6655312875659023
+    },
+    {
+      "lexicon": "Hebrew",
+      "map": "semitic",
+      "subset": "secure",
+      "n_words": 102,
+      "real": 0.11757220459116333,
+      "null_mean": 0.1120544706055602,
+      "null_sd": 0.005313208878530019,
+      "gap": 0.005517733985603124,
+      "z": 1.0384937072396239
+    },
+    {
+      "lexicon": "Hebrew",
+      "map": "semitic",
+      "subset": "non-secure",
+      "n_words": 298,
+      "real": 0.07761224189339229,
+      "null_mean": 0.07411768025750982,
+      "null_sd": 0.00315136819812144,
+      "gap": 0.003494561635882465,
+      "z": 1.108902995837048
+    },
+    {
+      "lexicon": "Basque",
+      "map": "semitic",
+      "subset": "full",
+      "n_words": 400,
+      "real": 0.48114340354157453,
+      "null_mean": 0.46316251109344214,
+      "null_sd": 0.010837244707999504,
+      "gap": 0.01798089244813239,
+      "z": 1.6591756422054222
+    },
+    {
+      "lexicon": "Basque",
+      "map": "semitic",
+      "subset": "secure",
+      "n_words": 102,
+      "real": 0.6229735963483392,
+      "null_mean": 0.5644450424638512,
+      "null_sd": 0.03751632148106506,
+      "gap": 0.058528553884487966,
+      "z": 1.560082427431699
+    },
+    {
+      "lexicon": "Basque",
+      "map": "semitic",
+      "subset": "non-secure",
+      "n_words": 298,
+      "real": 0.4325974986211383,
+      "null_mean": 0.42849533592638944,
+      "null_sd": 0.016806537512387743,
+      "gap": 0.004102162694748834,
+      "z": 0.244081369629242
+    },
+    {
+      "lexicon": "Turkish",
+      "map": "semitic",
+      "subset": "full",
+      "n_words": 400,
+      "real": 0.3827556494570469,
+      "null_mean": 0.3761497866630103,
+      "null_sd": 0.009441871123098406,
+      "gap": 0.006605862794036577,
+      "z": 0.6996349248906951
+    },
+    {
+      "lexicon": "Turkish",
+      "map": "semitic",
+      "subset": "secure",
+      "n_words": 102,
+      "real": 0.5182200485543025,
+      "null_mean": 0.46651148888787913,
+      "null_sd": 0.021595016210217356,
+      "gap": 0.05170855966642335,
+      "z": 2.3944672772210387
+    },
+    {
+      "lexicon": "Turkish",
+      "map": "semitic",
+      "subset": "non-secure",
+      "n_words": 298,
+      "real": 0.3363886403700667,
+      "null_mean": 0.3452206134182565,
+      "null_sd": 0.012830171554996127,
+      "gap": -0.008831973048189778,
+      "z": -0.6883752886960087
+    },
+    {
+      "lexicon": "Greek archaic",
+      "map": "greek",
+      "subset": "full",
+      "n_words": 400,
+      "real": 1.762168545483898,
+      "null_mean": 1.6903155003847723,
+      "null_sd": 0.03033737038356597,
+      "gap": 0.07185304509912571,
+      "z": 2.368466488382565
+    },
+    {
+      "lexicon": "Greek archaic",
+      "map": "greek",
+      "subset": "secure",
+      "n_words": 102,
+      "real": 2.0031340879920507,
+      "null_mean": 1.8787848092601007,
+      "null_sd": 0.07962986812640044,
+      "gap": 0.12434927873195001,
+      "z": 1.5615909162949289
+    },
+    {
+      "lexicon": "Greek archaic",
+      "map": "greek",
+      "subset": "non-secure",
+      "n_words": 298,
+      "real": 1.6796904067730536,
+      "null_mean": 1.6258058711724115,
+      "null_sd": 0.04811513753487239,
+      "gap": 0.0538845356006421,
+      "z": 1.1199081694734474
+    }
+  ]
+}

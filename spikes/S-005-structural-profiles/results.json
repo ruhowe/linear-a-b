@@ -1,0 +1,982 @@
+{
+ "spike": "S-005",
+ "protocol": {
+  "stem_min": 2,
+  "perms": 200,
+  "seed": 0,
+  "target_types": 988,
+  "n_subsamples": 20,
+  "order_driven_stats": [
+   "paradigm_ratio",
+   "max_support_ratio",
+   "ending_entropy",
+   "prefix_ratio",
+   "medial_ratio"
+  ],
+  "inventory_driven_stats": [
+   "ending_inventory_size",
+   "sign_inventory_size",
+   "hapax_share",
+   "heaps_beta"
+  ]
+ },
+ "references": {
+  "linear_b": {
+   "name": "linear_b",
+   "meta": {
+    "source": "DAMOS via aegean.load('damos')",
+    "role": "the known case: real Linear B"
+   },
+   "subsample_meta": {
+    "model": "tablet (reused from results/kober-sweep)",
+    "documents_k": [
+     1042,
+     974,
+     978,
+     1012,
+     993,
+     1187,
+     1133,
+     895,
+     1101,
+     913,
+     1130,
+     973,
+     1151,
+     1112,
+     1081,
+     1013,
+     1072,
+     1008,
+     984,
+     1009
+    ]
+   },
+   "aggregate": {
+    "paradigm_ratio": {
+     "mean": 1.6244929486903763,
+     "sd": 0.0894783109970195,
+     "n": 20
+    },
+    "max_support_ratio": {
+     "mean": 1.5036876247504993,
+     "sd": 0.4063285879406021,
+     "n": 20
+    },
+    "ending_entropy": {
+     "mean": 4.993815032722131,
+     "sd": 0.057813613913966506,
+     "n": 20
+    },
+    "prefix_ratio": {
+     "mean": 1.0591243544938385,
+     "sd": 0.055678061232931654,
+     "n": 20
+    },
+    "medial_ratio": {
+     "mean": 0.8219623179570208,
+     "sd": 0.07682320986937707,
+     "n": 20
+    },
+    "ending_inventory_size": {
+     "mean": 64.25,
+     "sd": 3.5478866949213583,
+     "n": 20
+    },
+    "sign_inventory_size": {
+     "mean": 86.8,
+     "sd": 2.4,
+     "n": 20
+    },
+    "hapax_share": {
+     "mean": 0.10814849558462106,
+     "sd": 0.029746488168800298,
+     "n": 20
+    },
+    "heaps_beta": {
+     "mean": 0.21823254793221925,
+     "sd": 0.01780310893021085,
+     "n": 20
+    }
+   },
+   "full_profile": null,
+   "n_subsample_profiles": 20,
+   "self_noise_floor_rms_z": {
+    "mean": 0.9680211065454877,
+    "max": 1.4242833446890664
+   }
+  },
+  "greek": {
+   "name": "greek",
+   "meta": {
+    "language": "greek_iliad",
+    "role": "positive control: Greek respelled by the A-005 coda rule, beside real Linear B",
+    "source": "Homer, Iliad, via aegean.greek.load_work('tlg0012.tlg001') (Perseus canonical-greekLit)",
+    "url": "https://github.com/PerseusDL/canonical-greekLit",
+    "licence": "CC BY-SA 4.0 (Perseus Digital Library standard terms)",
+    "ordered": true,
+    "n_source_tokens": 111895,
+    "n_stream_words": 70789,
+    "n_distinct_types": 11242
+   },
+   "subsample_meta": {
+    "model": "chunk",
+    "n_full_types": 11242,
+    "target": 988
+   },
+   "aggregate": {
+    "paradigm_ratio": {
+     "mean": 1.2491962597767583,
+     "sd": 0.045054252518443534,
+     "n": 20
+    },
+    "max_support_ratio": {
+     "mean": 0.797930723377417,
+     "sd": 0.21741396239331565,
+     "n": 20
+    },
+    "ending_entropy": {
+     "mean": 5.526654045559368,
+     "sd": 0.04642864478000981,
+     "n": 20
+    },
+    "prefix_ratio": {
+     "mean": 1.0329086250739072,
+     "sd": 0.06228778250418415,
+     "n": 20
+    },
+    "medial_ratio": {
+     "mean": 0.7813503922892671,
+     "sd": 0.05385209852024521,
+     "n": 20
+    },
+    "ending_inventory_size": {
+     "mean": 75.55,
+     "sd": 1.6874537030686205,
+     "n": 20
+    },
+    "sign_inventory_size": {
+     "mean": 88.3,
+     "sd": 1.3453624047073711,
+     "n": 20
+    },
+    "hapax_share": {
+     "mean": 0.027627785418137915,
+     "sd": 0.012894324339691341,
+     "n": 20
+    },
+    "heaps_beta": {
+     "mean": 0.25985803595740053,
+     "sd": 0.019928232205137623,
+     "n": 20
+    }
+   },
+   "full_profile": {
+    "scalars": {
+     "paradigm_ratio": 1.2794471153846154,
+     "max_support_ratio": 2.1358291336693065,
+     "ending_entropy": 5.417747317496968,
+     "prefix_ratio": 1.0695063237603055,
+     "medial_ratio": 1.3321971031055044,
+     "ending_inventory_size": 83.0,
+     "sign_inventory_size": 91.0,
+     "hapax_share": 0.01098901098901099,
+     "heaps_beta": 0.059221621257475064
+    },
+    "diagnostics": {
+     "n_word_types": 11242,
+     "paradigm_count": 2129,
+     "paradigm_count_n1_p99": 1664.0,
+     "max_support": 267,
+     "max_support_n2_p99": 125.00999999999999,
+     "prefix_paradigm_count": 1846,
+     "prefix_paradigm_count_n1_p99": 1726.03,
+     "medial_pair_count": 21636,
+     "medial_pair_count_n1_p99": 16240.84
+    }
+   },
+   "n_subsample_profiles": 20,
+   "self_noise_floor_rms_z": {
+    "mean": 0.9640146259802304,
+    "max": 1.3899727541240419
+   }
+  },
+  "hittite": {
+   "name": "hittite",
+   "meta": {
+    "language": "hittite_kaikki",
+    "role": "reference: Anatolian, cuneiform syllabary via Latin transliteration",
+    "source": "kaikki.org Wiktionary extract for Hittite",
+    "url": "https://kaikki.org/dictionary/Hittite/",
+    "licence": "CC BY-SA 4.0 (inherited from Wiktionary)",
+    "ordered": false,
+    "n_source_entries": 472,
+    "n_raw_latin_forms": 21222,
+    "n_distinct_types": 3320
+   },
+   "subsample_meta": {
+    "model": "random_subset",
+    "n_full_types": 3320,
+    "target": 988
+   },
+   "aggregate": {
+    "paradigm_ratio": {
+     "mean": 1.3031934792673134,
+     "sd": 0.031077453669835355,
+     "n": 20
+    },
+    "max_support_ratio": {
+     "mean": 1.5621708073134632,
+     "sd": 0.27134674921870705,
+     "n": 20
+    },
+    "ending_entropy": {
+     "mean": 4.4841605322569755,
+     "sd": 0.03998686418125008,
+     "n": 20
+    },
+    "prefix_ratio": {
+     "mean": 1.0276183471696771,
+     "sd": 0.030188637354912576,
+     "n": 20
+    },
+    "medial_ratio": {
+     "mean": 1.1978219861041202,
+     "sd": 0.056425907749559995,
+     "n": 20
+    },
+    "ending_inventory_size": {
+     "mean": 46.05,
+     "sd": 1.9868316486305526,
+     "n": 20
+    },
+    "sign_inventory_size": {
+     "mean": 55.4,
+     "sd": 0.9695359714832658,
+     "n": 20
+    },
+    "hapax_share": {
+     "mean": 0.04855051137945875,
+     "sd": 0.02006549491808762,
+     "n": 20
+    },
+    "heaps_beta": {
+     "mean": 0.2768046418933963,
+     "sd": 0.02438495951250663,
+     "n": 20
+    }
+   },
+   "full_profile": {
+    "scalars": {
+     "paradigm_ratio": 0.8822225280185925,
+     "max_support_ratio": 3.4316751018392795,
+     "ending_entropy": 4.505187474773704,
+     "prefix_ratio": 0.9436237079428361,
+     "medial_ratio": 1.6127721020622268,
+     "ending_inventory_size": 51.0,
+     "sign_inventory_size": 57.0,
+     "hapax_share": 0.017543859649122806,
+     "heaps_beta": 0.19411366591434662
+    },
+    "diagnostics": {
+     "n_word_types": 3320,
+     "paradigm_count": 577,
+     "paradigm_count_n1_p99": 654.03,
+     "max_support": 278,
+     "max_support_n2_p99": 81.00999999999999,
+     "prefix_paradigm_count": 587,
+     "prefix_paradigm_count_n1_p99": 622.0699999999999,
+     "medial_pair_count": 4166,
+     "medial_pair_count_n1_p99": 2583.13
+    }
+   },
+   "n_subsample_profiles": 20,
+   "self_noise_floor_rms_z": {
+    "mean": 0.9796279868546964,
+    "max": 1.309259512302926
+   }
+  },
+  "akkadian": {
+   "name": "akkadian",
+   "meta": {
+    "language": "akkadian_oracc",
+    "role": "reference: Semitic, cuneiform syllabary, citation-form transliteration",
+    "source": "ORACC saao + rinap + ribo project glossaries (gloss-akk.json)",
+    "url": "http://oracc.museum.upenn.edu",
+    "licence": "CC0 (per each project's own license field)",
+    "period_note": "First-millennium BC Neo-Assyrian/Neo-Babylonian royal and scholarly registers, not the Old Babylonian period contemporary with the Minoan palaces (see lexicons.py).",
+    "ordered": false,
+    "n_raw_entries_deduped": 7571,
+    "n_distinct_types": 3510
+   },
+   "subsample_meta": {
+    "model": "random_subset",
+    "n_full_types": 3510,
+    "target": 988
+   },
+   "aggregate": {
+    "paradigm_ratio": {
+     "mean": 1.0605877278502474,
+     "sd": 0.03643809760144742,
+     "n": 20
+    },
+    "max_support_ratio": {
+     "mean": 0.6421212935529298,
+     "sd": 0.12304201217124842,
+     "n": 20
+    },
+    "ending_entropy": {
+     "mean": 4.109298766598778,
+     "sd": 0.051245515156104586,
+     "n": 20
+    },
+    "prefix_ratio": {
+     "mean": 0.9695963774753455,
+     "sd": 0.046152917475895394,
+     "n": 20
+    },
+    "medial_ratio": {
+     "mean": 0.9530379011495099,
+     "sd": 0.05859151029714534,
+     "n": 20
+    },
+    "ending_inventory_size": {
+     "mean": 47.75,
+     "sd": 1.6393596310755,
+     "n": 20
+    },
+    "sign_inventory_size": {
+     "mean": 66.3,
+     "sd": 0.7810249675906654,
+     "n": 20
+    },
+    "hapax_share": {
+     "mean": 0.02630136033121108,
+     "sd": 0.012378012640407431,
+     "n": 20
+    },
+    "heaps_beta": {
+     "mean": 0.3052370131551186,
+     "sd": 0.023022546160554054,
+     "n": 20
+    }
+   },
+   "full_profile": {
+    "scalars": {
+     "paradigm_ratio": 1.0239141211261347,
+     "max_support_ratio": 1.2545454545454546,
+     "ending_entropy": 4.152747312415984,
+     "prefix_ratio": 0.9364406779661016,
+     "medial_ratio": 1.3334229784895475,
+     "ending_inventory_size": 56.0,
+     "sign_inventory_size": 68.0,
+     "hapax_share": 0.014705882352941176,
+     "heaps_beta": 0.20828107974701188
+    },
+    "diagnostics": {
+     "n_word_types": 3510,
+     "paradigm_count": 599,
+     "paradigm_count_n1_p99": 585.01,
+     "max_support": 138,
+     "max_support_n2_p99": 110.0,
+     "prefix_paradigm_count": 442,
+     "prefix_paradigm_count_n1_p99": 472.0,
+     "medial_pair_count": 9123,
+     "medial_pair_count_n1_p99": 6841.789999999999
+    }
+   },
+   "n_subsample_profiles": 20,
+   "self_noise_floor_rms_z": {
+    "mean": 0.9866829770880917,
+    "max": 1.3567651880417946
+   }
+  },
+  "sumerian": {
+   "name": "sumerian",
+   "meta": {
+    "language": "sumerian_epsd2",
+    "role": "reference: language isolate, cuneiform syllabary, citation-form transliteration",
+    "source": "ORACC epsd2/literary glossary (Old Babylonian literary corpus)",
+    "url": "http://oracc.org/epsd2/literary",
+    "licence": "CC0 (per the file's own license field)",
+    "ordered": false,
+    "n_raw_entries_deduped": 3605,
+    "n_distinct_types": 1397
+   },
+   "subsample_meta": {
+    "model": "random_subset",
+    "n_full_types": 1397,
+    "target": 988
+   },
+   "aggregate": {
+    "paradigm_ratio": {
+     "mean": 0.9254310414946579,
+     "sd": 0.03785805177190325,
+     "n": 20
+    },
+    "max_support_ratio": {
+     "mean": 0.6716409797402952,
+     "sd": 0.14500389727124674,
+     "n": 20
+    },
+    "ending_entropy": {
+     "mean": 5.093098983367159,
+     "sd": 0.018451079752112586,
+     "n": 20
+    },
+    "prefix_ratio": {
+     "mean": 1.0000385720462617,
+     "sd": 0.034300037308416104,
+     "n": 20
+    },
+    "medial_ratio": {
+     "mean": 0.8660849085832935,
+     "sd": 0.048516007472864074,
+     "n": 20
+    },
+    "ending_inventory_size": {
+     "mean": 47.15,
+     "sd": 0.5722761571129799,
+     "n": 20
+    },
+    "sign_inventory_size": {
+     "mean": 51.75,
+     "sd": 0.4330127018922193,
+     "n": 20
+    },
+    "hapax_share": {
+     "mean": 0.025980392156862746,
+     "sd": 0.015225523422773547,
+     "n": 20
+    },
+    "heaps_beta": {
+     "mean": 0.23147227102752832,
+     "sd": 0.016881903954435794,
+     "n": 20
+    }
+   },
+   "full_profile": {
+    "scalars": {
+     "paradigm_ratio": 0.925181013676589,
+     "max_support_ratio": 0.75,
+     "ending_entropy": 5.106815647307183,
+     "prefix_ratio": 0.942474570426987,
+     "medial_ratio": 0.8900583457270336,
+     "ending_inventory_size": 48.0,
+     "sign_inventory_size": 52.0,
+     "hapax_share": 0.019230769230769232,
+     "heaps_beta": 0.19193239291835335
+    },
+    "diagnostics": {
+     "n_word_types": 1397,
+     "paradigm_count": 161,
+     "paradigm_count_n1_p99": 174.01999999999998,
+     "max_support": 9,
+     "max_support_n2_p99": 12.0,
+     "prefix_paradigm_count": 164,
+     "prefix_paradigm_count_n1_p99": 174.01,
+     "medial_pair_count": 389,
+     "medial_pair_count_n1_p99": 437.04999999999995
+    }
+   },
+   "n_subsample_profiles": 20,
+   "self_noise_floor_rms_z": {
+    "mean": 0.9744046823075445,
+    "max": 1.6251470095854472
+   }
+  },
+  "ugaritic": {
+   "name": "ugaritic",
+   "meta": {
+    "language": "ugaritic_cuc",
+    "role": "reference: WEAKEST -- consonantal alphabet, vocalised by an invented rule, not a real spelling",
+    "source": "Copenhagen Ugaritic Corpus (CACCHT project), DULAT-based lemma list",
+    "url": "https://github.com/DT-UCPH/cuc (Zenodo DOI 10.5281/zenodo.10695308)",
+    "licence": "CC BY-NC 4.0 (per the corpus repo's own README)",
+    "ordered": false,
+    "n_raw_headwords": 4996,
+    "n_after_exclusions": 4766,
+    "n_distinct_types": 3475
+   },
+   "subsample_meta": {
+    "model": "random_subset",
+    "n_full_types": 3475,
+    "target": 988
+   },
+   "aggregate": {
+    "paradigm_ratio": {
+     "mean": 1.045081995469077,
+     "sd": 0.026874371876916728,
+     "n": 20
+    },
+    "max_support_ratio": {
+     "mean": 0.8612271360590555,
+     "sd": 0.12495631147193155,
+     "n": 20
+    },
+    "ending_entropy": {
+     "mean": 3.5968294375758374,
+     "sd": 0.02308107741093189,
+     "n": 20
+    },
+    "prefix_ratio": {
+     "mean": 1.0024351165164311,
+     "sd": 0.028535368881537425,
+     "n": 20
+    },
+    "medial_ratio": {
+     "mean": 1.062489811331018,
+     "sd": 0.040332307647500606,
+     "n": 20
+    },
+    "ending_inventory_size": {
+     "mean": 19.0,
+     "sd": 0.0,
+     "n": 20
+    },
+    "sign_inventory_size": {
+     "mean": 22.0,
+     "sd": 0.0,
+     "n": 20
+    },
+    "hapax_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 20
+    },
+    "heaps_beta": {
+     "mean": 0.08932174271616408,
+     "sd": 0.017236625727275676,
+     "n": 20
+    }
+   },
+   "full_profile": {
+    "scalars": {
+     "paradigm_ratio": 1.1415241057542769,
+     "max_support_ratio": 1.5045322867021775,
+     "ending_entropy": 3.610956059155577,
+     "prefix_ratio": 1.0295789785205838,
+     "medial_ratio": 1.448355255358888,
+     "ending_inventory_size": 19.0,
+     "sign_inventory_size": 22.0,
+     "hapax_share": 0.0,
+     "heaps_beta": 0.06035103269376649
+    },
+    "diagnostics": {
+     "n_word_types": 3475,
+     "paradigm_count": 734,
+     "paradigm_count_n1_p99": 643.0,
+     "max_support": 161,
+     "max_support_n2_p99": 107.00999999999999,
+     "prefix_paradigm_count": 661,
+     "prefix_paradigm_count_n1_p99": 642.01,
+     "medial_pair_count": 5498,
+     "medial_pair_count_n1_p99": 3796.0299999999997
+    }
+   },
+   "n_subsample_profiles": 20,
+   "self_noise_floor_rms_z": {
+    "mean": 0.9800587710959991,
+    "max": 1.3374461668231963
+   }
+  },
+  "etruscan": {
+   "name": "etruscan",
+   "meta": {
+    "language": "etruscan_kaikki",
+    "role": "reference: isolate, alphabetic (not syllabic) in its own script; SMALL BY CONSTRUCTION -- see caveat below",
+    "source": "kaikki.org Wiktionary extract for Etruscan",
+    "url": "https://kaikki.org/dictionary/Etruscan/",
+    "licence": "CC BY-SA 4.0 (inherited from Wiktionary)",
+    "size_caveat": "Only 409 distinct Latin-transliterated word forms exist in this extract at all (headwords plus every listed inflected form, romanizations included), against the pre-registered target of 988 -- Etruscan's real recovered vocabulary is genuinely this small, not an artefact of the fetch. run.py handles this corpus at reduced size and flags every statistic computed from it.",
+    "ordered": false,
+    "n_source_entries": 491,
+    "n_distinct_latin_forms": 409,
+    "n_distinct_types": 213
+   },
+   "subsample_meta": {
+    "model": "random_subset_reduced",
+    "n_full_types": 213,
+    "target": 988,
+    "reduced_target": 170,
+    "caveat": "Pool has only 213 usable types, short of the 988 target. Subsamples here are 20 draws of 170 (80% of the pool), not 988; not directly comparable in scale to every other reference's spread."
+   },
+   "aggregate": {
+    "paradigm_ratio": {
+     "mean": 1.1430481007792734,
+     "sd": 0.11401343296844114,
+     "n": 20
+    },
+    "max_support_ratio": {
+     "mean": 1.2739093918028859,
+     "sd": 0.2671502235722041,
+     "n": 20
+    },
+    "ending_entropy": {
+     "mean": 4.657082898948346,
+     "sd": 0.05605601393322846,
+     "n": 20
+    },
+    "prefix_ratio": {
+     "mean": 0.47980049912137573,
+     "sd": 0.13705671586020807,
+     "n": 20
+    },
+    "medial_ratio": {
+     "mean": 0.5429604133878622,
+     "sd": 0.09393763889827028,
+     "n": 20
+    },
+    "ending_inventory_size": {
+     "mean": 36.8,
+     "sd": 0.8717797887081347,
+     "n": 20
+    },
+    "sign_inventory_size": {
+     "mean": 46.5,
+     "sd": 1.3601470508735443,
+     "n": 20
+    },
+    "hapax_share": {
+     "mean": 0.1716727918287494,
+     "sd": 0.02340748149436079,
+     "n": 20
+    },
+    "heaps_beta": {
+     "mean": 0.6618038033538315,
+     "sd": 0.014196356301387965,
+     "n": 20
+    }
+   },
+   "full_profile": {
+    "scalars": {
+     "paradigm_ratio": 1.166018878400889,
+     "max_support_ratio": 1.4,
+     "ending_entropy": 4.705794640294144,
+     "prefix_ratio": 0.5,
+     "medial_ratio": 0.6030788763688304,
+     "ending_inventory_size": 39.0,
+     "sign_inventory_size": 48.0,
+     "hapax_share": 0.16666666666666666,
+     "heaps_beta": 0.614249653686711
+    },
+    "diagnostics": {
+     "n_word_types": 213,
+     "paradigm_count": 21,
+     "paradigm_count_n1_p99": 18.00999999999999,
+     "max_support": 7,
+     "max_support_n2_p99": 5.0,
+     "prefix_paradigm_count": 6,
+     "prefix_paradigm_count_n1_p99": 12.0,
+     "medial_pair_count": 38,
+     "medial_pair_count_n1_p99": 63.00999999999999
+    }
+   },
+   "n_subsample_profiles": 20,
+   "self_noise_floor_rms_z": {
+    "mean": 0.9534462901745517,
+    "max": 1.7007005172906096
+   }
+  }
+ },
+ "subjects": {
+  "linear_a_gorila": {
+   "n_word_types": 988,
+   "profile": {
+    "scalars": {
+     "paradigm_ratio": 1.2625,
+     "max_support_ratio": 0.6666666666666666,
+     "ending_entropy": 5.864603864425559,
+     "prefix_ratio": 1.1891891891891893,
+     "medial_ratio": 0.711864406779661,
+     "ending_inventory_size": 106.0,
+     "sign_inventory_size": 158.0,
+     "hapax_share": 0.3987341772151899,
+     "heaps_beta": 0.3234630615640324
+    },
+    "diagnostics": {
+     "n_word_types": 988,
+     "paradigm_count": 101,
+     "paradigm_count_n1_p99": 80.0,
+     "max_support": 2,
+     "max_support_n2_p99": 3.0,
+     "prefix_paradigm_count": 88,
+     "prefix_paradigm_count_n1_p99": 74.0,
+     "medial_pair_count": 42,
+     "medial_pair_count_n1_p99": 59.0
+    }
+   }
+  },
+  "linear_a_sigla": {
+   "n_word_types": 692,
+   "profile": {
+    "scalars": {
+     "paradigm_ratio": 1.2802525429673803,
+     "max_support_ratio": 0.3333333333333333,
+     "ending_entropy": 5.693187883028637,
+     "prefix_ratio": 1.1834319526627222,
+     "medial_ratio": 0.6046511627906976,
+     "ending_inventory_size": 82.0,
+     "sign_inventory_size": 106.0,
+     "hapax_share": 0.25471698113207547,
+     "heaps_beta": 0.3014458842901876
+    },
+    "diagnostics": {
+     "n_word_types": 692,
+     "paradigm_count": 73,
+     "paradigm_count_n1_p99": 57.01999999999998,
+     "max_support": 1,
+     "max_support_n2_p99": 3.0,
+     "prefix_paradigm_count": 58,
+     "prefix_paradigm_count_n1_p99": 49.00999999999999,
+     "medial_pair_count": 26,
+     "medial_pair_count_n1_p99": 43.0
+    }
+   }
+  }
+ },
+ "distances": {
+  "linear_a_gorila": {
+   "linear_b": {
+    "per_statistic_z": {
+     "paradigm_ratio": -4.045594341878383,
+     "max_support_ratio": -2.0599607877115207,
+     "ending_entropy": 15.062003094967645,
+     "prefix_ratio": 2.3360158707972745,
+     "medial_ratio": -1.4331334418928845,
+     "ending_inventory_size": 11.767568580970543,
+     "sign_inventory_size": 29.666666666666668,
+     "hapax_share": 9.768739085488102,
+     "heaps_beta": 5.910794235114913
+    },
+    "order_driven_pooled_rms_z": 7.141219095779808,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 16.948101171142792,
+    "inventory_driven_n": 4
+   },
+   "greek": {
+    "per_statistic_z": {
+     "paradigm_ratio": 0.29528267543214926,
+     "max_support_ratio": -0.6037517336319246,
+     "ending_entropy": 7.278907675799715,
+     "prefix_ratio": 2.5090083132239287,
+     "medial_ratio": -1.2903115648034296,
+     "ending_inventory_size": 18.044939511304477,
+     "sign_inventory_size": 51.80760199342749,
+     "hapax_share": 28.780600054762957,
+     "heaps_beta": 3.191704359518355
+    },
+    "order_driven_pooled_rms_z": 3.504118480222442,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 31.016759109015645,
+    "inventory_driven_n": 4
+   },
+   "hittite": {
+    "per_statistic_z": {
+     "paradigm_ratio": -1.309421283340588,
+     "max_support_ratio": -3.30022063365504,
+     "ending_entropy": 34.52242031061481,
+     "prefix_ratio": 5.352041568488343,
+     "medial_ratio": -8.612313008438019,
+     "ending_inventory_size": 30.173668736010548,
+     "sign_inventory_size": 105.8238198661522,
+     "hapax_share": 17.45203232042213,
+     "heaps_beta": 1.9134097658315057
+    },
+    "order_driven_pooled_rms_z": 16.169228978135944,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 55.71661714672601,
+    "inventory_driven_n": 4
+   },
+   "akkadian": {
+    "per_statistic_z": {
+     "paradigm_ratio": 5.541240773824923,
+     "max_support_ratio": 0.19948774146813264,
+     "ending_entropy": 34.25285300537528,
+     "prefix_ratio": 4.757939990002408,
+     "medial_ratio": -4.116184975378578,
+     "ending_inventory_size": 35.53216688749689,
+     "sign_inventory_size": 117.40981889846562,
+     "hapax_share": 30.088256306039767,
+     "heaps_beta": 0.7916608476668665
+    },
+    "order_driven_pooled_rms_z": 15.770758100867178,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 63.153642713479115,
+    "inventory_driven_n": 4
+   },
+   "sumerian": {
+    "per_statistic_z": {
+     "paradigm_ratio": 8.90349457326014,
+     "max_support_ratio": -0.03430468537217022,
+     "ending_entropy": 41.81353565338451,
+     "prefix_ratio": 5.514589253712451,
+     "medial_ratio": -3.1787550096716206,
+     "ending_inventory_size": 102.83496746900417,
+     "sign_inventory_size": 245.37386440559095,
+     "hapax_share": 24.48216555240271,
+     "heaps_beta": 5.449076762004268
+    },
+    "order_driven_pooled_rms_z": 19.329564580264307,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 133.61552373824117,
+    "inventory_driven_n": 4
+   },
+   "ugaritic": {
+    "per_statistic_z": {
+     "paradigm_ratio": 8.090161345042272,
+     "max_support_ratio": -1.5570279492132117,
+     "ending_entropy": 98.25253762961844,
+     "prefix_ratio": 6.544652478405116,
+     "medial_ratio": -8.693412923847049,
+     "ending_inventory_size": null,
+     "sign_inventory_size": null,
+     "hapax_share": null,
+     "heaps_beta": 13.583941692100275
+    },
+    "order_driven_pooled_rms_z": 44.361794602136285,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 13.583941692100275,
+    "inventory_driven_n": 1
+   },
+   "etruscan": {
+    "per_statistic_z": {
+     "paradigm_ratio": 1.0477002236551436,
+     "max_support_ratio": -2.273038431398118,
+     "ending_entropy": 21.541327696178346,
+     "prefix_ratio": 5.175876903335108,
+     "medial_ratio": 1.798043844541519,
+     "ending_inventory_size": 79.37784391921438,
+     "sign_inventory_size": 81.97643036345957,
+     "hapax_share": 9.700376584347316,
+     "heaps_beta": -23.832928295602148
+    },
+    "order_driven_pooled_rms_z": 10.003157919065075,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 58.48735550830573,
+    "inventory_driven_n": 4
+   }
+  },
+  "linear_a_sigla": {
+   "linear_b": {
+    "per_statistic_z": {
+     "paradigm_ratio": -3.847193827054497,
+     "max_support_ratio": -2.8803149129842933,
+     "ending_entropy": 12.097027031509482,
+     "prefix_ratio": 2.232613625837964,
+     "medial_ratio": -2.828717460983712,
+     "ending_inventory_size": 5.0029782589755,
+     "sign_inventory_size": 8.000000000000002,
+     "hapax_share": 4.927253419487119,
+     "heaps_beta": 4.674090165047527
+    },
+    "order_driven_pooled_rms_z": 6.040221575709099,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 5.812803467145244,
+    "inventory_driven_n": 4
+   },
+   "greek": {
+    "per_statistic_z": {
+     "paradigm_ratio": 0.6893085880829728,
+     "max_support_ratio": -2.136925268873015,
+     "ending_entropy": 3.5868769863593273,
+     "prefix_ratio": 2.416578685855506,
+     "medial_ratio": -3.2811948717679207,
+     "ending_inventory_size": 3.822327088601442,
+     "sign_inventory_size": 13.156306388574846,
+     "hapax_share": 17.61156224486389,
+     "heaps_beta": 2.0868809588672623
+    },
+    "order_driven_pooled_rms_z": 2.627294227187901,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 11.20514144269841,
+    "inventory_driven_n": 4
+   },
+   "hittite": {
+    "per_statistic_z": {
+     "paradigm_ratio": -0.7381858418535819,
+     "max_support_ratio": -4.5286611227823474,
+     "ending_entropy": 30.235613007598047,
+     "prefix_ratio": 5.161332843918163,
+     "medial_ratio": -10.512384239277887,
+     "ending_inventory_size": 18.09413496346254,
+     "sign_inventory_size": 52.18991506069495,
+     "hapax_share": 10.274676532736418,
+     "heaps_beta": 1.0105098753251243
+    },
+    "order_driven_pooled_rms_z": 14.645105414214486,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 28.097041935847294,
+    "inventory_driven_n": 4
+   },
+   "akkadian": {
+    "per_statistic_z": {
+     "paradigm_ratio": 6.0284380792812655,
+     "max_support_ratio": -2.5096140315864552,
+     "ending_entropy": 30.907858211689362,
+     "prefix_ratio": 4.633197355271376,
+     "medial_ratio": -5.946027617174876,
+     "ending_inventory_size": 20.89230413556684,
+     "sign_inventory_size": 50.83064133335971,
+     "hapax_share": 18.453335558505774,
+     "heaps_beta": -0.16467026880921481
+    },
+    "order_driven_pooled_rms_z": 14.524170817325563,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 28.986182829004594,
+    "inventory_driven_n": 4
+   },
+   "sumerian": {
+    "per_statistic_z": {
+     "paradigm_ratio": 9.372418412086828,
+     "max_support_ratio": -2.3330934738541402,
+     "ending_entropy": 32.523240250629236,
+     "prefix_ratio": 5.346739974870575,
+     "medial_ratio": -5.388607995800576,
+     "ending_inventory_size": 60.89717274927435,
+     "sign_inventory_size": 125.28500841414879,
+     "hapax_share": 15.023233200185448,
+     "heaps_beta": 4.144888719395504
+    },
+    "order_driven_pooled_rms_z": 15.547806487993087,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 70.0850851117262,
+    "inventory_driven_n": 4
+   },
+   "ugaritic": {
+    "per_statistic_z": {
+     "paradigm_ratio": 8.750736522340784,
+     "max_support_ratio": -4.224626963675228,
+     "ending_entropy": 90.8258487300901,
+     "prefix_ratio": 6.342894563504213,
+     "medial_ratio": -11.351660126709675,
+     "ending_inventory_size": null,
+     "sign_inventory_size": null,
+     "hapax_share": null,
+     "heaps_beta": 12.306593235261404
+    },
+    "order_driven_pooled_rms_z": 41.26221070006528,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 12.306593235261404,
+    "inventory_driven_n": 1
+   },
+   "etruscan": {
+    "per_statistic_z": {
+     "paradigm_ratio": 1.2034059374923394,
+     "max_support_ratio": -3.5207758612088087,
+     "ending_entropy": 18.483386730181262,
+     "prefix_ratio": 5.133870668979258,
+     "medial_ratio": 0.6567202468186735,
+     "ending_inventory_size": 51.847955854746964,
+     "sign_inventory_size": 43.745270014581564,
+     "hapax_share": 3.547762681061295,
+     "heaps_beta": -25.383831696899016
+    },
+    "order_driven_pooled_rms_z": 8.743769702606427,
+    "order_driven_n": 5,
+    "inventory_driven_pooled_rms_z": 36.25873931420557,
+    "inventory_driven_n": 4
+   }
+  }
+ }
+}

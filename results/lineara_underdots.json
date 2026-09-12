@@ -1,0 +1,55 @@
+{
+  "corpus": "lineara",
+  "provenance_data_version": "0.59.0",
+  "provenance_source": "GORILA (Godart & Olivier 1976\u20131985) via mwenge/lineara.xyz",
+  "population_tokens": 1257,
+  "population_sign_positions": 3336,
+  "population_word_types": 893,
+  "affected_tokens": 224,
+  "affected_sign_positions": 246,
+  "affected_word_types": 167,
+  "pct_sign_positions_affected": 7.374100719424461,
+  "by_category": {
+    "underdot": {
+      "tokens": 0,
+      "sign_positions": 0,
+      "word_types": 0
+    },
+    "bracket_or_query": {
+      "tokens": 0,
+      "sign_positions": 0,
+      "word_types": 0
+    },
+    "span_bracket": {
+      "tokens": 0,
+      "sign_positions": 0,
+      "word_types": 0
+    },
+    "unidentified_asterisk": {
+      "tokens": 224,
+      "sign_positions": 246,
+      "word_types": 167
+    },
+    "hyphen_in_label": {
+      "tokens": 0,
+      "sign_positions": 0,
+      "word_types": 0
+    },
+    "lowercase_anomaly": {
+      "tokens": 0,
+      "sign_positions": 0,
+      "word_types": 0
+    }
+  },
+  "sign_inventory": {
+    "n_inventory_signs": 342,
+    "labels_carrying_a_mark": {
+      "underdot": 0,
+      "bracket_or_query": 1,
+      "span_bracket": 0,
+      "unidentified_asterisk": 30,
+      "hyphen_in_label": 23,
+      "lowercase_anomaly": 0
+    }
+  }
+}

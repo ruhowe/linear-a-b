@@ -1,0 +1,1521 @@
+{
+  "question": "Where does Linear A fall on Rao 2009's block/conditional entropy measures, against Linear B as the positive control the Indus debate lacked and Sproat 2014's matched non-linguistic references?",
+  "protocol": {
+    "linear_a_corpus": "lineara (GORILA)",
+    "linear_a_total_tokens": 6406,
+    "linear_b_corpus": "damos",
+    "linear_b_full_documents": 5932,
+    "tablet_model_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "tablet_model_tolerance": 0.02,
+    "tablet_model_bisection": {
+      "0": {
+        "documents_k": 728,
+        "token_count": 6399,
+        "relative_error": 0.0010927255697783327,
+        "within_tolerance": true
+      },
+      "1": {
+        "documents_k": 679,
+        "token_count": 6402,
+        "relative_error": 0.0006244146113019045,
+        "within_tolerance": true
+      },
+      "2": {
+        "documents_k": 653,
+        "token_count": 6407,
+        "relative_error": 0.00015610365282547612,
+        "within_tolerance": true
+      },
+      "3": {
+        "documents_k": 689,
+        "token_count": 6415,
+        "relative_error": 0.001404932875429285,
+        "within_tolerance": true
+      },
+      "4": {
+        "documents_k": 683,
+        "token_count": 6408,
+        "relative_error": 0.00031220730565095225,
+        "within_tolerance": true
+      },
+      "5": {
+        "documents_k": 721,
+        "token_count": 6403,
+        "relative_error": 0.0004683109584764284,
+        "within_tolerance": true
+      },
+      "6": {
+        "documents_k": 734,
+        "token_count": 6405,
+        "relative_error": 0.00015610365282547612,
+        "within_tolerance": true
+      },
+      "7": {
+        "documents_k": 700,
+        "token_count": 6393,
+        "relative_error": 0.0020293474867311896,
+        "within_tolerance": true
+      },
+      "8": {
+        "documents_k": 731,
+        "token_count": 6410,
+        "relative_error": 0.0006244146113019045,
+        "within_tolerance": true
+      },
+      "9": {
+        "documents_k": 636,
+        "token_count": 6405,
+        "relative_error": 0.00015610365282547612,
+        "within_tolerance": true
+      },
+      "10": {
+        "documents_k": 737,
+        "token_count": 6407,
+        "relative_error": 0.00015610365282547612,
+        "within_tolerance": true
+      },
+      "11": {
+        "documents_k": 684,
+        "token_count": 6415,
+        "relative_error": 0.001404932875429285,
+        "within_tolerance": true
+      },
+      "12": {
+        "documents_k": 687,
+        "token_count": 6406,
+        "relative_error": 0.0,
+        "within_tolerance": true
+      },
+      "13": {
+        "documents_k": 752,
+        "token_count": 6368,
+        "relative_error": 0.005931938807368093,
+        "within_tolerance": true
+      },
+      "14": {
+        "documents_k": 692,
+        "token_count": 6423,
+        "relative_error": 0.002653762098033094,
+        "within_tolerance": true
+      },
+      "15": {
+        "documents_k": 689,
+        "token_count": 6412,
+        "relative_error": 0.0009366219169528567,
+        "within_tolerance": true
+      },
+      "16": {
+        "documents_k": 677,
+        "token_count": 6402,
+        "relative_error": 0.0006244146113019045,
+        "within_tolerance": true
+      },
+      "17": {
+        "documents_k": 706,
+        "token_count": 6407,
+        "relative_error": 0.00015610365282547612,
+        "within_tolerance": true
+      },
+      "18": {
+        "documents_k": 677,
+        "token_count": 6402,
+        "relative_error": 0.0006244146113019045,
+        "within_tolerance": true
+      },
+      "19": {
+        "documents_k": 687,
+        "token_count": 6446,
+        "relative_error": 0.0062441461130190445,
+        "within_tolerance": true
+      }
+    },
+    "smoothing_delta": 0.5,
+    "block_entropy_n": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "variants": {
+    "line": {
+      "linear_a_sequence_length_summary": {
+        "n_sequences": 1244,
+        "median": 3.0,
+        "min": 2,
+        "max": 48,
+        "sum": 4140
+      },
+      "linear_a": {
+        "n_sequences": 1244,
+        "n_symbols": 4140,
+        "alphabet_size": 159,
+        "unigram_entropy_bits": 5.8984954070817865,
+        "conditional_entropy_bigram_mle_bits": 3.960660122114599,
+        "conditional_entropy_bigram_addhalf_bits": 7.015362113251915,
+        "block_entropy_bits": {
+          "1": 5.8984954070817865,
+          "2": 9.695523933364006,
+          "3": 10.027821179170125,
+          "4": 9.430255594110859
+        },
+        "ratio_conditional_to_unigram_mle": 0.6714695610950879,
+        "ratio_conditional_to_unigram_addhalf": 1.1893477283764955
+      },
+      "linear_b_full": {
+        "n_sequences": 5033,
+        "n_symbols": 38563,
+        "alphabet_size": 104,
+        "unigram_entropy_bits": 5.487344499834134,
+        "conditional_entropy_bigram_mle_bits": 4.10349558256964,
+        "conditional_entropy_bigram_addhalf_bits": 4.708358838044226,
+        "block_entropy_bits": {
+          "1": 5.487344499834134,
+          "2": 9.54746969963251,
+          "3": 11.478281515171552,
+          "4": 12.229160892548254
+        },
+        "ratio_conditional_to_unigram_mle": 0.7478108186379908,
+        "ratio_conditional_to_unigram_addhalf": 0.8580395924087771
+      },
+      "linear_b_matched": {
+        "per_seed_token_count": {
+          "0": 4053,
+          "1": 5065,
+          "2": 4956,
+          "3": 4480,
+          "4": 4304,
+          "5": 4159,
+          "6": 4270,
+          "7": 4632,
+          "8": 4527,
+          "9": 5167,
+          "10": 4005,
+          "11": 4747,
+          "12": 4055,
+          "13": 4246,
+          "14": 4716,
+          "15": 4633,
+          "16": 4588,
+          "17": 4780,
+          "18": 4762,
+          "19": 4107
+        },
+        "summary": {
+          "n_sequences": {
+            "median": 598.5,
+            "min": 543,
+            "max": 614,
+            "stdev": 21.90433747000808,
+            "n": 20
+          },
+          "n_symbols": {
+            "median": 4557.5,
+            "min": 4005,
+            "max": 5167,
+            "stdev": 350.7128680123866,
+            "n": 20
+          },
+          "alphabet_size": {
+            "median": 84.0,
+            "min": 82,
+            "max": 89,
+            "stdev": 2.1788456625132104,
+            "n": 20
+          },
+          "unigram_entropy_bits": {
+            "median": 5.469666359712518,
+            "min": 5.400517343936446,
+            "max": 5.537168313851473,
+            "stdev": 0.04267993386236556,
+            "n": 20
+          },
+          "conditional_entropy_bigram_mle_bits": {
+            "median": 3.6683129194341246,
+            "min": 3.4358671663932165,
+            "max": 3.8864071583382414,
+            "stdev": 0.09549614014271483,
+            "n": 20
+          },
+          "conditional_entropy_bigram_addhalf_bits": {
+            "median": 5.472731087019236,
+            "min": 5.272894952774056,
+            "max": 5.617480907044322,
+            "stdev": 0.10279271424305843,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_mle": {
+            "median": 0.6698671761761115,
+            "min": 0.6344228237233822,
+            "max": 0.705125011081143,
+            "stdev": 0.014232060721614622,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_addhalf": {
+            "median": 1.0008585298755195,
+            "min": 0.9736246318996494,
+            "max": 1.0178802715535267,
+            "stdev": 0.013260414923154397,
+            "n": 20
+          },
+          "block_entropy_bits": {
+            "1": {
+              "median": 5.469666359712518,
+              "min": 5.400517343936446,
+              "max": 5.537168313851473,
+              "stdev": 0.04267993386236556
+            },
+            "2": {
+              "median": 9.097768254003242,
+              "min": 8.794889042025696,
+              "max": 9.359562403182029,
+              "stdev": 0.13622791863612954
+            },
+            "3": {
+              "median": 10.232554931453095,
+              "min": 9.797405145440717,
+              "max": 10.63837847559851,
+              "stdev": 0.1998759414354678
+            },
+            "4": {
+              "median": 10.39775327136362,
+              "min": 9.86076191070273,
+              "max": 10.877267057715919,
+              "stdev": 0.22289611589400843
+            }
+          }
+        }
+      },
+      "reference_1_shuffled_linear_b": {
+        "summary": {
+          "n_sequences": {
+            "median": 1244.0,
+            "min": 1244,
+            "max": 1244,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "n_symbols": {
+            "median": 4140.0,
+            "min": 4140,
+            "max": 4140,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "alphabet_size": {
+            "median": 84.0,
+            "min": 79,
+            "max": 89,
+            "stdev": 2.2918620331397284,
+            "n": 20
+          },
+          "unigram_entropy_bits": {
+            "median": 5.462051431115425,
+            "min": 5.392318777858197,
+            "max": 5.540749729913349,
+            "stdev": 0.04513078120298393,
+            "n": 20
+          },
+          "conditional_entropy_bigram_mle_bits": {
+            "median": 4.436771015248852,
+            "min": 4.307543249986357,
+            "max": 4.517532901749821,
+            "stdev": 0.057587415164346026,
+            "n": 20
+          },
+          "conditional_entropy_bigram_addhalf_bits": {
+            "median": 5.903764697950433,
+            "min": 5.80846249451667,
+            "max": 6.043238983980953,
+            "stdev": 0.05895304580964794,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_mle": {
+            "median": 0.8100714156693866,
+            "min": 0.7961108043887796,
+            "max": 0.8221162279699712,
+            "stdev": 0.005953625196018569,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_addhalf": {
+            "median": 1.0832795840975222,
+            "min": 1.0640682779211086,
+            "max": 1.0971941355989718,
+            "stdev": 0.00875333770227403,
+            "n": 20
+          },
+          "block_entropy_bits": {
+            "1": {
+              "median": 5.462051431115425,
+              "min": 5.392318777858197,
+              "max": 5.540749729913349,
+              "stdev": 0.04513078120298393
+            },
+            "2": {
+              "median": 9.883025985001288,
+              "min": 9.72691236079884,
+              "max": 10.016981445807815,
+              "stdev": 0.09068702207529607
+            },
+            "3": {
+              "median": 10.584647426614843,
+              "min": 10.516149535878718,
+              "max": 10.629601822805212,
+              "stdev": 0.031800469918625264
+            },
+            "4": {
+              "median": 9.901215993547789,
+              "min": 9.892873970607228,
+              "max": 9.90538700501807,
+              "stdev": 0.0036441057416460357
+            }
+          }
+        }
+      },
+      "reference_2_iid_unigram_from_linear_a": {
+        "summary": {
+          "n_sequences": {
+            "median": 1244.0,
+            "min": 1244,
+            "max": 1244,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "n_symbols": {
+            "median": 4140.0,
+            "min": 4140,
+            "max": 4140,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "alphabet_size": {
+            "median": 136.0,
+            "min": 129,
+            "max": 143,
+            "stdev": 3.4656206249082535,
+            "n": 20
+          },
+          "unigram_entropy_bits": {
+            "median": 5.873690280691779,
+            "min": 5.837629326155479,
+            "max": 5.91715321307406,
+            "stdev": 0.02452487792046661,
+            "n": 20
+          },
+          "conditional_entropy_bigram_mle_bits": {
+            "median": 4.66287718069492,
+            "min": 4.632013590898369,
+            "max": 4.691057061116082,
+            "stdev": 0.01765641552743821,
+            "n": 20
+          },
+          "conditional_entropy_bigram_addhalf_bits": {
+            "median": 6.8512758254258825,
+            "min": 6.759404968380408,
+            "max": 6.942141741522051,
+            "stdev": 0.0442405378347423,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_mle": {
+            "median": 0.7936514941804457,
+            "min": 0.7847164437852465,
+            "max": 0.8028549577707438,
+            "stdev": 0.005158269881530126,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_addhalf": {
+            "median": 1.1663278607426515,
+            "min": 1.155431253509165,
+            "max": 1.1776660369355327,
+            "stdev": 0.006051870558164579,
+            "n": 20
+          },
+          "block_entropy_bits": {
+            "1": {
+              "median": 5.873690280691779,
+              "min": 5.837629326155479,
+              "max": 5.91715321307406,
+              "stdev": 0.02452487792046661
+            },
+            "2": {
+              "median": 10.517866322825377,
+              "min": 10.479931394728533,
+              "max": 10.56401875794105,
+              "stdev": 0.025714494697453145
+            },
+            "3": {
+              "median": 10.671609688277211,
+              "min": 10.662906635159123,
+              "max": 10.679102087642274,
+              "stdev": 0.004404539299796812
+            },
+            "4": {
+              "median": 9.90538700501807,
+              "min": 9.90330149928293,
+              "max": 9.90538700501807,
+              "stdev": 0.0004663332591238942
+            }
+          }
+        }
+      },
+      "reference_3_markov_bigram_from_linear_a": {
+        "summary": {
+          "n_sequences": {
+            "median": 1244.0,
+            "min": 1244,
+            "max": 1244,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "n_symbols": {
+            "median": 4140.0,
+            "min": 4140,
+            "max": 4140,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "alphabet_size": {
+            "median": 135.5,
+            "min": 129,
+            "max": 142,
+            "stdev": 3.9068091705043444,
+            "n": 20
+          },
+          "unigram_entropy_bits": {
+            "median": 5.880380786539857,
+            "min": 5.834699370682167,
+            "max": 5.944394967981803,
+            "stdev": 0.028492213301125436,
+            "n": 20
+          },
+          "conditional_entropy_bigram_mle_bits": {
+            "median": 3.5595040885761793,
+            "min": 3.511532296582141,
+            "max": 3.6184230820199765,
+            "stdev": 0.028693393503805356,
+            "n": 20
+          },
+          "conditional_entropy_bigram_addhalf_bits": {
+            "median": 6.66258285988696,
+            "min": 6.5560674250878295,
+            "max": 6.757678008586854,
+            "stdev": 0.05841225622831441,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_mle": {
+            "median": 0.6053911503825586,
+            "min": 0.5931660727580401,
+            "max": 0.6201558730174862,
+            "stdev": 0.007112661903183854,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_addhalf": {
+            "median": 1.1301722038547672,
+            "min": 1.1118356262588251,
+            "max": 1.1450698803425767,
+            "stdev": 0.0074800287429719415,
+            "n": 20
+          },
+          "block_entropy_bits": {
+            "1": {
+              "median": 5.880380786539857,
+              "min": 5.834699370682167,
+              "max": 5.944394967981803,
+              "stdev": 0.028492213301125436
+            },
+            "2": {
+              "median": 9.428335961898672,
+              "min": 9.382116111597968,
+              "max": 9.484673651275639,
+              "stdev": 0.027518204291548717
+            },
+            "3": {
+              "median": 10.463295664667127,
+              "min": 10.4177057159737,
+              "max": 10.49249317058728,
+              "stdev": 0.019678871763074597
+            },
+            "4": {
+              "median": 9.890788464872088,
+              "min": 9.87748826935367,
+              "max": 9.90330149928293,
+              "stdev": 0.005967903493401792
+            }
+          }
+        }
+      },
+      "reference_4_dna_codons": {
+        "status": "reached: NCBI NC_000913.3:1-20000 (E. coli K-12 MG1655 genome fragment, public domain)",
+        "summary": {
+          "n_sequences": {
+            "median": 1244.0,
+            "min": 1244,
+            "max": 1244,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "n_symbols": {
+            "median": 4140.0,
+            "min": 4140,
+            "max": 4140,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "alphabet_size": {
+            "median": 64.0,
+            "min": 64,
+            "max": 64,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "unigram_entropy_bits": {
+            "median": 5.876961976085684,
+            "min": 5.847505351752556,
+            "max": 5.893970397334075,
+            "stdev": 0.014966531769948138,
+            "n": 20
+          },
+          "conditional_entropy_bigram_mle_bits": {
+            "median": 4.76720387870183,
+            "min": 4.747763494418042,
+            "max": 4.781834723849614,
+            "stdev": 0.01134548404653122,
+            "n": 20
+          },
+          "conditional_entropy_bigram_addhalf_bits": {
+            "median": 5.636112976997856,
+            "min": 5.62941704319519,
+            "max": 5.643013772402954,
+            "stdev": 0.004287668789957047,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_mle": {
+            "median": 0.8110776019301551,
+            "min": 0.8080518791185363,
+            "max": 0.8162211642350291,
+            "stdev": 0.002114916652191887,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_addhalf": {
+            "median": 0.9589905306023099,
+            "min": 0.9564370515599496,
+            "max": 0.9635385782869195,
+            "stdev": 0.002158873556580139,
+            "n": 20
+          },
+          "block_entropy_bits": {
+            "1": {
+              "median": 5.876961976085684,
+              "min": 5.847505351752556,
+              "max": 5.893970397334075,
+              "stdev": 0.014966531769948138
+            },
+            "2": {
+              "median": 10.638490174225788,
+              "min": 10.593013867491596,
+              "max": 10.669508769696614,
+              "stdev": 0.02359089679945022
+            },
+            "3": {
+              "median": 10.673654145753652,
+              "min": 10.660325120324686,
+              "max": 10.680312741395301,
+              "stdev": 0.005149627875877193
+            },
+            "4": {
+              "median": 9.90538700501807,
+              "min": 9.901215993547789,
+              "max": 9.90538700501807,
+              "stdev": 0.0012244899866784933
+            }
+          }
+        }
+      },
+      "reference_5_heraldic_blazons": {
+        "status": "reached: Parker, A Glossary of Terms used in Heraldry (1894, public domain), via karlwilcox.com/heraldry (\"please feel free to download ... and use\")",
+        "summary": {
+          "n_sequences": {
+            "median": 1244.0,
+            "min": 1244,
+            "max": 1244,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "n_symbols": {
+            "median": 4140.0,
+            "min": 4140,
+            "max": 4140,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "alphabet_size": {
+            "median": 817.0,
+            "min": 781,
+            "max": 869,
+            "stdev": 23.72978363953088,
+            "n": 20
+          },
+          "unigram_entropy_bits": {
+            "median": 6.996752878609783,
+            "min": 6.937239242152197,
+            "max": 7.134980085180986,
+            "stdev": 0.0587030760473323,
+            "n": 20
+          },
+          "conditional_entropy_bigram_mle_bits": {
+            "median": 2.7375708666366614,
+            "min": 2.6400752389542532,
+            "max": 2.837975567787473,
+            "stdev": 0.05175300391533713,
+            "n": 20
+          },
+          "conditional_entropy_bigram_addhalf_bits": {
+            "median": 9.655715488455769,
+            "min": 9.589038240724724,
+            "max": 9.747079886181025,
+            "stdev": 0.04272558158701061,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_mle": {
+            "median": 0.3908596212055202,
+            "min": 0.3743822415547193,
+            "max": 0.40372747279730864,
+            "stdev": 0.008444617756157177,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_addhalf": {
+            "median": 1.3782466312349644,
+            "min": 1.3660977003180772,
+            "max": 1.3877371285874451,
+            "stdev": 0.0064809457966541585,
+            "n": 20
+          },
+          "block_entropy_bits": {
+            "1": {
+              "median": 6.996752878609783,
+              "min": 6.937239242152197,
+              "max": 7.134980085180986,
+              "stdev": 0.0587030760473323
+            },
+            "2": {
+              "median": 9.648347540909711,
+              "min": 9.574432576686672,
+              "max": 9.79203911658252,
+              "stdev": 0.05968118708557879
+            },
+            "3": {
+              "median": 10.169055062967745,
+              "min": 10.102754336285724,
+              "max": 10.257792369967156,
+              "stdev": 0.03838616197792422
+            },
+            "4": {
+              "median": 9.812606763612685,
+              "min": 9.772133146893138,
+              "max": 9.842545855376272,
+              "stdev": 0.019486122365868767
+            }
+          }
+        }
+      },
+      "distances_in_linear_b_matched_spread_units": {
+        "unigram_entropy_bits": {
+          "linear_a_value": 5.8984954070817865,
+          "linear_b_matched_median": 5.469666359712518,
+          "linear_b_matched_spread_stdev": 0.04267993386236556,
+          "distance_to_linear_b_matched": 10.047556511033,
+          "distance_to_linear_b_full": 9.633353898193318,
+          "distance_to_reference_1_shuffled_linear_b": 10.225975920529965,
+          "distance_to_reference_2_iid_unigram": 0.5811894289714511,
+          "distance_to_reference_3_markov_bigram": 0.4244294426590653,
+          "distance_to_reference_4_dna_codons": 0.5045329045153565,
+          "distance_to_reference_5_heraldic_blazons": -25.73240799926406
+        },
+        "conditional_entropy_bigram_mle_bits": {
+          "linear_a_value": 3.960660122114599,
+          "linear_b_matched_median": 3.6683129194341246,
+          "linear_b_matched_spread_stdev": 0.09549614014271483,
+          "distance_to_linear_b_matched": 3.0613509849044616,
+          "distance_to_linear_b_full": -1.495719724813795,
+          "distance_to_reference_1_shuffled_linear_b": -4.985655885386843,
+          "distance_to_reference_2_iid_unigram": -7.353355408196481,
+          "distance_to_reference_3_markov_bigram": 4.200756522084658,
+          "distance_to_reference_4_dna_codons": -8.445825720095975,
+          "distance_to_reference_5_heraldic_blazons": 12.8077349896036
+        },
+        "conditional_entropy_bigram_addhalf_bits": {
+          "linear_a_value": 7.015362113251915,
+          "linear_b_matched_median": 5.472731087019236,
+          "linear_b_matched_spread_stdev": 0.10279271424305843,
+          "distance_to_linear_b_matched": 15.007201994735272,
+          "distance_to_linear_b_full": 22.44325672491405,
+          "distance_to_reference_1_shuffled_linear_b": 10.813970848878016,
+          "distance_to_reference_2_iid_unigram": 1.596283248616652,
+          "distance_to_reference_3_markov_bigram": 3.4319480321415665,
+          "distance_to_reference_4_dna_codons": 13.41777135092237,
+          "distance_to_reference_5_heraldic_blazons": -25.686191814729288
+        },
+        "ratio_conditional_to_unigram_mle": {
+          "linear_a_value": 0.6714695610950879,
+          "linear_b_matched_median": 0.6698671761761115,
+          "linear_b_matched_spread_stdev": 0.014232060721614622,
+          "distance_to_linear_b_matched": 0.11258980342480387,
+          "distance_to_linear_b_full": -5.364033995931546,
+          "distance_to_reference_1_shuffled_linear_b": -9.73870596011442,
+          "distance_to_reference_2_iid_unigram": -8.584978343986172,
+          "distance_to_reference_3_markov_bigram": 4.642926418390992,
+          "distance_to_reference_4_dna_codons": -9.809404524465005,
+          "distance_to_reference_5_heraldic_blazons": 19.716746954529057
+        },
+        "ratio_conditional_to_unigram_addhalf": {
+          "linear_a_value": 1.1893477283764955,
+          "linear_b_matched_median": 1.0008585298755195,
+          "linear_b_matched_spread_stdev": 0.013260414923154397,
+          "distance_to_linear_b_matched": 14.214426893373414,
+          "distance_to_linear_b_full": 24.98474880972326,
+          "distance_to_reference_1_shuffled_linear_b": 7.99885560848964,
+          "distance_to_reference_2_iid_unigram": 1.7359839618327737,
+          "distance_to_reference_3_markov_bigram": 4.46256960017142,
+          "distance_to_reference_4_dna_codons": 17.371794103663543,
+          "distance_to_reference_5_heraldic_blazons": -14.245323691088053
+        },
+        "block_entropy_bits_n2": {
+          "linear_a_value": 9.695523933364006,
+          "linear_b_matched_median": 9.097768254003242,
+          "linear_b_matched_spread_stdev": 0.13622791863612954,
+          "distance_to_linear_b_matched": 4.38790877336528,
+          "distance_to_linear_b_full": 1.0868127122088356,
+          "distance_to_reference_1_shuffled_linear_b": -1.3763849107766757,
+          "distance_to_reference_2_iid_unigram": -6.036518781864983,
+          "distance_to_reference_3_markov_bigram": 1.9613304977447752,
+          "distance_to_reference_4_dna_codons": -6.921974954197784,
+          "distance_to_reference_5_heraldic_blazons": 0.34630487587720754
+        },
+        "block_entropy_bits_n3": {
+          "linear_a_value": 10.027821179170125,
+          "linear_b_matched_median": 10.232554931453095,
+          "linear_b_matched_spread_stdev": 0.1998759414354678,
+          "distance_to_linear_b_matched": -1.0243041299148548,
+          "distance_to_linear_b_full": -7.2568030228376665,
+          "distance_to_reference_1_shuffled_linear_b": -2.7858592857434807,
+          "distance_to_reference_2_iid_unigram": -3.2209404717923014,
+          "distance_to_reference_3_markov_bigram": -2.178723874266777,
+          "distance_to_reference_4_dna_codons": -3.2311691039215993,
+          "distance_to_reference_5_heraldic_blazons": -0.706607722686918
+        },
+        "block_entropy_bits_n4": {
+          "linear_a_value": 9.430255594110859,
+          "linear_b_matched_median": 10.39775327136362,
+          "linear_b_matched_spread_stdev": 0.22289611589400843,
+          "distance_to_linear_b_matched": -4.3405766555072,
+          "distance_to_linear_b_full": -12.556994486922019,
+          "distance_to_reference_1_shuffled_linear_b": -2.1129143392560534,
+          "distance_to_reference_2_iid_unigram": -2.1316271438895154,
+          "distance_to_reference_3_markov_bigram": -2.0661323276724195,
+          "distance_to_reference_4_dna_codons": -2.1316271438895154,
+          "distance_to_reference_5_heraldic_blazons": -1.7153783410189232
+        }
+      }
+    },
+    "word_type": {
+      "linear_a_sequence_length_summary": {
+        "n_sequences": 988,
+        "median": 3.0,
+        "min": 2,
+        "max": 19,
+        "sum": 3016
+      },
+      "linear_a": {
+        "n_sequences": 988,
+        "n_symbols": 3016,
+        "alphabet_size": 158,
+        "unigram_entropy_bits": 5.917627031653503,
+        "conditional_entropy_bigram_mle_bits": 4.0667571074866515,
+        "conditional_entropy_bigram_addhalf_bits": 7.129321668316102,
+        "block_entropy_bits": {
+          "1": 5.917627031653503,
+          "2": 9.850921716967349,
+          "3": 9.813800634739518,
+          "4": 8.625927111920403
+        },
+        "ratio_conditional_to_unigram_mle": 0.6872276819295112,
+        "ratio_conditional_to_unigram_addhalf": 1.204760224019057
+      },
+      "linear_b_full": {
+        "n_sequences": 3768,
+        "n_symbols": 13897,
+        "alphabet_size": 103,
+        "unigram_entropy_bits": 5.761016236642851,
+        "conditional_entropy_bigram_mle_bits": 4.671885911415128,
+        "conditional_entropy_bigram_addhalf_bits": 5.738819870523086,
+        "block_entropy_bits": {
+          "1": 5.761016236642851,
+          "2": 10.45294004840213,
+          "3": 12.015685162854849,
+          "4": 11.326191302298001
+        },
+        "ratio_conditional_to_unigram_mle": 0.8109482284912987,
+        "ratio_conditional_to_unigram_addhalf": 0.996147143974602
+      },
+      "linear_b_matched": {
+        "per_seed_token_count": {
+          "0": 2391,
+          "1": 2829,
+          "2": 2606,
+          "3": 2540,
+          "4": 2319,
+          "5": 2474,
+          "6": 2662,
+          "7": 2678,
+          "8": 2542,
+          "9": 2586,
+          "10": 2443,
+          "11": 2593,
+          "12": 2178,
+          "13": 2485,
+          "14": 2416,
+          "15": 2878,
+          "16": 2487,
+          "17": 2577,
+          "18": 2674,
+          "19": 2521
+        },
+        "summary": {
+          "n_sequences": {
+            "median": 711.0,
+            "min": 620,
+            "max": 804,
+            "stdev": 40.322744006460255,
+            "n": 20
+          },
+          "n_symbols": {
+            "median": 2541.0,
+            "min": 2178,
+            "max": 2878,
+            "stdev": 161.80120193425148,
+            "n": 20
+          },
+          "alphabet_size": {
+            "median": 83.0,
+            "min": 81,
+            "max": 88,
+            "stdev": 2.1788456625132104,
+            "n": 20
+          },
+          "unigram_entropy_bits": {
+            "median": 5.726119020022764,
+            "min": 5.693841599226752,
+            "max": 5.769044435456262,
+            "stdev": 0.019616488377750017,
+            "n": 20
+          },
+          "conditional_entropy_bigram_mle_bits": {
+            "median": 3.880849352993052,
+            "min": 3.817445936327367,
+            "max": 4.002079591665521,
+            "stdev": 0.04977400751833398,
+            "n": 20
+          },
+          "conditional_entropy_bigram_addhalf_bits": {
+            "median": 5.992010044410346,
+            "min": 5.921402272090486,
+            "max": 6.091215983082603,
+            "stdev": 0.05277261668570659,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_mle": {
+            "median": 0.6773109241008199,
+            "min": 0.6655530542996717,
+            "max": 0.6988303945503906,
+            "stdev": 0.009194765732740938,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_addhalf": {
+            "median": 1.0460236448476357,
+            "min": 1.034231513500653,
+            "max": 1.060659952686734,
+            "stdev": 0.007496691453795625,
+            "n": 20
+          },
+          "block_entropy_bits": {
+            "1": {
+              "median": 5.726119020022764,
+              "min": 5.693841599226752,
+              "max": 5.769044435456262,
+              "stdev": 0.019616488377750017
+            },
+            "2": {
+              "median": 9.618516110614465,
+              "min": 9.548189625827026,
+              "max": 9.740964996224388,
+              "stdev": 0.048665587362290444
+            },
+            "3": {
+              "median": 9.920621713371276,
+              "min": 9.721493872629464,
+              "max": 10.090802926938313,
+              "stdev": 0.09429987237655829
+            },
+            "4": {
+              "median": 8.894108350476394,
+              "min": 8.643955478041548,
+              "max": 9.095417110224712,
+              "stdev": 0.12475877321568807
+            }
+          }
+        }
+      },
+      "reference_1_shuffled_linear_b": {
+        "summary": {
+          "n_sequences": {
+            "median": 988.0,
+            "min": 988,
+            "max": 988,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "n_symbols": {
+            "median": 3016.0,
+            "min": 3016,
+            "max": 3016,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "alphabet_size": {
+            "median": 83.0,
+            "min": 81,
+            "max": 88,
+            "stdev": 2.1788456625132104,
+            "n": 20
+          },
+          "unigram_entropy_bits": {
+            "median": 5.725171106986,
+            "min": 5.686671451981465,
+            "max": 5.759284693138364,
+            "stdev": 0.020895797634658504,
+            "n": 20
+          },
+          "conditional_entropy_bigram_mle_bits": {
+            "median": 4.399795042788384,
+            "min": 4.343125687251487,
+            "max": 4.426438526818609,
+            "stdev": 0.02273999053234305,
+            "n": 20
+          },
+          "conditional_entropy_bigram_addhalf_bits": {
+            "median": 6.062687830684094,
+            "min": 6.015168378269931,
+            "max": 6.154191320727554,
+            "stdev": 0.043716549289383184,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_mle": {
+            "median": 0.7685870157115847,
+            "min": 0.7549699820283585,
+            "max": 0.7756534049357527,
+            "stdev": 0.005285389258852825,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_addhalf": {
+            "median": 1.0605352483564923,
+            "min": 1.0517571823562912,
+            "max": 1.0718178527124087,
+            "stdev": 0.006206003873996367,
+            "n": 20
+          },
+          "block_entropy_bits": {
+            "1": {
+              "median": 5.725171106986,
+              "min": 5.686671451981465,
+              "max": 5.759284693138364,
+              "stdev": 0.020895797634658504
+            },
+            "2": {
+              "median": 10.105966660638245,
+              "min": 10.05807100904914,
+              "max": 10.183150243343126,
+              "stdev": 0.029331446529726
+            },
+            "3": {
+              "median": 9.999290889951615,
+              "min": 9.980060120720845,
+              "max": 10.006983197643924,
+              "stdev": 0.006626674560625281
+            },
+            "4": {
+              "median": 8.75822321472675,
+              "min": 8.748985339438065,
+              "max": 8.75822321472675,
+              "stdev": 0.0031434505652597035
+            }
+          }
+        }
+      },
+      "reference_2_iid_unigram_from_linear_a": {
+        "summary": {
+          "n_sequences": {
+            "median": 988.0,
+            "min": 988,
+            "max": 988,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "n_symbols": {
+            "median": 3016.0,
+            "min": 3016,
+            "max": 3016,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "alphabet_size": {
+            "median": 134.0,
+            "min": 126,
+            "max": 145,
+            "stdev": 5.07288976090707,
+            "n": 20
+          },
+          "unigram_entropy_bits": {
+            "median": 5.883155015288364,
+            "min": 5.8289800841068145,
+            "max": 5.939057712890814,
+            "stdev": 0.031823478652280725,
+            "n": 20
+          },
+          "conditional_entropy_bigram_mle_bits": {
+            "median": 4.382573261145413,
+            "min": 4.310332367513732,
+            "max": 4.408668525475996,
+            "stdev": 0.023384901140723967,
+            "n": 20
+          },
+          "conditional_entropy_bigram_addhalf_bits": {
+            "median": 6.8897263714441985,
+            "min": 6.777530500578124,
+            "max": 7.020424694687883,
+            "stdev": 0.0636777135835205,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_mle": {
+            "median": 0.7449676522441218,
+            "min": 0.7257603101175614,
+            "max": 0.755834522652535,
+            "stdev": 0.006965515569854988,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_addhalf": {
+            "median": 1.1689673420294024,
+            "min": 1.1596736620695782,
+            "max": 1.1882261879414737,
+            "stdev": 0.008589925921207203,
+            "n": 20
+          },
+          "block_entropy_bits": {
+            "1": {
+              "median": 5.883155015288364,
+              "min": 5.8289800841068145,
+              "max": 5.939057712890814,
+              "stdev": 0.031823478652280725
+            },
+            "2": {
+              "median": 10.24463834966059,
+              "min": 10.171267332269037,
+              "max": 10.270054372988199,
+              "stdev": 0.027972473922460085
+            },
+            "3": {
+              "median": 10.012752428413153,
+              "min": 10.001213966874689,
+              "max": 10.018521659182383,
+              "stdev": 0.004610778225710072
+            },
+            "4": {
+              "median": 8.75822321472675,
+              "min": 8.75822321472675,
+              "max": 8.75822321472675,
+              "stdev": 0.0
+            }
+          }
+        }
+      },
+      "reference_3_markov_bigram_from_linear_a": {
+        "summary": {
+          "n_sequences": {
+            "median": 988.0,
+            "min": 988,
+            "max": 988,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "n_symbols": {
+            "median": 3016.0,
+            "min": 3016,
+            "max": 3016,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "alphabet_size": {
+            "median": 132.0,
+            "min": 126,
+            "max": 141,
+            "stdev": 4.4414317274358375,
+            "n": 20
+          },
+          "unigram_entropy_bits": {
+            "median": 5.890478705414708,
+            "min": 5.834481960065042,
+            "max": 5.947639449762112,
+            "stdev": 0.03387578356976679,
+            "n": 20
+          },
+          "conditional_entropy_bigram_mle_bits": {
+            "median": 3.551310167017986,
+            "min": 3.4907705168658474,
+            "max": 3.6031584967357766,
+            "stdev": 0.0296542516399787,
+            "n": 20
+          },
+          "conditional_entropy_bigram_addhalf_bits": {
+            "median": 6.765305619361577,
+            "min": 6.670178793357141,
+            "max": 6.890996192685691,
+            "stdev": 0.06332144708892243,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_mle": {
+            "median": 0.6029817071856766,
+            "min": 0.5926730432735859,
+            "max": 0.6174072413441821,
+            "stdev": 0.007308956913214781,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_addhalf": {
+            "median": 1.1490563813518655,
+            "min": 1.126536285573875,
+            "max": 1.1684992734280883,
+            "stdev": 0.009245221635205204,
+            "n": 20
+          },
+          "block_entropy_bits": {
+            "1": {
+              "median": 5.890478705414708,
+              "min": 5.834481960065042,
+              "max": 5.947639449762112,
+              "stdev": 0.03387578356976679
+            },
+            "2": {
+              "median": 9.42574881303165,
+              "min": 9.352078108270215,
+              "max": 9.491803534022825,
+              "stdev": 0.03454952186309388
+            },
+            "3": {
+              "median": 9.914293780567256,
+              "min": 9.876080346213719,
+              "max": 9.941344099079995,
+              "stdev": 0.017668326022504455
+            },
+            "4": {
+              "median": 8.755913745904579,
+              "min": 8.748985339438065,
+              "max": 8.75822321472675,
+              "stdev": 0.0037012226752241918
+            }
+          }
+        }
+      },
+      "reference_4_dna_codons": {
+        "status": "reached: NCBI NC_000913.3:1-20000 (E. coli K-12 MG1655 genome fragment, public domain)",
+        "summary": {
+          "n_sequences": {
+            "median": 988.0,
+            "min": 988,
+            "max": 988,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "n_symbols": {
+            "median": 3016.0,
+            "min": 3016,
+            "max": 3016,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "alphabet_size": {
+            "median": 64.0,
+            "min": 64,
+            "max": 64,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "unigram_entropy_bits": {
+            "median": 5.859829439589971,
+            "min": 5.831921788749149,
+            "max": 5.8797357569091755,
+            "stdev": 0.011515436680912233,
+            "n": 20
+          },
+          "conditional_entropy_bigram_mle_bits": {
+            "median": 4.454615509659393,
+            "min": 4.442086172302343,
+            "max": 4.489672194518408,
+            "stdev": 0.012898703329893811,
+            "n": 20
+          },
+          "conditional_entropy_bigram_addhalf_bits": {
+            "median": 5.657796723859647,
+            "min": 5.653646070058704,
+            "max": 5.6670939325241,
+            "stdev": 0.004002685059879478,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_mle": {
+            "median": 0.7602720480949388,
+            "min": 0.7580951928775572,
+            "max": 0.7670511079264429,
+            "stdev": 0.0024483236175869578,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_addhalf": {
+            "median": 0.9655254771106645,
+            "min": 0.9634514955053359,
+            "max": 0.9704818551714601,
+            "stdev": 0.0017521869106243541,
+            "n": 20
+          },
+          "block_entropy_bits": {
+            "1": {
+              "median": 5.859829439589971,
+              "min": 5.831921788749149,
+              "max": 5.8797357569091755,
+              "stdev": 0.011515436680912233
+            },
+            "2": {
+              "median": 10.308650537394435,
+              "min": 10.288819221335492,
+              "max": 10.3533818214375,
+              "stdev": 0.0190555586448128
+            },
+            "3": {
+              "median": 10.012752428413153,
+              "min": 10.003137043797768,
+              "max": 10.016598582259308,
+              "stdev": 0.00381566865861841
+            },
+            "4": {
+              "median": 8.75822321472675,
+              "min": 8.753604277082408,
+              "max": 8.75822321472675,
+              "stdev": 0.0010328258556580373
+            }
+          }
+        }
+      },
+      "reference_5_heraldic_blazons": {
+        "status": "reached: Parker, A Glossary of Terms used in Heraldry (1894, public domain), via karlwilcox.com/heraldry (\"please feel free to download ... and use\")",
+        "summary": {
+          "n_sequences": {
+            "median": 988.0,
+            "min": 988,
+            "max": 988,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "n_symbols": {
+            "median": 3016.0,
+            "min": 3016,
+            "max": 3016,
+            "stdev": 0.0,
+            "n": 20
+          },
+          "alphabet_size": {
+            "median": 666.0,
+            "min": 619,
+            "max": 690,
+            "stdev": 21.65148590986917,
+            "n": 20
+          },
+          "unigram_entropy_bits": {
+            "median": 6.91566207465427,
+            "min": 6.824161277066668,
+            "max": 7.034622753542389,
+            "stdev": 0.06476943164710919,
+            "n": 20
+          },
+          "conditional_entropy_bigram_mle_bits": {
+            "median": 2.5614862939096854,
+            "min": 2.4677169129859653,
+            "max": 2.6558377476034956,
+            "stdev": 0.05742928501955185,
+            "n": 20
+          },
+          "conditional_entropy_bigram_addhalf_bits": {
+            "median": 9.361602153228453,
+            "min": 9.252960104912082,
+            "max": 9.413551117955953,
+            "stdev": 0.048892137639890317,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_mle": {
+            "median": 0.3687643985339598,
+            "min": 0.3543781716167333,
+            "max": 0.3872831185297627,
+            "stdev": 0.009696993684274713,
+            "n": 20
+          },
+          "ratio_conditional_to_unigram_addhalf": {
+            "median": 1.3508208335088088,
+            "min": 1.3380403921486388,
+            "max": 1.3601443322618647,
+            "stdev": 0.00671507586030228,
+            "n": 20
+          },
+          "block_entropy_bits": {
+            "1": {
+              "median": 6.91566207465427,
+              "min": 6.824161277066668,
+              "max": 7.034622753542389,
+              "stdev": 0.06476943164710919
+            },
+            "2": {
+              "median": 9.37453698612879,
+              "min": 9.2857104358481,
+              "max": 9.51049373640307,
+              "stdev": 0.06999868448715918
+            },
+            "3": {
+              "median": 9.64430808036008,
+              "min": 9.52083877447109,
+              "max": 9.732900421734952,
+              "stdev": 0.0585157399393945
+            },
+            "4": {
+              "median": 8.710290449132836,
+              "min": 8.64788964079876,
+              "max": 8.733385137354546,
+              "stdev": 0.021168650351625205
+            }
+          }
+        }
+      },
+      "distances_in_linear_b_matched_spread_units": {
+        "unigram_entropy_bits": {
+          "linear_a_value": 5.917627031653503,
+          "linear_b_matched_median": 5.726119020022764,
+          "linear_b_matched_spread_stdev": 0.019616488377750017,
+          "distance_to_linear_b_matched": 9.762604190052564,
+          "distance_to_linear_b_full": 7.9836305048506135,
+          "distance_to_reference_1_shuffled_linear_b": 9.810926449292332,
+          "distance_to_reference_2_iid_unigram": 1.7572980291538507,
+          "distance_to_reference_3_markov_bigram": 1.3839544426100467,
+          "distance_to_reference_4_dna_codons": 2.946378115722749,
+          "distance_to_reference_5_heraldic_blazons": -50.8773549975839
+        },
+        "conditional_entropy_bigram_mle_bits": {
+          "linear_a_value": 4.0667571074866515,
+          "linear_b_matched_median": 3.880849352993052,
+          "linear_b_matched_spread_stdev": 0.04977400751833398,
+          "distance_to_linear_b_matched": 3.735036895012348,
+          "distance_to_linear_b_full": -12.157526269219542,
+          "distance_to_reference_1_shuffled_linear_b": -6.691001024562055,
+          "distance_to_reference_2_iid_unigram": -6.3450015259959125,
+          "distance_to_reference_3_markov_bigram": 10.35574522061145,
+          "distance_to_reference_4_dna_codons": -7.792388467612866,
+          "distance_to_reference_5_heraldic_blazons": 30.242106043450647
+        },
+        "conditional_entropy_bigram_addhalf_bits": {
+          "linear_a_value": 7.129321668316102,
+          "linear_b_matched_median": 5.992010044410346,
+          "linear_b_matched_spread_stdev": 0.05277261668570659,
+          "distance_to_linear_b_matched": 21.551169817467013,
+          "distance_to_linear_b_full": 26.348926491068465,
+          "distance_to_reference_1_shuffled_linear_b": 20.211880793868318,
+          "distance_to_reference_2_iid_unigram": 4.540144338470858,
+          "distance_to_reference_3_markov_bigram": 6.897820722486907,
+          "distance_to_reference_4_dna_codons": 27.884252039657074,
+          "distance_to_reference_5_heraldic_blazons": -42.2999772440119
+        },
+        "ratio_conditional_to_unigram_mle": {
+          "linear_a_value": 0.6872276819295112,
+          "linear_b_matched_median": 0.6773109241008199,
+          "linear_b_matched_spread_stdev": 0.009194765732740938,
+          "distance_to_linear_b_matched": 1.0785220762481698,
+          "distance_to_linear_b_full": -13.455540919464692,
+          "distance_to_reference_1_shuffled_linear_b": -8.848440095908835,
+          "distance_to_reference_2_iid_unigram": -6.279656490758508,
+          "distance_to_reference_3_markov_bigram": 9.1623840337606,
+          "distance_to_reference_4_dna_codons": -7.9441247649550695,
+          "distance_to_reference_5_heraldic_blazons": 34.63527975069118
+        },
+        "ratio_conditional_to_unigram_addhalf": {
+          "linear_a_value": 1.204760224019057,
+          "linear_b_matched_median": 1.0460236448476357,
+          "linear_b_matched_spread_stdev": 0.007496691453795625,
+          "distance_to_linear_b_matched": 21.174218006671712,
+          "distance_to_linear_b_full": 27.827353083717043,
+          "distance_to_reference_1_shuffled_linear_b": 19.23848360993203,
+          "distance_to_reference_2_iid_unigram": 4.774490481602026,
+          "distance_to_reference_3_markov_bigram": 7.430456890284338,
+          "distance_to_reference_4_dna_codons": 31.91204391735587,
+          "distance_to_reference_5_heraldic_blazons": -19.483342803951256
+        },
+        "block_entropy_bits_n2": {
+          "linear_a_value": 9.850921716967349,
+          "linear_b_matched_median": 9.618516110614465,
+          "linear_b_matched_spread_stdev": 0.048665587362290444,
+          "distance_to_linear_b_matched": 4.775563574785264,
+          "distance_to_linear_b_full": -12.37051403393248,
+          "distance_to_reference_1_shuffled_linear_b": -5.2407657544995105,
+          "distance_to_reference_2_iid_unigram": -8.090247216420549,
+          "distance_to_reference_3_markov_bigram": 8.73662328927635,
+          "distance_to_reference_4_dna_codons": -9.405595313574013,
+          "distance_to_reference_5_heraldic_blazons": 9.78894444018764
+        },
+        "block_entropy_bits_n3": {
+          "linear_a_value": 9.813800634739518,
+          "linear_b_matched_median": 9.920621713371276,
+          "linear_b_matched_spread_stdev": 0.09429987237655829,
+          "distance_to_linear_b_matched": -1.1327807338402238,
+          "distance_to_linear_b_full": -23.349814507942963,
+          "distance_to_reference_1_shuffled_linear_b": -1.967025516974156,
+          "distance_to_reference_2_iid_unigram": -2.109777973815066,
+          "distance_to_reference_3_markov_bigram": -1.0656763715060857,
+          "distance_to_reference_4_dna_codons": -2.109777973815066,
+          "distance_to_reference_5_heraldic_blazons": 1.7973784068616825
+        },
+        "block_entropy_bits_n4": {
+          "linear_a_value": 8.625927111920403,
+          "linear_b_matched_median": 8.894108350476394,
+          "linear_b_matched_spread_stdev": 0.12475877321568807,
+          "distance_to_linear_b_matched": -2.1495982338039545,
+          "distance_to_linear_b_full": -21.643882195837815,
+          "distance_to_reference_1_shuffled_linear_b": -1.0604152268925235,
+          "distance_to_reference_2_iid_unigram": -1.0604152268925235,
+          "distance_to_reference_3_markov_bigram": -1.0419037526078407,
+          "distance_to_reference_4_dna_codons": -1.0604152268925235,
+          "distance_to_reference_5_heraldic_blazons": -0.6762116606147043
+        }
+      }
+    }
+  }
+}

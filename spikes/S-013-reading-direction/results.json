@@ -1,0 +1,386 @@
+{
+  "question": "Does reversing one support type's words, sign by sign, raise the stage-1 ending-channel paradigm-count ratio (real / N1 null mean) above the unreversed corpus's own ratio, beyond that ratio's seed-to-seed noise?",
+  "protocol": {
+    "stem_min": 2,
+    "draws": 100,
+    "primary_seed": 0,
+    "noise_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "min_tokens_to_qualify": 50
+  },
+  "damos": {
+    "corpus": "damos",
+    "word_type_count": 3768,
+    "support_type_token_counts": {
+      "tablet": 9894,
+      "nodule, sealed": 115,
+      "nodule, unsealed": 6,
+      "label": 10,
+      "irregular nodule, sealed": 1,
+      "stirrup jar": 62,
+      "seal": 1,
+      "bowl": 1
+    },
+    "min_tokens_to_qualify": 50,
+    "qualifying_support_types": [
+      "nodule, sealed",
+      "stirrup jar",
+      "tablet"
+    ],
+    "baseline": {
+      "ending_paradigm_count": 932,
+      "n1_ending_null_seed0": {
+        "draws": 100,
+        "mean": 609.82,
+        "sd": 12.820592810006875,
+        "p95": 629.05,
+        "p99": 640.1800000000001,
+        "real_value": 932,
+        "real_percentile": 100.0
+      },
+      "ratio_seed0": 1.5283198320815978,
+      "ratio_noise_20_seeds": {
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "ratios": [
+          1.5283198320815978,
+          1.537116751603912,
+          1.5319120958595638,
+          1.5337524273442387,
+          1.5269927091013353,
+          1.5263925056093286,
+          1.5350154819158048,
+          1.5330712417548074,
+          1.530051056424737,
+          1.5306792799894888,
+          1.5364832338685745,
+          1.530327411250862,
+          1.532441053635437,
+          1.5377507919746567,
+          1.532743479261915,
+          1.5312828601472135,
+          1.5290720567003544,
+          1.5296743697478992,
+          1.5349143610013174,
+          1.535875547938433
+        ],
+        "mean": 1.5321934273605737,
+        "sd": 0.0032332681862936347
+      }
+    },
+    "prefix_baseline": {
+      "prefix_paradigm_count": 707,
+      "n1_prefix_null_seed0": {
+        "draws": 100,
+        "mean": 624.47,
+        "sd": 13.91578600007919,
+        "p95": 649.0,
+        "p99": 656.02,
+        "real_value": 707,
+        "real_percentile": 100.0
+      },
+      "ratio_seed0": 1.1321600717408362
+    },
+    "all_reversed_sanity_check": {
+      "word_type_count": 3768,
+      "ending_paradigm_count": 707,
+      "matches_baseline_prefix_paradigm_count_exactly": true,
+      "matches_baseline_prefix_alternation_support_exactly": true,
+      "n1_ending_null_seed0": {
+        "draws": 100,
+        "mean": 620.73,
+        "sd": 12.422443398945314,
+        "p95": 639.0,
+        "p99": 644.1200000000001,
+        "real_value": 707,
+        "real_percentile": 100.0
+      },
+      "ratio_seed0": 1.1389815217566412,
+      "prefix_baseline_ratio_seed0_for_comparison": 1.1321600717408362
+    },
+    "support_type_reversed": {
+      "nodule, sealed": {
+        "token_count": 115,
+        "word_type_count": 3793,
+        "ending_paradigm_count": 936,
+        "n1_ending_null": {
+          "draws": 100,
+          "mean": 611.35,
+          "sd": 13.460590625971804,
+          "p95": 632.05,
+          "p99": 650.0500000000001,
+          "real_value": 936,
+          "real_percentile": 100.0
+        },
+        "ratio": 1.531037867015621,
+        "ratio_change_vs_baseline": 0.002718034934023228,
+        "ratio_change_in_noise_units": 0.8406462988580512
+      },
+      "stirrup jar": {
+        "token_count": 62,
+        "word_type_count": 3779,
+        "ending_paradigm_count": 933,
+        "n1_ending_null": {
+          "draws": 100,
+          "mean": 610.34,
+          "sd": 13.613390466742663,
+          "p95": 631.0,
+          "p99": 637.02,
+          "real_value": 933,
+          "real_percentile": 100.0
+        },
+        "ratio": 1.5286561588622734,
+        "ratio_change_vs_baseline": 0.00033632678067552213,
+        "ratio_change_in_noise_units": 0.10402068782950566
+      },
+      "tablet": {
+        "token_count": 9894,
+        "word_type_count": 3813,
+        "ending_paradigm_count": 713,
+        "n1_ending_null": {
+          "draws": 100,
+          "mean": 629.49,
+          "sd": 12.412489677739918,
+          "p95": 652.0500000000001,
+          "p99": 660.0100000000001,
+          "real_value": 713,
+          "real_percentile": 100.0
+        },
+        "ratio": 1.1326629493717135,
+        "ratio_change_vs_baseline": -0.3956568827098843,
+        "ratio_change_in_noise_units": -122.37057364654751
+      }
+    }
+  },
+  "lineara": {
+    "corpus": "lineara",
+    "word_type_count": 988,
+    "support_type_token_counts": {
+      "tablet": 848,
+      "nodule": 38,
+      "roundel": 69,
+      "clay vessel": 59,
+      "graffito": 4,
+      "stone vessel": 259,
+      "metal object": 30,
+      "lames (short thin tablet)": 11,
+      "sealing": 2,
+      "inked inscription": 17,
+      "architecture": 6,
+      "stone object": 13,
+      "3-sided bar": 9,
+      "4-sided bar": 3,
+      "label": 3,
+      "loom weight": 1,
+      "triton": 1
+    },
+    "min_tokens_to_qualify": 50,
+    "qualifying_support_types": [
+      "clay vessel",
+      "roundel",
+      "stone vessel",
+      "tablet"
+    ],
+    "baseline": {
+      "ending_paradigm_count": 101,
+      "n1_ending_null_seed0": {
+        "draws": 100,
+        "mean": 66.15,
+        "sd": 5.421023888528808,
+        "p95": 75.0,
+        "p99": 78.04000000000002,
+        "real_value": 101,
+        "real_percentile": 100.0
+      },
+      "ratio_seed0": 1.5268329554043838,
+      "ratio_noise_20_seeds": {
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "ratios": [
+          1.5268329554043838,
+          1.5215426333232902,
+          1.5224600542659028,
+          1.5293761356753481,
+          1.4901150781941574,
+          1.5171999399128737,
+          1.5289131092945807,
+          1.5137889688249402,
+          1.5291445874337624,
+          1.5199398043641836,
+          1.5213134508209067,
+          1.5151515151515151,
+          1.527756769021328,
+          1.518568636295294,
+          1.5176558978211871,
+          1.5167442558942783,
+          1.5238382619191309,
+          1.5361216730038023,
+          1.516288845518691,
+          1.5261408280447264
+        ],
+        "mean": 1.5209446700092142,
+        "sd": 0.009103428240199407
+      }
+    },
+    "prefix_baseline": {
+      "prefix_paradigm_count": 88,
+      "n1_prefix_null_seed0": {
+        "draws": 100,
+        "mean": 61.52,
+        "sd": 5.05070292137639,
+        "p95": 70.0,
+        "p99": 73.01,
+        "real_value": 88,
+        "real_percentile": 100.0
+      },
+      "ratio_seed0": 1.4304291287386215
+    },
+    "all_reversed_sanity_check": {
+      "word_type_count": 988,
+      "ending_paradigm_count": 88,
+      "matches_baseline_prefix_paradigm_count_exactly": true,
+      "matches_baseline_prefix_alternation_support_exactly": true,
+      "n1_ending_null_seed0": {
+        "draws": 100,
+        "mean": 60.59,
+        "sd": 5.571525823327035,
+        "p95": 69.05,
+        "p99": 71.05000000000003,
+        "real_value": 88,
+        "real_percentile": 100.0
+      },
+      "ratio_seed0": 1.4523848819937282,
+      "prefix_baseline_ratio_seed0_for_comparison": 1.4304291287386215
+    },
+    "support_type_reversed": {
+      "clay vessel": {
+        "token_count": 59,
+        "word_type_count": 992,
+        "ending_paradigm_count": 99,
+        "n1_ending_null": {
+          "draws": 100,
+          "mean": 64.91,
+          "sd": 5.479224397667976,
+          "p95": 72.05,
+          "p99": 80.01,
+          "real_value": 99,
+          "real_percentile": 100.0
+        },
+        "ratio": 1.5251887228470191,
+        "ratio_change_vs_baseline": -0.0016442325573646777,
+        "ratio_change_in_noise_units": -0.18061685268237598
+      },
+      "roundel": {
+        "token_count": 69,
+        "word_type_count": 994,
+        "ending_paradigm_count": 103,
+        "n1_ending_null": {
+          "draws": 100,
+          "mean": 67.84,
+          "sd": 4.981405424174989,
+          "p95": 76.05,
+          "p99": 81.06000000000003,
+          "real_value": 103,
+          "real_percentile": 100.0
+        },
+        "ratio": 1.5182783018867925,
+        "ratio_change_vs_baseline": -0.008554653517591326,
+        "ratio_change_in_noise_units": -0.9397177955240233
+      },
+      "stone vessel": {
+        "token_count": 259,
+        "word_type_count": 1009,
+        "ending_paradigm_count": 89,
+        "n1_ending_null": {
+          "draws": 100,
+          "mean": 62.32,
+          "sd": 5.735642945651342,
+          "p95": 71.05,
+          "p99": 75.01,
+          "real_value": 89,
+          "real_percentile": 100.0
+        },
+        "ratio": 1.4281129653401796,
+        "ratio_change_vs_baseline": -0.09871999006420418,
+        "ratio_change_in_noise_units": -10.84426519981463
+      },
+      "tablet": {
+        "token_count": 848,
+        "word_type_count": 1007,
+        "ending_paradigm_count": 92,
+        "n1_ending_null": {
+          "draws": 100,
+          "mean": 60.83,
+          "sd": 5.653414897210358,
+          "p95": 70.0,
+          "p99": 72.02000000000001,
+          "real_value": 92,
+          "real_percentile": 100.0
+        },
+        "ratio": 1.5124116389939175,
+        "ratio_change_vs_baseline": -0.01442131641046629,
+        "ratio_change_in_noise_units": -1.5841632437748963
+      }
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "protocol": "Kober 0.9.1 stage 1, homophones merged, reference list v3, floor sweep on Linear B (CHANGELOG 'Floor sweep under Kober 0.9.1, merged identities and reference list v3')",
+  "perms": 200,
+  "null_seed": 0,
+  "subsample_seeds": [
+    0,
+    19
+  ],
+  "pass_bar": 16,
+  "tolerance": 0.02,
+  "sizes": {
+    "988": {
+      "known": {
+        "n": 20,
+        "criterion_a": {
+          "part1_paradigm_count_above_n1_p99": 20,
+          "part2_max_support_above_n2_p99": 17,
+          "part3_top10_matched_ge_7_v3": 17,
+          "all_three": 15
+        },
+        "criterion_b_strict_top3_all_grammar_v3": {
+          "pass": 18,
+          "of": 20
+        },
+        "type_count_median": 985.5,
+        "type_count_range": [
+          979,
+          989
+        ],
+        "top_10_matched_v3_median": 8.0,
+        "top_10_matched_v3_range": [
+          4,
+          10
+        ],
+        "strict_top3_matched_v3_median": 3.0,
+        "strict_top3_matched_v3_range": [
+          2,
+          3
+        ],
+        "source": "Kober 0.9.1 merged/v3 tablet-model 988 cells (existing results/kober-09-merged/kober-damos-seed0-docs*-s*.json, seeds 0-19)"
+      }
+    },
+    "500": {
+      "tablet": {
+        "n": 20,
+        "criterion_a": {
+          "part1_paradigm_count_above_n1_p99": 20,
+          "part2_max_support_above_n2_p99": 1,
+          "part3_top10_matched_ge_7_v3": 1,
+          "all_three": 1
+        },
+        "criterion_b_strict_top3_all_grammar_v3": {
+          "pass": 14,
+          "of": 20
+        },
+        "type_count_median": 500.0,
+        "type_count_range": [
+          493,
+          514
+        ],
+        "top_10_matched_v3_median": 5.0,
+        "top_10_matched_v3_range": [
+          1,
+          7
+        ],
+        "strict_top3_matched_v3_median": 3.0,
+        "strict_top3_matched_v3_range": [
+          1,
+          3
+        ]
+      }
+    },
+    "750": {
+      "tablet": {
+        "n": 20,
+        "criterion_a": {
+          "part1_paradigm_count_above_n1_p99": 20,
+          "part2_max_support_above_n2_p99": 10,
+          "part3_top10_matched_ge_7_v3": 12,
+          "all_three": 6
+        },
+        "criterion_b_strict_top3_all_grammar_v3": {
+          "pass": 16,
+          "of": 20
+        },
+        "type_count_median": 750.0,
+        "type_count_range": [
+          738,
+          756
+        ],
+        "top_10_matched_v3_median": 7.0,
+        "top_10_matched_v3_range": [
+          4,
+          9
+        ],
+        "strict_top3_matched_v3_median": 3.0,
+        "strict_top3_matched_v3_range": [
+          1,
+          3
+        ]
+      }
+    },
+    "1250": {
+      "tablet": {
+        "n": 20,
+        "criterion_a": {
+          "part1_paradigm_count_above_n1_p99": 20,
+          "part2_max_support_above_n2_p99": 20,
+          "part3_top10_matched_ge_7_v3": 19,
+          "all_three": 19
+        },
+        "criterion_b_strict_top3_all_grammar_v3": {
+          "pass": 19,
+          "of": 20
+        },
+        "type_count_median": 1250.0,
+        "type_count_range": [
+          1245,
+          1256
+        ],
+        "top_10_matched_v3_median": 8.0,
+        "top_10_matched_v3_range": [
+          5,
+          10
+        ],
+        "strict_top3_matched_v3_median": 3.0,
+        "strict_top3_matched_v3_range": [
+          2,
+          3
+        ]
+      }
+    },
+    "1500": {
+      "tablet": {
+        "n": 20,
+        "criterion_a": {
+          "part1_paradigm_count_above_n1_p99": 20,
+          "part2_max_support_above_n2_p99": 20,
+          "part3_top10_matched_ge_7_v3": 20,
+          "all_three": 20
+        },
+        "criterion_b_strict_top3_all_grammar_v3": {
+          "pass": 20,
+          "of": 20
+        },
+        "type_count_median": 1500.0,
+        "type_count_range": [
+          1494,
+          1511
+        ],
+        "top_10_matched_v3_median": 8.0,
+        "top_10_matched_v3_range": [
+          7,
+          10
+        ],
+        "strict_top3_matched_v3_median": 3.0,
+        "strict_top3_matched_v3_range": [
+          3,
+          3
+        ]
+      }
+    },
+    "1750": {
+      "tablet": {
+        "n": 20,
+        "criterion_a": {
+          "part1_paradigm_count_above_n1_p99": 20,
+          "part2_max_support_above_n2_p99": 20,
+          "part3_top10_matched_ge_7_v3": 20,
+          "all_three": 20
+        },
+        "criterion_b_strict_top3_all_grammar_v3": {
+          "pass": 20,
+          "of": 20
+        },
+        "type_count_median": 1750.0,
+        "type_count_range": [
+          1738,
+          1758
+        ],
+        "top_10_matched_v3_median": 8.0,
+        "top_10_matched_v3_range": [
+          7,
+          10
+        ],
+        "strict_top3_matched_v3_median": 3.0,
+        "strict_top3_matched_v3_range": [
+          3,
+          3
+        ]
+      }
+    },
+    "3768": {
+      "known": {
+        "n": 1,
+        "criterion_a": {
+          "part1_paradigm_count_above_n1_p99": 1,
+          "part2_max_support_above_n2_p99": 1,
+          "part3_top10_matched_ge_7_v3": 1,
+          "all_three": 1
+        },
+        "criterion_b_strict_top3_all_grammar_v3": {
+          "pass": 1,
+          "of": 1
+        },
+        "type_count_median": 3743,
+        "type_count_range": [
+          3743,
+          3743
+        ],
+        "top_10_matched_v3_median": 9,
+        "top_10_matched_v3_range": [
+          9,
+          9
+        ],
+        "strict_top3_matched_v3_median": 3,
+        "strict_top3_matched_v3_range": [
+          3,
+          3
+        ],
+        "source": "Kober 0.9.1 merged full-corpus run (existing results/kober-09-merged/kober-damos-seed0.json)"
+      }
+    }
+  },
+  "reference_version": 3,
+  "merge_homophones": true,
+  "floors": {
+    "criterion_a_all_three": {
+      "size": 1250,
+      "reached": true
+    },
+    "criterion_b_strict_top3_all_grammar_v3": {
+      "size": 750,
+      "reached": true
+    }
+  }
+}

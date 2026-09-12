@@ -1,0 +1,535 @@
+{
+  "protocol": "Kober 0.3 stage 1, grammar-match null (CHANGELOG 'Null rate of the grammar match, and precision criteria'); TODO item 8, prerequisite 1",
+  "grammar_match_ns": [
+    3,
+    5,
+    10
+  ],
+  "criterion_b_n_k_pairs": [
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      10,
+      7
+    ]
+  ],
+  "models": {
+    "full": {
+      "n_runs": 2,
+      "files": [
+        "kober-damos-seed0.json",
+        "kober-damos-seed1.json"
+      ],
+      "criterion_a_real_above_null_p99": {
+        "3": {
+          "pass": 2,
+          "of": 2
+        },
+        "5": {
+          "pass": 2,
+          "of": 2
+        },
+        "10": {
+          "pass": 2,
+          "of": 2
+        }
+      },
+      "criterion_a_strict_real_above_null_p99": {
+        "3": {
+          "pass": 2,
+          "of": 2
+        },
+        "5": {
+          "pass": 2,
+          "of": 2
+        },
+        "10": {
+          "pass": 2,
+          "of": 2
+        }
+      },
+      "criterion_b_raw_k_of_top_n": {
+        "3_3": {
+          "pass": 2,
+          "of": 2,
+          "n": 3,
+          "k": 3
+        },
+        "3_2": {
+          "pass": 2,
+          "of": 2,
+          "n": 3,
+          "k": 2
+        },
+        "5_4": {
+          "pass": 2,
+          "of": 2,
+          "n": 5,
+          "k": 4
+        },
+        "10_7": {
+          "pass": 2,
+          "of": 2,
+          "n": 10,
+          "k": 7
+        }
+      },
+      "null_p99_by_n": {
+        "3": {
+          "median": 2.0,
+          "range": [
+            2.0,
+            2.0
+          ]
+        },
+        "5": {
+          "median": 2.0049999999999955,
+          "range": [
+            2.0,
+            2.009999999999991
+          ]
+        },
+        "10": {
+          "median": 3.0,
+          "range": [
+            3.0,
+            3.0
+          ]
+        }
+      },
+      "real_matched_by_n": {
+        "3": {
+          "median": 3.0,
+          "range": [
+            3,
+            3
+          ]
+        },
+        "5": {
+          "median": 6.0,
+          "range": [
+            6,
+            6
+          ]
+        },
+        "10": {
+          "median": 9.0,
+          "range": [
+            9,
+            9
+          ]
+        }
+      },
+      "null_p99_strict_by_n": {
+        "3": {
+          "median": 1.5,
+          "range": [
+            1.0,
+            2.0
+          ]
+        },
+        "5": {
+          "median": 2.0,
+          "range": [
+            2.0,
+            2.0
+          ]
+        },
+        "10": {
+          "median": 2.5049999999999955,
+          "range": [
+            2.009999999999991,
+            3.0
+          ]
+        }
+      },
+      "real_matched_strict_by_n": {
+        "3": {
+          "median": 3.0,
+          "range": [
+            3,
+            3
+          ]
+        },
+        "5": {
+          "median": 5.0,
+          "range": [
+            5,
+            5
+          ]
+        },
+        "10": {
+          "median": 9.0,
+          "range": [
+            9,
+            9
+          ]
+        }
+      },
+      "ties_included_top_10_size": {
+        "real_median": 10.0,
+        "null_mean_median": 12.3475
+      }
+    },
+    "type-988": {
+      "n_runs": 20,
+      "files": [
+        "kober-damos-seed0-sub988-s0.json",
+        "kober-damos-seed0-sub988-s1.json",
+        "kober-damos-seed0-sub988-s10.json",
+        "kober-damos-seed0-sub988-s11.json",
+        "kober-damos-seed0-sub988-s12.json",
+        "kober-damos-seed0-sub988-s13.json",
+        "kober-damos-seed0-sub988-s14.json",
+        "kober-damos-seed0-sub988-s15.json",
+        "kober-damos-seed0-sub988-s16.json",
+        "kober-damos-seed0-sub988-s17.json",
+        "kober-damos-seed0-sub988-s18.json",
+        "kober-damos-seed0-sub988-s19.json",
+        "kober-damos-seed0-sub988-s2.json",
+        "kober-damos-seed0-sub988-s3.json",
+        "kober-damos-seed0-sub988-s4.json",
+        "kober-damos-seed0-sub988-s5.json",
+        "kober-damos-seed0-sub988-s6.json",
+        "kober-damos-seed0-sub988-s7.json",
+        "kober-damos-seed0-sub988-s8.json",
+        "kober-damos-seed0-sub988-s9.json"
+      ],
+      "criterion_a_real_above_null_p99": {
+        "3": {
+          "pass": 10,
+          "of": 20
+        },
+        "5": {
+          "pass": 5,
+          "of": 20
+        },
+        "10": {
+          "pass": 6,
+          "of": 20
+        }
+      },
+      "criterion_a_strict_real_above_null_p99": {
+        "3": {
+          "pass": 15,
+          "of": 20
+        },
+        "5": {
+          "pass": 15,
+          "of": 20
+        },
+        "10": {
+          "pass": 17,
+          "of": 20
+        }
+      },
+      "criterion_b_raw_k_of_top_n": {
+        "3_3": {
+          "pass": 5,
+          "of": 20,
+          "n": 3,
+          "k": 3
+        },
+        "3_2": {
+          "pass": 16,
+          "of": 20,
+          "n": 3,
+          "k": 2
+        },
+        "5_4": {
+          "pass": 2,
+          "of": 20,
+          "n": 5,
+          "k": 4
+        },
+        "10_7": {
+          "pass": 0,
+          "of": 20,
+          "n": 10,
+          "k": 7
+        }
+      },
+      "null_p99_by_n": {
+        "3": {
+          "median": 4.014999999999986,
+          "range": [
+            2.0,
+            6.009999999999991
+          ]
+        },
+        "5": {
+          "median": 6.009999999999991,
+          "range": [
+            5.0,
+            8.0
+          ]
+        },
+        "10": {
+          "median": 8.0,
+          "range": [
+            7.0,
+            10.0
+          ]
+        }
+      },
+      "real_matched_by_n": {
+        "3": {
+          "median": 3.5,
+          "range": [
+            2,
+            10
+          ]
+        },
+        "5": {
+          "median": 5.0,
+          "range": [
+            2,
+            10
+          ]
+        },
+        "10": {
+          "median": 6.0,
+          "range": [
+            3,
+            33
+          ]
+        }
+      },
+      "null_p99_strict_by_n": {
+        "3": {
+          "median": 1.0,
+          "range": [
+            1.0,
+            2.0
+          ]
+        },
+        "5": {
+          "median": 1.009999999999991,
+          "range": [
+            1.0,
+            2.0
+          ]
+        },
+        "10": {
+          "median": 2.0,
+          "range": [
+            1.0,
+            2.009999999999991
+          ]
+        }
+      },
+      "real_matched_strict_by_n": {
+        "3": {
+          "median": 2.0,
+          "range": [
+            0,
+            3
+          ]
+        },
+        "5": {
+          "median": 2.0,
+          "range": [
+            1,
+            4
+          ]
+        },
+        "10": {
+          "median": 3.0,
+          "range": [
+            2,
+            6
+          ]
+        }
+      },
+      "ties_included_top_10_size": {
+        "real_median": 14.0,
+        "null_mean_median": 349.39250000000004
+      }
+    },
+    "tablet-988": {
+      "n_runs": 20,
+      "files": [
+        "kober-damos-seed0-docs1008-s17.json",
+        "kober-damos-seed0-docs1009-s19.json",
+        "kober-damos-seed0-docs1012-s3.json",
+        "kober-damos-seed0-docs1013-s15.json",
+        "kober-damos-seed0-docs1042-s0.json",
+        "kober-damos-seed0-docs1072-s16.json",
+        "kober-damos-seed0-docs1081-s14.json",
+        "kober-damos-seed0-docs1101-s8.json",
+        "kober-damos-seed0-docs1112-s13.json",
+        "kober-damos-seed0-docs1130-s10.json",
+        "kober-damos-seed0-docs1133-s6.json",
+        "kober-damos-seed0-docs1151-s12.json",
+        "kober-damos-seed0-docs1187-s5.json",
+        "kober-damos-seed0-docs895-s7.json",
+        "kober-damos-seed0-docs913-s9.json",
+        "kober-damos-seed0-docs973-s11.json",
+        "kober-damos-seed0-docs974-s1.json",
+        "kober-damos-seed0-docs978-s2.json",
+        "kober-damos-seed0-docs984-s18.json",
+        "kober-damos-seed0-docs993-s4.json"
+      ],
+      "criterion_a_real_above_null_p99": {
+        "3": {
+          "pass": 10,
+          "of": 20
+        },
+        "5": {
+          "pass": 16,
+          "of": 20
+        },
+        "10": {
+          "pass": 12,
+          "of": 20
+        }
+      },
+      "criterion_a_strict_real_above_null_p99": {
+        "3": {
+          "pass": 16,
+          "of": 20
+        },
+        "5": {
+          "pass": 18,
+          "of": 20
+        },
+        "10": {
+          "pass": 19,
+          "of": 20
+        }
+      },
+      "criterion_b_raw_k_of_top_n": {
+        "3_3": {
+          "pass": 6,
+          "of": 20,
+          "n": 3,
+          "k": 3
+        },
+        "3_2": {
+          "pass": 20,
+          "of": 20,
+          "n": 3,
+          "k": 2
+        },
+        "5_4": {
+          "pass": 15,
+          "of": 20,
+          "n": 5,
+          "k": 4
+        },
+        "10_7": {
+          "pass": 8,
+          "of": 20,
+          "n": 10,
+          "k": 7
+        }
+      },
+      "null_p99_by_n": {
+        "3": {
+          "median": 2.009999999999991,
+          "range": [
+            2.0,
+            3.0
+          ]
+        },
+        "5": {
+          "median": 3.009999999999991,
+          "range": [
+            2.0,
+            6.0
+          ]
+        },
+        "10": {
+          "median": 8.009999999999991,
+          "range": [
+            5.009999999999991,
+            10.0
+          ]
+        }
+      },
+      "real_matched_by_n": {
+        "3": {
+          "median": 3.0,
+          "range": [
+            2,
+            6
+          ]
+        },
+        "5": {
+          "median": 5.0,
+          "range": [
+            3,
+            8
+          ]
+        },
+        "10": {
+          "median": 10.0,
+          "range": [
+            4,
+            12
+          ]
+        }
+      },
+      "null_p99_strict_by_n": {
+        "3": {
+          "median": 1.0,
+          "range": [
+            1.0,
+            2.0
+          ]
+        },
+        "5": {
+          "median": 2.0,
+          "range": [
+            1.0,
+            2.0
+          ]
+        },
+        "10": {
+          "median": 2.0,
+          "range": [
+            2.0,
+            3.0
+          ]
+        }
+      },
+      "real_matched_strict_by_n": {
+        "3": {
+          "median": 2.0,
+          "range": [
+            2,
+            3
+          ]
+        },
+        "5": {
+          "median": 4.0,
+          "range": [
+            2,
+            5
+          ]
+        },
+        "10": {
+          "median": 6.0,
+          "range": [
+            2,
+            8
+          ]
+        }
+      },
+      "ties_included_top_10_size": {
+        "real_median": 21.5,
+        "null_mean_median": 193.1775
+      }
+    }
+  }
+}

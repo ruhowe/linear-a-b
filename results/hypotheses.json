@@ -1,0 +1,175 @@
+{
+  "question": "Does any candidate language match Linear A better than a permuted control?",
+  "protocol": {
+    "null": "frequency_matched is the headline; breadth_matched retained for comparison",
+    "calibration": "Greek is a known-false control. Its score under the strongest null is the artifact benchmark any hypothesis must beat.",
+    "permutations": 999,
+    "seed": 0,
+    "hit": "any candidate skeleton attested in that hypothesis's lexicon",
+    "note": "Each hypothesis is scored against its own null; raw rates are not comparable across lexicons."
+  },
+  "results": [
+    {
+      "hypothesis": "semitic_hebrew",
+      "n": 679,
+      "real": 0.7222222222222222,
+      "null": 0.6988886758319244,
+      "excess": 0.023333546390297832,
+      "z": 1.5872866822919256,
+      "p": 0.054,
+      "label": "Semitic (Northwest, via Biblical Hebrew)",
+      "mean_candidates": 20.799382716049383,
+      "by_null": {
+        "breadth_matched": {
+          "null_mean": 0.6983601518531085,
+          "null_sd": 0.023825673309533463,
+          "excess": 0.023862070369113697,
+          "z": 1.0015276403360098,
+          "p_value": 0.153
+        },
+        "frequency_matched": {
+          "null_mean": 0.6988886758319244,
+          "null_sd": 0.01470027226373871,
+          "excess": 0.023333546390297832,
+          "z": 1.5872866822919256,
+          "p_value": 0.054
+        }
+      }
+    },
+    {
+      "hypothesis": "greek_mycenaean",
+      "n": 679,
+      "real": 0.8321299638989169,
+      "null": 0.7752264900279341,
+      "excess": 0.056903473870982824,
+      "z": 2.666223752841329,
+      "p": 0.005,
+      "label": "Greek (as a known-false control)",
+      "mean_candidates": 2.3104693140794224,
+      "by_null": {
+        "breadth_matched": {
+          "null_mean": 0.696366041131384,
+          "null_sd": 0.04068672368436352,
+          "excess": 0.1357639227675329,
+          "z": 3.3368113839972056,
+          "p_value": 0.001
+        },
+        "frequency_matched": {
+          "null_mean": 0.7752264900279341,
+          "null_sd": 0.021342347509409963,
+          "excess": 0.056903473870982824,
+          "z": 2.666223752841329,
+          "p_value": 0.005
+        }
+      }
+    }
+  ],
+  "blocked": [
+    {
+      "key": "anatolian_luwian",
+      "label": "Anatolian (Luwian / Lycian)",
+      "status": "blocked",
+      "blocker": "No openly licensed machine-readable Luwian or Hittite lexicon located. The Chicago Hittite Dictionary is not open. Candidate: eDiAna (Munich) \u2014 check terms."
+    },
+    {
+      "key": "tyrsenian_etruscan",
+      "label": "Tyrsenian (Etruscan / Lemnian)",
+      "status": "blocked",
+      "blocker": "Etruscan corpus is small and glosses are contested. Candidate: the Etruscan Texts Project or CIE digitisations \u2014 licensing unverified."
+    },
+    {
+      "key": "uralic",
+      "label": "Uralic / \"West-Ugric\"",
+      "status": "blocked",
+      "blocker": "Revesz builds his own dictionary, which is the core objection to the work. A fair test needs an independent Uralic root list (Finnish/Hungarian/Proto-Uralic) not assembled to fit. Candidate: Uralonet (Budapest) \u2014 terms unverified."
+    },
+    {
+      "key": "isolate_null",
+      "label": "Language isolate (the mainstream position)",
+      "status": "control",
+      "blocker": "no lexicon loader wired"
+    }
+  ],
+  "scenarios": {
+    "mainstream": {
+      "label": "Mainstream Aegean scholarship",
+      "source": "Duhoux 2004, Younger, Monti 2022, Salgarella 2025, Davis 2026 \u2014 the consensus that Minoan is unidentified, probably non-Indo-European and non-Semitic, possibly an isolate, with no theory holding an edge.",
+      "ordering": [
+        {
+          "hypothesis": "semitic_hebrew",
+          "prior": 0.07,
+          "posterior": 0.5710097438992843
+        },
+        {
+          "hypothesis": "greek_mycenaean",
+          "prior": 0.05,
+          "posterior": 0.42899025610071573
+        }
+      ]
+    },
+    "uniform": {
+      "label": "Uniform \u2014 no prior commitment",
+      "source": "Deliberately uninformative. The default when reporting to a general audience.",
+      "ordering": [
+        {
+          "hypothesis": "greek_mycenaean",
+          "prior": 0.16666666666666666,
+          "posterior": 0.5126223596084493
+        },
+        {
+          "hypothesis": "semitic_hebrew",
+          "prior": 0.16666666666666666,
+          "posterior": 0.4873776403915507
+        }
+      ]
+    },
+    "semitic_advocate": {
+      "label": "Maximally favourable to the Semitic hypothesis",
+      "source": "The weighting a proponent of di Mino 2026 or Gordon 1966 might hold. Included so the Semitic result can be reported under priors its own advocates would accept \u2014 if the evidence fails to move the posterior even here, the finding is robust.",
+      "ordering": [
+        {
+          "hypothesis": "semitic_hebrew",
+          "prior": 0.7,
+          "posterior": 0.9568672783758398
+        },
+        {
+          "hypothesis": "greek_mycenaean",
+          "prior": 0.03,
+          "posterior": 0.043132721624160104
+        }
+      ]
+    },
+    "indo_european_advocate": {
+      "label": "Maximally favourable to an Indo-European reading",
+      "source": "Palmer 1958, Owens 1996, Finkelberg 2001 \u2014 the Anatolian and Greek-related lines.",
+      "ordering": [
+        {
+          "hypothesis": "greek_mycenaean",
+          "prior": 0.25,
+          "posterior": 0.8679646882305733
+        },
+        {
+          "hypothesis": "semitic_hebrew",
+          "prior": 0.04,
+          "posterior": 0.1320353117694267
+        }
+      ]
+    },
+    "sceptical": {
+      "label": "Corpus-too-small scepticism",
+      "source": "Shannon's unicity distance applied to ~7,500 signs with no parallel text, plus Braovi\u0107 2024 challenge #4 (\"might be impossible\") and Barber's provability threshold. The position that no hypothesis is currently distinguishable.",
+      "ordering": [
+        {
+          "hypothesis": "greek_mycenaean",
+          "prior": 0.02,
+          "posterior": 0.5126223596084493
+        },
+        {
+          "hypothesis": "semitic_hebrew",
+          "prior": 0.02,
+          "posterior": 0.48737764039155074
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,94 @@
+# Named prior weightings over the candidate hypotheses.
+#
+# WHY SCENARIOS RATHER THAN ONE PRIOR
+# Any weighting is a judgement, and different people hold different ones honestly. Rather
+# than pick one and bury it, results are reported under several — including weightings
+# maximally favourable to the hypothesis being tested. A finding that survives its
+# proponent's own priors is much harder to argue with than one that only holds under
+# priors the proponent rejects.
+#
+# Weights need not sum to 1; the harness normalises. They express relative plausibility
+# BEFORE seeing this evidence, and they are declared opinion, not measurement.
+#
+# HOW TO READ A RESULT
+# The harness reports, per hypothesis, a likelihood-shaped score (how far above its own
+# permuted null it lands). Combining that with a prior gives a crude posterior ordering.
+# It is deliberately crude: the point is to show whether the evidence moves the ordering
+# at all, under any of these scenarios. Usually it does not, and that is the finding.
+
+meta:
+  updated: 2026-09-11
+  caution: >
+    These are not calibrated probabilities and must never be reported as such. They are
+    a sensitivity device: if a conclusion flips between scenarios, say so; if it holds
+    across all of them, that is worth stating plainly.
+
+scenarios:
+
+  - key: mainstream
+    label: Mainstream Aegean scholarship
+    source: >
+      Duhoux 2004, Younger, Monti 2022, Salgarella 2025, Davis 2026 — the consensus that
+      Minoan is unidentified, probably non-Indo-European and non-Semitic, possibly an
+      isolate, with no theory holding an edge.
+    weights:
+      isolate_null: 0.70
+      anatolian_luwian: 0.08
+      semitic_hebrew: 0.07
+      tyrsenian_etruscan: 0.07
+      greek_mycenaean: 0.05
+      uralic: 0.03
+
+  - key: uniform
+    label: Uniform — no prior commitment
+    source: "Deliberately uninformative. The default when reporting to a general audience."
+    weights:
+      isolate_null: 1
+      semitic_hebrew: 1
+      anatolian_luwian: 1
+      tyrsenian_etruscan: 1
+      greek_mycenaean: 1
+      uralic: 1
+
+  - key: semitic_advocate
+    label: Maximally favourable to the Semitic hypothesis
+    source: >
+      The weighting a proponent of di Mino 2026 or Gordon 1966 might hold. Included so
+      the Semitic result can be reported under priors its own advocates would accept —
+      if the evidence fails to move the posterior even here, the finding is robust.
+    weights:
+      semitic_hebrew: 0.70
+      isolate_null: 0.15
+      anatolian_luwian: 0.05
+      tyrsenian_etruscan: 0.05
+      greek_mycenaean: 0.03
+      uralic: 0.02
+
+  - key: indo_european_advocate
+    label: Maximally favourable to an Indo-European reading
+    source: "Palmer 1958, Owens 1996, Finkelberg 2001 — the Anatolian and Greek-related lines."
+    weights:
+      anatolian_luwian: 0.45
+      greek_mycenaean: 0.25
+      isolate_null: 0.20
+      tyrsenian_etruscan: 0.05
+      semitic_hebrew: 0.04
+      uralic: 0.01
+
+  - key: sceptical
+    label: Corpus-too-small scepticism
+    source: >
+      Shannon's unicity distance applied to ~7,500 signs with no parallel text, plus
+      Braović 2024 challenge #4 ("might be impossible") and Barber's provability
+      threshold. The position that no hypothesis is currently distinguishable.
+    weights:
+      isolate_null: 0.90
+      semitic_hebrew: 0.02
+      anatolian_luwian: 0.02
+      tyrsenian_etruscan: 0.02
+      greek_mycenaean: 0.02
+      uralic: 0.02
+    notes: >
+      Under this scenario nothing the harness can measure should shift the ordering.
+      Reporting it is a way of showing what the evidence would have to look like to
+      overturn well-founded pessimism.

@@ -1,0 +1,1165 @@
+{
+  "protocol_version": "0.1",
+  "corpus": "lineara",
+  "stem_min": 2,
+  "perms": 200,
+  "seed": 0,
+  "word_types": {
+    "count": 692,
+    "labels_changed": 115,
+    "labels_seen": 4011
+  },
+  "n1_type_count": {
+    "mean": 680.55,
+    "sd": 2.8995689334795958
+  },
+  "ending_channel": {
+    "paradigm_count_total": 62,
+    "paradigm_count_by_stem_length": {
+      "2": 56,
+      "3": 5,
+      "4": 1
+    },
+    "top_20_alternations": [
+      {
+        "e1": [
+          "*118"
+        ],
+        "e2": [
+          "JA",
+          "KA"
+        ],
+        "e1_label": "*118",
+        "e2_label": "JA-KA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*118"
+        ],
+        "e2": [
+          "KI",
+          "RA"
+        ],
+        "e1_label": "*118",
+        "e2_label": "KI-RA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*301"
+        ],
+        "e2": [
+          "MI",
+          "NE"
+        ],
+        "e1_label": "*301",
+        "e2_label": "MI-NE",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*321"
+        ],
+        "e2": [
+          "TU",
+          "KU"
+        ],
+        "e1_label": "*321",
+        "e2_label": "TU-KU",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*329"
+        ],
+        "e2": [
+          "NE",
+          "TE"
+        ],
+        "e1_label": "*329",
+        "e2_label": "NE-TE",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*350"
+        ],
+        "e2": [
+          "DE"
+        ],
+        "e1_label": "*350",
+        "e2_label": "DE",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*350"
+        ],
+        "e2": [
+          "NA"
+        ],
+        "e1_label": "*350",
+        "e2_label": "NA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*350"
+        ],
+        "e2": [
+          "NA",
+          "JE"
+        ],
+        "e1_label": "*350",
+        "e2_label": "NA-JE",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*350"
+        ],
+        "e2": [
+          "NA",
+          "TE"
+        ],
+        "e1_label": "*350",
+        "e2_label": "NA-TE",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*350"
+        ],
+        "e2": [
+          "RE"
+        ],
+        "e1_label": "*350",
+        "e2_label": "RE",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*802",
+          "ME"
+        ],
+        "e2": [
+          "RA"
+        ],
+        "e1_label": "*802-ME",
+        "e2_label": "RA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "KA",
+          "NA"
+        ],
+        "e1_label": "A",
+        "e2_label": "KA-NA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "ME"
+        ],
+        "e1_label": "A",
+        "e2_label": "ME",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "NA"
+        ],
+        "e1_label": "A",
+        "e2_label": "NA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "DA"
+        ],
+        "e2": [
+          "MA",
+          "TE"
+        ],
+        "e1_label": "DA",
+        "e2_label": "MA-TE",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "DA"
+        ],
+        "e2": [
+          "MI"
+        ],
+        "e1_label": "DA",
+        "e2_label": "MI",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "DA"
+        ],
+        "e2": [
+          "NE"
+        ],
+        "e1_label": "DA",
+        "e2_label": "NE",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "DA"
+        ],
+        "e2": [
+          "RU"
+        ],
+        "e1_label": "DA",
+        "e2_label": "RU",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "DA",
+          "I"
+        ],
+        "e2": [
+          "SA",
+          "NA"
+        ],
+        "e1_label": "DA-I",
+        "e2_label": "SA-NA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "DA",
+          "I"
+        ],
+        "e2": [
+          "TU",
+          "MI"
+        ],
+        "e1_label": "DA-I",
+        "e2_label": "TU-MI",
+        "support": 1,
+        "rule": null
+      }
+    ],
+    "top_10_matched_to_rule": 0,
+    "n1_paradigm_count": {
+      "draws": 200,
+      "mean": 41.13,
+      "sd": 3.995384837534427,
+      "p95": 48.0,
+      "p99": 51.00999999999999,
+      "real_value": 62,
+      "real_percentile": 100.0
+    },
+    "n2_alternation_support": {
+      "max_support": {
+        "draws": 200,
+        "mean": 1.515,
+        "sd": 0.5096812729539903,
+        "p95": 2.0,
+        "p99": 2.0,
+        "real_value": 1,
+        "real_percentile": 49.0
+      },
+      "tenth_support": {
+        "draws": 200,
+        "mean": 1,
+        "sd": 0.0,
+        "p95": 1.0,
+        "p99": 1.0,
+        "real_value": 1,
+        "real_percentile": 100.0
+      }
+    }
+  },
+  "prefix_channel": {
+    "paradigm_count_total": 51,
+    "paradigm_count_by_stem_length": {
+      "2": 48,
+      "3": 3
+    },
+    "top_20_alternations": [
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "SI"
+        ],
+        "e1_label": "A",
+        "e2_label": "SI",
+        "support": 2,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*118"
+        ],
+        "e2": [
+          "A",
+          "KU"
+        ],
+        "e1_label": "*118",
+        "e2_label": "A-KU",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*118"
+        ],
+        "e2": [
+          "NE"
+        ],
+        "e1_label": "*118",
+        "e2_label": "NE",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*309"
+        ],
+        "e2": [
+          "*309B"
+        ],
+        "e1_label": "*309",
+        "e2_label": "*309B",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*333"
+        ],
+        "e2": [
+          "JA"
+        ],
+        "e1_label": "*333",
+        "e2_label": "JA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*415",
+          "VS"
+        ],
+        "e2": [
+          "QE"
+        ],
+        "e1_label": "*415-VS",
+        "e2_label": "QE",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*47"
+        ],
+        "e2": [
+          "DA"
+        ],
+        "e1_label": "*47",
+        "e2_label": "DA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*47",
+          "NU"
+        ],
+        "e2": [
+          "KI",
+          "KI"
+        ],
+        "e1_label": "*47-NU",
+        "e2_label": "KI-KI",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "A",
+          "DU"
+        ],
+        "e1_label": "A",
+        "e2_label": "A-DU",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "A",
+          "RU"
+        ],
+        "e1_label": "A",
+        "e2_label": "A-RU",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "JA"
+        ],
+        "e1_label": "A",
+        "e2_label": "JA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "JA",
+          "SI"
+        ],
+        "e1_label": "A",
+        "e2_label": "JA-SI",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "JE"
+        ],
+        "e1_label": "A",
+        "e2_label": "JE",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "KA"
+        ],
+        "e1_label": "A",
+        "e2_label": "KA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "KI"
+        ],
+        "e1_label": "A",
+        "e2_label": "KI",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "KI",
+          "RE"
+        ],
+        "e1_label": "A",
+        "e2_label": "KI-RE",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "KU",
+          "KU"
+        ],
+        "e1_label": "A",
+        "e2_label": "KU-KU",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "NU"
+        ],
+        "e1_label": "A",
+        "e2_label": "NU",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "O",
+          "RA2"
+        ],
+        "e1_label": "A",
+        "e2_label": "O-RA2",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "PA"
+        ],
+        "e1_label": "A",
+        "e2_label": "PA",
+        "support": 1,
+        "rule": null
+      }
+    ],
+    "top_10_matched_to_rule": 0,
+    "n1_paradigm_count": {
+      "draws": 200,
+      "mean": 34.245,
+      "sd": 4.470455793316829,
+      "p95": 42.0,
+      "p99": 43.01999999999998,
+      "real_value": 51,
+      "real_percentile": 100.0
+    },
+    "n2_alternation_support": {
+      "max_support": {
+        "draws": 200,
+        "mean": 1.395,
+        "sd": 0.4888506929523574,
+        "p95": 2.0,
+        "p99": 2.0,
+        "real_value": 2,
+        "real_percentile": 100.0
+      },
+      "tenth_support": {
+        "draws": 200,
+        "mean": 1,
+        "sd": 0.0,
+        "p95": 1.0,
+        "p99": 1.0,
+        "real_value": 1,
+        "real_percentile": 100.0
+      }
+    }
+  },
+  "reference_alternations": [
+    {
+      "alternation": "-o / -a on the same consonant (e.g. -to/-ta, -ro/-ra, -no/-na)",
+      "grammar": "masculine and feminine of o/ā-stem nouns and adjectives"
+    },
+    {
+      "alternation": "-jo / -ja, -i-jo / -i-ja, -si-jo / -si-ja, -wi-jo / -wi-ja",
+      "grammar": "adjective and ethnic suffix, masculine and feminine"
+    },
+    {
+      "alternation": "-o / -o-jo",
+      "grammar": "nominative and genitive singular, o-stems"
+    },
+    {
+      "alternation": "-o / -o-i, -a / -a-i",
+      "grammar": "singular and dative plural"
+    },
+    {
+      "alternation": "-a / -a-o",
+      "grammar": "feminine and masculine ā-stem genitive"
+    },
+    {
+      "alternation": "-u / -we / -wo, -e-u / -e-we / -e-wo",
+      "grammar": "nominative, dative and genitive of eu-stems"
+    },
+    {
+      "alternation": "-e / -e-i, -e / -e-o",
+      "grammar": "consonant and s-stem case forms"
+    },
+    {
+      "alternation": "-me-no / -me-na",
+      "grammar": "middle participle, masculine and feminine"
+    },
+    {
+      "alternation": "-e / -si",
+      "grammar": "third person singular and plural of verbs"
+    },
+    {
+      "alternation": "X / X-qe, X / X-de, X / X-te, X / X-pi",
+      "grammar": "enclitic \"and\", allative, ablative and instrumental particles"
+    }
+  ],
+  "reference_v2": {
+    "reference_version": 2,
+    "version": "0.6",
+    "ending_channel": {
+      "top_20_v2": [
+        {
+          "e1_label": "*118",
+          "e2_label": "JA-KA",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*118",
+          "e2_label": "KI-RA",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*301",
+          "e2_label": "MI-NE",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*321",
+          "e2_label": "TU-KU",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*329",
+          "e2_label": "NE-TE",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*350",
+          "e2_label": "DE",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*350",
+          "e2_label": "NA",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*350",
+          "e2_label": "NA-JE",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*350",
+          "e2_label": "NA-TE",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*350",
+          "e2_label": "RE",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*802-ME",
+          "e2_label": "RA",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "KA-NA",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "ME",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "NA",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "DA",
+          "e2_label": "MA-TE",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "DA",
+          "e2_label": "MI",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "DA",
+          "e2_label": "NE",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "DA",
+          "e2_label": "RU",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "DA-I",
+          "e2_label": "SA-NA",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "DA-I",
+          "e2_label": "TU-MI",
+          "support": 1,
+          "rule_v2": null
+        }
+      ],
+      "matched_strict": {
+        "3": 0,
+        "5": 0,
+        "10": 0
+      }
+    },
+    "prefix_channel": {
+      "top_20_v2": [
+        {
+          "e1_label": "A",
+          "e2_label": "SI",
+          "support": 2,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*118",
+          "e2_label": "A-KU",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*118",
+          "e2_label": "NE",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*309",
+          "e2_label": "*309B",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*333",
+          "e2_label": "JA",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*415-VS",
+          "e2_label": "QE",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*47",
+          "e2_label": "DA",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "*47-NU",
+          "e2_label": "KI-KI",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "A-DU",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "A-RU",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "JA",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "JA-SI",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "JE",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "KA",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "KI",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "KI-RE",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "KU-KU",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "NU",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "O-RA2",
+          "support": 1,
+          "rule_v2": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "PA",
+          "support": 1,
+          "rule_v2": null
+        }
+      ],
+      "matched_strict": {
+        "3": 0,
+        "5": 0,
+        "10": 0
+      }
+    }
+  },
+  "reference_v3": {
+    "reference_version": 3,
+    "version": "0.8",
+    "ending_channel": {
+      "top_20_v3": [
+        {
+          "e1_label": "*118",
+          "e2_label": "JA-KA",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*118",
+          "e2_label": "KI-RA",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*301",
+          "e2_label": "MI-NE",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*321",
+          "e2_label": "TU-KU",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*329",
+          "e2_label": "NE-TE",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*350",
+          "e2_label": "DE",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*350",
+          "e2_label": "NA",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*350",
+          "e2_label": "NA-JE",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*350",
+          "e2_label": "NA-TE",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*350",
+          "e2_label": "RE",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*802-ME",
+          "e2_label": "RA",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "KA-NA",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "ME",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "NA",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "DA",
+          "e2_label": "MA-TE",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "DA",
+          "e2_label": "MI",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "DA",
+          "e2_label": "NE",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "DA",
+          "e2_label": "RU",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "DA-I",
+          "e2_label": "SA-NA",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "DA-I",
+          "e2_label": "TU-MI",
+          "support": 1,
+          "rule_v3": null
+        }
+      ],
+      "matched_strict": {
+        "3": 0,
+        "5": 0,
+        "10": 0
+      }
+    },
+    "prefix_channel": {
+      "top_20_v3": [
+        {
+          "e1_label": "A",
+          "e2_label": "SI",
+          "support": 2,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*118",
+          "e2_label": "A-KU",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*118",
+          "e2_label": "NE",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*309",
+          "e2_label": "*309B",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*333",
+          "e2_label": "JA",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*415-VS",
+          "e2_label": "QE",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*47",
+          "e2_label": "DA",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "*47-NU",
+          "e2_label": "KI-KI",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "A-DU",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "A-RU",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "JA",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "JA-SI",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "JE",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "KA",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "KI",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "KI-RE",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "KU-KU",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "NU",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "O-RA2",
+          "support": 1,
+          "rule_v3": null
+        },
+        {
+          "e1_label": "A",
+          "e2_label": "PA",
+          "support": 1,
+          "rule_v3": null
+        }
+      ],
+      "matched_strict": {
+        "3": 0,
+        "5": 0,
+        "10": 0
+      }
+    }
+  }
+}

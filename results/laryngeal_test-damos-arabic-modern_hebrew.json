@@ -1,0 +1,56 @@
+{
+  "protocol": {
+    "version": "1.1-laryngeal-stripped",
+    "change": "laryngeals removed from all lexicons and from vowel-sign options"
+  },
+  "corpus": "damos",
+  "n_words": 400,
+  "perms": 100,
+  "seed": 0,
+  "rows": [
+    {
+      "label": "Arabic (frequency list) (real)",
+      "n_words": 400,
+      "real": 0.38232868322591623,
+      "null_mean": 0.3734992539459585,
+      "null_sd": 0.0047311854636283256,
+      "z": 1.8662192272603222,
+      "se_z": 0.1655713472222189,
+      "p": 0.039603960396039604,
+      "perms": 100
+    },
+    {
+      "label": "Arabic (frequency list) (synthetic)",
+      "n_words": 400,
+      "real": 0.34553284188162486,
+      "null_mean": 0.33924075594621333,
+      "null_sd": 0.006142825412144994,
+      "z": 1.0242983502300802,
+      "se_z": 0.1234744327843636,
+      "p": 0.18811881188118812,
+      "perms": 100
+    },
+    {
+      "label": "Modern Hebrew (frequency list) (real)",
+      "n_words": 400,
+      "real": 0.2806389492844219,
+      "null_mean": 0.277510418779468,
+      "null_sd": 0.005215602163878226,
+      "z": 0.5998407099799876,
+      "se_z": 0.10862340625641638,
+      "p": 0.25742574257425743,
+      "perms": 100
+    },
+    {
+      "label": "Modern Hebrew (frequency list) (synthetic)",
+      "n_words": 400,
+      "real": 0.26213182126410095,
+      "null_mean": 0.2593269863604741,
+      "null_sd": 0.00419428414351722,
+      "z": 0.6687279181984105,
+      "se_z": 0.11061638731621054,
+      "p": 0.2376237623762376,
+      "perms": 100
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "protocol": "Kober 0.4, context-restricted statistics under stratified (length, class) nulls (CHANGELOG '0.4'); TODO item 8, 'Build and run'",
+  "source_dir": "results/kober-context",
+  "baseline_source": "results/kober-precision-table.json",
+  "models": {
+    "full": {
+      "n_runs": 2,
+      "files": [
+        "kober-damos-seed0.json",
+        "kober-damos-seed1.json"
+      ],
+      "top_three_all_matched_count": {
+        "pass": 2,
+        "of": 2
+      },
+      "chance_rate_median_range": {
+        "median": 0.0,
+        "range": [
+          0,
+          0
+        ]
+      },
+      "four_of_top_five_count": {
+        "pass": 2,
+        "of": 2
+      },
+      "top10_exceeds_null_p99_count": {
+        "pass": 2,
+        "of": 2
+      },
+      "median_class_agreement_fraction": 0.3649732620320856,
+      "class_agreement_fraction_n": 20
+    },
+    "type-988": {
+      "n_runs": 20,
+      "files": [
+        "kober-damos-seed0-sub988-s0.json",
+        "kober-damos-seed0-sub988-s1.json",
+        "kober-damos-seed0-sub988-s10.json",
+        "kober-damos-seed0-sub988-s11.json",
+        "kober-damos-seed0-sub988-s12.json",
+        "kober-damos-seed0-sub988-s13.json",
+        "kober-damos-seed0-sub988-s14.json",
+        "kober-damos-seed0-sub988-s15.json",
+        "kober-damos-seed0-sub988-s16.json",
+        "kober-damos-seed0-sub988-s17.json",
+        "kober-damos-seed0-sub988-s18.json",
+        "kober-damos-seed0-sub988-s19.json",
+        "kober-damos-seed0-sub988-s2.json",
+        "kober-damos-seed0-sub988-s3.json",
+        "kober-damos-seed0-sub988-s4.json",
+        "kober-damos-seed0-sub988-s5.json",
+        "kober-damos-seed0-sub988-s6.json",
+        "kober-damos-seed0-sub988-s7.json",
+        "kober-damos-seed0-sub988-s8.json",
+        "kober-damos-seed0-sub988-s9.json"
+      ],
+      "top_three_all_matched_count": {
+        "pass": 0,
+        "of": 20
+      },
+      "chance_rate_median_range": {
+        "median": 0.0,
+        "range": [
+          0,
+          0
+        ]
+      },
+      "four_of_top_five_count": {
+        "pass": 0,
+        "of": 20
+      },
+      "top10_exceeds_null_p99_count": {
+        "pass": 7,
+        "of": 20
+      },
+      "median_class_agreement_fraction": 1.0,
+      "class_agreement_fraction_n": 200
+    },
+    "tablet-988": {
+      "n_runs": 20,
+      "files": [
+        "kober-damos-seed0-docs1008-s17.json",
+        "kober-damos-seed0-docs1009-s19.json",
+        "kober-damos-seed0-docs1012-s3.json",
+        "kober-damos-seed0-docs1013-s15.json",
+        "kober-damos-seed0-docs1042-s0.json",
+        "kober-damos-seed0-docs1072-s16.json",
+        "kober-damos-seed0-docs1081-s14.json",
+        "kober-damos-seed0-docs1101-s8.json",
+        "kober-damos-seed0-docs1112-s13.json",
+        "kober-damos-seed0-docs1130-s10.json",
+        "kober-damos-seed0-docs1133-s6.json",
+        "kober-damos-seed0-docs1151-s12.json",
+        "kober-damos-seed0-docs1187-s5.json",
+        "kober-damos-seed0-docs895-s7.json",
+        "kober-damos-seed0-docs913-s9.json",
+        "kober-damos-seed0-docs973-s11.json",
+        "kober-damos-seed0-docs974-s1.json",
+        "kober-damos-seed0-docs978-s2.json",
+        "kober-damos-seed0-docs984-s18.json",
+        "kober-damos-seed0-docs993-s4.json"
+      ],
+      "top_three_all_matched_count": {
+        "pass": 2,
+        "of": 20
+      },
+      "chance_rate_median_range": {
+        "median": 0.0,
+        "range": [
+          0,
+          0
+        ]
+      },
+      "four_of_top_five_count": {
+        "pass": 2,
+        "of": 20
+      },
+      "top10_exceeds_null_p99_count": {
+        "pass": 11,
+        "of": 20
+      },
+      "median_class_agreement_fraction": 1.0,
+      "class_agreement_fraction_n": 200
+    }
+  },
+  "baseline_0_3": {
+    "full": {
+      "top_three_all_matched_count": {
+        "pass": 2,
+        "of": 2
+      },
+      "chance_rate_median_range": null,
+      "four_of_top_five_count": {
+        "pass": 2,
+        "of": 2
+      },
+      "top10_exceeds_null_p99_count": {
+        "pass": 2,
+        "of": 2
+      },
+      "median_class_agreement_fraction": null
+    },
+    "type-988": {
+      "top_three_all_matched_count": {
+        "pass": 5,
+        "of": 20
+      },
+      "chance_rate_median_range": null,
+      "four_of_top_five_count": {
+        "pass": 2,
+        "of": 20
+      },
+      "top10_exceeds_null_p99_count": {
+        "pass": 17,
+        "of": 20
+      },
+      "median_class_agreement_fraction": null
+    },
+    "tablet-988": {
+      "top_three_all_matched_count": {
+        "pass": 6,
+        "of": 20
+      },
+      "chance_rate_median_range": null,
+      "four_of_top_five_count": {
+        "pass": 15,
+        "of": 20
+      },
+      "top10_exceeds_null_p99_count": {
+        "pass": 19,
+        "of": 20
+      },
+      "median_class_agreement_fraction": null
+    }
+  }
+}

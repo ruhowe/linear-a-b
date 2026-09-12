@@ -1,0 +1,93 @@
+{
+  "_note": "Hand-maintained. Sign labels only, aggregate: no Linear A words. Each entry is one ending- or prefix-channel alternation the field has proposed by eye, or a source that was checked and yielded no specific pair. 'pair' is null when the source makes only a general claim (no specific sign-label pair to search for) or could not be read this session. Citations point to page images or cached text actually read for this spike (2026-09-12); see RESULT.md for how each was verified.",
+  "proposals": [
+    {
+      "id": "facchetti-a-ja-prefix-1sign",
+      "channel": "prefix",
+      "pair": ["A", "JA"],
+      "source": "facchetti1999b",
+      "citation": "Facchetti 1999, Kadmos 38:121-136, p.132 n.73",
+      "paraphrase": "The ja-/a- alternation on (j)a-sa-sa-ra-me is 'attested in [a] securely connected context'."
+    },
+    {
+      "id": "facchetti-a-ja-prefix-2sign",
+      "channel": "prefix",
+      "pair": ["A-SA", "JA-SA"],
+      "source": "facchetti1999b",
+      "citation": "Facchetti 1999, p.132 n.73 (same word pair, read at the two-sign prefix split)",
+      "paraphrase": "Same (j)a-sa-sa-ra-me alternation, one sign further in: a-sa- vs ja-sa-."
+    },
+    {
+      "id": "facchetti-ja-e-suffix",
+      "channel": "ending",
+      "pair": ["JA", "E"],
+      "source": "facchetti1999b",
+      "citation": "Facchetti 1999, p.129-130 sec 3.2.1, synopsis p.133",
+      "paraphrase": "a-ta-i-jo-wa-ja and a-ta-i-jo-wa-e given as the same dedicant-name word, ending alternating."
+    },
+    {
+      "id": "facchetti-si-ti-suffix",
+      "channel": "ending",
+      "pair": ["SI", "TI"],
+      "source": "facchetti1999b",
+      "citation": "Facchetti 1999, p.129 sec 3.2.1",
+      "paraphrase": "u-na-ka-na-si and u-na-ru-ka-na-ti given as the same second-formula word, ending alternating (his own text also inserts -ru-, so the two forms are not identical apart from the ending)."
+    },
+    {
+      "id": "thomas-te-ti-suffix",
+      "channel": "ending",
+      "pair": ["TE", "TI"],
+      "source": "thomas2020",
+      "citation": "Thomas 2020, Kadmos 59(1/2), p.5, citing Valerio 2007:11",
+      "paraphrase": "Suffix -te/-ti glossed 'from/of', following Valerio; noted as one of the root i-*301's seven possible suffixes (-ti- and -e- listed separately, p.4)."
+    },
+    {
+      "id": "thomas-wa-u-suffix",
+      "channel": "ending",
+      "pair": ["WA", "U"],
+      "source": "thomas2020",
+      "citation": "Thomas 2020, p.4 n.5, citing Steele and Meissner 2017:103",
+      "paraphrase": "wa-/-u- suffix alternation illustrated by qe-ra2-u / qa-ra2-wa, said to recur elsewhere in Linear A (a different word pair from the one it illustrates, and differing at both ends, not one position)."
+    },
+    {
+      "id": "duhoux-general-affixing",
+      "channel": null,
+      "pair": null,
+      "source": "duhoux1978",
+      "citation": "Duhoux 1978, in Etudes minoennes I, 65-129 (verification S: search-snippet only, not read in full)",
+      "paraphrase": "General claim that the language of Linear A makes heavy use of prefixes and suffixes in word formation; no specific sign pair is available to us to check."
+    },
+    {
+      "id": "monti-a-ja-prefix",
+      "channel": "prefix",
+      "pair": ["A", "JA"],
+      "source": "monti2022",
+      "citation": "Monti 2022, Kadmos 61:107-116 (verification P: seen restated, not read in full)",
+      "paraphrase": "Reads a-/ja- as an article-like prefix on (j)a-sa-sa-ra-me, the same alternation Facchetti and Thomas discuss."
+    },
+    {
+      "id": "schoep-not-available",
+      "channel": null,
+      "pair": null,
+      "source": "schoep2002",
+      "citation": "Schoep 2002 - not in docs/works/; claims.md lists it only as an uncatalogued lead, on Hagia Triada place names",
+      "paraphrase": "Not read. What is known of it (place-name study) is not a morphological ending/prefix claim, so there is nothing to search for."
+    },
+    {
+      "id": "davis-no-specific-pair",
+      "channel": null,
+      "pair": null,
+      "source": "davis2013",
+      "citation": "Davis 2013, Kadmos 52:35-52; Davis 2014, Aegaeum 36 (both catalogued in docs/works/)",
+      "paraphrase": "Argues libation-formula word order (VSO) and catalogues stone vessels with vowel frequencies; neither page gives a specific ending or prefix sign-pair to search for."
+    },
+    {
+      "id": "younger-not-available",
+      "channel": null,
+      "pair": null,
+      "source": "younger_texts",
+      "citation": "Younger, Linear A Texts & Inscriptions in phonetic transcription (site decommissioned 2024)",
+      "paraphrase": "Suffix list could not be retrieved this session: the lineara.xyz mirror (Robert Hogan's Linear A Explorer) carries no morphology/suffix page as of 2026-09-12, and web.archive.org is unreachable from this environment. Left unchecked rather than guessed at."
+    }
+  ]
+}

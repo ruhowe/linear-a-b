@@ -1,0 +1,63 @@
+{
+  "protocol": {
+    "expansion": "Mycenaean rules, max 1 omitted coda, finals ['s', 'n', 'r']",
+    "statistic": "log1p(mean lexicon count over candidates), averaged over words",
+    "null": "frequency_matched_permute, 4 bands",
+    "control": "synthetic lexicon with matched length profile and consonant unigrams, same map",
+    "criterion": "Linear B: real Greek >> synthetic Greek; Hebrew ~ synthetic Hebrew. Else uncalibrated."
+  },
+  "blocks": [
+    {
+      "corpus": "lineara",
+      "n_words": 400,
+      "perms": 400,
+      "seed": 0,
+      "rows": [
+        {
+          "label": "Greek, archaic (real)",
+          "n_words": 400,
+          "real": 1.7554120806283557,
+          "null_mean": 1.6584125011740385,
+          "null_sd": 0.031240063713412602,
+          "z": 3.104973803644052,
+          "se_z": 0.12062784878146822,
+          "p": 0.004987531172069825,
+          "perms": 400
+        },
+        {
+          "label": "Greek map, synthetic lexicon (control)",
+          "n_words": 400,
+          "real": 1.5710082147140323,
+          "null_mean": 1.5805875089432495,
+          "null_sd": 0.03136952276848201,
+          "z": -0.3053694600302255,
+          "se_z": 0.051152352183442544,
+          "p": 0.600997506234414,
+          "perms": 400
+        },
+        {
+          "label": "Hebrew, Strong's (real)",
+          "n_words": 400,
+          "real": 0.08437781859086863,
+          "null_mean": 0.07734881029654134,
+          "null_sd": 0.0028852855437986684,
+          "z": 2.4361569028877246,
+          "se_z": 0.09959204571329675,
+          "p": 0.00997506234413965,
+          "perms": 400
+        },
+        {
+          "label": "Hebrew map, synthetic lexicon (control)",
+          "n_words": 400,
+          "real": 0.07339616775459147,
+          "null_mean": 0.0774399205083547,
+          "null_sd": 0.003429905887312934,
+          "z": -1.1789690115757658,
+          "se_z": 0.06509577492295428,
+          "p": 0.85785536159601,
+          "perms": 400
+        }
+      ]
+    }
+  ]
+}

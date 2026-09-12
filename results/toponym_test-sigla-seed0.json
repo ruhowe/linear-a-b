@@ -1,0 +1,1416 @@
+{
+  "protocol_version": "1.0",
+  "seed": 0,
+  "n_permutations": 400,
+  "band_size": 10,
+  "n_sensitivity_bands": 4,
+  "match_definition": "3= : the assignment's image of the Linear A word's first two signs equals the lexicon word's first two signs, and the third sign's image shares a Greek consonant (kober.values.consonant_of) with the lexicon word's third sign. 4= : the first three images equal the lexicon word's first three signs, and the fourth image either equals its fourth sign or shares a consonant with it. The lexicon side always reads its own known Linear B value directly, never through the assignment.",
+  "null": "one random permutation per frequency band, all bands drawn together, every word position read through the resulting assignment (spike S-003b's construction, moved into the main line)",
+  "lexicons": {
+    "knossos_toponyms": {
+      "size": 32,
+      "candidates": 33,
+      "dropped": [
+        "di-ka-ta"
+      ],
+      "entries": [
+        {
+          "surface": "ko-no-so",
+          "signs": [
+            "KO",
+            "NO",
+            "SO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "a-mi-ni-so",
+          "signs": [
+            "A",
+            "MI",
+            "NI",
+            "SO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "pa-i-to",
+          "signs": [
+            "PA",
+            "I",
+            "TO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)",
+            "Packard 1974 Table 11 p.92, tagged \"(place)\""
+          ]
+        },
+        {
+          "surface": "tu-ri-so",
+          "signs": [
+            "TU",
+            "RI",
+            "SO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "ku-ta-to",
+          "signs": [
+            "KU",
+            "TA",
+            "TO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "ru-ki-to",
+          "signs": [
+            "RU",
+            "KI",
+            "TO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "se-to-i-ja",
+          "signs": [
+            "SE",
+            "TO",
+            "I",
+            "JA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "da-*22-to",
+          "signs": [
+            "DA",
+            "*22",
+            "TO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "qa-ra",
+          "signs": [
+            "QA",
+            "RA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "su-ri-mo",
+          "signs": [
+            "SU",
+            "RI",
+            "MO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "ra-su-to",
+          "signs": [
+            "RA",
+            "SU",
+            "TO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "ti-ri-to",
+          "signs": [
+            "TI",
+            "RI",
+            "TO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "e-ko-so",
+          "signs": [
+            "E",
+            "KO",
+            "SO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "da-wo",
+          "signs": [
+            "DA",
+            "WO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "u-ta-no",
+          "signs": [
+            "U",
+            "TA",
+            "NO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "ku-do-ni-ja",
+          "signs": [
+            "KU",
+            "DO",
+            "NI",
+            "JA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)",
+            "Packard 1974 Table 11 p.92, tagged \"(place)\""
+          ]
+        },
+        {
+          "surface": "a-pa-ta-wa",
+          "signs": [
+            "A",
+            "PA",
+            "TA",
+            "WA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "wa-to",
+          "signs": [
+            "WA",
+            "TO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "su-ki-ri-ta",
+          "signs": [
+            "SU",
+            "KI",
+            "RI",
+            "TA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)",
+            "Packard 1974 Table 11 p.92, tagged \"(place)\""
+          ]
+        },
+        {
+          "surface": "ri-jo-no",
+          "signs": [
+            "RI",
+            "JO",
+            "NO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "e-ra",
+          "signs": [
+            "E",
+            "RA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "ra-to",
+          "signs": [
+            "RA",
+            "TO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "ra-ja",
+          "signs": [
+            "RA",
+            "JA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "tu-ni-ja",
+          "signs": [
+            "TU",
+            "NI",
+            "JA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "pa-na-so",
+          "signs": [
+            "PA",
+            "NA",
+            "SO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "qa-mo",
+          "signs": [
+            "QA",
+            "MO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "*56-ko-we",
+          "signs": [
+            "*56",
+            "KO",
+            "WE"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "si-ja-du-we",
+          "signs": [
+            "SI",
+            "JA",
+            "DU",
+            "WE"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "ku-ta-i-to",
+          "signs": [
+            "KU",
+            "TA",
+            "I",
+            "TO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "da-ta-ra-mo",
+          "signs": [
+            "DA",
+            "TA",
+            "RA",
+            "MO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "do-ti-ja",
+          "signs": [
+            "DO",
+            "TI",
+            "JA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        },
+        {
+          "surface": "pu-na-so",
+          "signs": [
+            "PU",
+            "NA",
+            "SO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.139-150, 183-194 (Knossos place-name discussion)"
+          ]
+        }
+      ]
+    },
+    "knossos_personal_names": {
+      "size": 32,
+      "source": "Top 32 non-toponym WORD/CERTAIN types by frequency on 1016 Knossos documents whose series_of starts with \"D\"",
+      "manual_exclusion": "Packard 1974 Table 11 p.92 tags da-mi-ni-jo \"(place)\"; excluded by name rather than left ambiguous (carried over from S-003).",
+      "entries": [
+        {
+          "signs": [
+            "U",
+            "TA",
+            "JO"
+          ],
+          "frequency": 19
+        },
+        {
+          "signs": [
+            "U",
+            "TA",
+            "JO",
+            "JO"
+          ],
+          "frequency": 19
+        },
+        {
+          "signs": [
+            "WE",
+            "WE",
+            "SI",
+            "JO"
+          ],
+          "frequency": 16
+        },
+        {
+          "signs": [
+            "WE",
+            "WE",
+            "SI",
+            "JO",
+            "JO"
+          ],
+          "frequency": 13
+        },
+        {
+          "signs": [
+            "E",
+            "KA",
+            "RA",
+            "E",
+            "WE"
+          ],
+          "frequency": 11
+        },
+        {
+          "signs": [
+            "A",
+            "KA"
+          ],
+          "frequency": 10
+        },
+        {
+          "signs": [
+            "A",
+            "TE",
+            "JO"
+          ],
+          "frequency": 9
+        },
+        {
+          "signs": [
+            "A3",
+            "MI",
+            "RE",
+            "WE"
+          ],
+          "frequency": 9
+        },
+        {
+          "signs": [
+            "KI",
+            "RI",
+            "JO",
+            "TE"
+          ],
+          "frequency": 9
+        },
+        {
+          "signs": [
+            "SA",
+            "QA",
+            "RE",
+            "JO"
+          ],
+          "frequency": 8
+        },
+        {
+          "signs": [
+            "PE",
+            "RI",
+            "QO",
+            "TE",
+            "JO"
+          ],
+          "frequency": 7
+        },
+        {
+          "signs": [
+            "DA",
+            "RA",
+            "KO"
+          ],
+          "frequency": 5
+        },
+        {
+          "signs": [
+            "PU",
+            "SO"
+          ],
+          "frequency": 5
+        },
+        {
+          "signs": [
+            "DI",
+            "RO"
+          ],
+          "frequency": 4
+        },
+        {
+          "signs": [
+            "PO",
+            "TI",
+            "NI",
+            "JA",
+            "WE",
+            "JO"
+          ],
+          "frequency": 4
+        },
+        {
+          "signs": [
+            "WI",
+            "NA",
+            "JO"
+          ],
+          "frequency": 4
+        },
+        {
+          "signs": [
+            "A",
+            "KO",
+            "MO",
+            "NI",
+            "JO"
+          ],
+          "frequency": 3
+        },
+        {
+          "signs": [
+            "KA",
+            "TO",
+            "RO"
+          ],
+          "frequency": 3
+        },
+        {
+          "signs": [
+            "KE",
+            "TO"
+          ],
+          "frequency": 3
+        },
+        {
+          "signs": [
+            "KO",
+            "MA",
+            "WE",
+            "TO"
+          ],
+          "frequency": 3
+        },
+        {
+          "signs": [
+            "PE",
+            "KO"
+          ],
+          "frequency": 3
+        },
+        {
+          "signs": [
+            "TE",
+            "RA",
+            "PO",
+            "SI",
+            "JO"
+          ],
+          "frequency": 3
+        },
+        {
+          "signs": [
+            "*56",
+            "DU",
+            "NU",
+            "KA"
+          ],
+          "frequency": 2
+        },
+        {
+          "signs": [
+            "A",
+            "KO",
+            "RO"
+          ],
+          "frequency": 2
+        },
+        {
+          "signs": [
+            "A",
+            "NO",
+            "QO",
+            "TA"
+          ],
+          "frequency": 2
+        },
+        {
+          "signs": [
+            "A",
+            "NU",
+            "KO"
+          ],
+          "frequency": 2
+        },
+        {
+          "signs": [
+            "A",
+            "NU",
+            "MO"
+          ],
+          "frequency": 2
+        },
+        {
+          "signs": [
+            "A",
+            "RA",
+            "KO"
+          ],
+          "frequency": 2
+        },
+        {
+          "signs": [
+            "A",
+            "TE",
+            "I",
+            "JA",
+            "TA"
+          ],
+          "frequency": 2
+        },
+        {
+          "signs": [
+            "A",
+            "TE",
+            "MO"
+          ],
+          "frequency": 2
+        },
+        {
+          "signs": [
+            "A",
+            "WA",
+            "SO"
+          ],
+          "frequency": 2
+        },
+        {
+          "signs": [
+            "A3",
+            "KE",
+            "WA",
+            "TO"
+          ],
+          "frequency": 2
+        }
+      ]
+    },
+    "pylos_toponyms": {
+      "size": 19,
+      "candidates": 21,
+      "dropped": [
+        "a-pu2",
+        "e-ra-to"
+      ],
+      "entries": [
+        {
+          "surface": "pi-*82",
+          "signs": [
+            "PI",
+            "*82"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.141-142 (Nine Towns, 75=Cn02, 250=Vn01)"
+          ]
+        },
+        {
+          "surface": "me-ta-pa",
+          "signs": [
+            "ME",
+            "TA",
+            "PA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.141-142 (Nine Towns, 75=Cn02, 250=Vn01)"
+          ]
+        },
+        {
+          "surface": "pe-to-no",
+          "signs": [
+            "PE",
+            "TO",
+            "NO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.141-142 (Nine Towns, 75=Cn02, 250=Vn01)"
+          ]
+        },
+        {
+          "surface": "pa-ki-ja-ne",
+          "signs": [
+            "PA",
+            "KI",
+            "JA",
+            "NE"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.141-142 (Nine Towns, 75=Cn02, 250=Vn01)"
+          ]
+        },
+        {
+          "surface": "a-ke-re-wa",
+          "signs": [
+            "A",
+            "KE",
+            "RE",
+            "WA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.141-142 (Nine Towns, 75=Cn02, 250=Vn01)"
+          ]
+        },
+        {
+          "surface": "ka-ra-do-ro",
+          "signs": [
+            "KA",
+            "RA",
+            "DO",
+            "RO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.141-142 (Nine Towns, 75=Cn02, 250=Vn01)"
+          ]
+        },
+        {
+          "surface": "ri-jo",
+          "signs": [
+            "RI",
+            "JO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.141-142 (Nine Towns, 75=Cn02, 250=Vn01)"
+          ]
+        },
+        {
+          "surface": "ti-mi-to-a-ke-e",
+          "signs": [
+            "TI",
+            "MI",
+            "TO",
+            "A",
+            "KE",
+            "E"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.142-143 (Seven Towns, 257=Jn09)"
+          ]
+        },
+        {
+          "surface": "ra-wa-ra-ta2",
+          "signs": [
+            "RA",
+            "WA",
+            "RA",
+            "TA2"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.142-143 (Seven Towns, 257=Jn09)"
+          ]
+        },
+        {
+          "surface": "sa-ma-ra",
+          "signs": [
+            "SA",
+            "MA",
+            "RA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.142-143 (Seven Towns, 257=Jn09)"
+          ]
+        },
+        {
+          "surface": "a-si-ja-ti-ja",
+          "signs": [
+            "A",
+            "SI",
+            "JA",
+            "TI",
+            "JA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.142-143 (Seven Towns, 257=Jn09)"
+          ]
+        },
+        {
+          "surface": "e-ra-te-re-wa-pi",
+          "signs": [
+            "E",
+            "RA",
+            "TE",
+            "RE",
+            "WA",
+            "PI"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.142-143 (Seven Towns, 257=Jn09)"
+          ]
+        },
+        {
+          "surface": "za-ma-e-wi-ja",
+          "signs": [
+            "ZA",
+            "MA",
+            "E",
+            "WI",
+            "JA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.142-143 (Seven Towns, 257=Jn09)"
+          ]
+        },
+        {
+          "surface": "e-re-i",
+          "signs": [
+            "E",
+            "RE",
+            "I"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.142-143 (Seven Towns, 257=Jn09)"
+          ]
+        },
+        {
+          "surface": "pu-ro",
+          "signs": [
+            "PU",
+            "RO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, pp.140-141 (Pylos itself, the site name; 172=Kn02, the Ab tablets)"
+          ]
+        },
+        {
+          "surface": "ro-u-so",
+          "signs": [
+            "RO",
+            "U",
+            "SO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, p.141 (replaces e-ra-to in the parallel Jn09 list); p.416 (Additional Commentary, northern frontier)"
+          ]
+        },
+        {
+          "surface": "a-pi-no-e-wi-jo",
+          "signs": [
+            "A",
+            "PI",
+            "NO",
+            "E",
+            "WI",
+            "JO"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, p.146 (PY 184=Nn01, \"seem to be place-names rather than adjectives\"); p.323 (Additional Commentary, Mb 1396)"
+          ]
+        },
+        {
+          "surface": "e-sa-re-wi-ja",
+          "signs": [
+            "E",
+            "SA",
+            "RE",
+            "WI",
+            "JA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, p.144 (Further Province sector grouping); p.424 (associated with the Further Province, On 300)"
+          ]
+        },
+        {
+          "surface": "a-te-re-wi-ja",
+          "signs": [
+            "A",
+            "TE",
+            "RE",
+            "WI",
+            "JA"
+          ],
+          "sources": [
+            "Ventris and Chadwick 1973, p.144 (Further Province sector grouping); p.424 (\"associated with it on An 830\")"
+          ]
+        }
+      ]
+    },
+    "knossos_toponyms_reversed": {
+      "size": 32,
+      "source": "Lexicon (a), each word's sign tuple reversed. Same signs and lengths, no meaning."
+    }
+  },
+  "edition": {
+    "edition": "sigla",
+    "n_word_types_3plus": 443,
+    "sign_inventory_size": 55,
+    "band_structures": {
+      "groups_of_10": {
+        "structure": "groups_of_10",
+        "band_sizes": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          5
+        ],
+        "rows": [
+          {
+            "lexicon": "knossos_toponyms",
+            "match_class": "3=",
+            "real": 5,
+            "null_mean": 0.5325,
+            "null_sd": 0.7575907536394567,
+            "null_p95": 2.0,
+            "null_p99": 3.0,
+            "real_percentile": 100.0,
+            "n_permutations": 400,
+            "matched_pairs": [
+              {
+                "linear_a": [
+                  "DA",
+                  "TA",
+                  "RA"
+                ],
+                "lexicon_word": [
+                  "DA",
+                  "TA",
+                  "RA",
+                  "MO"
+                ]
+              },
+              {
+                "linear_a": [
+                  "DA",
+                  "TA",
+                  "RE"
+                ],
+                "lexicon_word": [
+                  "DA",
+                  "TA",
+                  "RA",
+                  "MO"
+                ]
+              },
+              {
+                "linear_a": [
+                  "PA",
+                  "I",
+                  "TO"
+                ],
+                "lexicon_word": [
+                  "PA",
+                  "I",
+                  "TO"
+                ]
+              },
+              {
+                "linear_a": [
+                  "SU",
+                  "KI",
+                  "RA",
+                  "TA"
+                ],
+                "lexicon_word": [
+                  "SU",
+                  "KI",
+                  "RI",
+                  "TA"
+                ]
+              },
+              {
+                "linear_a": [
+                  "SU",
+                  "KI",
+                  "RI",
+                  "TE",
+                  "I",
+                  "JA"
+                ],
+                "lexicon_word": [
+                  "SU",
+                  "KI",
+                  "RI",
+                  "TA"
+                ]
+              }
+            ],
+            "sign_labels_involved": [
+              "DA",
+              "I",
+              "KI",
+              "PA",
+              "RA",
+              "RE",
+              "RI",
+              "SU",
+              "TA",
+              "TO"
+            ]
+          },
+          {
+            "lexicon": "knossos_toponyms",
+            "match_class": "4=",
+            "real": 1,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "null_p95": 0.0,
+            "null_p99": 0.0,
+            "real_percentile": 100.0,
+            "n_permutations": 400,
+            "matched_pairs": [
+              {
+                "linear_a": [
+                  "SU",
+                  "KI",
+                  "RI",
+                  "TE",
+                  "I",
+                  "JA"
+                ],
+                "lexicon_word": [
+                  "SU",
+                  "KI",
+                  "RI",
+                  "TA"
+                ]
+              }
+            ],
+            "sign_labels_involved": [
+              "KI",
+              "RI",
+              "SU",
+              "TA",
+              "TE"
+            ]
+          },
+          {
+            "lexicon": "knossos_personal_names",
+            "match_class": "3=",
+            "real": 0,
+            "null_mean": 0.36,
+            "null_sd": 0.6522269543648131,
+            "null_p95": 2.0,
+            "null_p99": 3.0,
+            "real_percentile": 35.875,
+            "n_permutations": 400,
+            "matched_pairs": [],
+            "sign_labels_involved": []
+          },
+          {
+            "lexicon": "knossos_personal_names",
+            "match_class": "4=",
+            "real": 0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "null_p95": 0.0,
+            "null_p99": 0.0,
+            "real_percentile": 50.0,
+            "n_permutations": 400,
+            "matched_pairs": [],
+            "sign_labels_involved": []
+          },
+          {
+            "lexicon": "pylos_toponyms",
+            "match_class": "3=",
+            "real": 2,
+            "null_mean": 0.3475,
+            "null_sd": 0.597280294334243,
+            "null_p95": 1.0,
+            "null_p99": 2.01,
+            "real_percentile": 97.25,
+            "n_permutations": 400,
+            "matched_pairs": [
+              {
+                "linear_a": [
+                  "A",
+                  "SI",
+                  "JA",
+                  "KA"
+                ],
+                "lexicon_word": [
+                  "A",
+                  "SI",
+                  "JA",
+                  "TI",
+                  "JA"
+                ]
+              },
+              {
+                "linear_a": [
+                  "SA",
+                  "MA",
+                  "RO"
+                ],
+                "lexicon_word": [
+                  "SA",
+                  "MA",
+                  "RA"
+                ]
+              }
+            ],
+            "sign_labels_involved": [
+              "A",
+              "JA",
+              "MA",
+              "RA",
+              "RO",
+              "SA",
+              "SI"
+            ]
+          },
+          {
+            "lexicon": "pylos_toponyms",
+            "match_class": "4=",
+            "real": 0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "null_p95": 0.0,
+            "null_p99": 0.0,
+            "real_percentile": 50.0,
+            "n_permutations": 400,
+            "matched_pairs": [],
+            "sign_labels_involved": []
+          },
+          {
+            "lexicon": "knossos_toponyms_reversed",
+            "match_class": "3=",
+            "real": 0,
+            "null_mean": 0.155,
+            "null_sd": 0.3949367037893541,
+            "null_p95": 1.0,
+            "null_p99": 2.0,
+            "real_percentile": 42.875,
+            "n_permutations": 400,
+            "matched_pairs": [],
+            "sign_labels_involved": []
+          },
+          {
+            "lexicon": "knossos_toponyms_reversed",
+            "match_class": "4=",
+            "real": 0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "null_p95": 0.0,
+            "null_p99": 0.0,
+            "real_percentile": 50.0,
+            "n_permutations": 400,
+            "matched_pairs": [],
+            "sign_labels_involved": []
+          }
+        ]
+      },
+      "four_bands": {
+        "structure": "four_bands",
+        "band_sizes": [
+          14,
+          14,
+          14,
+          13
+        ],
+        "rows": [
+          {
+            "lexicon": "knossos_toponyms",
+            "match_class": "3=",
+            "real": 5,
+            "null_mean": 0.525,
+            "null_sd": 0.751248960065836,
+            "null_p95": 2.0,
+            "null_p99": 3.0,
+            "real_percentile": 100.0,
+            "n_permutations": 400,
+            "matched_pairs": [
+              {
+                "linear_a": [
+                  "DA",
+                  "TA",
+                  "RA"
+                ],
+                "lexicon_word": [
+                  "DA",
+                  "TA",
+                  "RA",
+                  "MO"
+                ]
+              },
+              {
+                "linear_a": [
+                  "DA",
+                  "TA",
+                  "RE"
+                ],
+                "lexicon_word": [
+                  "DA",
+                  "TA",
+                  "RA",
+                  "MO"
+                ]
+              },
+              {
+                "linear_a": [
+                  "PA",
+                  "I",
+                  "TO"
+                ],
+                "lexicon_word": [
+                  "PA",
+                  "I",
+                  "TO"
+                ]
+              },
+              {
+                "linear_a": [
+                  "SU",
+                  "KI",
+                  "RA",
+                  "TA"
+                ],
+                "lexicon_word": [
+                  "SU",
+                  "KI",
+                  "RI",
+                  "TA"
+                ]
+              },
+              {
+                "linear_a": [
+                  "SU",
+                  "KI",
+                  "RI",
+                  "TE",
+                  "I",
+                  "JA"
+                ],
+                "lexicon_word": [
+                  "SU",
+                  "KI",
+                  "RI",
+                  "TA"
+                ]
+              }
+            ],
+            "sign_labels_involved": [
+              "DA",
+              "I",
+              "KI",
+              "PA",
+              "RA",
+              "RE",
+              "RI",
+              "SU",
+              "TA",
+              "TO"
+            ]
+          },
+          {
+            "lexicon": "knossos_toponyms",
+            "match_class": "4=",
+            "real": 1,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "null_p95": 0.0,
+            "null_p99": 0.0,
+            "real_percentile": 100.0,
+            "n_permutations": 400,
+            "matched_pairs": [
+              {
+                "linear_a": [
+                  "SU",
+                  "KI",
+                  "RI",
+                  "TE",
+                  "I",
+                  "JA"
+                ],
+                "lexicon_word": [
+                  "SU",
+                  "KI",
+                  "RI",
+                  "TA"
+                ]
+              }
+            ],
+            "sign_labels_involved": [
+              "KI",
+              "RI",
+              "SU",
+              "TA",
+              "TE"
+            ]
+          },
+          {
+            "lexicon": "knossos_personal_names",
+            "match_class": "3=",
+            "real": 0,
+            "null_mean": 0.23,
+            "null_sd": 0.5264028875300742,
+            "null_p95": 1.0,
+            "null_p99": 2.0,
+            "real_percentile": 40.625,
+            "n_permutations": 400,
+            "matched_pairs": [],
+            "sign_labels_involved": []
+          },
+          {
+            "lexicon": "knossos_personal_names",
+            "match_class": "4=",
+            "real": 0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "null_p95": 0.0,
+            "null_p99": 0.0,
+            "real_percentile": 50.0,
+            "n_permutations": 400,
+            "matched_pairs": [],
+            "sign_labels_involved": []
+          },
+          {
+            "lexicon": "pylos_toponyms",
+            "match_class": "3=",
+            "real": 2,
+            "null_mean": 0.275,
+            "null_sd": 0.5606915373001451,
+            "null_p95": 1.0,
+            "null_p99": 2.0,
+            "real_percentile": 97.625,
+            "n_permutations": 400,
+            "matched_pairs": [
+              {
+                "linear_a": [
+                  "A",
+                  "SI",
+                  "JA",
+                  "KA"
+                ],
+                "lexicon_word": [
+                  "A",
+                  "SI",
+                  "JA",
+                  "TI",
+                  "JA"
+                ]
+              },
+              {
+                "linear_a": [
+                  "SA",
+                  "MA",
+                  "RO"
+                ],
+                "lexicon_word": [
+                  "SA",
+                  "MA",
+                  "RA"
+                ]
+              }
+            ],
+            "sign_labels_involved": [
+              "A",
+              "JA",
+              "MA",
+              "RA",
+              "RO",
+              "SA",
+              "SI"
+            ]
+          },
+          {
+            "lexicon": "pylos_toponyms",
+            "match_class": "4=",
+            "real": 0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "null_p95": 0.0,
+            "null_p99": 0.0,
+            "real_percentile": 50.0,
+            "n_permutations": 400,
+            "matched_pairs": [],
+            "sign_labels_involved": []
+          },
+          {
+            "lexicon": "knossos_toponyms_reversed",
+            "match_class": "3=",
+            "real": 0,
+            "null_mean": 0.12,
+            "null_sd": 0.3749666651850535,
+            "null_p95": 1.0,
+            "null_p99": 2.0,
+            "real_percentile": 44.875,
+            "n_permutations": 400,
+            "matched_pairs": [],
+            "sign_labels_involved": []
+          },
+          {
+            "lexicon": "knossos_toponyms_reversed",
+            "match_class": "4=",
+            "real": 0,
+            "null_mean": 0.0025,
+            "null_sd": 0.04993746088859545,
+            "null_p95": 0.0,
+            "null_p99": 0.0,
+            "real_percentile": 49.875,
+            "n_permutations": 400,
+            "matched_pairs": [],
+            "sign_labels_involved": []
+          }
+        ]
+      }
+    }
+  }
+}

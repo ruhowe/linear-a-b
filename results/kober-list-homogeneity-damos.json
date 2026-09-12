@@ -1,0 +1,497 @@
+{
+  "protocol_reference": "CHANGELOG.md, \"Kober method\" -> \"List homogeneity on Linear B\", 2026-09-11 -- pre-registered, read-only, no instrument; docs/works/kober1946.md \"The method, as she states it\" for Assumptions 4, 6 and 7; ASSUMPTIONS.md section F, A-101 onward, for the mechanics the CHANGELOG entry leaves unstated.",
+  "corpus": "damos",
+  "stem_min": 2,
+  "draws": 200,
+  "seed": 0,
+  "counts": {
+    "documents": 5932,
+    "documents_eligible": 322,
+    "listed_word_tokens_total": 3552,
+    "listed_word_tokens_in_eligible_documents": 2149,
+    "word_types": 3768
+  },
+  "document_level": {
+    "overall": {
+      "n_documents_eligible": 322,
+      "median_homogeneity": 0.3333333333333333,
+      "q1_homogeneity": 0.3201754385964912,
+      "q3_homogeneity": 0.61875,
+      "count_homogeneity_ge_half": 112,
+      "pooled_homogeneity": 0.41973010702652397
+    },
+    "by_series_letter": {
+      "A": {
+        "n_documents_eligible": 105,
+        "median_homogeneity": 0.3333333333333333,
+        "q1_homogeneity": 0.3333333333333333,
+        "q3_homogeneity": 0.3333333333333333,
+        "count_homogeneity_ge_half": 19,
+        "pooled_homogeneity": 0.3424190800681431
+      },
+      "E": {
+        "n_documents_eligible": 38,
+        "median_homogeneity": 1.0,
+        "q1_homogeneity": 0.75,
+        "q3_homogeneity": 1.0,
+        "count_homogeneity_ge_half": 36,
+        "pooled_homogeneity": 0.8975409836065574
+      },
+      "C": {
+        "n_documents_eligible": 29,
+        "median_homogeneity": 0.4444444444444444,
+        "q1_homogeneity": 0.25,
+        "q3_homogeneity": 0.5,
+        "count_homogeneity_ge_half": 11,
+        "pooled_homogeneity": 0.3907563025210084
+      },
+      "F": {
+        "n_documents_eligible": 29,
+        "median_homogeneity": 0.3333333333333333,
+        "q1_homogeneity": 0.23529411764705882,
+        "q3_homogeneity": 0.4,
+        "count_homogeneity_ge_half": 6,
+        "pooled_homogeneity": 0.28761061946902655
+      },
+      "V": {
+        "n_documents_eligible": 23,
+        "median_homogeneity": 0.4,
+        "q1_homogeneity": 0.26136363636363635,
+        "q3_homogeneity": 0.5,
+        "count_homogeneity_ge_half": 9,
+        "pooled_homogeneity": 0.4161073825503356
+      },
+      "J": {
+        "n_documents_eligible": 19,
+        "median_homogeneity": 0.3,
+        "q1_homogeneity": 0.2222222222222222,
+        "q3_homogeneity": 0.3431372549019608,
+        "count_homogeneity_ge_half": 1,
+        "pooled_homogeneity": 0.3333333333333333
+      },
+      "U": {
+        "n_documents_eligible": 14,
+        "median_homogeneity": 0.3333333333333333,
+        "q1_homogeneity": 0.23333333333333334,
+        "q3_homogeneity": 0.48214285714285715,
+        "count_homogeneity_ge_half": 4,
+        "pooled_homogeneity": 0.36585365853658536
+      },
+      "G": {
+        "n_documents_eligible": 11,
+        "median_homogeneity": 0.3333333333333333,
+        "q1_homogeneity": 0.29166666666666663,
+        "q3_homogeneity": 0.3764705882352941,
+        "count_homogeneity_ge_half": 2,
+        "pooled_homogeneity": 0.34375
+      },
+      "S": {
+        "n_documents_eligible": 11,
+        "median_homogeneity": 0.6666666666666666,
+        "q1_homogeneity": 0.45,
+        "q3_homogeneity": 0.6666666666666666,
+        "count_homogeneity_ge_half": 8,
+        "pooled_homogeneity": 0.5128205128205128
+      },
+      "T": {
+        "n_documents_eligible": 10,
+        "median_homogeneity": 0.4423076923076923,
+        "q1_homogeneity": 0.3333333333333333,
+        "q3_homogeneity": 0.65625,
+        "count_homogeneity_ge_half": 5,
+        "pooled_homogeneity": 0.4576271186440678
+      }
+    }
+  },
+  "document_level_null": {
+    "pooled_homogeneity": {
+      "draws": 200,
+      "mean": 0.2459097254536994,
+      "sd": 0.004245976780363316,
+      "p95": 0.2526989297347604,
+      "p99": 0.2568636575151233,
+      "real_value": 0.41973010702652397,
+      "real_percentile": 100.0
+    },
+    "count_ge_half": {
+      "draws": 200,
+      "mean": 31.785,
+      "sd": 4.846521948779351,
+      "p95": 40.0,
+      "p99": 43.0,
+      "real_value": 112.0,
+      "real_percentile": 100.0
+    }
+  },
+  "alternations": {
+    "top_20": [
+      {
+        "e1": "JA",
+        "e2": "JO",
+        "support": 57,
+        "matches": 4,
+        "fraction": 0.07017543859649122,
+        "rule": "gender",
+        "null": {
+          "draws": 200,
+          "mean": 0.011491228070175438,
+          "sd": 0.01399088433829539,
+          "p95": 0.03508771929824561,
+          "p99": 0.05263157894736842,
+          "real_value": 0.07017543859649122,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "U",
+        "e2": "WE",
+        "support": 29,
+        "matches": 3,
+        "fraction": 0.10344827586206896,
+        "rule": "eu_stem",
+        "null": {
+          "draws": 200,
+          "mean": 0.0022413793103448275,
+          "sd": 0.010946578744379293,
+          "p95": 0.0,
+          "p99": 0.06896551724137931,
+          "real_value": 0.10344827586206896,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "JO",
+        "e2": "JO-JO",
+        "support": 22,
+        "matches": 3,
+        "fraction": 0.13636363636363635,
+        "rule": "genitive",
+        "null": {
+          "draws": 200,
+          "mean": 0.05090909090909091,
+          "sd": 0.036522380775637575,
+          "p95": 0.09090909090909091,
+          "p99": 0.13636363636363635,
+          "real_value": 0.13636363636363635,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "TA",
+        "e2": "TO",
+        "support": 19,
+        "matches": 1,
+        "fraction": 0.05263157894736842,
+        "rule": "gender",
+        "null": {
+          "draws": 200,
+          "mean": 0.003157894736842105,
+          "sd": 0.012499307460039912,
+          "p95": 0.05263157894736842,
+          "p99": 0.05263157894736842,
+          "real_value": 0.05263157894736842,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "U",
+        "e2": "WO",
+        "support": 17,
+        "matches": 0,
+        "fraction": 0.0,
+        "rule": "eu_stem",
+        "null": {
+          "draws": 200,
+          "mean": 0.000588235294117647,
+          "sd": 0.005852867277097764,
+          "p95": 0.0,
+          "p99": 0.0005882352941171121,
+          "real_value": 0.0,
+          "real_percentile": 99.0
+        }
+      },
+      {
+        "e1": "WE",
+        "e2": "WO",
+        "support": 17,
+        "matches": 0,
+        "fraction": 0.0,
+        "rule": "eu_stem",
+        "null": {
+          "draws": 200,
+          "mean": 0.00411764705882353,
+          "sd": 0.01500864802608597,
+          "p95": 0.058823529411764705,
+          "p99": 0.058823529411764705,
+          "real_value": 0.0,
+          "real_percentile": 93.0
+        }
+      },
+      {
+        "e1": "JA",
+        "e2": "JA-O",
+        "support": 13,
+        "matches": 0,
+        "fraction": 0.0,
+        "rule": "a_stem_genitive",
+        "null": {
+          "draws": 200,
+          "mean": 0.0,
+          "sd": 0.0,
+          "p95": 0.0,
+          "p99": 0.0,
+          "real_value": 0.0,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "RA",
+        "e2": "RO",
+        "support": 13,
+        "matches": 0,
+        "fraction": 0.0,
+        "rule": "gender",
+        "null": {
+          "draws": 200,
+          "mean": 0.0015384615384615385,
+          "sd": 0.01076923076923077,
+          "p95": 0.0,
+          "p99": 0.07692307692307693,
+          "real_value": 0.0,
+          "real_percentile": 98.0
+        }
+      },
+      {
+        "e1": "TA",
+        "e2": "TA-O",
+        "support": 13,
+        "matches": 0,
+        "fraction": 0.0,
+        "rule": "a_stem_genitive",
+        "null": {
+          "draws": 200,
+          "mean": 0.001153846153846154,
+          "sd": 0.009350189062417861,
+          "p95": 0.0,
+          "p99": 0.07692307692307693,
+          "real_value": 0.0,
+          "real_percentile": 98.5
+        }
+      },
+      {
+        "e1": "RO",
+        "e2": "TO",
+        "support": 12,
+        "matches": 1,
+        "fraction": 0.08333333333333333,
+        "rule": null,
+        "null": {
+          "draws": 200,
+          "mean": 0.0062499999999999995,
+          "sd": 0.021949278651776538,
+          "p95": 0.08333333333333333,
+          "p99": 0.08333333333333333,
+          "real_value": 0.08333333333333333,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "NO",
+        "e2": "RO",
+        "support": 11,
+        "matches": 1,
+        "fraction": 0.09090909090909091,
+        "rule": null,
+        "null": {
+          "draws": 200,
+          "mean": 0.0009090909090909091,
+          "sd": 0.009045340337332909,
+          "p95": 0.0,
+          "p99": 0.0009090909090900823,
+          "real_value": 0.09090909090909091,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "RO",
+        "e2": "WO",
+        "support": 11,
+        "matches": 0,
+        "fraction": 0.0,
+        "rule": null,
+        "null": {
+          "draws": 200,
+          "mean": 0.0,
+          "sd": 0.0,
+          "p95": 0.0,
+          "p99": 0.0,
+          "real_value": 0.0,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "JO",
+        "e2": "TO",
+        "support": 10,
+        "matches": 0,
+        "fraction": 0.0,
+        "rule": null,
+        "null": {
+          "draws": 200,
+          "mean": 0.0,
+          "sd": 0.0,
+          "p95": 0.0,
+          "p99": 0.0,
+          "real_value": 0.0,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "NO",
+        "e2": "TA",
+        "support": 10,
+        "matches": 1,
+        "fraction": 0.1,
+        "rule": null,
+        "null": {
+          "draws": 200,
+          "mean": 0.008,
+          "sd": 0.027129319932501075,
+          "p95": 0.1,
+          "p99": 0.1,
+          "real_value": 0.1,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "TA",
+        "e2": "TE",
+        "support": 10,
+        "matches": 1,
+        "fraction": 0.1,
+        "rule": null,
+        "null": {
+          "draws": 200,
+          "mean": 0.003,
+          "sd": 0.017058722109231983,
+          "p95": 0.0,
+          "p99": 0.1,
+          "real_value": 0.1,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "JO",
+        "e2": "O",
+        "support": 9,
+        "matches": 0,
+        "fraction": 0.0,
+        "rule": null,
+        "null": {
+          "draws": 200,
+          "mean": 0.0,
+          "sd": 0.0,
+          "p95": 0.0,
+          "p99": 0.0,
+          "real_value": 0.0,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "NA",
+        "e2": "NO",
+        "support": 9,
+        "matches": 1,
+        "fraction": 0.1111111111111111,
+        "rule": "gender",
+        "null": {
+          "draws": 200,
+          "mean": 0.0027777777777777775,
+          "sd": 0.017347216662217772,
+          "p95": 0.0,
+          "p99": 0.1111111111111111,
+          "real_value": 0.1111111111111111,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "JO",
+        "e2": "RO",
+        "support": 8,
+        "matches": 0,
+        "fraction": 0.0,
+        "rule": null,
+        "null": {
+          "draws": 200,
+          "mean": 0.0,
+          "sd": 0.0,
+          "p95": 0.0,
+          "p99": 0.0,
+          "real_value": 0.0,
+          "real_percentile": 100.0
+        }
+      },
+      {
+        "e1": "NO",
+        "e2": "NO-JO",
+        "support": 8,
+        "matches": 0,
+        "fraction": 0.0,
+        "rule": "genitive",
+        "null": {
+          "draws": 200,
+          "mean": 0.008125,
+          "sd": 0.030815732589052625,
+          "p95": 0.125,
+          "p99": 0.125,
+          "real_value": 0.0,
+          "real_percentile": 93.5
+        }
+      },
+      {
+        "e1": "RO",
+        "e2": "RO-JO",
+        "support": 8,
+        "matches": 1,
+        "fraction": 0.125,
+        "rule": "genitive",
+        "null": {
+          "draws": 200,
+          "mean": 0.016875,
+          "sd": 0.04271544656210444,
+          "p95": 0.125,
+          "p99": 0.125,
+          "real_value": 0.125,
+          "real_percentile": 100.0
+        }
+      }
+    ],
+    "pooled": {
+      "matches": 17,
+      "stem_pairs": 306,
+      "fraction": 0.05555555555555555,
+      "null": {
+        "draws": 200,
+        "mean": 0.007957516339869282,
+        "sd": 0.004742251212137097,
+        "p95": 0.016339869281045753,
+        "p99": 0.0196078431372549,
+        "real_value": 0.05555555555555555,
+        "real_percentile": 100.0
+      }
+    },
+    "grammar_vs_not": {
+      "grammar": {
+        "matches": 13,
+        "stem_pairs": 225,
+        "fraction": 0.057777777777777775
+      },
+      "not_grammar": {
+        "matches": 4,
+        "stem_pairs": 81,
+        "fraction": 0.04938271604938271
+      }
+    }
+  },
+  "wall_time_seconds": 0.35951805114746094
+}

@@ -1,0 +1,391 @@
+{
+  "question": "Do Barber's digram boundary tests predict more within-word boundaries in Linear A than in Linear B at matched size, and do real word boundaries fall where the test predicts?",
+  "protocol": {
+    "factors_reported": [
+      4,
+      6,
+      8
+    ],
+    "primary_factor": 6,
+    "tablet_model_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "tolerance": 0.02,
+    "matched_size_target_total_digrams": 2638,
+    "matched_size_source": "lineara (GORILA) full corpus, own in-word digram count"
+  },
+  "damos_full": {
+    "n_signs_seen": 103,
+    "total_signs": 33506,
+    "total_digrams": 23416,
+    "n_ordered_pairs_considered": 10609,
+    "predicted_boundary_pairs_count": {
+      "4": 8547,
+      "6": 8399,
+      "8": 8323
+    },
+    "predicted_boundary_rate_per_1000": {
+      "4": 27.37444482405193,
+      "6": 13.281516911513496,
+      "8": 7.473522377861292
+    }
+  },
+  "lineara_full": {
+    "n_signs_seen": 158,
+    "total_signs": 4011,
+    "total_digrams": 2638,
+    "n_ordered_pairs_considered": 24964,
+    "predicted_boundary_pairs_count": {
+      "4": 23791,
+      "6": 23790,
+      "8": 23790
+    },
+    "predicted_boundary_rate_per_1000": {
+      "4": 0.37907505686125853,
+      "6": 0.0,
+      "8": 0.0
+    }
+  },
+  "sigla_full": {
+    "n_signs_seen": 157,
+    "total_signs": 3379,
+    "total_digrams": 1736,
+    "n_ordered_pairs_considered": 24649,
+    "predicted_boundary_pairs_count": {
+      "4": 23782,
+      "6": 23781,
+      "8": 23781
+    },
+    "predicted_boundary_rate_per_1000": {
+      "4": 0.576036866359447,
+      "6": 0.0,
+      "8": 0.0
+    }
+  },
+  "damos_tablet_model_subsamples_at_lineara_size": [
+    {
+      "seed": 0,
+      "documents_k": 778,
+      "total_digrams": 2631,
+      "target": 2638,
+      "relative_error": 0.00265352539802881,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 1.1402508551881414,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 1,
+      "documents_k": 572,
+      "total_digrams": 2612,
+      "target": 2638,
+      "relative_error": 0.009855951478392721,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 3.8284839203675345,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 2,
+      "documents_k": 541,
+      "total_digrams": 2640,
+      "target": 2638,
+      "relative_error": 0.000758150113722517,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 2.6515151515151514,
+        "6": 0.3787878787878788,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 3,
+      "documents_k": 644,
+      "total_digrams": 2642,
+      "target": 2638,
+      "relative_error": 0.001516300227445034,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 3.785011355034065,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 4,
+      "documents_k": 720,
+      "total_digrams": 2636,
+      "target": 2638,
+      "relative_error": 0.000758150113722517,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 1.896813353566009,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 5,
+      "documents_k": 749,
+      "total_digrams": 2637,
+      "target": 2638,
+      "relative_error": 0.0003790750568612585,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 1.8960940462646947,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 6,
+      "documents_k": 725,
+      "total_digrams": 2641,
+      "target": 2638,
+      "relative_error": 0.0011372251705837756,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 0.37864445285876563,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "documents_k": 656,
+      "total_digrams": 2617,
+      "target": 2638,
+      "relative_error": 0.00796057619408643,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 1.9105846388995031,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 8,
+      "documents_k": 722,
+      "total_digrams": 2629,
+      "target": 2638,
+      "relative_error": 0.003411675511751327,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 0.7607455306200076,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 9,
+      "documents_k": 523,
+      "total_digrams": 2678,
+      "target": 2638,
+      "relative_error": 0.015163002274450341,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 4.1075429424943986,
+        "6": 0.7468259895444361,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 10,
+      "documents_k": 792,
+      "total_digrams": 2614,
+      "target": 2638,
+      "relative_error": 0.009097801364670205,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 1.530221882172915,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 11,
+      "documents_k": 616,
+      "total_digrams": 2650,
+      "target": 2638,
+      "relative_error": 0.004548900682335102,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 1.1320754716981132,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 12,
+      "documents_k": 724,
+      "total_digrams": 2655,
+      "target": 2638,
+      "relative_error": 0.006444275966641395,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 3.389830508474576,
+        "6": 0.7532956685499058,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 13,
+      "documents_k": 753,
+      "total_digrams": 2660,
+      "target": 2638,
+      "relative_error": 0.008339651250947688,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 1.5037593984962405,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 14,
+      "documents_k": 599,
+      "total_digrams": 2638,
+      "target": 2638,
+      "relative_error": 0.0,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 2.6535253980288096,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 15,
+      "documents_k": 590,
+      "total_digrams": 2654,
+      "target": 2638,
+      "relative_error": 0.006065200909780136,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 2.260738507912585,
+        "6": 0.37678975131876413,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 16,
+      "documents_k": 625,
+      "total_digrams": 2645,
+      "target": 2638,
+      "relative_error": 0.00265352539802881,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 3.0245746691871456,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 17,
+      "documents_k": 637,
+      "total_digrams": 2639,
+      "target": 2638,
+      "relative_error": 0.0003790750568612585,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 1.515725653656688,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 18,
+      "documents_k": 621,
+      "total_digrams": 2652,
+      "target": 2638,
+      "relative_error": 0.00530705079605762,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 0.7541478129713424,
+        "6": 0.0,
+        "8": 0.0
+      }
+    },
+    {
+      "seed": 19,
+      "documents_k": 745,
+      "total_digrams": 2638,
+      "target": 2638,
+      "relative_error": 0.0,
+      "within_tolerance": true,
+      "predicted_boundary_rate_per_1000": {
+        "4": 0.37907505686125853,
+        "6": 0.0,
+        "8": 0.0
+      }
+    }
+  ],
+  "damos_matched_size_range_per_1000": {
+    "4": {
+      "min": 0.37864445285876563,
+      "max": 4.1075429424943986,
+      "mean": 2.024968030313397,
+      "value": 0.37907505686125853,
+      "above_max": false,
+      "below_min": false
+    },
+    "6": {
+      "min": 0.0,
+      "max": 0.7532956685499058,
+      "mean": 0.11278496441004923,
+      "value": 0.0,
+      "above_max": false,
+      "below_min": false
+    },
+    "8": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "value": 0.0,
+      "above_max": false,
+      "below_min": false
+    }
+  },
+  "reverse_check": {
+    "damos_full_baseline": {
+      "total_actual_boundary_instances": 5057,
+      "fraction_predicted_boundary": {
+        "4": 0.5962032825786039,
+        "6": 0.5188847142574649,
+        "8": 0.44828949970338144
+      }
+    },
+    "lineara_gorila": {
+      "total_actual_boundary_instances": 129,
+      "fraction_predicted_boundary": {
+        "4": 0.49612403100775193,
+        "6": 0.49612403100775193,
+        "8": 0.49612403100775193
+      }
+    },
+    "sigla": "excluded: no line structure"
+  }
+}

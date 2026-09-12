@@ -1,0 +1,1042 @@
+{
+  "protocol_version": "0.7",
+  "corpus": "damos",
+  "stem_min": 2,
+  "perms": 200,
+  "seed": 0,
+  "reference_version": 1,
+  "word_types": {
+    "count": 981,
+    "labels_changed": 203,
+    "labels_seen": 5518
+  },
+  "n1_type_count": {
+    "mean": 974.685,
+    "sd": 2.534911241049674
+  },
+  "ending_channel": {
+    "version": "0.1",
+    "paradigm_count_total": 185,
+    "paradigm_count_by_stem_length": {
+      "2": 137,
+      "3": 41,
+      "4": 7
+    },
+    "top_20_alternations": [
+      {
+        "e1": [
+          "JA"
+        ],
+        "e2": [
+          "JO"
+        ],
+        "e1_label": "JA",
+        "e2_label": "JO",
+        "support": 9,
+        "rule": "gender"
+      },
+      {
+        "e1": [
+          "A2"
+        ],
+        "e2": [
+          "E"
+        ],
+        "e1_label": "A2",
+        "e2_label": "E",
+        "support": 3,
+        "rule": null
+      },
+      {
+        "e1": [
+          "JO"
+        ],
+        "e2": [
+          "JO",
+          "JO"
+        ],
+        "e1_label": "JO",
+        "e2_label": "JO-JO",
+        "support": 3,
+        "rule": "genitive"
+      },
+      {
+        "e1": [
+          "NA"
+        ],
+        "e2": [
+          "NA",
+          "O"
+        ],
+        "e1_label": "NA",
+        "e2_label": "NA-O",
+        "support": 3,
+        "rule": "a_stem_genitive"
+      },
+      {
+        "e1": [
+          "RA"
+        ],
+        "e2": [
+          "RO"
+        ],
+        "e1_label": "RA",
+        "e2_label": "RO",
+        "support": 3,
+        "rule": "gender"
+      },
+      {
+        "e1": [
+          "RO"
+        ],
+        "e2": [
+          "RO",
+          "JO"
+        ],
+        "e1_label": "RO",
+        "e2_label": "RO-JO",
+        "support": 3,
+        "rule": "genitive"
+      },
+      {
+        "e1": [
+          "RO"
+        ],
+        "e2": [
+          "TO"
+        ],
+        "e1_label": "RO",
+        "e2_label": "TO",
+        "support": 3,
+        "rule": null
+      },
+      {
+        "e1": [
+          "SI"
+        ],
+        "e2": [
+          "TO"
+        ],
+        "e1_label": "SI",
+        "e2_label": "TO",
+        "support": 3,
+        "rule": null
+      },
+      {
+        "e1": [
+          "SI",
+          "JO"
+        ],
+        "e2": [
+          "SO"
+        ],
+        "e1_label": "SI-JO",
+        "e2_label": "SO",
+        "support": 3,
+        "rule": null
+      },
+      {
+        "e1": [
+          "TA"
+        ],
+        "e2": [
+          "TA",
+          "O"
+        ],
+        "e1_label": "TA",
+        "e2_label": "TA-O",
+        "support": 3,
+        "rule": "a_stem_genitive"
+      },
+      {
+        "e1": [
+          "JA"
+        ],
+        "e2": [
+          "JA",
+          "O"
+        ],
+        "e1_label": "JA",
+        "e2_label": "JA-O",
+        "support": 2,
+        "rule": "a_stem_genitive"
+      },
+      {
+        "e1": [
+          "JA"
+        ],
+        "e2": [
+          "JO",
+          "JO"
+        ],
+        "e1_label": "JA",
+        "e2_label": "JO-JO",
+        "support": 2,
+        "rule": null
+      },
+      {
+        "e1": [
+          "JA",
+          "O"
+        ],
+        "e2": [
+          "JO"
+        ],
+        "e1_label": "JA-O",
+        "e2_label": "JO",
+        "support": 2,
+        "rule": null
+      },
+      {
+        "e1": [
+          "JO"
+        ],
+        "e2": [
+          "JO",
+          "E"
+        ],
+        "e1_label": "JO",
+        "e2_label": "JO-E",
+        "support": 2,
+        "rule": null
+      },
+      {
+        "e1": [
+          "JO"
+        ],
+        "e2": [
+          "O"
+        ],
+        "e1_label": "JO",
+        "e2_label": "O",
+        "support": 2,
+        "rule": null
+      },
+      {
+        "e1": [
+          "JO"
+        ],
+        "e2": [
+          "TO"
+        ],
+        "e1_label": "JO",
+        "e2_label": "TO",
+        "support": 2,
+        "rule": null
+      },
+      {
+        "e1": [
+          "NE"
+        ],
+        "e2": [
+          "SI"
+        ],
+        "e1_label": "NE",
+        "e2_label": "SI",
+        "support": 2,
+        "rule": null
+      },
+      {
+        "e1": [
+          "RE",
+          "JA"
+        ],
+        "e2": [
+          "RO"
+        ],
+        "e1_label": "RE-JA",
+        "e2_label": "RO",
+        "support": 2,
+        "rule": null
+      },
+      {
+        "e1": [
+          "SI",
+          "JO"
+        ],
+        "e2": [
+          "TO"
+        ],
+        "e1_label": "SI-JO",
+        "e2_label": "TO",
+        "support": 2,
+        "rule": null
+      },
+      {
+        "e1": [
+          "SO"
+        ],
+        "e2": [
+          "TO"
+        ],
+        "e1_label": "SO",
+        "e2_label": "TO",
+        "support": 2,
+        "rule": null
+      }
+    ],
+    "top_10_matched_to_rule": 6,
+    "n1_paradigm_count": {
+      "draws": 200,
+      "mean": 104.45,
+      "sd": 6.825503644420681,
+      "p95": 116.0,
+      "p99": 119.0,
+      "real_value": 185,
+      "real_percentile": 100.0
+    },
+    "n2_alternation_support": {
+      "max_support": {
+        "draws": 200,
+        "mean": 2.89,
+        "sd": 0.7126710321038733,
+        "p95": 4.0,
+        "p99": 5.0,
+        "real_value": 9,
+        "real_percentile": 100.0
+      },
+      "tenth_support": {
+        "draws": 200,
+        "mean": 1.715,
+        "sd": 0.4514144437210666,
+        "p95": 2.0,
+        "p99": 2.0,
+        "real_value": 3,
+        "real_percentile": 100.0
+      }
+    },
+    "grammar_match_null": {
+      "version": "0.3",
+      "3": {
+        "draws": 200,
+        "mean": 0.59,
+        "sd": 0.7084490101623405,
+        "p95": 2.0,
+        "p99": 2.0,
+        "real_value": 6,
+        "real_percentile": 100.0
+      },
+      "5": {
+        "draws": 200,
+        "mean": 0.655,
+        "sd": 0.7252413391416681,
+        "p95": 2.0,
+        "p99": 2.009999999999991,
+        "real_value": 6,
+        "real_percentile": 100.0
+      },
+      "10": {
+        "draws": 200,
+        "mean": 1.755,
+        "sd": 1.971033992603882,
+        "p95": 6.0,
+        "p99": 7.009999999999991,
+        "real_value": 6,
+        "real_percentile": 98.0
+      }
+    },
+    "grammar_match_null_strict": {
+      "version": "0.3",
+      "3": {
+        "draws": 200,
+        "mean": 0.305,
+        "sd": 0.48163783074006966,
+        "p95": 1.0,
+        "p99": 1.009999999999991,
+        "real_value": 2,
+        "real_percentile": 100.0,
+        "ties_included_top_n_size": {
+          "mean": 12.18,
+          "real_value": 10
+        }
+      },
+      "5": {
+        "draws": 200,
+        "mean": 0.405,
+        "sd": 0.520552591003061,
+        "p95": 1.0,
+        "p99": 2.0,
+        "real_value": 4,
+        "real_percentile": 100.0,
+        "ties_included_top_n_size": {
+          "mean": 13.52,
+          "real_value": 10
+        }
+      },
+      "10": {
+        "draws": 200,
+        "mean": 0.49,
+        "sd": 0.5915234568468101,
+        "p95": 1.049999999999983,
+        "p99": 2.0,
+        "real_value": 6,
+        "real_percentile": 100.0,
+        "ties_included_top_n_size": {
+          "mean": 131.195,
+          "real_value": 10
+        }
+      }
+    }
+  },
+  "prefix_channel": {
+    "version": "0.1",
+    "paradigm_count_total": 154,
+    "paradigm_count_by_stem_length": {
+      "2": 135,
+      "3": 19
+    },
+    "top_20_alternations": [
+      {
+        "e1": [
+          "A"
+        ],
+        "e2": [
+          "E"
+        ],
+        "e1_label": "A",
+        "e2_label": "E",
+        "support": 3,
+        "rule": null
+      },
+      {
+        "e1": [
+          "A",
+          "KE"
+        ],
+        "e2": [
+          "KE"
+        ],
+        "e1_label": "A-KE",
+        "e2_label": "KE",
+        "support": 2,
+        "rule": null
+      },
+      {
+        "e1": [
+          "KA"
+        ],
+        "e2": [
+          "WE",
+          "RE"
+        ],
+        "e1_label": "KA",
+        "e2_label": "WE-RE",
+        "support": 2,
+        "rule": null
+      },
+      {
+        "e1": [
+          "PE",
+          "RI"
+        ],
+        "e2": [
+          "TE"
+        ],
+        "e1_label": "PE-RI",
+        "e2_label": "TE",
+        "support": 2,
+        "rule": null
+      },
+      {
+        "e1": [
+          "PO",
+          "NI"
+        ],
+        "e2": [
+          "RU"
+        ],
+        "e1_label": "PO-NI",
+        "e2_label": "RU",
+        "support": 2,
+        "rule": null
+      },
+      {
+        "e1": [
+          "",
+          "TI"
+        ],
+        "e2": [
+          "E",
+          "NWA"
+        ],
+        "e1_label": "-TI",
+        "e2_label": "E-NWA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "",
+          "TI"
+        ],
+        "e2": [
+          "KA",
+          "PA"
+        ],
+        "e1_label": "-TI",
+        "e2_label": "KA-PA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "",
+          "TI"
+        ],
+        "e2": [
+          "KU",
+          "PI"
+        ],
+        "e1_label": "-TI",
+        "e2_label": "KU-PI",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "",
+          "TI"
+        ],
+        "e2": [
+          "QE"
+        ],
+        "e1_label": "-TI",
+        "e2_label": "QE",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "",
+          "TI"
+        ],
+        "e2": [
+          "SA",
+          "MA"
+        ],
+        "e1_label": "-TI",
+        "e2_label": "SA-MA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "",
+          "TI"
+        ],
+        "e2": [
+          "TU"
+        ],
+        "e1_label": "-TI",
+        "e2_label": "TU",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "'NU"
+        ],
+        "e2": [
+          "A3"
+        ],
+        "e1_label": "'NU",
+        "e2_label": "A3",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "'NU"
+        ],
+        "e2": [
+          "NU"
+        ],
+        "e1_label": "'NU",
+        "e2_label": "NU",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "'PA"
+        ],
+        "e2": [
+          "PA"
+        ],
+        "e1_label": "'PA",
+        "e2_label": "PA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*56"
+        ],
+        "e2": [
+          "PA"
+        ],
+        "e1_label": "*56",
+        "e2_label": "PA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*56",
+          "NI"
+        ],
+        "e2": [
+          "E",
+          "RI"
+        ],
+        "e1_label": "*56-NI",
+        "e2_label": "E-RI",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*56",
+          "NI"
+        ],
+        "e2": [
+          "TA",
+          "RA"
+        ],
+        "e1_label": "*56-NI",
+        "e2_label": "TA-RA",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*63"
+        ],
+        "e2": [
+          "RU",
+          "KO"
+        ],
+        "e1_label": "*63",
+        "e2_label": "RU-KO",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*63"
+        ],
+        "e2": [
+          "SO"
+        ],
+        "e1_label": "*63",
+        "e2_label": "SO",
+        "support": 1,
+        "rule": null
+      },
+      {
+        "e1": [
+          "*63",
+          "TE"
+        ],
+        "e2": [
+          "ME"
+        ],
+        "e1_label": "*63-TE",
+        "e2_label": "ME",
+        "support": 1,
+        "rule": null
+      }
+    ],
+    "top_10_matched_to_rule": 0,
+    "n1_paradigm_count": {
+      "draws": 200,
+      "mean": 124.755,
+      "sd": 6.8952864334993365,
+      "p95": 137.0,
+      "p99": 141.0,
+      "real_value": 154,
+      "real_percentile": 100.0
+    },
+    "n2_alternation_support": {
+      "max_support": {
+        "draws": 200,
+        "mean": 2.615,
+        "sd": 0.7048226727340715,
+        "p95": 4.0,
+        "p99": 4.009999999999991,
+        "real_value": 3,
+        "real_percentile": 90.5
+      },
+      "tenth_support": {
+        "draws": 200,
+        "mean": 1.14,
+        "sd": 0.34698703145794946,
+        "p95": 2.0,
+        "p99": 2.0,
+        "real_value": 1,
+        "real_percentile": 86.0
+      }
+    }
+  },
+  "reference_alternations": [
+    {
+      "alternation": "-o / -a on the same consonant (e.g. -to/-ta, -ro/-ra, -no/-na)",
+      "grammar": "masculine and feminine of o/ā-stem nouns and adjectives"
+    },
+    {
+      "alternation": "-jo / -ja, -i-jo / -i-ja, -si-jo / -si-ja, -wi-jo / -wi-ja",
+      "grammar": "adjective and ethnic suffix, masculine and feminine"
+    },
+    {
+      "alternation": "-o / -o-jo",
+      "grammar": "nominative and genitive singular, o-stems"
+    },
+    {
+      "alternation": "-o / -o-i, -a / -a-i",
+      "grammar": "singular and dative plural"
+    },
+    {
+      "alternation": "-a / -a-o",
+      "grammar": "feminine and masculine ā-stem genitive"
+    },
+    {
+      "alternation": "-u / -we / -wo, -e-u / -e-we / -e-wo",
+      "grammar": "nominative, dative and genitive of eu-stems"
+    },
+    {
+      "alternation": "-e / -e-i, -e / -e-o",
+      "grammar": "consonant and s-stem case forms"
+    },
+    {
+      "alternation": "-me-no / -me-na",
+      "grammar": "middle participle, masculine and feminine"
+    },
+    {
+      "alternation": "-e / -si",
+      "grammar": "third person singular and plural of verbs"
+    },
+    {
+      "alternation": "X / X-qe, X / X-de, X / X-te, X / X-pi",
+      "grammar": "enclitic \"and\", allative, ablative and instrumental particles"
+    }
+  ],
+  "subsample_docs": {
+    "requested": 1133,
+    "seed": 6,
+    "documents_used": 1133
+  },
+  "role_tiebreak": {
+    "version": "0.5",
+    "top_10": [
+      {
+        "e1_label": "JA",
+        "e2_label": "JO",
+        "support": 9,
+        "role_sharing_count": 1,
+        "rule": "gender"
+      },
+      {
+        "e1_label": "A2",
+        "e2_label": "E",
+        "support": 3,
+        "role_sharing_count": 1,
+        "rule": null
+      },
+      {
+        "e1_label": "RA",
+        "e2_label": "RO",
+        "support": 3,
+        "role_sharing_count": 1,
+        "rule": "gender"
+      },
+      {
+        "e1_label": "JO",
+        "e2_label": "JO-JO",
+        "support": 3,
+        "role_sharing_count": 0,
+        "rule": "genitive"
+      },
+      {
+        "e1_label": "NA",
+        "e2_label": "NA-O",
+        "support": 3,
+        "role_sharing_count": 0,
+        "rule": "a_stem_genitive"
+      },
+      {
+        "e1_label": "RO",
+        "e2_label": "RO-JO",
+        "support": 3,
+        "role_sharing_count": 0,
+        "rule": "genitive"
+      },
+      {
+        "e1_label": "RO",
+        "e2_label": "TO",
+        "support": 3,
+        "role_sharing_count": 0,
+        "rule": null
+      },
+      {
+        "e1_label": "SI",
+        "e2_label": "TO",
+        "support": 3,
+        "role_sharing_count": 0,
+        "rule": null
+      },
+      {
+        "e1_label": "SI-JO",
+        "e2_label": "SO",
+        "support": 3,
+        "role_sharing_count": 0,
+        "rule": null
+      },
+      {
+        "e1_label": "TA",
+        "e2_label": "TA-O",
+        "support": 3,
+        "role_sharing_count": 0,
+        "rule": "a_stem_genitive"
+      }
+    ],
+    "top_3": [
+      {
+        "e1_label": "JA",
+        "e2_label": "JO",
+        "support": 9,
+        "role_sharing_count": 1,
+        "rule": "gender"
+      },
+      {
+        "e1_label": "A2",
+        "e2_label": "E",
+        "support": 3,
+        "role_sharing_count": 1,
+        "rule": null
+      },
+      {
+        "e1_label": "RA",
+        "e2_label": "RO",
+        "support": 3,
+        "role_sharing_count": 1,
+        "rule": "gender"
+      }
+    ],
+    "grammar_match_null_role_tiebreak": {
+      "3": {
+        "draws": 200,
+        "mean": 0.305,
+        "sd": 0.48163783074006966,
+        "p95": 1.0,
+        "p99": 1.009999999999991,
+        "real_value": 2,
+        "real_percentile": 100.0
+      },
+      "5": {
+        "draws": 200,
+        "mean": 0.405,
+        "sd": 0.520552591003061,
+        "p95": 1.0,
+        "p99": 2.0,
+        "real_value": 4,
+        "real_percentile": 100.0
+      },
+      "10": {
+        "draws": 200,
+        "mean": 0.49,
+        "sd": 0.5915234568468101,
+        "p95": 1.049999999999983,
+        "p99": 2.0,
+        "real_value": 6,
+        "real_percentile": 100.0
+      }
+    },
+    "top_three_all_matched_chance_rate": 0,
+    "positions_changed_vs_0_3": 3
+  },
+  "list_tiebreak": {
+    "version": "0.7",
+    "top_10": [
+      {
+        "e1_label": "JA",
+        "e2_label": "JO",
+        "support": 9,
+        "role_sharing_count": 1,
+        "list_support_count": 0,
+        "rule_v1": "gender",
+        "rule_v2": "gender"
+      },
+      {
+        "e1_label": "A2",
+        "e2_label": "E",
+        "support": 3,
+        "role_sharing_count": 1,
+        "list_support_count": 0,
+        "rule_v1": null,
+        "rule_v2": null
+      },
+      {
+        "e1_label": "RA",
+        "e2_label": "RO",
+        "support": 3,
+        "role_sharing_count": 1,
+        "list_support_count": 0,
+        "rule_v1": "gender",
+        "rule_v2": "gender"
+      },
+      {
+        "e1_label": "JO",
+        "e2_label": "JO-JO",
+        "support": 3,
+        "role_sharing_count": 0,
+        "list_support_count": 0,
+        "rule_v1": "genitive",
+        "rule_v2": "genitive"
+      },
+      {
+        "e1_label": "NA",
+        "e2_label": "NA-O",
+        "support": 3,
+        "role_sharing_count": 0,
+        "list_support_count": 0,
+        "rule_v1": "a_stem_genitive",
+        "rule_v2": "a_stem_genitive"
+      },
+      {
+        "e1_label": "RO",
+        "e2_label": "RO-JO",
+        "support": 3,
+        "role_sharing_count": 0,
+        "list_support_count": 0,
+        "rule_v1": "genitive",
+        "rule_v2": "genitive"
+      },
+      {
+        "e1_label": "RO",
+        "e2_label": "TO",
+        "support": 3,
+        "role_sharing_count": 0,
+        "list_support_count": 0,
+        "rule_v1": null,
+        "rule_v2": null
+      },
+      {
+        "e1_label": "SI",
+        "e2_label": "TO",
+        "support": 3,
+        "role_sharing_count": 0,
+        "list_support_count": 0,
+        "rule_v1": null,
+        "rule_v2": null
+      },
+      {
+        "e1_label": "SI-JO",
+        "e2_label": "SO",
+        "support": 3,
+        "role_sharing_count": 0,
+        "list_support_count": 0,
+        "rule_v1": null,
+        "rule_v2": "ethnic_derivation"
+      },
+      {
+        "e1_label": "TA",
+        "e2_label": "TA-O",
+        "support": 3,
+        "role_sharing_count": 0,
+        "list_support_count": 0,
+        "rule_v1": "a_stem_genitive",
+        "rule_v2": "a_stem_genitive"
+      }
+    ],
+    "top_3": [
+      {
+        "e1_label": "JA",
+        "e2_label": "JO",
+        "support": 9,
+        "role_sharing_count": 1,
+        "list_support_count": 0,
+        "rule_v1": "gender",
+        "rule_v2": "gender"
+      },
+      {
+        "e1_label": "A2",
+        "e2_label": "E",
+        "support": 3,
+        "role_sharing_count": 1,
+        "list_support_count": 0,
+        "rule_v1": null,
+        "rule_v2": null
+      },
+      {
+        "e1_label": "RA",
+        "e2_label": "RO",
+        "support": 3,
+        "role_sharing_count": 1,
+        "list_support_count": 0,
+        "rule_v1": "gender",
+        "rule_v2": "gender"
+      }
+    ],
+    "grammar_match_null_list_tiebreak_v1": {
+      "3": {
+        "draws": 200,
+        "mean": 0.295,
+        "sd": 0.4774672763656165,
+        "p95": 1.0,
+        "p99": 1.009999999999991,
+        "real_value": 2,
+        "real_percentile": 100.0
+      },
+      "5": {
+        "draws": 200,
+        "mean": 0.4,
+        "sd": 0.5099019513592785,
+        "p95": 1.0,
+        "p99": 1.009999999999991,
+        "real_value": 4,
+        "real_percentile": 100.0
+      },
+      "10": {
+        "draws": 200,
+        "mean": 0.485,
+        "sd": 0.5829022216461351,
+        "p95": 1.0,
+        "p99": 2.0,
+        "real_value": 6,
+        "real_percentile": 100.0
+      }
+    },
+    "grammar_match_null_list_tiebreak_v2": {
+      "3": {
+        "draws": 200,
+        "mean": 0.305,
+        "sd": 0.4919095445302927,
+        "p95": 1.0,
+        "p99": 2.0,
+        "real_value": 2,
+        "real_percentile": 100.0
+      },
+      "5": {
+        "draws": 200,
+        "mean": 0.42,
+        "sd": 0.5325410782277739,
+        "p95": 1.0,
+        "p99": 2.0,
+        "real_value": 4,
+        "real_percentile": 100.0
+      },
+      "10": {
+        "draws": 200,
+        "mean": 0.55,
+        "sd": 0.6224949798994366,
+        "p95": 2.0,
+        "p99": 2.0,
+        "real_value": 7,
+        "real_percentile": 100.0
+      }
+    },
+    "top_three_all_matched_chance_rate_v1": 0,
+    "top_three_all_matched_chance_rate_v2": 0,
+    "positions_changed_vs_0_5": 0
+  }
+}

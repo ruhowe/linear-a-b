@@ -1,0 +1,274 @@
+{
+  "question": "Does Packard's Knossos toponym match count survive a 200-draw value-permutation null with every sign position subject to the null, on GORILA and on SigLA?",
+  "protocol": {
+    "n_permutations": 200,
+    "seed": 0,
+    "null": "one random permutation per frequency band, all bands drawn together, every word position read through the resulting assignment (S-003b, correcting S-003's fixed-position null)",
+    "band_structures": "groups of ten (Packard's own grouping), and four bands as a sensitivity",
+    "sign_ranking": "whole-corpus token frequency of each label across every WORD/CERTAIN token of that edition, any length",
+    "match_definition": "3= : the assignment's image of the Linear A word's first two signs equals the lexicon word's first two signs, and the third sign's image shares a Greek consonant (kober.values.consonant_of) with the lexicon word's third sign. 4= : the first three images equal the lexicon word's first three signs, and the fourth image either equals its fourth sign or shares a consonant with it. The lexicon side always reads its own known Linear B value directly, never through the assignment.",
+    "toponym_lexicon_size": 32,
+    "toponym_candidates": 33,
+    "toponym_dropped": 1,
+    "personal_name_control_size": 32
+  },
+  "packard_1974_table14": {
+    "note": "Table 14 p.98, Linear B values vs. mean of his 9 random decipherments; reproduced here for comparison, not recomputed",
+    "knossos_name_3_equal": {
+      "linear_b_values": 13,
+      "random_mean": 3.0
+    },
+    "knossos_name_4_equal": {
+      "linear_b_values": 2,
+      "random_mean": 0.0
+    }
+  },
+  "editions": [
+    {
+      "edition": "gorila",
+      "n_word_types_3plus": 607,
+      "sign_inventory_size": 53,
+      "band_structures": {
+        "groups_of_10": {
+          "structure": "groups_of_10",
+          "band_sizes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            3
+          ],
+          "rows": [
+            {
+              "lexicon": "toponyms",
+              "match_class": "3=",
+              "real": 6,
+              "null_mean": 0.795,
+              "null_sd": 1.141479303360337,
+              "null_p95": 3.0,
+              "null_p99": 5.0,
+              "real_percentile": 100.0,
+              "n_permutations": 200,
+              "packard_nine_rotation_mean": 0.6666666666666666
+            },
+            {
+              "lexicon": "toponyms",
+              "match_class": "4=",
+              "real": 3,
+              "null_mean": 0.0,
+              "null_sd": 0.0,
+              "null_p95": 0.0,
+              "null_p99": 0.0,
+              "real_percentile": 100.0,
+              "n_permutations": 200,
+              "packard_nine_rotation_mean": 0.0
+            },
+            {
+              "lexicon": "personal_names_control",
+              "match_class": "3=",
+              "real": 1,
+              "null_mean": 0.755,
+              "null_sd": 1.0839626377325005,
+              "null_p95": 3.0,
+              "null_p99": 3.02,
+              "real_percentile": 67.0,
+              "n_permutations": 200,
+              "packard_nine_rotation_mean": 0.3333333333333333
+            },
+            {
+              "lexicon": "personal_names_control",
+              "match_class": "4=",
+              "real": 0,
+              "null_mean": 0.0,
+              "null_sd": 0.0,
+              "null_p95": 0.0,
+              "null_p99": 0.0,
+              "real_percentile": 50.0,
+              "n_permutations": 200,
+              "packard_nine_rotation_mean": 0.0
+            }
+          ]
+        },
+        "four_bands": {
+          "structure": "four_bands",
+          "band_sizes": [
+            14,
+            13,
+            13,
+            13
+          ],
+          "rows": [
+            {
+              "lexicon": "toponyms",
+              "match_class": "3=",
+              "real": 6,
+              "null_mean": 0.695,
+              "null_sd": 1.0158617031860193,
+              "null_p95": 2.05,
+              "null_p99": 4.01,
+              "real_percentile": 99.5,
+              "n_permutations": 200
+            },
+            {
+              "lexicon": "toponyms",
+              "match_class": "4=",
+              "real": 3,
+              "null_mean": 0.005,
+              "null_sd": 0.07053367989832943,
+              "null_p95": 0.0,
+              "null_p99": 0.0,
+              "real_percentile": 100.0,
+              "n_permutations": 200
+            },
+            {
+              "lexicon": "personal_names_control",
+              "match_class": "3=",
+              "real": 1,
+              "null_mean": 0.49,
+              "null_sd": 0.8484692098125894,
+              "null_p95": 2.0,
+              "null_p99": 3.01,
+              "real_percentile": 78.0,
+              "n_permutations": 200
+            },
+            {
+              "lexicon": "personal_names_control",
+              "match_class": "4=",
+              "real": 0,
+              "null_mean": 0.0,
+              "null_sd": 0.0,
+              "null_p95": 0.0,
+              "null_p99": 0.0,
+              "real_percentile": 50.0,
+              "n_permutations": 200
+            }
+          ]
+        }
+      }
+    },
+    {
+      "edition": "sigla",
+      "n_word_types_3plus": 443,
+      "sign_inventory_size": 55,
+      "band_structures": {
+        "groups_of_10": {
+          "structure": "groups_of_10",
+          "band_sizes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            5
+          ],
+          "rows": [
+            {
+              "lexicon": "toponyms",
+              "match_class": "3=",
+              "real": 5,
+              "null_mean": 0.51,
+              "null_sd": 0.7347788783028538,
+              "null_p95": 2.0,
+              "null_p99": 3.0,
+              "real_percentile": 100.0,
+              "n_permutations": 200,
+              "packard_nine_rotation_mean": 0.4444444444444444
+            },
+            {
+              "lexicon": "toponyms",
+              "match_class": "4=",
+              "real": 1,
+              "null_mean": 0.0,
+              "null_sd": 0.0,
+              "null_p95": 0.0,
+              "null_p99": 0.0,
+              "real_percentile": 100.0,
+              "n_permutations": 200,
+              "packard_nine_rotation_mean": 0.0
+            },
+            {
+              "lexicon": "personal_names_control",
+              "match_class": "3=",
+              "real": 0,
+              "null_mean": 0.355,
+              "null_sd": 0.615609454118437,
+              "null_p95": 1.0,
+              "null_p99": 3.0,
+              "real_percentile": 35.25,
+              "n_permutations": 200,
+              "packard_nine_rotation_mean": 0.2222222222222222
+            },
+            {
+              "lexicon": "personal_names_control",
+              "match_class": "4=",
+              "real": 0,
+              "null_mean": 0.0,
+              "null_sd": 0.0,
+              "null_p95": 0.0,
+              "null_p99": 0.0,
+              "real_percentile": 50.0,
+              "n_permutations": 200,
+              "packard_nine_rotation_mean": 0.0
+            }
+          ]
+        },
+        "four_bands": {
+          "structure": "four_bands",
+          "band_sizes": [
+            14,
+            14,
+            14,
+            13
+          ],
+          "rows": [
+            {
+              "lexicon": "toponyms",
+              "match_class": "3=",
+              "real": 5,
+              "null_mean": 0.49,
+              "null_sd": 0.7745321168292507,
+              "null_p95": 2.0,
+              "null_p99": 3.0,
+              "real_percentile": 100.0,
+              "n_permutations": 200
+            },
+            {
+              "lexicon": "toponyms",
+              "match_class": "4=",
+              "real": 1,
+              "null_mean": 0.0,
+              "null_sd": 0.0,
+              "null_p95": 0.0,
+              "null_p99": 0.0,
+              "real_percentile": 100.0,
+              "n_permutations": 200
+            },
+            {
+              "lexicon": "personal_names_control",
+              "match_class": "3=",
+              "real": 0,
+              "null_mean": 0.28,
+              "null_sd": 0.5758472019555188,
+              "null_p95": 1.0,
+              "null_p99": 2.01,
+              "real_percentile": 38.75,
+              "n_permutations": 200
+            },
+            {
+              "lexicon": "personal_names_control",
+              "match_class": "4=",
+              "real": 0,
+              "null_mean": 0.0,
+              "null_sd": 0.0,
+              "null_p95": 0.0,
+              "null_p99": 0.0,
+              "real_percentile": 50.0,
+              "n_permutations": 200
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+# Candidate languages for Linear A, as data — so any test runs against all of them.
+#
+# WHY A REGISTRY
+# Testing one hypothesis in isolation answers the wrong question. "Semitic matches 72%
+# of words" means nothing until you know what Luwian, Greek and a scrambled control
+# score on the identical test. Raghavendra 2026's validation protocol makes this
+# explicit: a decipherment must "prefer one language over matched alternatives", not
+# merely beat noise. A registry turns that from an aspiration into a loop.
+#
+# It is also fairer. Singling out one claimant invites the charge of a vendetta; running
+# every hypothesis through the same harness, including the mainstream position and a
+# known-false control, is a survey rather than an attack.
+#
+# HOW A HYPOTHESIS IS TESTED
+# Each record supplies (a) a lexicon of attested word-forms or roots, (b) a phonology
+# mapping Aegean sign series to the phoneme sets that hypothesis would allow, and
+# (c) priors. The harness scores real sign values against permuted ones for every
+# runnable hypothesis and reports them side by side.
+#
+# STATUS values:
+#   runnable     lexicon available and wired up
+#   blocked      needs a lexicon we do not have; the blocker is named
+#   control      not a serious proposal; included because we know the answer
+#
+# PRIORS are subjective and declared, not derived. `scenarios.yaml` holds named
+# weightings so a result can be reported under several, including ones maximally
+# favourable to the hypothesis under test.
+
+meta:
+  updated: 2026-09-11
+  note: >
+    Adding a hypothesis means adding a record plus a lexicon loader. Nothing in the
+    test harness needs to change. That is the point of the structure.
+
+hypotheses:
+
+  - key: semitic_hebrew
+    label: Semitic (Northwest, via Biblical Hebrew)
+    family: Afro-Asiatic
+    status: runnable
+    lexicon:
+      loader: strongs_hebrew
+      note: "Strong's 1894, public domain. 2,111 triliteral consonantal skeletons."
+    phonology: semitic_consonantal
+    proponents: [Gordon 1966, Rendsburg 1996, di Mino 2026]
+    bibliography: [dimino2026, nepal2024, peronocacciafoco_programme]
+    standing: contested
+    claim_shape: >
+      Consonantal roots; vowels largely unwritten and therefore free. The Aegean
+      syllabary cannot express the sibilant, emphatic and laryngeal contrasts Semitic
+      treats as phonemic, so a single sign maps to a broad phoneme set.
+    notes: >
+      The most specific claim in circulation and the reason this harness exists.
+      Tested in semitic-null-test.md: not distinguishable from a permuted control.
+
+  - key: greek_mycenaean
+    label: Greek (as a known-false control)
+    family: Indo-European
+    status: control
+    lexicon:
+      loader: greek_lexicon
+      note: "Via pyaegean's Greek layer. Linear A is not Greek by strong consensus."
+    phonology: greek_syllabic
+    proponents: [Owens 1996]
+    bibliography: [davis2026]
+    standing: marginal
+    claim_shape: >
+      Full vowels written, so far more constrained than a consonantal reading. If a
+      Greek reading of Linear A scored well, the harness would be measuring permissive
+      matching rather than language fit.
+    notes: >
+      THE control that matters most. Consensus (Davis 2026, Duhoux) is that Linear A is
+      not Greek, and Linear B proves the script CAN write Greek. So Greek should score
+      near its null. A high score means the instrument is broken, not that Minoan is
+      Greek.
+
+  - key: anatolian_luwian
+    label: Anatolian (Luwian / Lycian)
+    family: Indo-European
+    status: proxy_uninformative
+    lexicon:
+      loader: hittite_kaikki
+      blocker: >
+        Runs, but the Wiktionary extract yields only 67 Latin-script headwords and the
+        statistic cannot move (FINDINGS F-013: z near zero on Linear B, where the map is
+        correct). Hittite is itself a proxy for the Luwian and Lycian actually proposed
+        (ASSUMPTIONS A-025). Purer sources located, not yet folded: TLHdig (Mainz,
+        ~22,000 lemmatised documents, open XML dataset) and eDiAna (Munich, 3,444
+        minor-Anatolian lemmata, bulk access unverified).
+    phonology: indo_european_syllabic
+    proponents: [Palmer 1958, Brown 1990, Finkelberg 2001]
+    bibliography: [nepal2024]
+    standing: contested
+    claim_shape: "Indo-European with written vowels; constrained like Greek."
+
+  - key: tyrsenian_etruscan
+    label: Tyrsenian (Etruscan / Lemnian)
+    family: Tyrsenian
+    status: blocked
+    lexicon:
+      loader: null
+      blocker: >
+        Etruscan corpus is small and glosses are contested. Candidate: the Etruscan
+        Texts Project or CIE digitisations — licensing unverified.
+    phonology: indo_european_syllabic
+    proponents: [Facchetti 1999, Facchetti and Negri 2003]
+    bibliography: []
+    standing: contested
+
+  - key: uralic
+    label: Uralic / "West-Ugric"
+    family: Uralic
+    status: blocked
+    lexicon:
+      loader: null
+      blocker: >
+        Revesz builds his own dictionary, which is the core objection to the work. A
+        fair test needs an independent Uralic root list (Finnish/Hungarian/Proto-Uralic)
+        not assembled to fit. Candidate: Uralonet (Budapest) — terms unverified.
+    phonology: agglutinative_vocalic
+    proponents: [Revesz 2016-2025]
+    bibliography: [revesz_line, nepal2024]
+    standing: fringe
+    notes: >
+      Included deliberately despite being fringe. If the harness can only be pointed at
+      claims we already respect, it is a rhetorical device rather than an instrument.
+      And a fringe claim clearing the bar would be the most interesting result available.
+
+  - key: sumerian_control
+    label: Sumerian (typology-matched wrong answer)
+    family: isolate
+    status: control
+    lexicon:
+      loader: sumerian_epsd2
+    phonology: indo_european_syllabic
+    proponents: []
+    bibliography: []
+    standing: control
+    notes: >
+      Nobody proposes Sumerian for Linear A. It is an agglutinative, vowel-writing,
+      Bronze Age administrative language with a large open lexicon (ePSD2, CC0), so it is
+      the wrong real language whose corpus most resembles the Linear A tablets in genre.
+      Its score is the bar a real hypothesis under the Greek-style map has to clear.
+      FINDINGS F-013 records it fitting Greek text at +2.31.
+
+  - key: isolate_null
+    label: Language isolate (the mainstream position)
+    family: none
+    status: control
+    lexicon:
+      loader: none
+      note: "No lexicon by definition — this is the hypothesis that no known lexicon fits."
+    phonology: none
+    proponents: [Duhoux 2004, Younger, Monti 2022, Salgarella 2025]
+    bibliography: [monti2022, salgarella2025, davis2026]
+    standing: consensus
+    claim_shape: >
+      Minoan is unrelated to any documented language, so no lexicon should fit better
+      than chance. This is not testable by matching — it is the position that every
+      matching test returning null is evidence FOR.
+    notes: >
+      Recorded so the registry is honest about what the default position is and why it
+      needs no lexicon. Every null result in this harness is a point in its favour, and
+      that asymmetry should be stated rather than hidden.

@@ -1,0 +1,93 @@
+{
+  "question": "Does a Semitic reading of Linear A match Hebrew roots more often than a fictitious decipherment does? Not whether Minoan is Semitic.",
+  "lexicon": {
+    "entries": 8674,
+    "consonant_inventory": 22,
+    "skeletons_len2": 206,
+    "skeletons_len3": 2111,
+    "skeletons_len4": 2122,
+    "density_len3": 0.19825319308790385,
+    "density_len2": 0.4256198347107438,
+    "density_len4": 0.00905846595177925
+  },
+  "signs_with_conventional_values": 50,
+  "sign_inventory_total": 342,
+  "naive_permutation_test": {
+    "n_words": 648,
+    "real_hit_rate": 0.7222222222222222,
+    "real_mean_candidates": 20.799382716049383,
+    "null_hit_rate_mean": 0.6511817460582081,
+    "null_hit_rate_sd": 0.03313561300568747,
+    "null_min": 0.5513428120063191,
+    "null_max": 0.7538699690402477,
+    "null_mean_candidates": 17.364441967710782,
+    "z": 2.143931248588054,
+    "p_value": 0.016,
+    "n_permutations": 999,
+    "hit_rate_by_length": {
+      "2": 0.8988326848249028,
+      "3": 0.7510204081632653,
+      "4": 0.4065040650406504,
+      "5": 0.15,
+      "6": 0.0
+    },
+    "words_by_length": {
+      "2": 257,
+      "3": 245,
+      "4": 123,
+      "5": 20,
+      "6": 3
+    }
+  },
+  "breadth_matched_permutation_test": {
+    "n_words": 648,
+    "real_hit_rate": 0.7222222222222222,
+    "real_mean_candidates": 20.799382716049383,
+    "null_hit_rate_mean": 0.6983601518531085,
+    "null_hit_rate_sd": 0.023825673309533463,
+    "null_min": 0.5981012658227848,
+    "null_max": 0.7620528771384136,
+    "null_mean_candidates": 20.664237192896923,
+    "z": 1.0015276403360098,
+    "p_value": 0.153,
+    "n_permutations": 999,
+    "hit_rate_by_length": {
+      "2": 0.8988326848249028,
+      "3": 0.7510204081632653,
+      "4": 0.4065040650406504,
+      "5": 0.15,
+      "6": 0.0
+    },
+    "words_by_length": {
+      "2": 257,
+      "3": 245,
+      "4": 123,
+      "5": 20,
+      "6": 3
+    }
+  },
+  "positive_control": {
+    "n_words": 600,
+    "real_hit_rate": 1.0,
+    "real_mean_candidates": 21.878333333333334,
+    "null_hit_rate_mean": 0.7837887887887888,
+    "null_hit_rate_sd": 0.025812370884963572,
+    "null_min": 0.7083333333333334,
+    "null_max": 0.8833333333333333,
+    "null_mean_candidates": 20.669597931264597,
+    "z": 8.376263155941258,
+    "p_value": 0.001,
+    "n_permutations": 999,
+    "hit_rate_by_length": {
+      "3": 1.0
+    },
+    "words_by_length": {
+      "3": 600
+    }
+  },
+  "interpretation": {
+    "base_rate": "A skeleton drawn at random is an attested Hebrew root ~19.8% of the time at length 3 and ~42.6% at length 2.",
+    "naive_test_is_confounded": "The real map reaches more candidate roots per word than a plain permutation does, and breadth correlates with hit rate at +0.65, so the naive test returns a false positive.",
+    "headline": "Under the breadth-matched null the real assignment is not distinguishable from chance, while the positive control separates cleanly. Root-matching evidence therefore carries no weight."
+  }
+}

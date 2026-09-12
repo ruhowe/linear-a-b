@@ -1,0 +1,4 @@
+# Pinned to the versions every finding was produced with. Python 3.14.
+# Install: python3.14 -m venv .venv && .venv/bin/pip install -r requirements.txt
+pyaegean[all]==0.59.0
+pytest==9.1.1

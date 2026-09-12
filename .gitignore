@@ -1,0 +1,32 @@
+# Python virtualenv — ~200MB, and it hardcodes this repo's absolute path in 34 files.
+# Never commit it; recreate with `pip install "pyaegean[all]"`.
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Corpus data and anything derived from it.
+#
+# DĀMOS is CC BY-NC-SA 4.0 and the Linear A transcription chain has an unresolved
+# licence (see docs/ai_context/corpus-sources.md). Committing corpus content, or a
+# dataset derived from it, would redistribute licensed material under this repo's
+# terms. pyaegean fetches corpora to ~/.cache/pyaegean/ deliberately; this project
+# writes its own derived artifacts to ~/.cache/linear-a-b/ for the same reason.
+data/*
+!data/README.md
+*.damos.json
+sequences*.json
+masked*.jsonl
+splits*.json
+
+# Spike per-run caches: resumable scratch, aggregate numbers only, not a deliverable.
+# See spikes/S-002-etymological-floor/run.py's docstring.
+spikes/*/cache/
+
+# Local editor / OS noise
+.DS_Store
+*.swp
+
+# Local working files, never tracked
+private/

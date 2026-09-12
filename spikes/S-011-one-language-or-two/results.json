@@ -1,0 +1,433 @@
+{
+  "protocol": "S-011, stage 1 paradigm ratio + JS distance profiles, 100 N1 draws, 20 seeded size-matched subsamples, 20 seeded random-halves noise draws",
+  "stem_min": 2,
+  "n_draws": 100,
+  "n_subsamples": 20,
+  "splits": {
+    "a_tablets_vs_other": {
+      "label": "Linear A: tablets vs every other support type pooled",
+      "a": {
+        "name": "tablets",
+        "token_count": 848,
+        "type_count": 610,
+        "paradigm_count": 51,
+        "n1_null_mean": 34.21,
+        "n1_null_sd": 4.06,
+        "paradigm_ratio": 1.4907921660333237
+      },
+      "b": {
+        "name": "non-tablets",
+        "token_count": 525,
+        "type_count": 407,
+        "paradigm_count": 37,
+        "n1_null_mean": 14.65,
+        "n1_null_sd": 2.55,
+        "paradigm_ratio": 2.525597269624573
+      },
+      "real_distance": {
+        "sign_js": 0.0946169076660154,
+        "first_sign_js": 0.19826065566922607,
+        "last_sign_js": 0.15199406048272363,
+        "length_js": 0.05452566883688682,
+        "paradigm_ratio_diff": 1.0348051035912496
+      },
+      "size_matched_median": {
+        "sign_js": 0.10000187522578269,
+        "first_sign_js": 0.2075406130366011,
+        "last_sign_js": 0.16225799218829318,
+        "length_js": 0.054540983835160615,
+        "paradigm_ratio_diff": 0.8061843156630292
+      },
+      "size_matched_range": {
+        "sign_js": [
+          0.09346825046111687,
+          0.10746410170383697
+        ],
+        "first_sign_js": [
+          0.19138056042813265,
+          0.22182209509362893
+        ],
+        "last_sign_js": [
+          0.14919923545488645,
+          0.17899874706048585
+        ],
+        "length_js": [
+          0.046773909456274236,
+          0.06464994434174344
+        ],
+        "paradigm_ratio_diff": [
+          0.5337987927645849,
+          1.117146565399221
+        ]
+      },
+      "noise_floor_median": {
+        "sign_js": 0.033646810379263384,
+        "first_sign_js": 0.0732291614385695,
+        "last_sign_js": 0.06731383804911129,
+        "length_js": 0.005528094543692901,
+        "paradigm_ratio_diff": 0.2356335527974841
+      },
+      "noise_floor_p95": {
+        "sign_js": 0.03710440663290478,
+        "first_sign_js": 0.0812416302625846,
+        "last_sign_js": 0.0751502516919639,
+        "length_js": 0.008019528458669711,
+        "paradigm_ratio_diff": 0.4922002533572303
+      },
+      "exceeds_p95": {
+        "sign_js": true,
+        "first_sign_js": true,
+        "last_sign_js": true,
+        "length_js": true,
+        "paradigm_ratio_diff": true
+      },
+      "ratio_to_p95": {
+        "sign_js": 2.5500180774244647,
+        "first_sign_js": 2.440382535756843,
+        "last_sign_js": 2.0225356144612476,
+        "length_js": 6.799111583417413,
+        "paradigm_ratio_diff": 2.102406686166832
+      }
+    },
+    "b_ht_vs_other": {
+      "label": "Linear A: Hagia Triada vs everything else",
+      "a": {
+        "name": "HT",
+        "token_count": 700,
+        "type_count": 455,
+        "paradigm_count": 28,
+        "n1_null_mean": 17.5,
+        "n1_null_sd": 3.35,
+        "paradigm_ratio": 1.6
+      },
+      "b": {
+        "name": "non-HT",
+        "token_count": 673,
+        "type_count": 564,
+        "paradigm_count": 56,
+        "n1_null_mean": 28.49,
+        "n1_null_sd": 2.97,
+        "paradigm_ratio": 1.9656019656019657
+      },
+      "real_distance": {
+        "sign_js": 0.10515874172842413,
+        "first_sign_js": 0.22830745783559186,
+        "last_sign_js": 0.1690216086229579,
+        "length_js": 0.050557919780038256,
+        "paradigm_ratio_diff": 0.36560196560196556
+      },
+      "size_matched_median": {
+        "sign_js": 0.10493488006129034,
+        "first_sign_js": 0.2285448611352668,
+        "last_sign_js": 0.16945927510996833,
+        "length_js": 0.05062065014963045,
+        "paradigm_ratio_diff": 0.40580525279919744
+      },
+      "size_matched_range": {
+        "sign_js": [
+          0.10336574715979945,
+          0.10967566000231196
+        ],
+        "first_sign_js": [
+          0.22462213029716321,
+          0.23675704744890314
+        ],
+        "last_sign_js": [
+          0.16657772400636484,
+          0.1733007557470948
+        ],
+        "length_js": [
+          0.04874538899018165,
+          0.0527230312551218
+        ],
+        "paradigm_ratio_diff": [
+          0.32721694512215294,
+          0.5467597408573572
+        ]
+      },
+      "noise_floor_median": {
+        "sign_js": 0.03380064330300998,
+        "first_sign_js": 0.07405221179620623,
+        "last_sign_js": 0.06560438623786052,
+        "length_js": 0.006034908672818452,
+        "paradigm_ratio_diff": 0.1982855447502756
+      },
+      "noise_floor_p95": {
+        "sign_js": 0.03749177321207587,
+        "first_sign_js": 0.08974249392517174,
+        "last_sign_js": 0.0759678310902388,
+        "length_js": 0.008192070136087476,
+        "paradigm_ratio_diff": 0.639107370626875
+      },
+      "exceeds_p95": {
+        "sign_js": true,
+        "first_sign_js": true,
+        "last_sign_js": true,
+        "length_js": true,
+        "paradigm_ratio_diff": false
+      },
+      "ratio_to_p95": {
+        "sign_js": 2.8048484432460277,
+        "first_sign_js": 2.5440284512926183,
+        "last_sign_js": 2.224910283698697,
+        "length_js": 6.171568228807263,
+        "paradigm_ratio_diff": 0.5720509297887789
+      }
+    },
+    "c_knossos_vs_pylos": {
+      "label": "Linear B: Knossos vs Pylos",
+      "a": {
+        "name": "Knossos",
+        "token_count": 3457,
+        "type_count": 1617,
+        "paradigm_count": 340,
+        "n1_null_mean": 218.36,
+        "n1_null_sd": 8.98,
+        "paradigm_ratio": 1.5570617329181167
+      },
+      "b": {
+        "name": "Pylos",
+        "token_count": 5830,
+        "type_count": 2024,
+        "paradigm_count": 531,
+        "n1_null_mean": 285.54,
+        "n1_null_sd": 10.44,
+        "paradigm_ratio": 1.8596343769699515
+      },
+      "real_distance": {
+        "sign_js": 0.05439935804781794,
+        "first_sign_js": 0.08946034727562699,
+        "last_sign_js": 0.09432793588881891,
+        "length_js": 0.004738867651110003,
+        "paradigm_ratio_diff": 0.3025726440518348
+      },
+      "size_matched_median": {
+        "sign_js": 0.05464001757264106,
+        "first_sign_js": 0.09055556818968089,
+        "last_sign_js": 0.09652341848735164,
+        "length_js": 0.004827464059163612,
+        "paradigm_ratio_diff": 0.3192967442312754
+      },
+      "size_matched_range": {
+        "sign_js": [
+          0.051949090700300585,
+          0.057775458337484716
+        ],
+        "first_sign_js": [
+          0.08597407377749555,
+          0.09310341282378537
+        ],
+        "last_sign_js": [
+          0.08953789822702277,
+          0.10060406137089531
+        ],
+        "length_js": [
+          0.0029866788851690136,
+          0.0060474340829971465
+        ],
+        "paradigm_ratio_diff": [
+          0.2580261854029269,
+          0.4005614821901282
+        ]
+      },
+      "noise_floor_median": {
+        "sign_js": 0.0024390668977896735,
+        "first_sign_js": 0.0065671876084373235,
+        "last_sign_js": 0.0065771516269285644,
+        "length_js": 0.00046414577758586745,
+        "paradigm_ratio_diff": 0.04359024214869822
+      },
+      "noise_floor_p95": {
+        "sign_js": 0.0031697859243750557,
+        "first_sign_js": 0.007429294203905974,
+        "last_sign_js": 0.00852278567751796,
+        "length_js": 0.0010048445179682056,
+        "paradigm_ratio_diff": 0.10941262762618761
+      },
+      "exceeds_p95": {
+        "sign_js": true,
+        "first_sign_js": true,
+        "last_sign_js": true,
+        "length_js": true,
+        "paradigm_ratio_diff": true
+      },
+      "ratio_to_p95": {
+        "sign_js": 17.16183974113114,
+        "first_sign_js": 12.041567451803557,
+        "last_sign_js": 11.067735298993165,
+        "length_js": 4.716020803588586,
+        "paradigm_ratio_diff": 2.765427086584427
+      }
+    },
+    "d_livestock_vs_personnel": {
+      "label": "Linear B: Knossos D-series (livestock) vs A-series (personnel)",
+      "a": {
+        "name": "D-series",
+        "token_count": 995,
+        "type_count": 376,
+        "paradigm_count": 51,
+        "n1_null_mean": 24.34,
+        "n1_null_sd": 3.53,
+        "paradigm_ratio": 2.09531635168447
+      },
+      "b": {
+        "name": "A-series",
+        "token_count": 504,
+        "type_count": 285,
+        "paradigm_count": 32,
+        "n1_null_mean": 15.11,
+        "n1_null_sd": 2.82,
+        "paradigm_ratio": 2.1178027796161483
+      },
+      "real_distance": {
+        "sign_js": 0.12362369625537373,
+        "first_sign_js": 0.2859164495255271,
+        "last_sign_js": 0.23860400285530753,
+        "length_js": 0.05048177885696394,
+        "paradigm_ratio_diff": 0.02248642793167832
+      },
+      "size_matched_median": {
+        "sign_js": 0.12811135303901555,
+        "first_sign_js": 0.29562358486809437,
+        "last_sign_js": 0.24537914319676674,
+        "length_js": 0.04720673735465521,
+        "paradigm_ratio_diff": 0.24597886862094498
+      },
+      "size_matched_range": {
+        "sign_js": [
+          0.11400475554283257,
+          0.1375146678147786
+        ],
+        "first_sign_js": [
+          0.28023125285358413,
+          0.31330480928666293
+        ],
+        "last_sign_js": [
+          0.2322563556383623,
+          0.263371070116621
+        ],
+        "length_js": [
+          0.04045793483281131,
+          0.061976869115688366
+        ],
+        "paradigm_ratio_diff": [
+          0.002418164231532849,
+          0.5016411634545321
+        ]
+      },
+      "noise_floor_median": {
+        "sign_js": 0.013803688416508966,
+        "first_sign_js": 0.033935560747100836,
+        "last_sign_js": 0.03374980577231717,
+        "length_js": 0.00185561675886692,
+        "paradigm_ratio_diff": 0.21098469395750863
+      },
+      "noise_floor_p95": {
+        "sign_js": 0.016382260893277597,
+        "first_sign_js": 0.04260189461549202,
+        "last_sign_js": 0.043341534920219686,
+        "length_js": 0.005448137862752931,
+        "paradigm_ratio_diff": 0.6650194723926793
+      },
+      "exceeds_p95": {
+        "sign_js": true,
+        "first_sign_js": true,
+        "last_sign_js": true,
+        "length_js": true,
+        "paradigm_ratio_diff": false
+      },
+      "ratio_to_p95": {
+        "sign_js": 7.546192620220221,
+        "first_sign_js": 6.711355260278839,
+        "last_sign_js": 5.5052042640971175,
+        "length_js": 9.26587765006659,
+        "paradigm_ratio_diff": 0.033813187230103514
+      }
+    }
+  },
+  "stone_vessel_extra": {
+    "label": "Linear A: tablets vs stone vessels alone",
+    "a": {
+      "name": "tablets",
+      "token_count": 848,
+      "type_count": 610,
+      "paradigm_count": 51,
+      "n1_null_mean": 33.49,
+      "n1_null_sd": 3.8,
+      "paradigm_ratio": 1.5228426395939085
+    },
+    "b": {
+      "name": "stone vessels",
+      "token_count": 259,
+      "type_count": 211,
+      "paradigm_count": 21,
+      "n1_null_mean": 5.04,
+      "n1_null_sd": 1.82,
+      "paradigm_ratio": 4.166666666666667
+    },
+    "real_distance": {
+      "sign_js": 0.11605576710967164,
+      "first_sign_js": 0.20282655951551248,
+      "last_sign_js": 0.20277027839697429,
+      "length_js": 0.08739050715893812,
+      "paradigm_ratio_diff": 2.6438240270727587
+    },
+    "size_matched_median": {
+      "sign_js": 0.1279417352393492,
+      "first_sign_js": 0.23172690705183718,
+      "last_sign_js": 0.2288261352232157,
+      "length_js": 0.09084327213654292,
+      "paradigm_ratio_diff": 2.3635810913512696
+    },
+    "size_matched_range": {
+      "sign_js": [
+        0.1112153155726871,
+        0.1381260579989346
+      ],
+      "first_sign_js": [
+        0.18825513307070937,
+        0.25470978099323394
+      ],
+      "last_sign_js": [
+        0.1826550827531039,
+        0.25570957973521313
+      ],
+      "length_js": [
+        0.07303980099706711,
+        0.11800499572010234
+      ],
+      "paradigm_ratio_diff": [
+        1.7002989536621826,
+        2.926997245179064
+      ]
+    },
+    "noise_floor_median": {
+      "sign_js": 0.03560886520092032,
+      "first_sign_js": 0.07708692225404734,
+      "last_sign_js": 0.07223746383318251,
+      "length_js": 0.0035637149934624624,
+      "paradigm_ratio_diff": 0.15288698451596805
+    },
+    "noise_floor_p95": {
+      "sign_js": 0.04119307372417787,
+      "first_sign_js": 0.08896593544473856,
+      "last_sign_js": 0.07701657579202233,
+      "length_js": 0.006735138485763754,
+      "paradigm_ratio_diff": 0.9353079485399415
+    },
+    "exceeds_p95": {
+      "sign_js": true,
+      "first_sign_js": true,
+      "last_sign_js": true,
+      "length_js": true,
+      "paradigm_ratio_diff": true
+    },
+    "ratio_to_p95": {
+      "sign_js": 2.8173611876297993,
+      "first_sign_js": 2.279822704067432,
+      "last_sign_js": 2.6328134730962423,
+      "length_js": 12.975309615928138,
+      "paradigm_ratio_diff": 2.826688291487193
+    }
+  }
+}

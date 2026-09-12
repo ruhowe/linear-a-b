@@ -1,0 +1,381 @@
+{
+  "question": "Does the Kober prefix channel, read as the ending channel on a mirrored (reversed) Linear B corpus, recover the same stems, support and grammar as the real prefix/ending channels do directly (A-047)?",
+  "protocol": {
+    "corpus": "damos",
+    "stem_min": 2,
+    "draws": 200,
+    "seed": 0,
+    "grammar_reference_version": 3,
+    "word_types": 3768
+  },
+  "exact_match_checks": {
+    "mirrored_ending_vs_real_prefix": {
+      "n_alternations_mirrored": 7052,
+      "n_alternations_real": 7052,
+      "identical": true,
+      "n_mismatched": 0,
+      "example_mismatches": []
+    },
+    "mirrored_prefix_vs_real_ending": {
+      "n_alternations_mirrored": 5250,
+      "n_alternations_real": 5250,
+      "identical": true,
+      "n_mismatched": 0,
+      "example_mismatches": []
+    }
+  },
+  "comparison_1_mirrored_ending_vs_real_prefix": {
+    "paradigm_count": {
+      "mirrored_ending": 707,
+      "real_prefix": 707,
+      "difference": 0
+    },
+    "n1_paradigm_count_null": {
+      "mirrored_ending": {
+        "draws": 200,
+        "mean": 621.43,
+        "sd": 12.2521467506719,
+        "p95": 642.0,
+        "p99": 652.01,
+        "real_value": 707,
+        "real_percentile": 100.0
+      },
+      "real_prefix": {
+        "draws": 200,
+        "mean": 622.66,
+        "sd": 12.592632766820447,
+        "p95": 642.0,
+        "p99": 647.01,
+        "real_value": 707,
+        "real_percentile": 100.0
+      }
+    },
+    "max_support": {
+      "mirrored_ending": {
+        "draws": 200,
+        "mean": 13.05,
+        "sd": 2.547057125390006,
+        "p95": 17.0,
+        "p99": 19.029999999999973,
+        "real_value": 10,
+        "real_percentile": 17.0
+      },
+      "real_prefix": {
+        "draws": 200,
+        "mean": 13.18,
+        "sd": 2.635830040044312,
+        "p95": 18.0,
+        "p99": 20.00999999999999,
+        "real_value": 10,
+        "real_percentile": 15.5
+      }
+    },
+    "top_10_alternations": {
+      "mirrored_ending_as_real_prefixes": [
+        {
+          "e1": "A",
+          "e2": "E",
+          "support": 10,
+          "rule": "consonant_stem_case"
+        },
+        {
+          "e1": "A",
+          "e2": "KA",
+          "support": 9,
+          "rule": null
+        },
+        {
+          "e1": "A",
+          "e2": "A3",
+          "support": 8,
+          "rule": "spelling_variant"
+        },
+        {
+          "e1": "A",
+          "e2": "PA",
+          "support": 8,
+          "rule": null
+        },
+        {
+          "e1": "E",
+          "e2": "O",
+          "support": 8,
+          "rule": "consonant_stem_case"
+        },
+        {
+          "e1": "A",
+          "e2": "PE",
+          "support": 7,
+          "rule": null
+        },
+        {
+          "e1": "A",
+          "e2": "PO",
+          "support": 7,
+          "rule": null
+        },
+        {
+          "e1": "E",
+          "e2": "PA",
+          "support": 7,
+          "rule": null
+        },
+        {
+          "e1": "KA",
+          "e2": "KO",
+          "support": 7,
+          "rule": "gender"
+        },
+        {
+          "e1": "A",
+          "e2": "KE",
+          "support": 6,
+          "rule": null
+        }
+      ],
+      "real_prefix": [
+        {
+          "e1": "A",
+          "e2": "E",
+          "support": 10,
+          "rule": "consonant_stem_case"
+        },
+        {
+          "e1": "A",
+          "e2": "KA",
+          "support": 9,
+          "rule": null
+        },
+        {
+          "e1": "A",
+          "e2": "A3",
+          "support": 8,
+          "rule": "spelling_variant"
+        },
+        {
+          "e1": "A",
+          "e2": "PA",
+          "support": 8,
+          "rule": null
+        },
+        {
+          "e1": "E",
+          "e2": "O",
+          "support": 8,
+          "rule": "consonant_stem_case"
+        },
+        {
+          "e1": "A",
+          "e2": "PE",
+          "support": 7,
+          "rule": null
+        },
+        {
+          "e1": "A",
+          "e2": "PO",
+          "support": 7,
+          "rule": null
+        },
+        {
+          "e1": "E",
+          "e2": "PA",
+          "support": 7,
+          "rule": null
+        },
+        {
+          "e1": "KA",
+          "e2": "KO",
+          "support": 7,
+          "rule": "gender"
+        },
+        {
+          "e1": "A",
+          "e2": "KE",
+          "support": 6,
+          "rule": null
+        }
+      ]
+    },
+    "strict_top_10_grammar_count_v3": {
+      "mirrored_ending": 4,
+      "real_prefix": 4
+    }
+  },
+  "comparison_2_mirrored_prefix_vs_real_ending": {
+    "paradigm_count": {
+      "mirrored_prefix": 932,
+      "real_ending": 932,
+      "difference": 0
+    },
+    "n1_paradigm_count_null": {
+      "mirrored_prefix": {
+        "draws": 200,
+        "mean": 608.995,
+        "sd": 13.435586142777694,
+        "p95": 631.05,
+        "p99": 639.0,
+        "real_value": 932,
+        "real_percentile": 100.0
+      },
+      "real_ending": {
+        "draws": 200,
+        "mean": 608.33,
+        "sd": 12.282552666282363,
+        "p95": 627.05,
+        "p99": 638.01,
+        "real_value": 932,
+        "real_percentile": 100.0
+      }
+    },
+    "max_support": {
+      "mirrored_prefix": {
+        "draws": 200,
+        "mean": 13.495,
+        "sd": 2.032233992432958,
+        "p95": 17.0,
+        "p99": 20.0,
+        "real_value": 57,
+        "real_percentile": 100.0
+      },
+      "real_ending": {
+        "draws": 200,
+        "mean": 13.535,
+        "sd": 2.012156803034992,
+        "p95": 17.0,
+        "p99": 18.019999999999982,
+        "real_value": 57,
+        "real_percentile": 100.0
+      }
+    },
+    "top_10_alternations": {
+      "mirrored_prefix_as_real_endings": [
+        {
+          "e1": "JA",
+          "e2": "JO",
+          "support": 57,
+          "rule": "gender"
+        },
+        {
+          "e1": "U",
+          "e2": "WE",
+          "support": 29,
+          "rule": "eu_stem"
+        },
+        {
+          "e1": "JO",
+          "e2": "JO-JO",
+          "support": 22,
+          "rule": "genitive"
+        },
+        {
+          "e1": "TA",
+          "e2": "TO",
+          "support": 19,
+          "rule": "gender"
+        },
+        {
+          "e1": "U",
+          "e2": "WO",
+          "support": 17,
+          "rule": "eu_stem"
+        },
+        {
+          "e1": "WE",
+          "e2": "WO",
+          "support": 17,
+          "rule": "eu_stem"
+        },
+        {
+          "e1": "JA",
+          "e2": "JA-O",
+          "support": 13,
+          "rule": "a_stem_genitive"
+        },
+        {
+          "e1": "TA",
+          "e2": "TA-O",
+          "support": 13,
+          "rule": "a_stem_genitive"
+        },
+        {
+          "e1": "RA",
+          "e2": "RO",
+          "support": 13,
+          "rule": "gender"
+        },
+        {
+          "e1": "RO",
+          "e2": "TO",
+          "support": 12,
+          "rule": null
+        }
+      ],
+      "real_ending": [
+        {
+          "e1": "JA",
+          "e2": "JO",
+          "support": 57,
+          "rule": "gender"
+        },
+        {
+          "e1": "U",
+          "e2": "WE",
+          "support": 29,
+          "rule": "eu_stem"
+        },
+        {
+          "e1": "JO",
+          "e2": "JO-JO",
+          "support": 22,
+          "rule": "genitive"
+        },
+        {
+          "e1": "TA",
+          "e2": "TO",
+          "support": 19,
+          "rule": "gender"
+        },
+        {
+          "e1": "U",
+          "e2": "WO",
+          "support": 17,
+          "rule": "eu_stem"
+        },
+        {
+          "e1": "WE",
+          "e2": "WO",
+          "support": 17,
+          "rule": "eu_stem"
+        },
+        {
+          "e1": "JA",
+          "e2": "JA-O",
+          "support": 13,
+          "rule": "a_stem_genitive"
+        },
+        {
+          "e1": "RA",
+          "e2": "RO",
+          "support": 13,
+          "rule": "gender"
+        },
+        {
+          "e1": "TA",
+          "e2": "TA-O",
+          "support": 13,
+          "rule": "a_stem_genitive"
+        },
+        {
+          "e1": "RO",
+          "e2": "TO",
+          "support": 12,
+          "rule": null
+        }
+      ]
+    },
+    "strict_top_10_grammar_count_v3": {
+      "mirrored_prefix": 9,
+      "real_ending": 9
+    }
+  }
+}

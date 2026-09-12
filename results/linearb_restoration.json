@@ -1,0 +1,505 @@
+{
+  "corpus": {
+    "provenance": "Provenance(source='DAMOS \u2014 Database of Mycenaean at Oslo (F. Aurora), decoded dataset', license='CC BY-NC-SA 4.0 (as published by DAMOS; NonCommercial \u2014 fetched, never bundled)', citation='Aurora, F. (2015). DAMOS (Database of Mycenaean at Oslo). Annotating a fragmentarily attested language. Procedia - Social and Behavioral Sciences, 198, 21-31.', url='https://damos.hf.uio.no', schema_version=3, notes=('Mycenaean (Linear B) corpus; transliterations + core metadata decoded from the DAMOS public API. Word boundaries follow DAMOS (comma/slash dividers). v2 carries the DAMOS-curated scribal hand (meta.scribe), find context (meta.findspot), and object class (meta.support).',), data_version='damos-corpus-v2@2026-06-11', edition_fidelity='')",
+    "documents": 1016,
+    "physical lines": 1905,
+    "eligible sequences": 596,
+    "sign vocabulary (eligible targets)": 77,
+    "maskable sign positions": 2684,
+    "word tokens (eligible sequences)": 1089,
+    "word types (eligible sequences)": 337,
+    "by_subseries": {
+      "Dv": 551,
+      "Da": 222,
+      "Dl": 168,
+      "Db": 160,
+      "Dk": 144,
+      "Dd": 102,
+      "D": 101,
+      "De": 98,
+      "Dc": 71,
+      "Dq": 62,
+      "Df": 59,
+      "Do": 47,
+      "Dg": 30,
+      "Dn": 28,
+      "Dm": 28,
+      "Dp": 21,
+      "Dh": 13
+    }
+  },
+  "protocol": {
+    "unit": "physical line",
+    "masking": "exhaustive leave-one-sign-out",
+    "split": "document-grouped 5-fold, seed 0",
+    "items": 2684,
+    "candidate_set_size": 75,
+    "top20_share_of_candidates": 0.26666666666666666
+  },
+  "metadata_concentration": {
+    "scribe": {
+      "total": 1016,
+      "filled": 943,
+      "distinct": 23,
+      "top_value": "117",
+      "top_count": 684,
+      "top_share_of_filled": 0.7253446447507953,
+      "top_share_of_total": 0.6732283464566929
+    },
+    "findspot": {
+      "total": 1016,
+      "filled": 470,
+      "distinct": 15,
+      "top_value": "KN, J1",
+      "top_count": 397,
+      "top_share_of_filled": 0.8446808510638298,
+      "top_share_of_total": 0.390748031496063
+    }
+  },
+  "results": [
+    {
+      "ranker": "prior",
+      "strata": {
+        "overall": {
+          "stratum": "all items",
+          "n": 2684,
+          "top1": 0.07675111773472429,
+          "top1_ci": [
+            0.06631892697466468,
+            0.08720193740685543
+          ],
+          "top5": 0.26527570789865873,
+          "top5_ci": [
+            0.2481371087928465,
+            0.2828055141579731
+          ],
+          "top20": 0.6322652757078987,
+          "top20_ci": [
+            0.6132451564828615,
+            0.6497764530551415
+          ]
+        },
+        "seen": {
+          "stratum": "word type seen in training",
+          "n": 1839,
+          "top1": 0.09081022294725394,
+          "top1_ci": [
+            0.07721587819467102,
+            0.10386079390973355
+          ],
+          "top5": 0.3099510603588907,
+          "top5_ci": [
+            0.28926046764545954,
+            0.33009787928221856
+          ],
+          "top20": 0.6742794997281131,
+          "top20_ci": [
+            0.6541326808047853,
+            0.6949700924415443
+          ]
+        },
+        "unseen": {
+          "stratum": "word type unseen in training",
+          "n": 845,
+          "top1": 0.046153846153846156,
+          "top1_ci": [
+            0.033136094674556214,
+            0.06035502958579882
+          ],
+          "top5": 0.1680473372781065,
+          "top5_ci": [
+            0.14437869822485208,
+            0.19644970414201182
+          ],
+          "top20": 0.5408284023668639,
+          "top20_ci": [
+            0.5076923076923077,
+            0.5763313609467455
+          ]
+        },
+        "single_sign": {
+          "stratum": "single-sign words (no within-word context)",
+          "n": 269,
+          "top1": 0.0,
+          "top1_ci": [
+            0.0,
+            0.0
+          ],
+          "top5": 0.0,
+          "top5_ci": [
+            0.0,
+            0.0
+          ],
+          "top20": 0.5910780669144982,
+          "top20_ci": [
+            0.5315985130111525,
+            0.6505576208178439
+          ]
+        }
+      }
+    },
+    {
+      "ranker": "bigram",
+      "strata": {
+        "overall": {
+          "stratum": "all items",
+          "n": 2684,
+          "top1": 0.4124441132637854,
+          "top1_ci": [
+            0.3952868852459016,
+            0.4314642324888226
+          ],
+          "top5": 0.6494038748137109,
+          "top5_ci": [
+            0.6311475409836066,
+            0.667306259314456
+          ],
+          "top20": 0.8576751117734724,
+          "top20_ci": [
+            0.8438897168405365,
+            0.8714605067064084
+          ]
+        },
+        "seen": {
+          "stratum": "word type seen in training",
+          "n": 1839,
+          "top1": 0.55410549211528,
+          "top1_ci": [
+            0.5317835780315389,
+            0.5764002175095161
+          ],
+          "top5": 0.8085916258836324,
+          "top5_ci": [
+            0.790647090810223,
+            0.8276237085372485
+          ],
+          "top20": 0.9407286568787384,
+          "top20_ci": [
+            0.9298531810766721,
+            0.9510603588907015
+          ]
+        },
+        "unseen": {
+          "stratum": "word type unseen in training",
+          "n": 845,
+          "top1": 0.10414201183431952,
+          "top1_ci": [
+            0.08284023668639054,
+            0.12544378698224853
+          ],
+          "top5": 0.3029585798816568,
+          "top5_ci": [
+            0.2720710059171598,
+            0.3349112426035503
+          ],
+          "top20": 0.676923076923077,
+          "top20_ci": [
+            0.6460946745562131,
+            0.7076923076923077
+          ]
+        },
+        "single_sign": {
+          "stratum": "single-sign words (no within-word context)",
+          "n": 269,
+          "top1": 0.0,
+          "top1_ci": [
+            0.0,
+            0.0
+          ],
+          "top5": 0.0,
+          "top5_ci": [
+            0.0,
+            0.0
+          ],
+          "top20": 0.5910780669144982,
+          "top20_ci": [
+            0.5315985130111525,
+            0.6505576208178439
+          ]
+        }
+      }
+    },
+    {
+      "ranker": "lexicon",
+      "strata": {
+        "overall": {
+          "stratum": "all items",
+          "n": 2684,
+          "top1": 0.625558867362146,
+          "top1_ci": [
+            0.6061661698956782,
+            0.6449329359165424
+          ],
+          "top5": 0.7339791356184798,
+          "top5_ci": [
+            0.7168405365126677,
+            0.7522354694485842
+          ],
+          "top20": 0.8546944858420268,
+          "top20_ci": [
+            0.8408904619970194,
+            0.8677347242921013
+          ]
+        },
+        "seen": {
+          "stratum": "word type seen in training",
+          "n": 1839,
+          "top1": 0.8934203371397499,
+          "top1_ci": [
+            0.8792822185970636,
+            0.9075584556824361
+          ],
+          "top5": 0.9945622620989668,
+          "top5_ci": [
+            0.9912996193583469,
+            0.9978249048395867
+          ],
+          "top20": 1.0,
+          "top20_ci": [
+            1.0,
+            1.0
+          ]
+        },
+        "unseen": {
+          "stratum": "word type unseen in training",
+          "n": 845,
+          "top1": 0.04260355029585799,
+          "top1_ci": [
+            0.03076923076923077,
+            0.05568047337278101
+          ],
+          "top5": 0.1668639053254438,
+          "top5_ci": [
+            0.14319526627218934,
+            0.1952662721893491
+          ],
+          "top20": 0.5384615384615384,
+          "top20_ci": [
+            0.506508875739645,
+            0.5728402366863905
+          ]
+        },
+        "single_sign": {
+          "stratum": "single-sign words (no within-word context)",
+          "n": 269,
+          "top1": 0.44609665427509293,
+          "top1_ci": [
+            0.38661710037174724,
+            0.5055762081784386
+          ],
+          "top5": 0.9516728624535316,
+          "top5_ci": [
+            0.9256505576208178,
+            0.9739776951672863
+          ],
+          "top20": 0.9888475836431226,
+          "top20_ci": [
+            0.9739776951672863,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "ranker": "backoff",
+      "strata": {
+        "overall": {
+          "stratum": "all items",
+          "n": 2684,
+          "top1": 0.643070044709389,
+          "top1_ci": [
+            0.6248137108792846,
+            0.6616989567809239
+          ],
+          "top5": 0.7745901639344263,
+          "top5_ci": [
+            0.7581967213114754,
+            0.7917287630402384
+          ],
+          "top20": 0.8979135618479881,
+          "top20_ci": [
+            0.8863636363636364,
+            0.909854694485842
+          ]
+        },
+        "seen": {
+          "stratum": "word type seen in training",
+          "n": 1839,
+          "top1": 0.8934203371397499,
+          "top1_ci": [
+            0.8792822185970636,
+            0.9075584556824361
+          ],
+          "top5": 0.9945622620989668,
+          "top5_ci": [
+            0.9912996193583469,
+            0.9978249048395867
+          ],
+          "top20": 1.0,
+          "top20_ci": [
+            1.0,
+            1.0
+          ]
+        },
+        "unseen": {
+          "stratum": "word type unseen in training",
+          "n": 845,
+          "top1": 0.09822485207100591,
+          "top1_ci": [
+            0.07692307692307693,
+            0.11840236686390526
+          ],
+          "top5": 0.2958579881656805,
+          "top5_ci": [
+            0.26384615384615384,
+            0.32662721893491126
+          ],
+          "top20": 0.6757396449704142,
+          "top20_ci": [
+            0.6449704142011834,
+            0.7053846153846154
+          ]
+        },
+        "single_sign": {
+          "stratum": "single-sign words (no within-word context)",
+          "n": 269,
+          "top1": 0.44609665427509293,
+          "top1_ci": [
+            0.38661710037174724,
+            0.5055762081784386
+          ],
+          "top5": 0.9516728624535316,
+          "top5_ci": [
+            0.9256505576208178,
+            0.9739776951672863
+          ],
+          "top20": 0.9888475836431226,
+          "top20_ci": [
+            0.9739776951672863,
+            1.0
+          ]
+        }
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "k": 1,
+      "a": "bigram",
+      "b": "prior",
+      "mcnemar_p": 1.447010340366006e-175,
+      "mcnemar_method": "chi2",
+      "discordant": [
+        958,
+        57
+      ],
+      "mean_difference": 0.3356929955290611,
+      "ci": [
+        0.3163189269746647,
+        0.355085692995529
+      ]
+    },
+    {
+      "k": 1,
+      "a": "lexicon",
+      "b": "bigram",
+      "mcnemar_p": 6.104825866621705e-100,
+      "mcnemar_method": "chi2",
+      "discordant": [
+        648,
+        76
+      ],
+      "mean_difference": 0.21311475409836064,
+      "ci": [
+        0.19485842026825634,
+        0.23174366616989567
+      ]
+    },
+    {
+      "k": 1,
+      "a": "backoff",
+      "b": "lexicon",
+      "mcnemar_p": 6.056695147299127e-07,
+      "mcnemar_method": "chi2",
+      "discordant": [
+        66,
+        19
+      ],
+      "mean_difference": 0.01751117734724292,
+      "ci": [
+        0.011158718330849486,
+        0.02421758569299553
+      ]
+    }
+  ],
+  "single_split_instability": {
+    "protocol": "prototype protocol (single-sign words excluded), single 80/20 split",
+    "five_fold_pooled": {
+      "top1": 0.45909451945988883,
+      "top5": 0.7311358220810167,
+      "top20": 0.886417791898332
+    },
+    "splits": [
+      {
+        "seed": 0,
+        "n": 520,
+        "top1": 0.5153846153846153,
+        "top5": 0.75,
+        "top20": 0.8942307692307693
+      },
+      {
+        "seed": 1,
+        "n": 513,
+        "top1": 0.44639376218323584,
+        "top5": 0.7192982456140351,
+        "top20": 0.8732943469785575
+      },
+      {
+        "seed": 2,
+        "n": 506,
+        "top1": 0.45849802371541504,
+        "top5": 0.7628458498023716,
+        "top20": 0.8952569169960475
+      },
+      {
+        "seed": 3,
+        "n": 478,
+        "top1": 0.4874476987447699,
+        "top5": 0.7364016736401674,
+        "top20": 0.8870292887029289
+      },
+      {
+        "seed": 4,
+        "n": 532,
+        "top1": 0.424812030075188,
+        "top5": 0.7236842105263158,
+        "top20": 0.8759398496240601
+      },
+      {
+        "seed": 5,
+        "n": 530,
+        "top1": 0.42641509433962266,
+        "top5": 0.7113207547169811,
+        "top20": 0.869811320754717
+      },
+      {
+        "seed": 6,
+        "n": 493,
+        "top1": 0.46247464503042596,
+        "top5": 0.7606490872210954,
+        "top20": 0.8985801217038539
+      },
+      {
+        "seed": 7,
+        "n": 520,
+        "top1": 0.5288461538461539,
+        "top5": 0.7519230769230769,
+        "top20": 0.9076923076923077
+      }
+    ],
+    "top1_range": [
+      0.424812030075188,
+      0.5288461538461539
+    ]
+  }
+}

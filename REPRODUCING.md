@@ -13,6 +13,8 @@ section for you.
 
 - Python 3.14. Create the environment and install the pins:
   `python3.14 -m venv .venv && .venv/bin/pip install -r requirements.txt`
+  (`requirements-lock.txt` pins every transitive version, frozen from the environment
+  the findings were produced in; install it instead for an exact match)
 - pyaegean is pinned at 0.59.0 because the tests pin corpus sizes to what that version
   loads. A later version may load different counts and fail those pins; that is the
   pin doing its job, not a bug in the tests.

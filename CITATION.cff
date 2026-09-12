@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below. It has not been peer reviewed."
+title: "linear-a-b: a statistical review of how the Aegean scripts are read"
+type: dataset
+authors:
+  - family-names: Howe
+    given-names: Ru
+    email: ru@stornaway.io
+repository-code: "https://github.com/ruhowe/linear-a-b"
+url: "https://github.com/ruhowe/linear-a-b"
+date-released: 2026-09-12
+license: CC-BY-SA-4.0
+abstract: >-
+  Tests of the methods used to read Linear A and Linear B, run against controls, with
+  Linear B as the control script where the answer is known: dictionary matching against
+  wrong real languages, Alice Kober's structural method by machine with a measured
+  corpus-size floor, place-name evidence for the transferred sound values under a
+  permutation null, and a Linear B restoration benchmark against its frequency floor.
+  Findings are dated and versioned in FINDINGS.md. Code is MIT; everything else is
+  CC BY-SA 4.0 (see LICENSE.md). Produced with Claude Code under the author's direction;
+  not reviewed by any specialist.
+keywords:
+  - Linear A
+  - Linear B
+  - Aegean scripts
+  - decipherment
+  - Mycenaean Greek
+  - statistical controls

@@ -1951,6 +1951,12 @@ anything on its own. The supported signs are the ones Meißner and Steele alread
 as demonstrably shared, so the result confirms the secure core of the convention and
 says nothing about the sixty-odd signs assumed on shape (A-001).
 
+Note added 2026-09-12 (outside review, at Ru's instruction). The agreement with Meißner
+and Steele's list is partly built in: the Knossos place names tested here are among the
+evidence the field has long cited for those same values (Packard 1974, Table 11). The
+result prices that evidence under a proper null; it is the same evidence, and it adds no
+independent line of support for the list.
+
 ## F-042 · 2026-09-12 · EXPLORATORY: by the Indus-debate measures Linear A sits with Linear B on the order-sensitive statistics, and with the non-linguistic references only where alphabet size drives the measure
 
 Protocol: spike S-012 (`spikes/S-012-is-it-language/`), GORILA whole corpus (6,406

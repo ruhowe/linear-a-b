@@ -1,5 +1,5 @@
 # Python virtualenv — ~200MB, and it hardcodes this repo's absolute path in 34 files.
-# Never commit it; recreate with `pip install "pyaegean[all]"`.
+# Never commit it; recreate with `pip install -r requirements-lock.txt` (see REPRODUCING.md).
 .venv/
 __pycache__/
 *.py[cod]

@@ -7,11 +7,15 @@ FINDINGS entry; nothing here is new.
 
 ## What the repository is
 
-A statistical review of two methods for reading Linear A, run on the whole published
-corpus (GORILA through pyaegean, and SigLA as a second edition) with Linear B as the
+A statistical review of two methods for reading Linear A, run on the corpus as it
+can currently be loaded (GORILA through the pyaegean transcription chain, which carries 89
+of the 2024 supplement's 107 documents and lacks the 2025 Anetaki ring, A-003 and F-047;
+and SigLA as a second edition) with Linear B as the
 control script where the answer is known. Results are dated, versioned and tagged
-(`FINDINGS.md`, F-nnn); every protocol is pre-registered in `CHANGELOG.md` before it
-runs; every assumption is a numbered row in `ASSUMPTIONS.md`. The eight claims and the
+(`FINDINGS.md`, F-nnn); each protocol version is pre-registered in `CHANGELOG.md` before it
+runs, and where the design changed after results were in, the change is a new version
+with its reason recorded (the Kober answer key was rebuilt twice, F-031 and F-034; spikes
+are exploratory and run under their own rules); every assumption is a numbered row in `ASSUMPTIONS.md`. The eight claims and the
 prior-art ledger are in `docs/ai_context/claims.md`; the plain-English version is
 `docs/guides/what-we-found.md`.
 

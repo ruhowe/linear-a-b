@@ -4,37 +4,69 @@ Copyright © 2026 Ru Howe. Two licences, by path.
 
 | what | paths | licence |
 |---|---|---|
-| Code | `src/`, `scripts/`, `tests/`, `spikes/**/*.py`, `data/README.md` | MIT (below) |
-| Everything else: findings, assumptions, changelog, journal, reports, guides, catalogue pages, the AI-context files including the HENGE index, and the results | `FINDINGS.md`, `ASSUMPTIONS.md`, `CHANGELOG.md`, `JOURNAL.md`, `TODO.md`, `README.md`, `docs/`, `results/`, `spikes/**/*.md`, `spikes/**/*.json` | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Code | every `.py` file: `src/`, `scripts/`, `tests/`, `spikes/**/*.py` | MIT (below) |
+| Everything else | every other file, including `README.md`, `START-HERE.md`, `REPRODUCING.md`, `CONTRIBUTING.md`, `CLAUDE.md`, `CITATION.cff`, `FINDINGS.md`, `ASSUMPTIONS.md`, `CHANGELOG.md`, `JOURNAL.md`, `TODO.md`, the requirements files, `data/README.md`, `docs/` (findings, reports, guides, catalogue pages and the HENGE files), `results/`, and the non-code files in `spikes/` | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
-Reuse anything here in any project, commercial or not, with credit, and keep adaptations
-under the same licence. Short quotations from published works in the prose are
-attributed and used for criticism and review.
+A file the first row does not cover falls under the second. Reuse anything here in any
+project, commercial or not, with credit, and keep adaptations under the same licence.
+Short quotations from published works in the prose are attributed and used for criticism
+and review.
 
-## Why the corpus terms do not reach the results
+## Results released under a commercial-permitting licence: the decision and its one exception
 
-The source corpora below are licensed CC BY-NC-SA 4.0 (DĀMOS, SigLA) and are not
-redistributed here. A Creative Commons licence conditions only what copyright covers:
-its ShareAlike term applies to adapted material, meaning works that incorporate the
-licensed text. The files under `results/` and the spike results hold counts,
-percentiles, sign-label pairs with supports, and a few matched place names that are
-published readings; those are measurements about the corpora, not copies or
-adaptations of them, so they carry this repository's licence. What would bring the
-corpus terms into play is storing corpus text or a substantial extract of it, which the
-repository never does: pyaegean fetches the corpora to `~/.cache/pyaegean/` and this
-project writes derived data to `~/.cache/linear-a-b/`.
+Three sources used here are NonCommercial: DĀMOS and SigLA (CC BY-NC-SA 4.0) and the
+Copenhagen Ugaritic Corpus (CC BY-NC). The results in this repository are released under
+CC BY-SA 4.0, which permits commercial reuse. That is a deliberate decision, taken on
+2026-09-12, and this is the reasoning.
+
+A Creative Commons licence conditions what copyright covers: copies of the licensed
+material and adaptations that incorporate it. The files under `results/` and the spike
+results hold measurements about the corpora (counts, percentiles, z-scores, null
+distributions, and sign-label pairs such as JA/JO with the number of stems supporting
+them). Measurements are facts about a text and carry this repository's licence. The
+repository stores no corpus text: pyaegean fetches the corpora to `~/.cache/pyaegean/`,
+and every dataset built from them (sequences, samples, word lists) is written to
+`~/.cache/linear-a-b/`. This is the author's reading of the licences; no rights holder
+has been asked.
+
+**The one exception.** The value-transfer test (FINDINGS F-041) records the word forms it
+tested, so that the test can be checked by hand. They appear in the `toponym_test*` files
+under `results/` and `results/supplement-sensitivity/`, in the S-003 and S-003b spike
+folders, and in the lexicon inside `scripts/toponym_test.py`:
+
+- 51 place-name readings, 32 at Knossos and 19 at Pylos (for example `pa-i-to`,
+  `ko-no-so`), each cited to Ventris and Chadwick 1973 or Packard 1974;
+- 32 frequent Knossos personal names, stored as sign sequences with their DĀMOS
+  frequencies, used as a wrong-lexicon control.
+
+These are standard published readings, a few dozen items from a corpus of 54,476 words,
+included for verification and criticism. They are the only word forms in the repository's
+data files. If a rights holder objects, they will be replaced by index numbers.
 
 ## Sources, not included, and their terms
 
 - **DĀMOS**, Database of Mycenaean at Oslo. CC BY-NC-SA 4.0. Aurora, F. (2015),
   "DAMOS (Database of Mycenaean at Oslo). Annotating a fragmentarily attested language",
   *Procedia, Social and Behavioral Sciences* 198, 21–31.
-- **GORILA** transcriptions via mwenge/lineara.xyz. Corpus JSON Apache-2.0; facsimile
-  imagery © École française d'Athènes, not redistributed. Godart, L. and Olivier, J.-P.
-  (1976–1985), *Recueil des inscriptions en linéaire A*.
+- **GORILA**, through a volunteer transcription chain. Godart, L. and Olivier, J.-P.
+  (1976–1985), *Recueil des inscriptions en linéaire A*, © École française d'Athènes. The
+  texts reach this project as GORILA → George Douros's tabulation → mwenge/lineara.xyz →
+  pyaegean. pyaegean's metadata asserts Apache-2.0 over its corpus JSON; the mwenge
+  repository states no licence; whether an open licence can attach to a transcription of
+  the edition is an open question, recorded in
+  [docs/ai_context/corpus-sources.md](docs/ai_context/corpus-sources.md). Accordingly
+  nothing from this chain is redistributed here beyond the published readings named in
+  the exception above, and no facsimile imagery is used.
 - **SigLA**, The Signs of Linear A. CC BY-NC-SA 4.0. Salgarella, E. and Castellan, S.
   (2020), https://sigla.phis.me.
-- **pyaegean** 0.59.0, the toolkit that loads them; see its own licence.
+- **Reference lexicons**, fetched by `scripts/fetch_reference.py` to
+  `~/.cache/linear-a-b/reference/`: Strong's Hebrew (1894, public domain); Perseus
+  canonical Greek and LSJ (CC BY-SA); ORACC Akkadian (CC BY-SA 3.0) and ePSD2 Sumerian
+  (CC0); the Copenhagen Ugaritic Corpus (CC BY-NC); the kaikki.org Wiktionary extract for
+  Hittite (CC BY-SA); FrequencyWords 2018 by Hermit Dave, whose code is MIT and whose word
+  lists are CC BY-SA 4.0, built from OpenSubtitles subtitle files.
+- **pyaegean** 0.59.0 by Ryan Pavlicek, the toolkit that loads the corpora. Code
+  Apache-2.0.
 
 ## MIT licence (code)
 

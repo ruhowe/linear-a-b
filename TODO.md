@@ -8,45 +8,13 @@ Model rule: Sonnet for corpus checks, folding, plumbing and retrieval. Fable for
 designing a test, choosing a null, or reading a result. Opus is not needed for anything
 listed. Subagents doing retrieval or bulk runs are Sonnet regardless of the session model.
 
-## Night plan 2026-09-12 (unattended overnight run; instruction: carry on until morning; a 05:03 reminder is set in this session)
+## Night plan 2026-09-12 (closed)
 
-If a different session picks this up (session ended), read the last few
-hundred lines of the transcript of the session that wrote this plan for where it got to,
-and its scratchpad reports (agent reports named kober-08-report.md, fresh-look-checks.md, assumptions-refresh-draft.md,
-what-we-missed-draft.md). Agents spawned by that session: Kober 0.8 build, fresh-look
-checks, spikes S-002 and S-003; each commits its own files; if a commit is missing, its
-working-tree files are the state to continue from.
-
-Work down in order; each step commits; nothing is pushed. If a step's agent output is on
-disk but unread, read it first. If the session ended overnight, resume from the first
-unticked step.
-
-- [x] N1. (Done: F-034.) Read the Kober 0.8 report (answer key v3); write F-034; record the outcome in
-      CHANGELOG 0.8; apply the pre-registered permissiveness check.
-- [x] N2. (Done: F-035.) Read the fresh-look checks (line fragments, corpus coverage, Packard Appendix A
-      recall); write F-035 (exploratory or current per what they are).
-- [x] N3. (Done: A-001 etc. amended; section H A-125 to A-132.) Apply the ASSUMPTIONS refresh from the scratch draft: status updates and new
-      section H (inherited from precedent, A-123 onward, renumbered after any rows the
-      0.8 agent added).
-- [x] N4. (Done.) Write docs/reports/2026-09-12-fresh-look.md: the three parts (assumptions
-      refreshed, methodology refreshed, what we missed by following precedent) with
-      the checks' numbers; link from README and HENGE.
-- [x] N5. (Done: F-040.) Pre-register Kober 0.9 in CHANGELOG: medial channel, homophone-merged sign
-      identities as a sensitivity, line-fragment handling if N2 found any; readings first.
-      Sonnet builds; new pinned regression file for 0.9 beside the 0.1 pins; run Linear B
-      full and size-matched controls; then Linear A once; Fable writes F-036.
-- [x] N6a. Spikes S-001 (F-037), S-002 (F-036), S-003 withdrawn and S-003b (F-038) done.
-- [x] N6b. (Done: F-041, criterion met, A-001 amended.) **Value transfer 1.0**, the promotion of S-003b under the main line
-      (pre-registered in CHANGELOG): Sonnet runs; Fable writes the next F-number when it lands (F-039 went to S-011).
-- [x] N6c. (Closed 2026-09-12; S-005 to S-007 get briefs today.) S-011 done (F-039, nothing); S-012 done (F-042, nothing but a diagnosis kept); S-013 done (nothing, note on F-037, and it found the 0.9.1 reproducibility bug); S-014 done (F-043, nothing); S-010 done (F-044: 'nearest Egyptian' is signary size; one-sign-per-word excluded); S-009 done (F-045: edition disagreement is mostly tagging and labelling; label aliases *56/PA₃, *79/ZU); S-008 done (nothing: the proxy cannot test Assumption 3; A-111 annotated) (Ru: keep going until usage runs out, resume after 05:03); S-005 to S-007 have index rows and no briefs yet; S-010, S-008, S-009, S-013, S-014 have briefs.
-- [x] N6. (superseded by N6a to N6c) Spikes S-001 (mirror Linear B), S-002 (etymological floor), S-003 (Packard
-      toponyms under a modern null): Sonnet runs each from its brief; Fable writes
-      RESULT.md and an exploratory FINDINGS entry where warranted; INDEX.md updated.
-- [x] N6d. (Done: F-046, floors 1,250 and 750; C-5 and the guide updated.) **Floor sweep under Kober 0.9.1** (merged identities, v3), pre-registered in CHANGELOG 2026-09-12 and launched 01:58 on Sonnet, tablet model, sizes 500 to 1,750; Fable writes the finding (supersedes F-022's floor for the current instrument if the reading is the first one). Emerged from Ru's point that discovery adds about 11 signs a year, so the floor has to move with the instrument or not at all.
-- [x] N7. (Done through phase 40.) Journal phases for each; refresh kober-method.md with 0.8 and 0.9; HENGE index;
-      README scope line; regenerate the report addendum if a finding it quotes changed.
-- [x] N8. (Done 05:25, bundle through f278d8c; summary left as the session's last message.) Fresh dated backup bundle. Then stop and leave a morning summary
-      as the last message.
+The unattended overnight run of 2026-09-12 (items N1 to N8: Kober 0.8 and 0.9, spikes
+S-001 to S-014, Value transfer 1.0, the floor sweep under 0.9.1, a backup bundle) is
+complete. What it did and found is in JOURNAL.md's 2026-09-12 phases and in FINDINGS
+F-034 to F-046. The step-by-step plan was trimmed after an outside review; git history
+holds it.
 
 ## 1. Corpus hygiene (Sonnet)
 

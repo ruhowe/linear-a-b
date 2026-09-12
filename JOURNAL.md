@@ -516,3 +516,29 @@ no null can tell from chance; it produced ten on a shuffled list as readily as o
 real one. Both are "nothing" by their briefs, and both are worth having asked. The
 list is empty; what is left needs Ru, a reader, or a new kind of text.
 
+
+## 2026-09-12 · Phase 45 · An outside review, and what it changed
+
+Ru had Claude.ai review the public snapshot. Its central point was that a hostile reader
+would find the documents disagreeing with each other within minutes, and on most counts
+it was right. LICENSE.md called the Linear A transcription chain Apache-2.0 while
+corpus-sources.md and data/README.md called its licence unresolved; LICENSE.md now gives
+the cautious version, states the choice to release results from NonCommercial sources
+under CC BY-SA as a decision with its reasoning, and names its one exception, the 51
+published place-name readings and 32 personal-name sign sequences the toponym test
+stores so it can be checked. The README's catalogue counts were a page behind (now 80
+works, pinned by a test), and its "1,534 broken tablets" now sits beside the 1,721 loaded
+entries, 1,162 of which carry no word. The reviewer brief had said "the whole published
+corpus" and "every protocol is pre-registered"; it now says what A-003 and F-047 say
+about the supplement, and that the Kober answer key was rebuilt twice as new versions.
+The guide's "completely new" list had not caught up with two regradings (C-4b to
+Stated after Barber, C-8a Precursor), its floor paragraph still said "roughly doubling"
+after F-046 moved the number, and its place-name item lacked the point that agreement
+with the secure-sign list is partly built in; F-041 carries a dated note to the same
+effect. The duplicated "be kind" paragraph and two personal asides about a living
+researcher were cut. Two of the review's points did not hold on checking: the three Kober
+result folders are three different runs that share filenames, and SigLA's licence is
+consistent throughout. `.backups/` is gone, `requirements-lock.txt` freezes all 92
+packages, and CITATION.cff exists. What the review called the biggest exposure stands:
+the Kober floor is only as good as the hand-built answer key, and that needs a
+specialist.

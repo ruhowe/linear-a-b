@@ -25,7 +25,9 @@ scoped, disposable, and never shipped as a feature without being rebuilt properl
    two samples) as a new protocol version. The spike stays here as the record of where
    the idea came from.
 6. **Results files stay aggregate**, as everywhere: no corpus text, no word lists, no
-   Linear A readings in the repo.
+   Linear A readings in the repo. The one repository-wide exception is the published
+   place-name readings a value-transfer test stores so it can be checked (S-003, S-003b
+   and the main-line toponym test); [LICENSE.md](../LICENSE.md) lists it.
 7. **Version and commit** like everything else. Each spike has a number, S-nnn, and a
    dated status line in `INDEX.md`.
 

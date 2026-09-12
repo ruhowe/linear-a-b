@@ -1,7 +1,7 @@
 # What this project found, and what was known before
 
 Plain English, for a reader with no background in the subject. Not reviewed by any
-specialist. Last updated 2026-09-12.
+specialist. Last updated 2026-09-12, after an outside review.
 
 This repository tests whether the statistical methods people use on Linear A and Linear B
 actually work, by running them against controls. It does not decipher anything. Every
@@ -13,13 +13,8 @@ section names the entries it rests on.
 I am not an academic. I am an old classicist with a long interest in the subject who, in
 2026, is good at running Claude Code. The work here was done with Claude Code under my
 direction, using HENGE, a notation, memory and context system I designed for working with
-AI assistants on long projects. I run a business full time, and I am not intending to 
-submit this anywhere or take part in the arguments that tend to form around this subject.
-Corrections I am glad to have. Bad faith assumptions and insults I am not interested in. 
-I have seen others who have tried to contribute to the field using AI insulted as cranks 
-and dismissed. That kind of behaviour has a chilling effect on innovation and contribution
-and I'm not interested, so I'm staying away from engaging in a formal submission process.
-If you find this repository via search, please read it with that in mind and be kind.
+AI assistants on long projects. Why I am publishing it this way, and how I would like it
+read, is in the [README](../../README.md#before-you-read-this).
 
 Almost everything here was produced with heavy automation, including the searching and
 the note-keeping, so **there is a real chance that some references or sources are wrong,
@@ -55,14 +50,19 @@ borrowed sounds are wrong, every translation of Linear A built on them is wrong 
 
 ## Completely new, as far as I could find
 
-<!-- C-4b, C-4c, C-7b, C-8a -->
+<!-- C-4c, C-7b -->
 
-- Comparing Linear A's word structure with Greek's using the same amount of text.
-- Putting the field's best evidence for the borrowed sounds, place names, through a
-  proper chance test with wrong word lists as controls.
 - Checking a Linear A result in both modern editions of the texts.
 - Counting how often the 2026 di Mino decipherment divides words differently from the
   standard edition.
+
+<!-- C-4b, C-8a -->
+
+Two more are new in how they were done, though the question itself was older: measuring
+Linear A's word structure against Greek's with the same amount of text (Barber made the
+comparison by eye in 1974), and putting the place-name evidence for the borrowed sounds
+through a proper chance test with wrong word lists as controls (Packard ran a weaker
+version in 1974).
 
 Everything below had some earlier version. What was added here is marked in each.
 
@@ -160,8 +160,9 @@ Everything below had some earlier version. What was added here is marked in each
 - **Added here:** a check against chance (the patterns are real), a comparison with Greek at
   the same size (Linear A's pattern is weaker, at or below the bottom of Greek's range),
   and the same result in both editions of the texts. The comparison with Greek at the same
-  size was stated by Barber in 1974 without a chance check; the measurement and the
-  two-edition check are new here.
+  size was stated by Barber in 1974 without a chance check. The two-edition check is new
+  here. The chance test is new only if Facchetti's 1999 statistical paper, which I have not
+  been able to read, did not already make it.
 - **What this means (and so what):** patterns appear by accident in any large pile of
   symbols, so seeing them isn't enough. **So the grammar-like patterns scholars saw in
   Linear A are genuine, and that holds even if every borrowed sound is wrong. It is not yet
@@ -194,7 +195,10 @@ Everything below had some earlier version. What was added here is marked in each
   The place names beat chance everywhere; none of the wrong lists does.
 - **What this means (and so what):** this is the first positive result on the borrowed
   sounds in the repository, and it is small: five Linear A words, three place names, a
-  dozen signs, all ones specialists already counted as secure. **So the convention has a
+  dozen signs, all ones specialists already counted as secure. That agreement is partly
+  built in, since these same place names are among the evidence specialists have always
+  cited for those signs; what the test adds is a proper chance check of that old argument.
+  **So the convention has a
   tested core of about a dozen signs, and the other sixty-odd remain assumed.**
 
 **8. There's a measurable amount of text needed, and it depends on the instrument**
@@ -211,13 +215,14 @@ Everything below had some earlier version. What was added here is marked in each
   as grammar" list from the standard handbook and merged the signs it lists as spelling variants, the same test needs
   about 1,250, and on the easier bar (the top three patterns all grammar) about 750, less
   than Linear A has. The number moved because the instrument changed; the text was the
-  same throughout. With only
+  same throughout. The hand-built list of what counts as grammar is the biggest lever on
+  these numbers, so treat them as provisional until a specialist has checked that list. With only
   Linear A's amount of text it finds a couple of sure patterns every time, which is what
   Kober herself published from fewer words than Linear A has.
 - **What this means (and so what):** "there isn't enough Linear A" is usually said as a
   shrug. New inscriptions do still turn up; a Knossos ring with the longest Linear A text
-  yet was published in 2025. **So Linear A isn't necessarily undecipherable forever: roughly
-  doubling the vocabulary we have would reopen this route, which gives excavators and
+  yet was published in 2025. **So Linear A isn't necessarily undecipherable forever: somewhere
+  between a quarter more and double the vocabulary we have would reopen this route, which gives excavators and
   funders something concrete to aim for, though at the rate finds arrive, about 11 signs a
   year since 1985, the instrument will move the number faster than the spade will.** One
   caution: merging spelling variants uses knowledge we only have because Linear B is read,
@@ -253,8 +258,7 @@ Everything below had some earlier version. What was added here is marked in each
   exist only under its own way of splitting the text (new). Two things in its favour, which
   should be said: the inscription references all check out against the corpus, and nothing
   in them is invented.
-- **What this means (and so what):** in 2026 a smart researcher called Tom Di Mino
-  (wonderful naming synchronicity) presented a reading of Linear A as a Semitic language,
+- **What this means (and so what):** in 2026 a researcher, Tom Di Mino, presented a reading of Linear A as a Semitic language,
   and it got press coverage. Personally, I was quite excited about this, and admire his
   effort and use of Claude Code - I found it while planning this work in Claude Code myself.
   A substantial part of the reading rests on values and word divisions proposed by the work

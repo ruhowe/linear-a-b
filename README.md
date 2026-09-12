@@ -10,9 +10,7 @@ but which have not always been applied at scale. What it found is in
 [docs/guides/what-we-found.md](docs/guides/what-we-found.md), in plain English, and
 every number there traces to an entry in [FINDINGS.md](FINDINGS.md). The automation that Claude Code and
 HENGE make possible allows large-scale verification of claims against established
-controls. A mix of Claude models did the work, with Fable, the newest at the time of
-writing, on the most demanding analysis. Fable is what made me think the work could reach
-a quality worth sharing.
+controls. A mix of Claude models did the work.
 
 No background in linguistics is assumed anywhere in this repository. New here?
 [START-HERE.md](START-HERE.md) is the plain-English way in. [REPRODUCING.md](REPRODUCING.md)
@@ -91,9 +89,12 @@ This file describes the project. It states no results.
 ## Why I thought this was worth doing
 
 Both corpora are tiny. Linear B is about 54,000 words across 5,932 documents. Linear A is
-about 6,400 words, roughly a long magazine article, spread over 1,534 broken tablets and
-stone vessels that mostly list sheep and offerings. Corpus size is the fact that decides
-what is possible here.
+about 6,400 words, roughly a long magazine article. The published edition counts 1,534
+inscriptions on broken tablets, stone vessels and other objects, mostly lists of goods
+and offerings. The transcription this project loads divides them into 1,721 entries
+(faces and sides counted separately), and 1,162 of those carry no word at all, only
+signs for commodities and numbers. Corpus size is the fact that decides what is possible
+here.
 
 Three lines of work exist. One rebuilds a published Linear B text-restoration
 benchmark from the source database and reports it against the floors and splits the
@@ -113,10 +114,11 @@ This is not a comprehensive catalogue of Aegean-script scholarship, and it does 
 to be. It is a targeted one. The catalogue holds the works that bear on the two methods
 tested here, the published decipherment claims those methods can be pointed at, the
 computational literature on both scripts, and the editions and data sources everything
-rests on. At 2026-09-12: 79 works, of which 48 are verified from a primary text, 21 are
-recorded from a reliable pointer but unread, and 10 rest on a search snippet; 41 concern
-Linear A, 26 Linear B, the rest analogues from other scripts and from computational
-linguistics. The verification flag on every page says which.
+rests on. At 2026-09-12: 80 works, of which 51 are verified from a primary text (flags Y
+and V), 19 are recorded from a reliable pointer but unread (P), and 10 rest on a search
+snippet (S); 43 concern Linear A and 28 Linear B, some both, the rest analogues from other
+scripts and from computational linguistics. The verification flag on every page says
+which, and `tests/test_readme_counts.py` checks these figures against the pages.
 
 What it covers in depth: the etymological method from 1974 to 2026; Alice Kober's method
 from her own papers to its computational relatives; Linear B restoration and its
@@ -181,7 +183,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to correct a page or add one.
 |---|---|
 | `START-HERE.md` | How to use the repository, with Claude Code or without, and how to send corrections |
 | `REPRODUCING.md` | What a clean download can rerun, by protocol, and what each needs |
-| `requirements.txt` | The pinned packages every finding was produced with |
+| `requirements.txt` | The two direct pins (pyaegean, pytest) |
+| `requirements-lock.txt` | The full environment, every transitive version, frozen from the environment the findings were produced in |
+| `CITATION.cff` | How to cite the repository |
+| `LICENSE.md` | The licence split by path, the results decision and its one exception, and the source terms |
 | `FINDINGS.md` | Results and verdicts, dated and versioned |
 | `CHANGELOG.md` | Protocol versions |
 | `ASSUMPTIONS.md` | The assumptions register |
@@ -206,8 +211,11 @@ non-commercial use, so anything built from them lives outside the repository in
 ## Licence and attribution
 
 Code is MIT; everything else, findings, documents, the HENGE files and the results, is
-CC BY-SA 4.0: reuse it anywhere with credit and keep adaptations under the same terms. The split by
-path, and the citations for DĀMOS, GORILA and SigLA, are in [LICENSE.md](LICENSE.md).
+CC BY-SA 4.0: reuse it anywhere with credit and keep adaptations under the same terms.
+[LICENSE.md](LICENSE.md) gives the split by path, why results from NonCommercial sources
+are released under a licence that permits commercial reuse, the one exception (the
+published place-name readings the value-transfer test stores so it can be checked), the
+unresolved licence of the Linear A transcription chain, and the citations for every source.
 The corpora themselves are not included.
 
 ## Status
@@ -223,6 +231,7 @@ in every results file.
 Linear B corpus: DĀMOS (Aurora 2015), CC BY-NC-SA 4.0. Linear A: GORILA (Godart and
 Olivier 1976 to 1985) through the pyaegean transcription chain, with SigLA (Salgarella and
 Castellan) for palaeography. Greek: Perseus canonical texts and LSJ, CC BY-SA. Hebrew:
-Strong's (1894), public domain. Unrelated-language word lists: FrequencyWords
-(OpenSubtitles-derived). Ugaritic: Copenhagen Ugaritic Corpus, CC BY-NC. Akkadian: ORACC,
-CC BY-SA 3.0. Toolkit: pyaegean by Ryan Pavlicek, Apache-2.0.
+Strong's (1894), public domain. Unrelated-language word lists: FrequencyWords 2018 by
+Hermit Dave, lists CC BY-SA 4.0 (code MIT), built from OpenSubtitles. Ugaritic: Copenhagen
+Ugaritic Corpus, CC BY-NC. Akkadian: ORACC, CC BY-SA 3.0. Sumerian: ePSD2, CC0. Hittite:
+kaikki.org Wiktionary extract, CC BY-SA. Toolkit: pyaegean by Ryan Pavlicek, Apache-2.0.

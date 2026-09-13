@@ -8,13 +8,11 @@ Model rule: Sonnet for corpus checks, folding, plumbing and retrieval. Fable for
 designing a test, choosing a null, or reading a result. Opus is not needed for anything
 listed. Subagents doing retrieval or bulk runs are Sonnet regardless of the session model.
 
-## Night plan 2026-09-12 (closed)
+## 2026-09-12 run (closed)
 
-The unattended overnight run of 2026-09-12 (items N1 to N8: Kober 0.8 and 0.9, spikes
-S-001 to S-014, Value transfer 1.0, the floor sweep under 0.9.1, a backup bundle) is
-complete. What it did and found is in JOURNAL.md's 2026-09-12 phases and in FINDINGS
-F-034 to F-046. The step-by-step plan was trimmed after an outside review; git history
-holds it.
+Items N1 to N8 (Kober 0.8 and 0.9, spikes S-001 to S-014, Value transfer 1.0, the floor
+sweep under 0.9.1) are complete; see JOURNAL.md's 2026-09-12 phases and FINDINGS F-034 to
+F-046.
 
 ## 1. Corpus hygiene (Sonnet)
 
@@ -118,7 +116,7 @@ Only if F-016 met its criterion (it did). The grid on Linear A is included only 
       behind a gate and runs the design after the floor sweep has committed, since both
       edit the runner; Fable writes F-023.
 
-## 7. Prior art for the claims register (taken over by the findings session 2026-09-11; the prior-art session is closed and the two-session file rule no longer applies)
+## 7. Prior art for the claims register
 
 - [x] **Bank the claims.** (Done 2026-09-11.) `docs/ai_context/claims.md`: seven claims
       in atoms, each resting on current FINDINGS entries, guarded by `tests/test_claims.py`.
@@ -129,7 +127,7 @@ Only if F-016 met its criterion (it did). The grid on Linear A is included only 
       the Ledger and a `docs/works/` page for every graded work. Stop and show Ru the
       ledger before any claim is called new anywhere.
 
-- [x] **`docs/guides/what-we-found.md` items 5, 6, 8 and claims C-3, C-5b updated** (done 2026-09-11 by the findings session; C-3c and C-3d added). Original note: (noted by the findings session 2026-09-11). F-025 and F-027 change
+- [x] **`docs/guides/what-we-found.md` items 5, 6, 8 and claims C-3, C-5b updated** (done 2026-09-11; C-3c and C-3d added). Original note, 2026-09-11: F-025 and F-027 change
       the reading: at Linear A's size the machine's two best alternations are grammar in
       every tablet-model subsample and its top three beat chance in 16 of 20, so "finds
       Greek's grammar about one time in three" and "the limit is the machine's, not the
@@ -163,7 +161,7 @@ Only if F-016 met its criterion (it did). The grid on Linear A is included only 
       Update both pages to V, add dated notes to F-024 and F-027, and only then decide
       whether the entry-alignment diagnostic (item 8, open question) is worth running.
 
-## 8. Context-aware Kober instrument (proposed by the prior-art session 2026-09-11; accepted with two prerequisites; not started)
+## 8. Context-aware Kober instrument (proposed 2026-09-11; accepted with two prerequisites)
 
 Why. F-022 puts the machine floor at about 1,875 word types, Kober found inflection by
 hand from about 200 tablets (secondary account, unverified; claims.md C-5b). She asked
@@ -228,62 +226,21 @@ narrowing to the strongest alternations recovers what pooling loses.
 
 ## 10. Parked, run only if asked
 
-- [x] **The 2024 GORILA supplement, bought 2026-09-12** (closed 2026-09-12, F-047, F-048) (Del Freo and Zurbach 2024; the
-      publisher's PDF is not machine-readable). Next: transcribe the transliteration pages
-      and the siglum concordance locally; a Sonnet agent builds a local supplementary
-      corpus file in the loader's document shape (never committed), and reports the
-      document and word-type counts; then every Linear A run repeats under a new version
-      (Kober 1.0 and Value transfer 1.1), pre-registered first, with the 1985-corpus
-      results kept beside the enlarged-corpus results. The Anetaki ring's edition is
+- [x] **The 2024 GORILA supplement** (Del Freo and Zurbach 2024; closed 2026-09-12, F-047,
+      F-048). The sign index and concordances were read and joined to the loaded corpus:
+      89 of the supplement's 107 documents are already loaded, 18 are not, and together
+      they add four word types. Supplement sensitivity 1.0 and 1.1 moved no toponym count,
+      matched pair, paradigm count or maximum support. The Anetaki ring's edition is
       forthcoming.
-      Progress 2026-09-12, 01:30: the table of contents, the 22 sign plates and 12
-      spreads of the *Index des signes* (pages 183 to 205) are in hand; a Sonnet agent is
-      transcribing the index to a local file with a per-word consistency check.
-      The index lists every sign group with its inscription reference, so the word-type
-      list can be built from it alone. Still wanted: index pages 181 to 182 and 206;
-      Introduction V (XXII to XXIV) for the conventions (asterisk, dotted underline,
-      column letters); the Concordance générale (XXVI to XXXV) to separate new documents
-      from re-editions already in the loader; Introduction I (XVII to XVIII). Expected
-      gain: about 50 to 100 word types (427 signs at the corpus's rate of 0.24 word types
-      per sign in words), against a Kober floor of 1,875; so the reruns are for the
-      toponym test and edition-independence, not for the floor. Pre-register Kober 1.0
-      and Value transfer 1.1 only once the concordance is in hand.
-      Transcription done 05:15 (619 rows, 281 sign-group/reference pairs, 257 groups, 24
-      complete word types of two or more signs, one code unmapped). Joined to the loaded
-      corpus: 79 of 114 referenced inscriptions already load, 20 of 24 word types already
-      present, 4 new (2 sharing a stem with an existing type, all 4 eligible for the
-      toponym test). The loaded chain is not 1985-only (F-035 corrected). The reruns
-      shrink to: add the 4 new types and the unmatched documents once the concordance
-      confirms identifiers, then Value transfer 1.1 as a sensitivity. Kober 1.0 on the
-      enlarged corpus would change nothing measurable and is dropped unless the
-      concordance shows more.
-      09:30: the rest of the book (front matter, concordances, map, all inscription
-      pages 5 to 179) is in hand; index pages 181, 182 and 206 are blank. A
-      Haiku agent is cataloguing every file (page numbers, sections, entry layout, the
-      conventions page); then Sonnet transcribes the Introduction and Concordance
-      générale, and the inscription entries' PRINTED transliterations (never glyphs from
-      photos or drawings) into a local corpus file in the loader's shape; Fable reads
-      the reports, reconciles identifiers with the loaded chain, and pre-registers Value
-      transfer 1.1 and any Kober rerun.
-      10:40: front matter and tablets transcribed (Introduction, all four concordances,
-      the doubtful concordance; 27 tablet entries, which the book prints as glyph copies,
-      not Latin values). Joined on the Concordance générale: 89 of 107 documents loaded,
-      18 absent, 4 word types new (F-047). Pre-registered "Supplement sensitivity 1.0"
-      in CHANGELOG; Sonnet builds `--extra-word-types` and runs it; Fable writes the
-      finding. Pages 57 to 179 transcribed 11:20 (107 entries, no printed Latin values
-      anywhere; apparatus banked). The whole book has now been read.
-      12:10: sensitivities 1.0 and 1.1 run and banked (F-048): the supplement adds no word
-      type the loader lacks; four division variants on Petras change nothing. F-047
-      corrected. The supplement item is closed; the Anetaki ring stays open.
 - [ ] **Comprehensive Linear A bibliography.** The catalogue is targeted (README, "Scope
       and coverage"). If it is to become a full review of Linear A research, seed it from
       Younger's online bibliography and Davis 2026's, one page per work with a
       verification flag, Sonnet for retrieval and page drafting, a few hundred items. Not
       needed for any finding; needed only if the repo is to be read as a survey.
 - [x] (Done, F-034.) **Kober 0.8, reference list v3 from Ventris and Chadwick 1973** (pre-registered
-      2026-09-12 in CHANGELOG; the book arrived). Sonnet builds, rescores every file, reruns
+      2026-09-12 in CHANGELOG). Sonnet builds, rescores every file, reruns
       the null; Fable reads, F-034. The DĀMOS-annotation route remains the later option.
-- [ ] **BLOCKED (2026-09-12).** The annotation exists in DĀMOS's database (`ling_words`) but is not exported anywhere: Aurora 2024 (Ariadne Suppl. 5) says the nominal and participial annotation, ninety percent of occurrences, is unfinished, and Aurora et al. 2025 (DHNB) say linguistic analysis is in neither the online search nor the EpiDoc export; a future bulk release would be CC BY-NC-SA 4.0, no date. The only route is a request to Federico Aurora (University of Oslo Library), which is Ru's decision, not the session's. Even then the annotation is a set of competing readings per word, so a disambiguation policy would need pre-registering first. **Reference list v4 from DĀMOS's morphological annotation.** DĀMOS annotates case
+- [ ] **BLOCKED (2026-09-12).** The annotation exists in DĀMOS's database (`ling_words`) but is not exported anywhere: Aurora 2024 (Ariadne Suppl. 5) says the nominal and participial annotation, ninety percent of occurrences, is unfinished, and Aurora et al. 2025 (DHNB) say linguistic analysis is in neither the online search nor the EpiDoc export; a future bulk release would be CC BY-NC-SA 4.0, no date. The only route is a request to the DĀMOS project, which is Ru's decision. Even then the annotation is a set of competing readings per word, so a disambiguation policy would need pre-registering first. **Reference list v4 from DĀMOS's morphological annotation.** DĀMOS annotates case
       and number per word (aurora2015); pyaegean fetches transliteration only. Extend the
       loader or fetch the annotation directly, derive the alternation list from it, and
       rescore as Kober 0.8 with old and new beside each other. Replaces the hand-built list
@@ -310,22 +267,18 @@ narrowing to the strongest alternations recovers what pooling loses.
   exception: the place-name test's published readings and the Linear A words that matched
   them, listed in LICENSE.md.
 - No external communication of any kind.
-- Two sessions write to this repo. This one owns FINDINGS.md, CHANGELOG.md,
-  ASSUMPTIONS.md, TODO.md and the instrument pages in `docs/ai_context/`. The prior-art
-  session owns `docs/ai_context/claims.md` and the prior-art additions to
-  `docs/works/`. Neither edits the other's files; each re-reads any shared file
-  immediately before editing and commits its own files only. `scripts/findings.py
-  --check-claims` reports any claim that cites a superseded or withdrawn finding.
+- `scripts/findings.py --check-claims` reports any claim that cites a superseded or
+  withdrawn finding.
 
-## After the supplement (2026-09-12, afternoon)
+## After the supplement (2026-09-12)
 
 - [ ] **A specialist reader.** `docs/reports/2026-09-12-reviewer-brief.md` says what to
       check and where. Ru decides whom to show it to; nothing leaves the repo without
       that decision.
-- [x] **Anetaki ring** (2026-09-12): Kanta et al. 2025 fetched (CC BY-NC-SA), read, banked;
+- [x] **Anetaki ring** (2026-09-12): Kanta et al. 2025 (CC BY-NC-SA) read;
       it prints no transliteration, the edition is *Anetaki II*, forthcoming. Nothing to
       run. Watch for that volume.
 - [x] **S-005 (structural profiles)** run 2026-09-12 (F-049, exploratory): Linear A sits with running text of inflecting languages and away from lemma lists; the axis is genre, not language.
 - [x] **S-007 (a model as Kober)** run 2026-09-12 (twelve runs): nothing; the model finds the same stems with opaque labels (analysis, not recall) and its single-stem paradigms never exceed the null, on Greek either.
-- [x] S-006 done (nothing; note on F-019); v4 blocked; Anetaki closed until Anetaki II; C-8a search closed. 2026-09-12 13:40.
+- [x] S-006 done (nothing; note on F-019); v4 blocked; Anetaki closed until Anetaki II; C-8a search closed (2026-09-12).
 

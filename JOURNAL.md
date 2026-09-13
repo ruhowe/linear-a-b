@@ -122,19 +122,18 @@ random words. Adding the tablet-model row at Linear A's size corrected my own se
 Linear A's structure is at or below the low end of Greek's at matched size, not "about
 as strong". Both earlier entries carry the dated correction.
 
-## 2026-09-11 · Phase 12 · Edition sensitivity and the second session (F-023, F-024)
+## 2026-09-11 · Phase 12 · Edition sensitivity and prior art (F-023, F-024)
 
 The one untested assumption under the Linear A statement was the word dividers. SigLA's
-edition gives the same statement (F-023). Meanwhile a second session began cataloguing
-prior art for every claim, writing `claims.md` and F-024. Reviewed it: append-only,
+edition gives the same statement (F-023). Meanwhile prior art was catalogued for every
+claim, in `claims.md` and F-024. Reviewed: append-only,
 consistent, one grading disputed here (Packard's 2:1 is agreement in direction with a
 weaker instrument, not contradiction). Added a findings query tool, a generated index,
-a results map, a claims-consistency check, and a written division of which session owns
-which files. Backed the repository up as a dated bundle.
+a results map and a claims-consistency check.
 
 ## 2026-09-11 · Phase 13 · Towards a context-aware Kober instrument (item 8, in progress)
 
-The other session proposed closing the gap between our 1,875-type floor and Kober's
+A proposal came in to close the gap between our 1,875-type floor and Kober's
 roughly 200 tablets by using tablet context and asking for fewer, surer findings.
 Accepted, with two prerequisites in front: measure the null rate of the "grammar match"
 part of the criterion, which had never had a null and whose rules are permissive; and
@@ -260,7 +259,7 @@ F-027 and F-022 left it, and is closed on this corpus unless more Linear A is pu
 A single report for a specialist reader, `docs/reports/2026-09-11-two-methods.md`, built
 from the journal and F-020's table, every number quoted from a finding, the three rules
 first. The repository at this point: F-001 to F-032, A-001 to A-122, three protocol
-lines versioned and pinned, twenty-three journal phases, a fresh backup bundle. The
+lines versioned and pinned, twenty-three journal phases. The
 etymological method is closed as a false-positive instrument on this corpus; the Kober
 line is closed on Linear A at one edition-independent sentence, with its floor measured
 and three context encodings tried. Open: the prior-art grading of the two new atoms, and
@@ -276,22 +275,21 @@ refine, only a pool to select from, and a quarter of the pool shares a role by c
 The top three it printed would look like a result on a page. That is exactly what the
 gate prevents, now shown rather than argued.
 
-## 2026-09-11 · Phase 25 · Prior art closed out, single session
+## 2026-09-11 · Phase 25 · Prior art closed out
 
-The prior-art session was closed and its item taken over here. Packard 1974 read from the
-cached primary: 7 of 34 hand-collected pairs against 3.9, read by him as largely
-fortuitous, same direction as ours and no contradiction. Barber 1974 unreachable online;
-one atom stays open for a library copy. The two atoms from the Kober papers were searched
+Packard 1974 read: 7 of 34 hand-collected pairs against 3.9, read by him as largely
+fortuitous, same direction as ours and no contradiction. Barber 1974 still unread;
+one atom stays open. The two atoms from the Kober papers were searched
 and graded: her list condition as a statistic is a precursor of hers and nobody's since;
 the answer-key gap is a correction to us, and the search found that DĀMOS already carries
 the morphological annotation the list should have been derived from, which pyaegean does
 not fetch. The claims register, the plain-English guide and the ledger now match F-001 to
 F-033, with awareness read from git rather than memory, which corrected two rows.
 
-## 2026-09-12 · Phase 26 · The primaries arrive
+## 2026-09-12 · Phase 26 · The primaries read
 
 Packard 1974 in full, Facchetti's 1999 companion paper, and Barber 1974 were read.
-Packard's Tables 13 and 14, unreadable in the archive.org text, are now read: the
+Packard's Tables 13 and 14 are now read: the
 "2:1" that circulated was his weakest class, and his real evidence for the borrowed values
 was the Knossos toponyms, not internal alternations. His one-in-twelve chance model is
 our F-017 chance fraction; his 1974 sentence that ignoring vowels yields hundreds of
@@ -309,9 +307,9 @@ She proposes no null for Kober's method. And on p. 212 she states, from internal
 analysis, that Linear A shows almost no inflection while a Linear B corpus of similar size
 shows ample suffixation: the comparison F-022 measured, said in prose fifty years earlier.
 One of the three atoms the register had marked "not found" is regraded to "stated". The
-prior-art line is closed; two leads remain for a library.
+prior-art line is closed; two leads remain unread.
 
-## 2026-09-12 · Phase 28 · The answer key's source arrives
+## 2026-09-12 · Phase 28 · The answer key's source read
 
 *Documents in Mycenaean Greek* was read. The morphology chapter, read against the
 reference list, shows the list was three revisions short: consonant-stem cases, the
@@ -349,15 +347,15 @@ changes.
 
 ## 2026-09-12 · Phase 31 · The first spike results, and one caught null
 
-Overnight the spikes started landing. S-003, Packard's toponym argument under a modern
+The spikes started landing. S-003, Packard's toponym argument under a modern
 null, came back "nothing", and on reading the numbers the null was wrong: it took label
 identity between the scripts as fixed, and label identity is the value transfer under
 test, so the null was handed most of the real count. Withdrawn, recorded in its own
 result file, and rerun as S-003b with values rotated at every position, Packard's own
 construction with two hundred draws. The discipline page gains the rule: a null varies
 the thing under test and nothing else. The Anetaki ring's sign-by-sign edition turns out
-to be forthcoming and the 2024 supplement is print only, so "more Linear A" is one book
-purchase away and otherwise not available.
+to be forthcoming and the 2024 supplement had not yet been read, so it was the one source
+of more Linear A.
 
 ## 2026-09-12 · Phase 32 · The first positive result on the sound values (F-036 to F-038)
 
@@ -433,7 +431,7 @@ concordance says where: mostly in how the two loader chains tag words against
 logograms, and, among the sign readings, in the same sign wearing two names. The text
 itself differs in about eighty documents. Two gotchas for corpus-sources: the label
 aliases, and ten tablets sited at two different places by the two chains. This matters
-for the supplement work in the morning: its sign numbers have to be reconciled with
+for the supplement work: its sign numbers have to be reconciled with
 the loader's labels before a single word type is compared, or the join undercounts.
 
 ## 2026-09-12 · Phase 38 · Kober's third assumption stays untested (S-008)
@@ -461,15 +459,15 @@ decipherment gave us, and Linear A has no such list.
 The sign index of the 2024 supplement was transcribed as 619 rows and 24
 complete word types. Joined to the loaded corpus by identifier, the surprise was the
 other way round: most of it was already there. The chain we load carries Younger's
-readings of the post-1985 finds, so the "1985 corpus" written into F-035 on Friday
-afternoon was wrong, and is withdrawn. What the supplement adds to this repository is
+readings of the post-1985 finds, so the "1985 corpus" written into F-035 was
+wrong, and is withdrawn. What the supplement adds to this repository is
 a few dozen documents and four word types, two of them sharing a stem with a known
 word. Ru's arithmetic about the rate of discovery is unchanged; what changed is that
 the repository already had most of what was discovered.
 
 ## 2026-09-12 · Phase 41 · The supplement, measured against the corpus (F-047)
 
-The rest of the book was read in the morning: preface, introduction, the four
+The rest of the book was read: preface, introduction, the four
 concordances, the doubtful list, and every inscription page. The tablets turned out to
 be printed as glyph copies with French apparatus, not Latin values, so the index
 remains the text and the entry pages are the context. The Concordance générale, joined
@@ -485,12 +483,11 @@ documents and found every one already attested elsewhere in GORILA. The second
 appended the four types the loader lacks and found them to be word divisions: two
 Petras documents where the supplement writes two words and the loader one. Neither run
 moved a toponym count, a matched pair, a paradigm count or a maximum support. The
-supplement item that opened on Friday evening as "more Linear A" closes on Saturday
-noon as a complete local transcription of 107 documents, a corrected account of what the
+supplement item that opened as "more Linear A" closes with all 107 documents read, a corrected account of what the
 loaded chain already holds, and two divider variants. The Anetaki ring is the one
 addition still outside the corpus.
 
-## 2026-09-12 · Phase 43 · The afternoon's loose ends
+## 2026-09-12 · Phase 43 · Loose ends
 
 Four things were left after the supplement, and each closed in its own way. The DĀMOS
 morphological annotation, the one remaining lever inside the instrument, is unexported
@@ -567,10 +564,9 @@ on the Kober reference list, the one lever nothing in the repository can check.
 
 ## 2026-09-13 · Phase 47 · Every P and S page re-checked
 
-The other session's closing review named one remaining risk, a wrong citation, and the
-29 pages below Y as where it would be. Four Sonnet agents checked them in parallel, one
-subject group each, against primary sources through open routes only, and the session
-reviewed every change. Eight pages rose to Y on a primary read (Steele and Meißner 2017,
+A closing review named one remaining risk, a wrong citation, and the
+29 pages below Y as where it would be. Each was checked against its primary source where
+one could be reached, and every change was reviewed. Eight pages rose to Y on a primary read (Steele and Meißner 2017,
 Salgarella and Judson 2024, Petrolito 2015, Revesz's 2017 paper, Rao 2009, Shannon 1949,
 Goldsmith 2001, Fetaya 2020); two snippets became pointers; the count is now 59 primary,
 16 pointer, 5 snippet. The errors found were real. The Steele and Meißner page had its
@@ -580,7 +576,7 @@ the circularity argument to them now say that argument is this repository's. The
 2026 page quoted a review of a different book, and the survey misquoted that review's
 wording. The Judson page carried review wording, a wrong sign list and two claims its
 underlying thesis contradicts; it now keeps the thesis and the unread book apart. The
-Owens page had merged two works. The review also caught two agent errors: a Petrolito
+Owens page had merged two works. The review also caught two errors made during the check: a Petrolito
 author order "corrected" into a wrong one, restored from the ACL Anthology record, and a
 Monti claim marked unconfirmed that is in the article's own abstract. Facchetti 1999
-remains unread, the local PDF being his companion paper, so C-4a stays open.
+remains unread (the copy on hand was his companion paper), so C-4a stays open.

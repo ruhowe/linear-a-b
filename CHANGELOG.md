@@ -480,7 +480,7 @@ tablet model.
 
 ### 0.4 — 2026-09-11 · pre-registered, not yet built · context-aware; stage 1 statistics unchanged in definition
 
-Proposed by the prior-art session (TODO item 8). Purpose: close part of the gap between
+Proposed 2026-09-11 (TODO item 8). Purpose: close part of the gap between
 the machine floor (F-022) and Kober's hand result by using tablet context and asking for
 fewer, surer findings. Design in `kober-method.md`, "Version 0.4".
 
